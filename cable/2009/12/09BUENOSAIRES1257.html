@@ -1,0 +1,723 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+<title>Cable Viewer</title>
+<link href='/static/gfx/favicon.ico' rel='shortcut icon' />
+<link href='/static/css/reset-fonts-grids.css' rel='stylesheet' type='text/css' />
+<link href='/static/css/cables.css' rel='stylesheet' type='text/css' />
+</head>
+<body>
+<div class='main'>
+<div class='pane small'>
+<a href='/index.html'>
+<img alt='WikiLeaks logo' src='/static/gfx/WL_Hour_Glass_small.png' />
+<p>Currently released so far... 597 / 251,287</p>
+</a>
+<div id='browse'>
+<h3>Articles</h3>
+<div class='sort'>
+<a href="/articles/2010/De-olho-nas-Olimpiadas-US-faz.html">Brazil</a>
+<a href="/articles/2010/Sri-Lankan-President-s-alleged-war.html">Sri Lanka</a>
+<a href="/articles/2010/Iraq-Inquiry-told-to-protect-US.html">United Kingdom</a>
+<a href="/articles/2010/USA-bekraftar-svensk-Natokoppling.html">Sweden</a>
+</div>
+<h3>Browse latest releases</h3>
+<div class='sort'>
+<a href='/reldate/2010-12-02_0.html'>2010/12/02</a>
+<a href='/reldate/2010-12-01_0.html'>2010/12/01</a>
+<a href='/reldate/2010-11-30_0.html'>2010/11/30</a>
+<a href='/reldate/2010-11-29_0.html'>2010/11/29</a>
+<a href='/reldate/2010-11-28_0.html'>2010/11/28</a>
+</div>
+<h3>Browse by creation <a href='#year_1966' onclick='return sha(0);'>date</a></h3>
+<div class='pick'>
+<a class='sort' href='#year_1966' onclick="return swap('year_1966');">66</a>
+<a class='sort' href='#year_1972' onclick="return swap('year_1972');">72</a>
+<a class='sort' href='#year_1975' onclick="return swap('year_1975');">75</a>
+<a class='sort' href='#year_1979' onclick="return swap('year_1979');">79</a>
+<a class='sort' href='#year_1986' onclick="return swap('year_1986');">86</a>
+<a class='sort' href='#year_1989' onclick="return swap('year_1989');">89</a>
+<a class='sort' href='#year_1990' onclick="return swap('year_1990');">90</a>
+<a class='sort' href='#year_2003' onclick="return swap('year_2003');">03</a>
+<a class='sort' href='#year_2004' onclick="return swap('year_2004');">04</a>
+<a class='sort' href='#year_2005' onclick="return swap('year_2005');">05</a>
+<a class='sort' href='#year_2006' onclick="return swap('year_2006');">06</a>
+<a class='sort' href='#year_2007' onclick="return swap('year_2007');">07</a>
+<a class='sort' href='#year_2008' onclick="return swap('year_2008');">08</a>
+<a class='sort' href='#year_2009' onclick="return swap('year_2009');">09</a>
+<a class='sort' href='#year_2010' onclick="return swap('year_2010');">10</a>
+</div>
+<div class='sort' id='year_1966'>
+<a href='/date/1966-12_0.html'>1966/12</a>
+</div>
+<div class='sort' id='year_1972'>
+<a href='/date/1972-02_0.html'>1972/02</a>
+<a href='/date/1972-08_0.html'>1972/08</a>
+</div>
+<div class='sort' id='year_1975'>
+<a href='/date/1975-03_0.html'>1975/03</a>
+</div>
+<div class='sort' id='year_1979'>
+<a href='/date/1979-08_0.html'>1979/08</a>
+</div>
+<div class='sort' id='year_1986'>
+<a href='/date/1986-05_0.html'>1986/05</a>
+</div>
+<div class='sort' id='year_1989'>
+<a href='/date/1989-12_0.html'>1989/12</a>
+</div>
+<div class='sort' id='year_1990'>
+<a href='/date/1990-01_0.html'>1990/01</a>
+</div>
+<div class='sort' id='year_2003'>
+<a href='/date/2003-06_0.html'>2003/06</a>
+</div>
+<div class='sort' id='year_2004'>
+<a href='/date/2004-01_0.html'>2004/01</a>
+<a href='/date/2004-02_0.html'>2004/02</a>
+<a href='/date/2004-04_0.html'>2004/04</a>
+<a href='/date/2004-11_0.html'>2004/11</a>
+<a href='/date/2004-12_0.html'>2004/12</a>
+</div>
+<div class='sort' id='year_2005'>
+<a href='/date/2005-01_0.html'>2005/01</a>
+<a href='/date/2005-03_0.html'>2005/03</a>
+<a href='/date/2005-04_0.html'>2005/04</a>
+<a href='/date/2005-05_0.html'>2005/05</a>
+<a href='/date/2005-06_0.html'>2005/06</a>
+<a href='/date/2005-07_0.html'>2005/07</a>
+<a href='/date/2005-08_0.html'>2005/08</a>
+<a href='/date/2005-10_0.html'>2005/10</a>
+<a href='/date/2005-11_0.html'>2005/11</a>
+<a href='/date/2005-12_0.html'>2005/12</a>
+</div>
+<div class='sort' id='year_2006'>
+<a href='/date/2006-01_0.html'>2006/01</a>
+<a href='/date/2006-02_0.html'>2006/02</a>
+<a href='/date/2006-03_0.html'>2006/03</a>
+<a href='/date/2006-04_0.html'>2006/04</a>
+<a href='/date/2006-05_0.html'>2006/05</a>
+<a href='/date/2006-06_0.html'>2006/06</a>
+<a href='/date/2006-07_0.html'>2006/07</a>
+<a href='/date/2006-08_0.html'>2006/08</a>
+<a href='/date/2006-09_0.html'>2006/09</a>
+<a href='/date/2006-10_0.html'>2006/10</a>
+<a href='/date/2006-11_0.html'>2006/11</a>
+<a href='/date/2006-12_0.html'>2006/12</a>
+</div>
+<div class='sort' id='year_2007'>
+<a href='/date/2007-01_0.html'>2007/01</a>
+<a href='/date/2007-02_0.html'>2007/02</a>
+<a href='/date/2007-03_0.html'>2007/03</a>
+<a href='/date/2007-04_0.html'>2007/04</a>
+<a href='/date/2007-05_0.html'>2007/05</a>
+<a href='/date/2007-06_0.html'>2007/06</a>
+<a href='/date/2007-07_0.html'>2007/07</a>
+<a href='/date/2007-08_0.html'>2007/08</a>
+<a href='/date/2007-09_0.html'>2007/09</a>
+<a href='/date/2007-10_0.html'>2007/10</a>
+<a href='/date/2007-11_0.html'>2007/11</a>
+<a href='/date/2007-12_0.html'>2007/12</a>
+</div>
+<div class='sort' id='year_2008'>
+<a href='/date/2008-01_0.html'>2008/01</a>
+<a href='/date/2008-02_0.html'>2008/02</a>
+<a href='/date/2008-03_0.html'>2008/03</a>
+<a href='/date/2008-04_0.html'>2008/04</a>
+<a href='/date/2008-05_0.html'>2008/05</a>
+<a href='/date/2008-07_0.html'>2008/07</a>
+<a href='/date/2008-08_0.html'>2008/08</a>
+<a href='/date/2008-09_0.html'>2008/09</a>
+<a href='/date/2008-10_0.html'>2008/10</a>
+<a href='/date/2008-11_0.html'>2008/11</a>
+<a href='/date/2008-12_0.html'>2008/12</a>
+</div>
+<div class='sort' id='year_2009'>
+<a href='/date/2009-01_0.html'>2009/01</a>
+<a href='/date/2009-02_0.html'>2009/02</a>
+<a href='/date/2009-03_0.html'>2009/03</a>
+<a href='/date/2009-04_0.html'>2009/04</a>
+<a href='/date/2009-05_0.html'>2009/05</a>
+<a href='/date/2009-06_0.html'>2009/06</a>
+<a href='/date/2009-07_0.html'>2009/07</a>
+<a href='/date/2009-08_0.html'>2009/08</a>
+<a href='/date/2009-09_0.html'>2009/09</a>
+<a href='/date/2009-10_0.html'>2009/10</a>
+<a href='/date/2009-11_0.html'>2009/11</a>
+<a href='/date/2009-12_0.html'>2009/12</a>
+</div>
+<div class='sort' id='year_2010'>
+<a href='/date/2010-01_0.html'>2010/01</a>
+<a href='/date/2010-02_0.html'>2010/02</a>
+</div>
+<h3>Browse by <a href='#by_A' onclick='return sha(1);'>origin</a></h3>
+<div class='pick'>
+<a class='sort' href='#by_A' onclick="return swap('by_A');">A</a>
+<a class='sort' href='#by_B' onclick="return swap('by_B');">B</a>
+<a class='sort' href='#by_C' onclick="return swap('by_C');">C</a>
+<a class='sort' href='#by_D' onclick="return swap('by_D');">D</a>
+<a class='sort' href='#by_H' onclick="return swap('by_H');">H</a>
+<a class='sort' href='#by_I' onclick="return swap('by_I');">I</a>
+<a class='sort' href='#by_J' onclick="return swap('by_J');">J</a>
+<a class='sort' href='#by_K' onclick="return swap('by_K');">K</a>
+<a class='sort' href='#by_L' onclick="return swap('by_L');">L</a>
+<a class='sort' href='#by_M' onclick="return swap('by_M');">M</a>
+<a class='sort' href='#by_N' onclick="return swap('by_N');">N</a>
+<a class='sort' href='#by_O' onclick="return swap('by_O');">O</a>
+<a class='sort' href='#by_P' onclick="return swap('by_P');">P</a>
+<a class='sort' href='#by_R' onclick="return swap('by_R');">R</a>
+<a class='sort' href='#by_S' onclick="return swap('by_S');">S</a>
+<a class='sort' href='#by_T' onclick="return swap('by_T');">T</a>
+<a class='sort' href='#by_U' onclick="return swap('by_U');">U</a>
+<a class='sort' href='#by_V' onclick="return swap('by_V');">V</a>
+</div>
+<div class='sort' id='by_A'>
+<a href='/origin/65_0.html'>Embassy Asuncion</a>
+<a href='/origin/66_0.html'>Embassy Astana</a>
+<a href='/origin/67_0.html'>Embassy Ashgabat</a>
+<a href='/origin/68_0.html'>Embassy Ankara</a>
+<a href='/origin/69_0.html'>Embassy Amman</a>
+<a href='/origin/70_0.html'>Embassy Algiers</a>
+<a href='/origin/71_0.html'>Embassy Abu Dhabi</a>
+</div>
+<div class='sort' id='by_B'>
+<a href='/origin/53_0.html'>Embassy Buenos Aires</a>
+<a href='/origin/54_0.html'>Embassy Bucharest</a>
+<a href='/origin/55_0.html'>Embassy Brussels</a>
+<a href='/origin/56_0.html'>Embassy Bridgetown</a>
+<a href='/origin/57_0.html'>Embassy Brasilia</a>
+<a href='/origin/58_0.html'>Embassy Bishkek</a>
+<a href='/origin/59_0.html'>Embassy Berlin</a>
+<a href='/origin/60_0.html'>Embassy Beirut</a>
+<a href='/origin/61_0.html'>Embassy Beijing</a>
+<a href='/origin/62_0.html'>Embassy Bangkok</a>
+<a href='/origin/63_0.html'>Embassy Baku</a>
+<a href='/origin/64_0.html'>Embassy Baghdad</a>
+</div>
+<div class='sort' id='by_C'>
+<a href='/origin/49_0.html'>Embassy Colombo</a>
+<a href='/origin/50_0.html'>Embassy Chisinau</a>
+<a href='/origin/51_0.html'>Embassy Caracas</a>
+<a href='/origin/52_0.html'>Embassy Cairo</a>
+<a href='/origin/82_0.html'>Consulate Cape Town</a>
+</div>
+<div class='sort' id='by_D'>
+<a href='/origin/44_0.html'>Embassy Dushanbe</a>
+<a href='/origin/45_0.html'>Embassy Dublin</a>
+<a href='/origin/46_0.html'>Embassy Doha</a>
+<a href='/origin/47_0.html'>Embassy Djibouti</a>
+<a href='/origin/48_0.html'>Embassy Damascus</a>
+<a href='/origin/81_0.html'>Consulate Dubai</a>
+</div>
+<div class='sort' id='by_H'>
+<a href='/origin/43_0.html'>Embassy Harare</a>
+<a href='/origin/80_0.html'>Consulate Hamburg</a>
+</div>
+<div class='sort' id='by_I'>
+<a href='/origin/5_0.html'>Iran RPO Dubai</a>
+<a href='/origin/42_0.html'>Embassy Islamabad</a>
+<a href='/origin/79_0.html'>Consulate Istanbul</a>
+</div>
+<div class='sort' id='by_J'>
+<a href='/origin/78_0.html'>Consulate Jeddah</a>
+</div>
+<div class='sort' id='by_K'>
+<a href='/origin/38_0.html'>Embassy Kyiv</a>
+<a href='/origin/39_0.html'>Embassy Kuwait</a>
+<a href='/origin/40_0.html'>Embassy Kuala Lumpur</a>
+<a href='/origin/41_0.html'>Embassy Kabul</a>
+</div>
+<div class='sort' id='by_L'>
+<a href='/origin/33_0.html'>Embassy Luxembourg</a>
+<a href='/origin/34_0.html'>Embassy London</a>
+<a href='/origin/35_0.html'>Embassy Lisbon</a>
+<a href='/origin/36_0.html'>Embassy Lima</a>
+<a href='/origin/37_0.html'>Embassy La Paz</a>
+</div>
+<div class='sort' id='by_M'>
+<a href='/origin/4_0.html'>Mission USNATO</a>
+<a href='/origin/28_0.html'>Embassy Muscat</a>
+<a href='/origin/29_0.html'>Embassy Moscow</a>
+<a href='/origin/30_0.html'>Embassy Mexico</a>
+<a href='/origin/31_0.html'>Embassy Manama</a>
+<a href='/origin/32_0.html'>Embassy Madrid</a>
+<a href='/origin/77_0.html'>Consulate Munich</a>
+</div>
+<div class='sort' id='by_N'>
+<a href='/origin/27_0.html'>Embassy New Delhi</a>
+</div>
+<div class='sort' id='by_O'>
+<a href='/origin/26_0.html'>Embassy Ottawa</a>
+</div>
+<div class='sort' id='by_P'>
+<a href='/origin/22_0.html'>Embassy Prague</a>
+<a href='/origin/23_0.html'>Embassy Port Au Prince</a>
+<a href='/origin/24_0.html'>Embassy Paris</a>
+<a href='/origin/25_0.html'>Embassy Panama</a>
+<a href='/origin/76_0.html'>Consulate Peshawar</a>
+</div>
+<div class='sort' id='by_R'>
+<a href='/origin/19_0.html'>Embassy Rome</a>
+<a href='/origin/20_0.html'>Embassy Riyadh</a>
+<a href='/origin/21_0.html'>Embassy Rabat</a>
+</div>
+<div class='sort' id='by_S'>
+<a href='/origin/3_0.html'>Secretary of State</a>
+<a href='/origin/14_0.html'>Embassy Stockholm</a>
+<a href='/origin/15_0.html'>Embassy Singapore</a>
+<a href='/origin/16_0.html'>Embassy Seoul</a>
+<a href='/origin/17_0.html'>Embassy Santiago</a>
+<a href='/origin/18_0.html'>Embassy Sanaa</a>
+<a href='/origin/73_0.html'>Consulate Shenyang</a>
+<a href='/origin/74_0.html'>Consulate Shanghai</a>
+<a href='/origin/75_0.html'>Consulate Sao Paulo</a>
+</div>
+<div class='sort' id='by_T'>
+<a href='/origin/8_0.html'>Embassy Tunis</a>
+<a href='/origin/9_0.html'>Embassy Tripoli</a>
+<a href='/origin/10_0.html'>Embassy Tel Aviv</a>
+<a href='/origin/11_0.html'>Embassy Tehran</a>
+<a href='/origin/12_0.html'>Embassy Tegucigalpa</a>
+<a href='/origin/13_0.html'>Embassy Tbilisi</a>
+</div>
+<div class='sort' id='by_U'>
+<a href='/origin/1_0.html'>USEU Brussels</a>
+<a href='/origin/2_0.html'>UNVIE</a>
+<a href='/origin/7_0.html'>Embassy Ulaanbaatar</a>
+</div>
+<div class='sort' id='by_V'>
+<a href='/origin/6_0.html'>Embassy Vienna</a>
+<a href='/origin/72_0.html'>Consulate Vladivostok</a>
+</div>
+<h3>Browse by <a href='#tag_A' onclick='return sha(2);'>tag</a></h3>
+<div class='pick'>
+<a class='sort' href='#tag_A' onclick="return swap('tag_A');">A</a>
+<a class='sort' href='#tag_B' onclick="return swap('tag_B');">B</a>
+<a class='sort' href='#tag_C' onclick="return swap('tag_C');">C</a>
+<a class='sort' href='#tag_D' onclick="return swap('tag_D');">D</a>
+<a class='sort' href='#tag_E' onclick="return swap('tag_E');">E</a>
+<a class='sort' href='#tag_F' onclick="return swap('tag_F');">F</a>
+<a class='sort' href='#tag_G' onclick="return swap('tag_G');">G</a>
+<a class='sort' href='#tag_H' onclick="return swap('tag_H');">H</a>
+<a class='sort' href='#tag_I' onclick="return swap('tag_I');">I</a>
+<a class='sort' href='#tag_J' onclick="return swap('tag_J');">J</a>
+<a class='sort' href='#tag_K' onclick="return swap('tag_K');">K</a>
+<a class='sort' href='#tag_L' onclick="return swap('tag_L');">L</a>
+<a class='sort' href='#tag_M' onclick="return swap('tag_M');">M</a>
+<a class='sort' href='#tag_N' onclick="return swap('tag_N');">N</a>
+<a class='sort' href='#tag_O' onclick="return swap('tag_O');">O</a>
+<a class='sort' href='#tag_P' onclick="return swap('tag_P');">P</a>
+<a class='sort' href='#tag_Q' onclick="return swap('tag_Q');">Q</a>
+<a class='sort' href='#tag_R' onclick="return swap('tag_R');">R</a>
+<a class='sort' href='#tag_S' onclick="return swap('tag_S');">S</a>
+<a class='sort' href='#tag_T' onclick="return swap('tag_T');">T</a>
+<a class='sort' href='#tag_U' onclick="return swap('tag_U');">U</a>
+<a class='sort' href='#tag_V' onclick="return swap('tag_V');">V</a>
+<a class='sort' href='#tag_W' onclick="return swap('tag_W');">W</a>
+<a class='sort' href='#tag_X' onclick="return swap('tag_X');">X</a>
+<a class='sort' href='#tag_Y' onclick="return swap('tag_Y');">Y</a>
+<a class='sort' href='#tag_Z' onclick="return swap('tag_Z');">Z</a>
+</div>
+<div class='sort' id='tag_A'>
+<a href='/tag/AU_0.html'>AU</a>
+<a href='/tag/AG_0.html'>AG</a>
+<a href='/tag/AF_0.html'>AF</a>
+<a href='/tag/AR_0.html'>AR</a>
+<a href='/tag/AE_0.html'>AE</a>
+<a href='/tag/AM_0.html'>AM</a>
+<a href='/tag/ASEC_0.html'>ASEC</a>
+<a href='/tag/AORC_0.html'>AORC</a>
+<a href='/tag/AMGT_0.html'>AMGT</a>
+<a href='/tag/APER_0.html'>APER</a>
+<a href='/tag/AJ_0.html'>AJ</a>
+<a href='/tag/AL_0.html'>AL</a>
+<a href='/tag/AGMT_0.html'>AGMT</a>
+<a href='/tag/AEMR_0.html'>AEMR</a>
+</div>
+<div class='sort' id='tag_B'>
+<a href='/tag/BA_0.html'>BA</a>
+<a href='/tag/BR_0.html'>BR</a>
+<a href='/tag/BE_0.html'>BE</a>
+<a href='/tag/BRUSSELS_0.html'>BRUSSELS</a>
+<a href='/tag/BIDEN_0.html'>BIDEN</a>
+<a href='/tag/BH_0.html'>BH</a>
+<a href='/tag/BL_0.html'>BL</a>
+<a href='/tag/BTIO_0.html'>BTIO</a>
+<a href='/tag/BEXP_0.html'>BEXP</a>
+<a href='/tag/BU_0.html'>BU</a>
+<a href='/tag/BY_0.html'>BY</a>
+<a href='/tag/BO_0.html'>BO</a>
+</div>
+<div class='sort' id='tag_C'>
+<a href='/tag/CA_0.html'>CA</a>
+<a href='/tag/CVIS_0.html'>CVIS</a>
+<a href='/tag/CMGT_0.html'>CMGT</a>
+<a href='/tag/CH_0.html'>CH</a>
+<a href='/tag/CASC_0.html'>CASC</a>
+<a href='/tag/CJAN_0.html'>CJAN</a>
+<a href='/tag/CLINTON_0.html'>CLINTON</a>
+<a href='/tag/CU_0.html'>CU</a>
+<a href='/tag/CD_0.html'>CD</a>
+<a href='/tag/CV_0.html'>CV</a>
+<a href='/tag/CO_0.html'>CO</a>
+<a href='/tag/CI_0.html'>CI</a>
+<a href='/tag/CS_0.html'>CS</a>
+<a href='/tag/CE_0.html'>CE</a>
+<a href='/tag/CY_0.html'>CY</a>
+<a href='/tag/CM_0.html'>CM</a>
+<a href='/tag/CF_0.html'>CF</a>
+<a href='/tag/CIA_0.html'>CIA</a>
+</div>
+<div class='sort' id='tag_D'>
+<a href='/tag/DJ_0.html'>DJ</a>
+</div>
+<div class='sort' id='tag_E'>
+<a href='/tag/EFIN_0.html'>EFIN</a>
+<a href='/tag/EPET_0.html'>EPET</a>
+<a href='/tag/ECON_0.html'>ECON</a>
+<a href='/tag/ENRG_0.html'>ENRG</a>
+<a href='/tag/EAID_0.html'>EAID</a>
+<a href='/tag/EINV_0.html'>EINV</a>
+<a href='/tag/EAIR_0.html'>EAIR</a>
+<a href='/tag/EUN_0.html'>EUN</a>
+<a href='/tag/ELAB_0.html'>ELAB</a>
+<a href='/tag/EU_0.html'>EU</a>
+<a href='/tag/ETTC_0.html'>ETTC</a>
+<a href='/tag/EG_0.html'>EG</a>
+<a href='/tag/ETRD_0.html'>ETRD</a>
+<a href='/tag/ELTN_0.html'>ELTN</a>
+<a href='/tag/EREL_0.html'>EREL</a>
+<a href='/tag/EAGR_0.html'>EAGR</a>
+<a href='/tag/EFIS_0.html'>EFIS</a>
+<a href='/tag/EWWT_0.html'>EWWT</a>
+<a href='/tag/EI_0.html'>EI</a>
+<a href='/tag/EIND_0.html'>EIND</a>
+<a href='/tag/EMIN_0.html'>EMIN</a>
+<a href='/tag/EZ_0.html'>EZ</a>
+<a href='/tag/EXTERNAL_0.html'>EXTERNAL</a>
+<a href='/tag/ECIP_0.html'>ECIP</a>
+<a href='/tag/ECPS_0.html'>ECPS</a>
+<a href='/tag/ECUN_0.html'>ECUN</a>
+<a href='/tag/ENVR_0.html'>ENVR</a>
+</div>
+<div class='sort' id='tag_F'>
+<a href='/tag/FR_0.html'>FR</a>
+<a href='/tag/FJ_0.html'>FJ</a>
+<a href='/tag/FINR_0.html'>FINR</a>
+</div>
+<div class='sort' id='tag_G'>
+<a href='/tag/GG_0.html'>GG</a>
+<a href='/tag/GM_0.html'>GM</a>
+<a href='/tag/GA_0.html'>GA</a>
+<a href='/tag/GOI_0.html'>GOI</a>
+<a href='/tag/GE_0.html'>GE</a>
+<a href='/tag/GR_0.html'>GR</a>
+<a href='/tag/GTMO_0.html'>GTMO</a>
+</div>
+<div class='sort' id='tag_H'>
+<a href='/tag/HO_0.html'>HO</a>
+<a href='/tag/HA_0.html'>HA</a>
+<a href='/tag/HILLARY_0.html'>HILLARY</a>
+<a href='/tag/HURI_0.html'>HURI</a>
+</div>
+<div class='sort' id='tag_I'>
+<a href='/tag/IS_0.html'>IS</a>
+<a href='/tag/IZ_0.html'>IZ</a>
+<a href='/tag/IR_0.html'>IR</a>
+<a href='/tag/IN_0.html'>IN</a>
+<a href='/tag/IQ_0.html'>IQ</a>
+<a href='/tag/IT_0.html'>IT</a>
+<a href='/tag/ICAO_0.html'>ICAO</a>
+<a href='/tag/IO_0.html'>IO</a>
+<a href='/tag/INRB_0.html'>INRB</a>
+<a href='/tag/IAEA_0.html'>IAEA</a>
+<a href='/tag/IRAJ_0.html'>IRAJ</a>
+<a href='/tag/INTERPOL_0.html'>INTERPOL</a>
+<a href='/tag/IMO_0.html'>IMO</a>
+<a href='/tag/ID_0.html'>ID</a>
+</div>
+<div class='sort' id='tag_J'>
+<a href='/tag/JA_0.html'>JA</a>
+<a href='/tag/JO_0.html'>JO</a>
+<a href='/tag/JOSEPH_0.html'>JOSEPH</a>
+<a href='/tag/JAMES_0.html'>JAMES</a>
+</div>
+<div class='sort' id='tag_K'>
+<a href='/tag/KPAO_0.html'>KPAO</a>
+<a href='/tag/KCRM_0.html'>KCRM</a>
+<a href='/tag/KTFN_0.html'>KTFN</a>
+<a href='/tag/KNNP_0.html'>KNNP</a>
+<a href='/tag/KFRD_0.html'>KFRD</a>
+<a href='/tag/KCOR_0.html'>KCOR</a>
+<a href='/tag/KTIP_0.html'>KTIP</a>
+<a href='/tag/KISL_0.html'>KISL</a>
+<a href='/tag/KU_0.html'>KU</a>
+<a href='/tag/KIRF_0.html'>KIRF</a>
+<a href='/tag/KJUS_0.html'>KJUS</a>
+<a href='/tag/KHLS_0.html'>KHLS</a>
+<a href='/tag/KAWK_0.html'>KAWK</a>
+<a href='/tag/KN_0.html'>KN</a>
+<a href='/tag/KZ_0.html'>KZ</a>
+<a href='/tag/KUNR_0.html'>KUNR</a>
+<a href='/tag/KS_0.html'>KS</a>
+<a href='/tag/KDEM_0.html'>KDEM</a>
+<a href='/tag/KACT_0.html'>KACT</a>
+<a href='/tag/KPRP_0.html'>KPRP</a>
+<a href='/tag/KWBG_0.html'>KWBG</a>
+<a href='/tag/KSCA_0.html'>KSCA</a>
+<a href='/tag/KG_0.html'>KG</a>
+<a href='/tag/KPAL_0.html'>KPAL</a>
+<a href='/tag/KMDR_0.html'>KMDR</a>
+<a href='/tag/KGHG_0.html'>KGHG</a>
+<a href='/tag/KDRG_0.html'>KDRG</a>
+<a href='/tag/KSPR_0.html'>KSPR</a>
+<a href='/tag/KWMN_0.html'>KWMN</a>
+<a href='/tag/KOLY_0.html'>KOLY</a>
+<a href='/tag/KPKO_0.html'>KPKO</a>
+<a href='/tag/KSEC_0.html'>KSEC</a>
+<a href='/tag/KTIA_0.html'>KTIA</a>
+<a href='/tag/KHIV_0.html'>KHIV</a>
+<a href='/tag/KGCC_0.html'>KGCC</a>
+<a href='/tag/KCIP_0.html'>KCIP</a>
+<a href='/tag/KBIO_0.html'>KBIO</a>
+<a href='/tag/KR_0.html'>KR</a>
+</div>
+<div class='sort' id='tag_L'>
+<a href='/tag/LY_0.html'>LY</a>
+<a href='/tag/LE_0.html'>LE</a>
+<a href='/tag/LU_0.html'>LU</a>
+<a href='/tag/LG_0.html'>LG</a>
+</div>
+<div class='sort' id='tag_M'>
+<a href='/tag/MNUC_0.html'>MNUC</a>
+<a href='/tag/MO_0.html'>MO</a>
+<a href='/tag/MARR_0.html'>MARR</a>
+<a href='/tag/MOPS_0.html'>MOPS</a>
+<a href='/tag/MASS_0.html'>MASS</a>
+<a href='/tag/MX_0.html'>MX</a>
+<a href='/tag/MTCRE_0.html'>MTCRE</a>
+<a href='/tag/MY_0.html'>MY</a>
+<a href='/tag/MCAP_0.html'>MCAP</a>
+<a href='/tag/MU_0.html'>MU</a>
+<a href='/tag/MP_0.html'>MP</a>
+<a href='/tag/ML_0.html'>ML</a>
+<a href='/tag/MR_0.html'>MR</a>
+<a href='/tag/MG_0.html'>MG</a>
+<a href='/tag/MAR_0.html'>MAR</a>
+<a href='/tag/MASC_0.html'>MASC</a>
+<a href='/tag/MPOS_0.html'>MPOS</a>
+<a href='/tag/MD_0.html'>MD</a>
+<a href='/tag/MOPPS_0.html'>MOPPS</a>
+<a href='/tag/MK_0.html'>MK</a>
+</div>
+<div class='sort' id='tag_N'>
+<a href='/tag/NATO_0.html'>NATO</a>
+<a href='/tag/NG_0.html'>NG</a>
+<a href='/tag/NI_0.html'>NI</a>
+<a href='/tag/NZ_0.html'>NZ</a>
+</div>
+<div class='sort' id='tag_O'>
+<a href='/tag/OVIP_0.html'>OVIP</a>
+<a href='/tag/OTRA_0.html'>OTRA</a>
+<a href='/tag/OPRC_0.html'>OPRC</a>
+<a href='/tag/OSCE_0.html'>OSCE</a>
+<a href='/tag/OEXC_0.html'>OEXC</a>
+<a href='/tag/OIIP_0.html'>OIIP</a>
+<a href='/tag/OTR_0.html'>OTR</a>
+</div>
+<div class='sort' id='tag_P'>
+<a href='/tag/PGOV_0.html'>PGOV</a>
+<a href='/tag/PARM_0.html'>PARM</a>
+<a href='/tag/PREL_0.html'>PREL</a>
+<a href='/tag/PINR_0.html'>PINR</a>
+<a href='/tag/PTER_0.html'>PTER</a>
+<a href='/tag/PK_0.html'>PK</a>
+<a href='/tag/PINS_0.html'>PINS</a>
+<a href='/tag/PREF_0.html'>PREF</a>
+<a href='/tag/PHUM_0.html'>PHUM</a>
+<a href='/tag/PE_0.html'>PE</a>
+<a href='/tag/PBTS_0.html'>PBTS</a>
+<a href='/tag/PA_0.html'>PA</a>
+<a href='/tag/PINT_0.html'>PINT</a>
+<a href='/tag/PL_0.html'>PL</a>
+<a href='/tag/PEPR_0.html'>PEPR</a>
+<a href='/tag/PM_0.html'>PM</a>
+<a href='/tag/PAK_0.html'>PAK</a>
+<a href='/tag/POL_0.html'>POL</a>
+<a href='/tag/PO_0.html'>PO</a>
+<a href='/tag/POLITICAL_0.html'>POLITICAL</a>
+<a href='/tag/PARTIES_0.html'>PARTIES</a>
+<a href='/tag/PGOF_0.html'>PGOF</a>
+<a href='/tag/PROP_0.html'>PROP</a>
+<a href='/tag/PBIO_0.html'>PBIO</a>
+<a href='/tag/PHSA_0.html'>PHSA</a>
+<a href='/tag/PSI_0.html'>PSI</a>
+</div>
+<div class='sort' id='tag_Q'>
+<a href='/tag/QA_0.html'>QA</a>
+</div>
+<div class='sort' id='tag_R'>
+<a href='/tag/RS_0.html'>RS</a>
+<a href='/tag/RU_0.html'>RU</a>
+<a href='/tag/RO_0.html'>RO</a>
+<a href='/tag/RW_0.html'>RW</a>
+</div>
+<div class='sort' id='tag_S'>
+<a href='/tag/SNAR_0.html'>SNAR</a>
+<a href='/tag/SA_0.html'>SA</a>
+<a href='/tag/SP_0.html'>SP</a>
+<a href='/tag/SHUM_0.html'>SHUM</a>
+<a href='/tag/SENV_0.html'>SENV</a>
+<a href='/tag/SOCI_0.html'>SOCI</a>
+<a href='/tag/SY_0.html'>SY</a>
+<a href='/tag/SW_0.html'>SW</a>
+<a href='/tag/SF_0.html'>SF</a>
+<a href='/tag/SG_0.html'>SG</a>
+<a href='/tag/SMIG_0.html'>SMIG</a>
+<a href='/tag/SR_0.html'>SR</a>
+<a href='/tag/SCUL_0.html'>SCUL</a>
+<a href='/tag/SYR_0.html'>SYR</a>
+<a href='/tag/SO_0.html'>SO</a>
+<a href='/tag/SU_0.html'>SU</a>
+<a href='/tag/STEINBERG_0.html'>STEINBERG</a>
+<a href='/tag/SN_0.html'>SN</a>
+<a href='/tag/SM_0.html'>SM</a>
+</div>
+<div class='sort' id='tag_T'>
+<a href='/tag/TS_0.html'>TS</a>
+<a href='/tag/TU_0.html'>TU</a>
+<a href='/tag/TW_0.html'>TW</a>
+<a href='/tag/TD_0.html'>TD</a>
+<a href='/tag/TI_0.html'>TI</a>
+<a href='/tag/TX_0.html'>TX</a>
+<a href='/tag/TH_0.html'>TH</a>
+<a href='/tag/TRGY_0.html'>TRGY</a>
+<a href='/tag/TC_0.html'>TC</a>
+<a href='/tag/TFIN_0.html'>TFIN</a>
+</div>
+<div class='sort' id='tag_U'>
+<a href='/tag/UK_0.html'>UK</a>
+<a href='/tag/US_0.html'>US</a>
+<a href='/tag/UP_0.html'>UP</a>
+<a href='/tag/UNO_0.html'>UNO</a>
+<a href='/tag/UZ_0.html'>UZ</a>
+<a href='/tag/UNSC_0.html'>UNSC</a>
+<a href='/tag/UN_0.html'>UN</a>
+<a href='/tag/USEU_0.html'>USEU</a>
+<a href='/tag/UV_0.html'>UV</a>
+<a href='/tag/UNMIK_0.html'>UNMIK</a>
+<a href='/tag/UNESCO_0.html'>UNESCO</a>
+<a href='/tag/UNGA_0.html'>UNGA</a>
+<a href='/tag/UAE_0.html'>UAE</a>
+<a href='/tag/UE_0.html'>UE</a>
+</div>
+<div class='sort' id='tag_V'>
+<a href='/tag/VE_0.html'>VE</a>
+<a href='/tag/VZ_0.html'>VZ</a>
+</div>
+<div class='sort' id='tag_W'>
+<a href='/tag/WTO_0.html'>WTO</a>
+</div>
+<div class='sort' id='tag_X'>
+<a href='/tag/XA_0.html'>XA</a>
+<a href='/tag/XL_0.html'>XL</a>
+<a href='/tag/XF_0.html'>XF</a>
+<a href='/tag/XH_0.html'>XH</a>
+<a href='/tag/XG_0.html'>XG</a>
+</div>
+<div class='sort' id='tag_Y'>
+<a href='/tag/YM_0.html'>YM</a>
+<a href='/tag/YI_0.html'>YI</a>
+</div>
+<div class='sort' id='tag_Z'>
+<a href='/tag/ZK_0.html'>ZK</a>
+<a href='/tag/ZP_0.html'>ZP</a>
+<a href='/tag/ZR_0.html'>ZR</a>
+<a href='/tag/ZF_0.html'>ZF</a>
+<a href='/tag/ZI_0.html'>ZI</a>
+</div>
+<h3>Browse by classification</h3>
+<div class='sort'>
+<a href='/classification/1_0.html' title='unclassified'>CONFIDENTIAL</a>
+<a href='/classification/2_0.html' title='secret'>CONFIDENTIAL//NOFORN</a>
+<a href='/classification/3_0.html' title='confidential'>SECRET</a>
+<a href='/classification/4_0.html' title='secret//noforn'>SECRET//NOFORN</a>
+<a href='/classification/5_0.html' title='unclassified//fouo'>UNCLASSIFIED</a>
+<a href='/classification/6_0.html' title='confidential//noforn'>UNCLASSIFIED//FOR OFFICIAL USE ONLY</a>
+</div>
+</div>
+<h3>Community resources</h3>
+<div class='sort'>
+<a href='http://twitter.com/wikileaks'>Follow us on Twitter</a>
+<a href='http://en.reddit.com/domain/wikileaks.org'>Check our Reddit</a>
+<a href='http://twitter.com/home?status=Reading%20http%3A%2F%2Fcablegate.wikileaks.org%2Fcable%2F2009%2F12%2F09BUENOSAIRES1257.html%20%2309BUENOSAIRES1257'>Twitter this</a>
+<a href='http://digg.com/submit?url=http%3A%2F%2Fcablegate.wikileaks.org%2Fcable%2F2009%2F12%2F09BUENOSAIRES1257.html'>Digg this page</a>
+</div>
+<p>
+<i>
+courage is contagious
+</i>
+</p>
+</div>
+<div class='pane big'>
+<h3>Viewing cable 09BUENOSAIRES1257, ARGENTINA FACES CHALLENGING AML/CFT REVIEW</h3>
+<div>
+If you are new to these pages, please read an introduction on the <a href="#help_1" onclick="return sh(1);">structure of a cable</a> as well as how to <a href="#help_2" onclick="return sh(2);">discuss them</a> with others. See also the <a href="/static/html/faq.html">FAQs</a>
+<br />
+</div>
+<div id='help_1'>
+<br />
+<b>Understanding cables</b>
+<br />
+Every cable message consists of three parts:
+<ul>
+<li>The top box shows each cables unique reference number, when and by whom it originally was sent, and what its initial classification was.</li>
+<li>The middle box contains the header information that is associated with the cable. It includes information about the receiver(s) as well as a general subject.</li>
+<li>The bottom box presents the body of the cable. The opening can contain a more specific subject, references to other cables (<a href="#by_A" onclick="swap('by_A'); setTimeout('document.location.href=(document.location.href + \'#by_A\').replace(/\#.*$/,\'#by_A\')', 100); return false;">browse by origin</a> to find them) or additional comment. This is followed by the main contents of the cable: a summary, a collection of specific topics and a comment section.</li>
+</ul>
+To understand the justification used for the classification of each cable, please use this <a href="http://en.wikisource.org/wiki/Executive_Order_13526#Part_1">WikiSource</a> article as reference.
+</div>
+<div id='help_2'>
+<br />
+<b>Discussing cables</b>
+<br />
+If you find meaningful or important information in a cable, please link directly to its unique reference number. Linking to a specific paragraph in the body of a cable is also possible by copying the appropriate link (to be found at theparagraph symbol).
+Please mark messages for social networking services like Twitter with the hash tags <b>#cablegate</b> and a hash containing the reference ID e.g. <b>#09BUENOSAIRES1257</b>.
+</div>
+<div id='kus'>
+<a href='http://wikileaks.org/support.html' target='_blank'>KEEP US STRONG!</a>
+</div>
+<table class='cable'>
+<tr>
+<th>Reference ID</th>
+<th>Created</th>
+<th>Released</th>
+<th>Classification</th>
+<th>Origin</th>
+</tr>
+<tr>
+<td>
+<a href='/cable/2009/12/09BUENOSAIRES1257.html'>09BUENOSAIRES1257</a>
+</td>
+<td>
+<a href='/date/2009-12_0.html'>2009-12-01 16:04</a>
+</td>
+<td>
+<a href='/reldate/2010-11-30_0.html'>2010-11-30 16:04</a>
+</td>
+<td>
+<a href='/classification/4_0.html' title='secret//noforn'>SECRET//NOFORN</a>
+</td>
+<td>
+<a href='/origin/53_0.html'>Embassy Buenos Aires</a>
+</td>
+</tr>
+</table>
+<code><pre>VZCZCXYZ0000&#x000A;OO RUEHWEB&#x000A;&#x000A;DE RUEHBU #1257/01 3351640&#x000A;ZNY SSSSS ZZH&#x000A;O R 011639Z DEC 09&#x000A;FM AMEMBASSY BUENOS AIRES&#x000A;TO RUEHC/SECSTATE WASHDC IMMEDIATE 0123&#x000A;INFO RHEHAAA/NATIONAL SECURITY COUNCIL WASHINGTON DC&#x000A;RHMFISS/DEPT OF HOMELAND SECURITY WASHINGTON DC&#x000A;RHMFISS/DEPT OF JUSTICE WASHINGTON DC&#x000A;RHMFISS/FBI WASHINGTON DC&#x000A;RUEABND/DEA HQS WASHINGTON DC&#x000A;RUEATRS/DEPT OF TREASURY WASHINGTON DC&#x000A;RUEHBU/AMEMBASSY BUENOS AIRES</pre></code>
+<code><pre>S E C R E T BUENOS AIRES 001257&#x000A;&#x000A;SIPDIS&#x000A;NOFORN&#x000A;&#x000A;E.O. 12958: DECL: 2019/12/01&#x000A;TAGS: <a href='/tag/PTER_0.html'>PTER</a> <a href='/tag/SNAR_0.html'>SNAR</a> <a href='/tag/ECON_0.html'>ECON</a> <a href='/tag/EFIN_0.html'>EFIN</a> <a href='/tag/PGOV_0.html'>PGOV</a> <a href='/tag/PREL_0.html'>PREL</a> <a href='/tag/KCOR_0.html'>KCOR</a> <a href='/tag/AR_0.html'>AR</a>&#x000A;SUBJECT: ARGENTINA FACES CHALLENGING AML/CFT REVIEW&#x000A;&#x000A;REF: BUENOS AIRES 313; BUENOS AIRES 1017; BUENOS AIRES 1212&#x000A;&#x000A;CLASSIFIED BY: Martinez, Vilma, Ambassador, DOS, EXEC; REASON:&#x000A;1.4(B), (D)&#x000A;&#x000A;----------&#x000A;Summary&#x000A;----------&#x000A;&#x000A;<a id='par1' href='#par1'>¶</a>1. (S/NF) The Financial Action Task Force (FATF)&#x000A;held a two week peer review of the Argentine anti-money laundering&#x000A;and counter terror finance (AML/CFT) regime. Although hoping to&#x000A;see some positive moves by Argentina, the FATF operational team&#x000A;leader is skeptical of the GoA's intentions to combat money&#x000A;laundering and terror finance. While most money laundering in&#x000A;Argentina conceals tax evasion and corruption, narcotics-derived&#x000A;funds are a growing problem. The Argentine statutory framework is&#x000A;relatively strong, but the bureaucracy working the issues is poorly&#x000A;led and starved of resources. Consequently, the FATF team leader&#x000A;views Argentine AML/CFT enforcement as largely ineffectual, with no&#x000A;meaningful prosecutions in recent memory. Some Embassy contacts&#x000A;argue that the current GoA leadership, including the President,&#x000A;stands to lose from honest and vigorous pursuit of money&#x000A;laundering. While the final FATF report is likely to embarrass the&#x000A;GoA, potentially provoking a harsh response, it is not likely to&#x000A;spur meaningful reform. Until now, terror financing and narcotics&#x000A;money have comprised just a small fraction of the illicit funds&#x000A;transiting Argentina. The near complete absence of enforcement&#x000A;coupled with a culture of impunity and corruption make Argentina&#x000A;ripe for exploitation by narco-traffickers and terrorist cells.&#x000A;For now, the most promising way to engage the GoA on the issue&#x000A;seems to be through the new Justice Minister, with whom we have&#x000A;developed a positive working relationship. We will encourage him&#x000A;to engage on this set of issues. End Summary.&#x000A;&#x000A;---------------&#x000A;FATF Review&#x000A;---------------&#x000A;&#x000A;<a id='par2' href='#par2'>¶</a>2. (C) The FATF peer review of Argentina's AML/CFT laws,&#x000A;regulations and enforcement, and general compliance with FATF best&#x000A;practices and recommendations began on November 16 and continued&#x000A;for two weeks. FATF had originally scheduled the review for last&#x000A;year but delayed it at Argentina's request. In the interim, the&#x000A;GoA implemented a tax amnesty law to encourage the repatriation of&#x000A;funds held overseas and in the process lost most of the AML/CFT&#x000A;focus and momentum it had built up after the last FATF review in&#x000A;October 2003. Econoff met with numerous AML/CFT contacts over&#x000A;several weeks before the review began to assess the strengths and&#x000A;weaknesses of Argentina's laws and enforcement efforts and to&#x000A;evaluate perceptions of how it will fare in the review.&#x000A;&#x000A;---------------------------------&#x000A;FATF Team Leader is a Skeptic&#x000A;---------------------------------&#x000A;&#x000A;<a id='par3' href='#par3'>¶</a>3. (C) Fabio Contini, the Italian national who heads the&#x000A;operational review team, has spent over a year in Argentina as the&#x000A;Economic and Financial AttachC) at the Italian Embassy and is&#x000A;married to an Argentine. He has a sober view of the GoA's AML/CFT&#x000A;efforts, which he deems little more than a fig-leaf. The measures&#x000A;taken, he said, are calculated for minimal compliance with&#x000A;international standards and evince little real enthusiasm for&#x000A;cleaning up the financial system. In addition, he said that&#x000A;Argentina should take control of the informal economy as a first&#x000A;step toward a serious AML/CFT effort. Contini summarized his views&#x000A;by noting that a substantial percentage of the Argentine economy is&#x000A;underground, with pure cash transactions comprising a&#x000A;disproportionate percentage of economic activity. Such an economic&#x000A;system, he observed, is inherently vulnerable to money laundering&#x000A;and other financial crimes. Contini said that Argentina will have&#x000A;to bring this black economy into the light of day before even the&#x000A;most robust AML/CFT regulations can be effective.&#x000A;&#x000A;<a id='par4' href='#par4'>¶</a>4. (C) While his views will be influential, Contini noted that he&#x000A;does not have the last word on Argentina's FATF peer assessment.&#x000A;Once his team makes its report, Argentina will have an opportunity&#x000A;to respond to the findings. A debate at next year's plenary will&#x000A;precede the issuance of the final report and any warnings. Contini&#x000A;said that FATF warned Argentina after the last review that a second&#x000A;warning could have a negative effect on Argentina's desire to&#x000A;rejoin the international financial system.&#x000A;&#x000A;--------------------------------&#x000A;Money Laundering in Argentina&#x000A;--------------------------------&#x000A;&#x000A;<a id='par5' href='#par5'>¶</a>5. (C) Embassy contacts agree that most money laundering in&#x000A;Argentina is the product of tax evasion and political corruption.&#x000A;For the most part, they insist that terror financing is seldom, if&#x000A;ever, transacted in Argentina. Most maintain, however, that&#x000A;narcotics trafficking is becoming a real problem and that,&#x000A;increasingly, the dirty money sloshing through the financial system&#x000A;originates in the drug trade.&#x000A;&#x000A;-------------------&#x000A;AML/CFT System&#x000A;-------------------&#x000A;&#x000A;<a id='par6' href='#par6'>¶</a>6. (C) Embassy contacts, including Contini, have noted numerous&#x000A;weaknesses in Argentina's AML/CFT regime. Most tellingly, there&#x000A;have been only two convictions since the criminalization of money&#x000A;laundering in 1989, and there have been no convictions under the&#x000A;currently applicable statute enacted in 2000. While the&#x000A;substantive law is generally considered adequate, there are&#x000A;numerous loopholes to close and important areas that require&#x000A;clarification.&#x000A;&#x000A;<a id='par7' href='#par7'>¶</a>7. (C) Local AML/CFT experts agree that, with the exceptions noted&#x000A;below, Argentina has a solid legal and regulatory foundation for&#x000A;combating money laundering and terror finance. The failures of the&#x000A;system arise when it comes to applying the law. Inspections are&#x000A;superficial and do not examine actual accounts and transactions.&#x000A;According to Pablo San Martin, the head of SMS Latinoamerica, a&#x000A;local accounting firm, inspectors are often content in their&#x000A;interviews with banking executives to accept the predictable&#x000A;anodyne responses to their inquiries without further follow-up.&#x000A;Several contacts point to the Financial Information Unit (UIF) as&#x000A;the weakest player on the financial crimes enforcement team, but&#x000A;the consensus is that a failure of political will cripples the&#x000A;whole AML/CFT project.&#x000A;&#x000A;---------------&#x000A;Self-laundering&#x000A;---------------&#x000A;&#x000A;<a id='par8' href='#par8'>¶</a>8. (C) Several experts have highlighted the money laundering&#x000A;loophole for criminals who do their own banking as a probable focus&#x000A;of the FATF review. Argentine law defines money laundering as an&#x000A;accessory offense so that, for example, a narcotics trafficker&#x000A;cannot be charged for merely laundering the profits from his drug&#x000A;deals. Only a third party who aids and abets in hiding the origins&#x000A;of the money is subject to prosecution.&#x000A;&#x000A;<a id='par9' href='#par9'>¶</a>9. (C) According to Raul Plee, the state's attorney who heads the&#x000A;unit charged with investigating financial crimes, this exemption&#x000A;for self-laundering explains the lack of convictions. Plee noted&#x000A;that a bill in draft form would allow him to pursue much of the&#x000A;currently protected laundering activity, and he believes that FATF&#x000A;will recommend enactment of the legislation. Plee observed that&#x000A;some of Argentina's most embarrassing prosecutorial failures, e.g.,&#x000A;when a judge dismissed charges against Pablo Escobar's widow who&#x000A;bought two properties under an assumed name, originate in the&#x000A;self-laundering exemption.&#x000A;&#x000A;<a id='par10' href='#par10'>¶</a>10. (C) In contrast, other contacts believe that if the FATF&#x000A;review fixates on the self-laundering issue it will be a failure.&#x000A;Marcelo Casanovas, a compliance officer with the Bank of Buenos&#x000A;Aires Province and a board member of a leading anti-money&#x000A;laundering association, said that self-laundering is a problem, but&#x000A;to focus exclusively on that one shortcoming is to miss the whole&#x000A;forest for one tree. The real problems, he insisted, are systemic.&#x000A;Contini himself observed that the central failure is an absence of&#x000A;political will to pursue laundering as a serious crime.&#x000A;&#x000A;----------------------&#x000A;Repatriation of Funds&#x000A;----------------------&#x000A;&#x000A;<a id='par11' href='#par11'>¶</a>11. (C) One substantive legal issue that now seems unlikely to&#x000A;trouble FATF reviewers is the tax amnesty law (Ref A) designed to&#x000A;encourage repatriation of funds held outside Argentina. According&#x000A;to commonly cited estimates, Argentines hide about $150 billion in&#x000A;assets offshore. In an effort to lure back the billions held&#x000A;outside the formal financial system, the GoA passed legislation in&#x000A;&#x000A;&#x000A;December 2008 declaring an amnesty on repatriated funds that ran&#x000A;from March through August of 2009. Local experts and opposition&#x000A;political figures alleged that because it prohibited Argentine tax&#x000A;authorities from inquiring into the source of the repatriated&#x000A;funds, the law facilitated money laundering. FATF also expressed&#x000A;misgivings but was at least partially placated when then-Justice&#x000A;Minister Anibal Fernandez defended the law before the plenary in&#x000A;Paris. In May (after the amnesty had already been in effect for&#x000A;two months), the UIF issued rules requiring reports of suspicious&#x000A;transactions (STRs) arising from the capital regularization&#x000A;program.&#x000A;&#x000A;<a id='par12' href='#par12'>¶</a>12. (C) According to figures released by the GoA at the conclusion&#x000A;of the amnesty, Argentines declared only $4.7 billion. Of that,&#x000A;only 4.3 percent had been held abroad. The press reported that the&#x000A;program failed to achieve its goal of capital repatriation.&#x000A;According to Plee, requiring submission of STRs was a key factor in&#x000A;this failure and was at least one reason that very little money&#x000A;returned under this law. Plee and other contacts noted that the&#x000A;funds declared under the amnesty were not generally the product of&#x000A;criminal activity other than simple tax evasion. The Regional&#x000A;Advisor from the International Monetary Fund's Financial Integrity&#x000A;Group, Mariano Federici, observed that the repatriation was doomed&#x000A;from the outset because Argentines do not view the local economy as&#x000A;a stable place to invest, and they mistrust the government because&#x000A;of its history of economic mismanagement and capricious seizure of&#x000A;assets.&#x000A;&#x000A;<a id='par13' href='#par13'>¶</a>13. (C) Based on the requirement to file STRs and the&#x000A;insignificant scale of the funds repatriated, many contacts&#x000A;predicted that the tax amnesty issue will not draw much attention&#x000A;under the FATF review.&#x000A;&#x000A;------------------------&#x000A;Prosecutors and Judges&#x000A;------------------------&#x000A;&#x000A;<a id='par14' href='#par14'>¶</a>14. (C) Another weakness that experts highlighted was the lack of&#x000A;judicial and prosecutorial understanding of AML/CFT issues.&#x000A;According to Federici, the prosecutors and judges who should take&#x000A;the lead in AML/CFT cases lack the financial sophistication&#x000A;necessary to direct investigations and mount successful&#x000A;prosecutions. Federici also noted that judges appear uninterested&#x000A;in acquiring the skills necessary to manage money laundering cases.&#x000A;When the IMF staged a training seminar, over 70 prosecutors&#x000A;participated, but of the dozens invited, only one judge chose to&#x000A;attend. Because judges directly manage investigations under the&#x000A;Argentine legal system, no money laundering case can proceed&#x000A;without active judicial engagement. Federici observed that, in the&#x000A;short term, judicial indifference limits the opportunities for&#x000A;money laundering convictions.&#x000A;&#x000A;<a id='par15' href='#par15'>¶</a>15. (C) Casanovas agreed that the judicial system suffers&#x000A;deficiencies, but he maintained that prosecutors and investigators&#x000A;bear more of the blame than judges. Failure to develop solid&#x000A;evidence is the root of the problem, he said. He observed that&#x000A;judges want to pursue concrete cases with predictable outcomes, not&#x000A;squander their limited resources on prosecutions doomed to failure.&#x000A;&#x000A;&#x000A;----------------------------------&#x000A;FATF/GAFISUD Representative&#x000A;----------------------------------&#x000A;&#x000A;<a id='par16' href='#par16'>¶</a>16. (C) The FATF Representative's Office, headed by Alejandro&#x000A;Strega, who has a master's in law from the University of Illinois,&#x000A;is responsible for coordination of AML/CFT policy and for&#x000A;developing national strategy and legislation. Under the leadership&#x000A;of Strega's predecessor, Juan Felix Marteau, the office earned a&#x000A;reputation for foresight and action. Marteau drafted significant&#x000A;legislation and developed a national AML/CFT strategy that was&#x000A;endorsed by then- President Nestor Kirchner. In contrast, Strega's&#x000A;performance has been lackluster, and, with his weak background in&#x000A;AML/CFT and lack of resources, he has been largely ineffective.&#x000A;Strega is a congenial interlocutor, speaks English well, and is&#x000A;eager to engage with the Embassy, but he has little access to&#x000A;Minister of Justice Julio Alak, few staff, and almost no money.&#x000A;&#x000A;<a id='par17' href='#par17'>¶</a>17. (C) Marteau has insinuated that he lost the job to Strega as a&#x000A;reprisal for looking too closely into the casino business, where&#x000A;important Kirchneristas allegedly have interests. Federici&#x000A;conceded that casinos may be part of the story, but said the real&#x000A;&#x000A;explanation lies in a personality clash and bureaucratic feud with&#x000A;Alak's predecessor and current Chief of Cabinet, Anibal Fernandez.&#x000A;According to Federici, when Marteau drafted his national strategy,&#x000A;he consulted all high government officials with an interest in&#x000A;money laundering except for Fernandez, who was Minister of Interior&#x000A;at that time. As Justice Minister, Fernandez became Marteau's boss&#x000A;and quickly dismissed him and brought in Strega. Federici also&#x000A;noted that suspicions of connections to drug trafficking and money&#x000A;laundering have sometimes wafted around Fernandez (Ref B), and&#x000A;Marteau may have distrusted him based on those rumors. Strega is&#x000A;the son of a labor lawyer who is a close Fernandez confederate from&#x000A;his time as Mayor of Quilmes. His father, Enrique Strega, has been&#x000A;an attorney for the bank workers' union headed by Juan Jose Zanola,&#x000A;a Kirchner ally who was also close to former President Menem.&#x000A;Zanola is now under indictment in a politically radioactive case&#x000A;involving adulterated medicine, illegal campaign contributions, and&#x000A;a triple homicide.&#x000A;&#x000A;-------------------------&#x000A;UIF: a Broken Institution&#x000A;-------------------------&#x000A;&#x000A;<a id='par18' href='#par18'>¶</a>18. (S/NF) Numerous Embassy contacts and press reports have&#x000A;fingered the UIF as the main agent of Argentina's AML/CFT failures.&#x000A;The UIF is an inept and politically compromised institution,&#x000A;according to Federici. It is led by Rosa Falduto, who won her&#x000A;position based on the patronage of the judge who oversees the&#x000A;electoral process, Maria Romilda Servini de Cubria. She has since&#x000A;quarreled with Servini. Her other benefactor, Anibal Fernandez,&#x000A;has also reportedly been keeping his distance. Federici said that&#x000A;according to a highly placed contact in the UIF, Falduto holds on&#x000A;to her position because she is useful to President Cristina&#x000A;Fernandez de Kirchner and to her husband, the former President,&#x000A;Nestor Kirchner. Federici told Econoff that Falduto is personally&#x000A;holding back STRs on the Kirchner inner circle and has refused to&#x000A;respond to requests for STRs on the Kirchners themselves from&#x000A;Switzerland, Lichtenstein, and Luxembourg. In July, according to&#x000A;Federici and consistent with information from other sources,&#x000A;Falduto also personally leaked information that the UIF had&#x000A;requested from FinCEN on Francisco de Narvaez, a Kirchner rival.&#x000A;According to Federici, Falduto did this by design to harm the&#x000A;reputation of this important opposition figure.&#x000A;&#x000A;<a id='par19' href='#par19'>¶</a>19. (C) The defects of the UIF, however, transcend mere&#x000A;politicization. According to Federici and confirmed by several&#x000A;other sources, Falduto's organization passes on raw intelligence&#x000A;that is useless for building criminal cases. Contini said that&#x000A;information is routinely forwarded to prosecutors so long after the&#x000A;fact that it is legally and technically impossible to accumulate&#x000A;evidence on suspicious transactions. In the UIF's defense,&#x000A;however, San Martin noted that the AML/CFT regulators have&#x000A;insufficient resources. The UIF and the Argentine Central Bank pay&#x000A;poorly, he said, and cannot afford to hire sufficient investigative&#x000A;staff. San Martin agreed, however, that the UIF is likely to come&#x000A;in for pointed criticism in the FATF review.&#x000A;&#x000A;--------------&#x000A;Political Will&#x000A;--------------&#x000A;&#x000A;<a id='par20' href='#par20'>¶</a>20. (C) Several contacts, including Strega himself, have asserted&#x000A;that the Argentine AML/CFT regime was never designed to catch or&#x000A;punish money launderers and that the absence of convictions is by&#x000A;design. According to Federici, Plee's office does not get the&#x000A;political support that it needs to do its job and the Ministry of&#x000A;Justice under Fernandez made it plain that it did not want him to&#x000A;be too aggressive. When the MOJ switched Plee's assistant Federico&#x000A;di Pasquale from a long-term to a short-term job contract, it was&#x000A;seen as a message that the office was on a short leash.&#x000A;&#x000A;<a id='par21' href='#par21'>¶</a>21. (C) According to Roberto Bulit Goni, an attorney in a private&#x000A;practice dealing with money laundering issues, too many people&#x000A;stand to profit from lax enforcement of money laundering statutes.&#x000A;Casanovas and San Martin agree that the changes that there have&#x000A;been in the AML/CFT system are mainly cosmetic. The GoA has&#x000A;enacted the recommended laws and regulations, but the problem, they&#x000A;noted, is hostility to even token enforcement. Congress, which&#x000A;will pass to a divided opposition's control in December, has not&#x000A;played a consistent role in pressing for enforcement or&#x000A;investigations, but there is some prospect that the Congress and&#x000A;specific committees will give it increasing attention in 2010.&#x000A;&#x000A;<a id='par22' href='#par22'>¶</a>22. (C) The Embassy sources noted above maintain that the MOJ,&#x000A;under former Minister of Justice Anibal Fernandez (now Chief of&#x000A;Cabinet), systematically frustrated progress on AML/CFT issues.&#x000A;The current Minister of Justice, Julio Alak, has brought energy and&#x000A;a fresh perspective to the job and has shown considerable&#x000A;enthusiasm for collaborating with the United States on a wide range&#x000A;of law enforcement issues. While he has not yet focused on money&#x000A;laundering, the upcoming FATF report and the Argentine response and&#x000A;debate at next year's plenary give us an opportunity to engage him&#x000A;to focus more on AML/CFT issues. While a negative report will&#x000A;likely provoke a hostile response from some quarters of the GoA, it&#x000A;could well provide an opportunity and political cover for Alak to&#x000A;push for greater resources and for consequential changes in the law&#x000A;and enforcement. Alak appears to be serious about tackling&#x000A;Argentina's law enforcement problems (Ref C) and all Mission&#x000A;elements will continue to provide him with the information and,&#x000A;where possible, the resources to move forward with a positive&#x000A;agenda.&#x000A;&#x000A;----------------&#x000A;FATF Outcome&#x000A;-----------------&#x000A;&#x000A;<a id='par23' href='#par23'>¶</a>23. (C) There are two views of the likely conclusions in the final&#x000A;FATF report. One view is that the FATF review will be so&#x000A;superficial that Argentina will pass with just a few areas for&#x000A;improvement noted. Casanovas and San Martin, for example, believe&#x000A;that the FATF review will be perfunctory. Reviewers will arrive&#x000A;with a checklist and conclude after talking to regulators that all&#x000A;the elements are in place. FATF will recommend some changes, but&#x000A;the review will be generally neutral. The other view is that the&#x000A;flaws are so glaring, i.e., no convictions and the problems within&#x000A;the UIF, that even a superficial review will come down hard on the&#x000A;GoA. Contini, as head of the operational team, seems inclined to&#x000A;issue a report highlighting a lack of political will to&#x000A;meaningfully combat money laundering and terror financing.&#x000A;&#x000A;----------&#x000A;Comment&#x000A;----------&#x000A;&#x000A;<a id='par24' href='#par24'>¶</a>24. (S/NF) Argentina will likely suffer some sharp criticism in&#x000A;the FATF review, blackening its eye when it is seeking to reenter&#x000A;the mainstream of the global financial system. The GOA would&#x000A;probably lash out publicly at a critical FATF review, with the&#x000A;government blaming the criticisms on external conspirators&#x000A;(including perhaps the USG). No matter the criticisms, and despite&#x000A;the apparent good faith of new players like Justice Minister Alak,&#x000A;it is probably unrealistic to expect that the GoA will funnel&#x000A;resources to prosecutors or make a concerted effort to pursue money&#x000A;launderers. The Kirchners and their circle simply have too much to&#x000A;gain themselves from continued lax enforcement. Although tax&#x000A;cheats and compromised politicians may still be the chief source of&#x000A;dirty money, continued GoA indifference to AML/CFT could offer an&#x000A;attractive local staging ground to narco-traffickers and&#x000A;international terrorists. If the GoA does not move to close&#x000A;loopholes and enhance enforcement, it may soon find its financial&#x000A;system contaminated by drug money and terror funds.&#x000A;MARTINEZ</pre></code>
+</div>
+</div>
+<script src='/static/js/js.js' type='text/javascript'></script>
+</body>
+</html>

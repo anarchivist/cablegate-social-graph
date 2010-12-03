@@ -1,0 +1,21 @@
+This is a little hack that visualizes the social graph of the Wikileaks
+CableGate cable messages using the From and To metadata scraped from 
+the message.
+
+The station codes in stations.js file was scraped from a listing in:
+
+    http://jcs.dtic.mil/j6/cceb/acps/canus-supp/A117_s1_066.pdf
+
+If you want to run this yourself you'll need to obtain the cablegate
+wikileak data, and run the fromto.py script which scrapes the html 
+in the cable directory, and generates cablegate.js, which contains the 
+graph information. For example:
+
+  % fromto.py /path/to/cablegate-201012021401
+
+Dependencies:
+- python v2.6+
+- easy_install python-graph-core
+
+Originally created by a developer who wants to remain anonymous. 
+Maintained by Mark A. Matienzo - mark@matienzo.org

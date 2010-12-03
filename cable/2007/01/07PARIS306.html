@@ -1,0 +1,723 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+<title>Cable Viewer</title>
+<link href='/static/gfx/favicon.ico' rel='shortcut icon' />
+<link href='/static/css/reset-fonts-grids.css' rel='stylesheet' type='text/css' />
+<link href='/static/css/cables.css' rel='stylesheet' type='text/css' />
+</head>
+<body>
+<div class='main'>
+<div class='pane small'>
+<a href='/index.html'>
+<img alt='WikiLeaks logo' src='/static/gfx/WL_Hour_Glass_small.png' />
+<p>Currently released so far... 597 / 251,287</p>
+</a>
+<div id='browse'>
+<h3>Articles</h3>
+<div class='sort'>
+<a href="/articles/2010/De-olho-nas-Olimpiadas-US-faz.html">Brazil</a>
+<a href="/articles/2010/Sri-Lankan-President-s-alleged-war.html">Sri Lanka</a>
+<a href="/articles/2010/Iraq-Inquiry-told-to-protect-US.html">United Kingdom</a>
+<a href="/articles/2010/USA-bekraftar-svensk-Natokoppling.html">Sweden</a>
+</div>
+<h3>Browse latest releases</h3>
+<div class='sort'>
+<a href='/reldate/2010-12-02_0.html'>2010/12/02</a>
+<a href='/reldate/2010-12-01_0.html'>2010/12/01</a>
+<a href='/reldate/2010-11-30_0.html'>2010/11/30</a>
+<a href='/reldate/2010-11-29_0.html'>2010/11/29</a>
+<a href='/reldate/2010-11-28_0.html'>2010/11/28</a>
+</div>
+<h3>Browse by creation <a href='#year_1966' onclick='return sha(0);'>date</a></h3>
+<div class='pick'>
+<a class='sort' href='#year_1966' onclick="return swap('year_1966');">66</a>
+<a class='sort' href='#year_1972' onclick="return swap('year_1972');">72</a>
+<a class='sort' href='#year_1975' onclick="return swap('year_1975');">75</a>
+<a class='sort' href='#year_1979' onclick="return swap('year_1979');">79</a>
+<a class='sort' href='#year_1986' onclick="return swap('year_1986');">86</a>
+<a class='sort' href='#year_1989' onclick="return swap('year_1989');">89</a>
+<a class='sort' href='#year_1990' onclick="return swap('year_1990');">90</a>
+<a class='sort' href='#year_2003' onclick="return swap('year_2003');">03</a>
+<a class='sort' href='#year_2004' onclick="return swap('year_2004');">04</a>
+<a class='sort' href='#year_2005' onclick="return swap('year_2005');">05</a>
+<a class='sort' href='#year_2006' onclick="return swap('year_2006');">06</a>
+<a class='sort' href='#year_2007' onclick="return swap('year_2007');">07</a>
+<a class='sort' href='#year_2008' onclick="return swap('year_2008');">08</a>
+<a class='sort' href='#year_2009' onclick="return swap('year_2009');">09</a>
+<a class='sort' href='#year_2010' onclick="return swap('year_2010');">10</a>
+</div>
+<div class='sort' id='year_1966'>
+<a href='/date/1966-12_0.html'>1966/12</a>
+</div>
+<div class='sort' id='year_1972'>
+<a href='/date/1972-02_0.html'>1972/02</a>
+<a href='/date/1972-08_0.html'>1972/08</a>
+</div>
+<div class='sort' id='year_1975'>
+<a href='/date/1975-03_0.html'>1975/03</a>
+</div>
+<div class='sort' id='year_1979'>
+<a href='/date/1979-08_0.html'>1979/08</a>
+</div>
+<div class='sort' id='year_1986'>
+<a href='/date/1986-05_0.html'>1986/05</a>
+</div>
+<div class='sort' id='year_1989'>
+<a href='/date/1989-12_0.html'>1989/12</a>
+</div>
+<div class='sort' id='year_1990'>
+<a href='/date/1990-01_0.html'>1990/01</a>
+</div>
+<div class='sort' id='year_2003'>
+<a href='/date/2003-06_0.html'>2003/06</a>
+</div>
+<div class='sort' id='year_2004'>
+<a href='/date/2004-01_0.html'>2004/01</a>
+<a href='/date/2004-02_0.html'>2004/02</a>
+<a href='/date/2004-04_0.html'>2004/04</a>
+<a href='/date/2004-11_0.html'>2004/11</a>
+<a href='/date/2004-12_0.html'>2004/12</a>
+</div>
+<div class='sort' id='year_2005'>
+<a href='/date/2005-01_0.html'>2005/01</a>
+<a href='/date/2005-03_0.html'>2005/03</a>
+<a href='/date/2005-04_0.html'>2005/04</a>
+<a href='/date/2005-05_0.html'>2005/05</a>
+<a href='/date/2005-06_0.html'>2005/06</a>
+<a href='/date/2005-07_0.html'>2005/07</a>
+<a href='/date/2005-08_0.html'>2005/08</a>
+<a href='/date/2005-10_0.html'>2005/10</a>
+<a href='/date/2005-11_0.html'>2005/11</a>
+<a href='/date/2005-12_0.html'>2005/12</a>
+</div>
+<div class='sort' id='year_2006'>
+<a href='/date/2006-01_0.html'>2006/01</a>
+<a href='/date/2006-02_0.html'>2006/02</a>
+<a href='/date/2006-03_0.html'>2006/03</a>
+<a href='/date/2006-04_0.html'>2006/04</a>
+<a href='/date/2006-05_0.html'>2006/05</a>
+<a href='/date/2006-06_0.html'>2006/06</a>
+<a href='/date/2006-07_0.html'>2006/07</a>
+<a href='/date/2006-08_0.html'>2006/08</a>
+<a href='/date/2006-09_0.html'>2006/09</a>
+<a href='/date/2006-10_0.html'>2006/10</a>
+<a href='/date/2006-11_0.html'>2006/11</a>
+<a href='/date/2006-12_0.html'>2006/12</a>
+</div>
+<div class='sort' id='year_2007'>
+<a href='/date/2007-01_0.html'>2007/01</a>
+<a href='/date/2007-02_0.html'>2007/02</a>
+<a href='/date/2007-03_0.html'>2007/03</a>
+<a href='/date/2007-04_0.html'>2007/04</a>
+<a href='/date/2007-05_0.html'>2007/05</a>
+<a href='/date/2007-06_0.html'>2007/06</a>
+<a href='/date/2007-07_0.html'>2007/07</a>
+<a href='/date/2007-08_0.html'>2007/08</a>
+<a href='/date/2007-09_0.html'>2007/09</a>
+<a href='/date/2007-10_0.html'>2007/10</a>
+<a href='/date/2007-11_0.html'>2007/11</a>
+<a href='/date/2007-12_0.html'>2007/12</a>
+</div>
+<div class='sort' id='year_2008'>
+<a href='/date/2008-01_0.html'>2008/01</a>
+<a href='/date/2008-02_0.html'>2008/02</a>
+<a href='/date/2008-03_0.html'>2008/03</a>
+<a href='/date/2008-04_0.html'>2008/04</a>
+<a href='/date/2008-05_0.html'>2008/05</a>
+<a href='/date/2008-07_0.html'>2008/07</a>
+<a href='/date/2008-08_0.html'>2008/08</a>
+<a href='/date/2008-09_0.html'>2008/09</a>
+<a href='/date/2008-10_0.html'>2008/10</a>
+<a href='/date/2008-11_0.html'>2008/11</a>
+<a href='/date/2008-12_0.html'>2008/12</a>
+</div>
+<div class='sort' id='year_2009'>
+<a href='/date/2009-01_0.html'>2009/01</a>
+<a href='/date/2009-02_0.html'>2009/02</a>
+<a href='/date/2009-03_0.html'>2009/03</a>
+<a href='/date/2009-04_0.html'>2009/04</a>
+<a href='/date/2009-05_0.html'>2009/05</a>
+<a href='/date/2009-06_0.html'>2009/06</a>
+<a href='/date/2009-07_0.html'>2009/07</a>
+<a href='/date/2009-08_0.html'>2009/08</a>
+<a href='/date/2009-09_0.html'>2009/09</a>
+<a href='/date/2009-10_0.html'>2009/10</a>
+<a href='/date/2009-11_0.html'>2009/11</a>
+<a href='/date/2009-12_0.html'>2009/12</a>
+</div>
+<div class='sort' id='year_2010'>
+<a href='/date/2010-01_0.html'>2010/01</a>
+<a href='/date/2010-02_0.html'>2010/02</a>
+</div>
+<h3>Browse by <a href='#by_A' onclick='return sha(1);'>origin</a></h3>
+<div class='pick'>
+<a class='sort' href='#by_A' onclick="return swap('by_A');">A</a>
+<a class='sort' href='#by_B' onclick="return swap('by_B');">B</a>
+<a class='sort' href='#by_C' onclick="return swap('by_C');">C</a>
+<a class='sort' href='#by_D' onclick="return swap('by_D');">D</a>
+<a class='sort' href='#by_H' onclick="return swap('by_H');">H</a>
+<a class='sort' href='#by_I' onclick="return swap('by_I');">I</a>
+<a class='sort' href='#by_J' onclick="return swap('by_J');">J</a>
+<a class='sort' href='#by_K' onclick="return swap('by_K');">K</a>
+<a class='sort' href='#by_L' onclick="return swap('by_L');">L</a>
+<a class='sort' href='#by_M' onclick="return swap('by_M');">M</a>
+<a class='sort' href='#by_N' onclick="return swap('by_N');">N</a>
+<a class='sort' href='#by_O' onclick="return swap('by_O');">O</a>
+<a class='sort' href='#by_P' onclick="return swap('by_P');">P</a>
+<a class='sort' href='#by_R' onclick="return swap('by_R');">R</a>
+<a class='sort' href='#by_S' onclick="return swap('by_S');">S</a>
+<a class='sort' href='#by_T' onclick="return swap('by_T');">T</a>
+<a class='sort' href='#by_U' onclick="return swap('by_U');">U</a>
+<a class='sort' href='#by_V' onclick="return swap('by_V');">V</a>
+</div>
+<div class='sort' id='by_A'>
+<a href='/origin/65_0.html'>Embassy Asuncion</a>
+<a href='/origin/66_0.html'>Embassy Astana</a>
+<a href='/origin/67_0.html'>Embassy Ashgabat</a>
+<a href='/origin/68_0.html'>Embassy Ankara</a>
+<a href='/origin/69_0.html'>Embassy Amman</a>
+<a href='/origin/70_0.html'>Embassy Algiers</a>
+<a href='/origin/71_0.html'>Embassy Abu Dhabi</a>
+</div>
+<div class='sort' id='by_B'>
+<a href='/origin/53_0.html'>Embassy Buenos Aires</a>
+<a href='/origin/54_0.html'>Embassy Bucharest</a>
+<a href='/origin/55_0.html'>Embassy Brussels</a>
+<a href='/origin/56_0.html'>Embassy Bridgetown</a>
+<a href='/origin/57_0.html'>Embassy Brasilia</a>
+<a href='/origin/58_0.html'>Embassy Bishkek</a>
+<a href='/origin/59_0.html'>Embassy Berlin</a>
+<a href='/origin/60_0.html'>Embassy Beirut</a>
+<a href='/origin/61_0.html'>Embassy Beijing</a>
+<a href='/origin/62_0.html'>Embassy Bangkok</a>
+<a href='/origin/63_0.html'>Embassy Baku</a>
+<a href='/origin/64_0.html'>Embassy Baghdad</a>
+</div>
+<div class='sort' id='by_C'>
+<a href='/origin/49_0.html'>Embassy Colombo</a>
+<a href='/origin/50_0.html'>Embassy Chisinau</a>
+<a href='/origin/51_0.html'>Embassy Caracas</a>
+<a href='/origin/52_0.html'>Embassy Cairo</a>
+<a href='/origin/82_0.html'>Consulate Cape Town</a>
+</div>
+<div class='sort' id='by_D'>
+<a href='/origin/44_0.html'>Embassy Dushanbe</a>
+<a href='/origin/45_0.html'>Embassy Dublin</a>
+<a href='/origin/46_0.html'>Embassy Doha</a>
+<a href='/origin/47_0.html'>Embassy Djibouti</a>
+<a href='/origin/48_0.html'>Embassy Damascus</a>
+<a href='/origin/81_0.html'>Consulate Dubai</a>
+</div>
+<div class='sort' id='by_H'>
+<a href='/origin/43_0.html'>Embassy Harare</a>
+<a href='/origin/80_0.html'>Consulate Hamburg</a>
+</div>
+<div class='sort' id='by_I'>
+<a href='/origin/5_0.html'>Iran RPO Dubai</a>
+<a href='/origin/42_0.html'>Embassy Islamabad</a>
+<a href='/origin/79_0.html'>Consulate Istanbul</a>
+</div>
+<div class='sort' id='by_J'>
+<a href='/origin/78_0.html'>Consulate Jeddah</a>
+</div>
+<div class='sort' id='by_K'>
+<a href='/origin/38_0.html'>Embassy Kyiv</a>
+<a href='/origin/39_0.html'>Embassy Kuwait</a>
+<a href='/origin/40_0.html'>Embassy Kuala Lumpur</a>
+<a href='/origin/41_0.html'>Embassy Kabul</a>
+</div>
+<div class='sort' id='by_L'>
+<a href='/origin/33_0.html'>Embassy Luxembourg</a>
+<a href='/origin/34_0.html'>Embassy London</a>
+<a href='/origin/35_0.html'>Embassy Lisbon</a>
+<a href='/origin/36_0.html'>Embassy Lima</a>
+<a href='/origin/37_0.html'>Embassy La Paz</a>
+</div>
+<div class='sort' id='by_M'>
+<a href='/origin/4_0.html'>Mission USNATO</a>
+<a href='/origin/28_0.html'>Embassy Muscat</a>
+<a href='/origin/29_0.html'>Embassy Moscow</a>
+<a href='/origin/30_0.html'>Embassy Mexico</a>
+<a href='/origin/31_0.html'>Embassy Manama</a>
+<a href='/origin/32_0.html'>Embassy Madrid</a>
+<a href='/origin/77_0.html'>Consulate Munich</a>
+</div>
+<div class='sort' id='by_N'>
+<a href='/origin/27_0.html'>Embassy New Delhi</a>
+</div>
+<div class='sort' id='by_O'>
+<a href='/origin/26_0.html'>Embassy Ottawa</a>
+</div>
+<div class='sort' id='by_P'>
+<a href='/origin/22_0.html'>Embassy Prague</a>
+<a href='/origin/23_0.html'>Embassy Port Au Prince</a>
+<a href='/origin/24_0.html'>Embassy Paris</a>
+<a href='/origin/25_0.html'>Embassy Panama</a>
+<a href='/origin/76_0.html'>Consulate Peshawar</a>
+</div>
+<div class='sort' id='by_R'>
+<a href='/origin/19_0.html'>Embassy Rome</a>
+<a href='/origin/20_0.html'>Embassy Riyadh</a>
+<a href='/origin/21_0.html'>Embassy Rabat</a>
+</div>
+<div class='sort' id='by_S'>
+<a href='/origin/3_0.html'>Secretary of State</a>
+<a href='/origin/14_0.html'>Embassy Stockholm</a>
+<a href='/origin/15_0.html'>Embassy Singapore</a>
+<a href='/origin/16_0.html'>Embassy Seoul</a>
+<a href='/origin/17_0.html'>Embassy Santiago</a>
+<a href='/origin/18_0.html'>Embassy Sanaa</a>
+<a href='/origin/73_0.html'>Consulate Shenyang</a>
+<a href='/origin/74_0.html'>Consulate Shanghai</a>
+<a href='/origin/75_0.html'>Consulate Sao Paulo</a>
+</div>
+<div class='sort' id='by_T'>
+<a href='/origin/8_0.html'>Embassy Tunis</a>
+<a href='/origin/9_0.html'>Embassy Tripoli</a>
+<a href='/origin/10_0.html'>Embassy Tel Aviv</a>
+<a href='/origin/11_0.html'>Embassy Tehran</a>
+<a href='/origin/12_0.html'>Embassy Tegucigalpa</a>
+<a href='/origin/13_0.html'>Embassy Tbilisi</a>
+</div>
+<div class='sort' id='by_U'>
+<a href='/origin/1_0.html'>USEU Brussels</a>
+<a href='/origin/2_0.html'>UNVIE</a>
+<a href='/origin/7_0.html'>Embassy Ulaanbaatar</a>
+</div>
+<div class='sort' id='by_V'>
+<a href='/origin/6_0.html'>Embassy Vienna</a>
+<a href='/origin/72_0.html'>Consulate Vladivostok</a>
+</div>
+<h3>Browse by <a href='#tag_A' onclick='return sha(2);'>tag</a></h3>
+<div class='pick'>
+<a class='sort' href='#tag_A' onclick="return swap('tag_A');">A</a>
+<a class='sort' href='#tag_B' onclick="return swap('tag_B');">B</a>
+<a class='sort' href='#tag_C' onclick="return swap('tag_C');">C</a>
+<a class='sort' href='#tag_D' onclick="return swap('tag_D');">D</a>
+<a class='sort' href='#tag_E' onclick="return swap('tag_E');">E</a>
+<a class='sort' href='#tag_F' onclick="return swap('tag_F');">F</a>
+<a class='sort' href='#tag_G' onclick="return swap('tag_G');">G</a>
+<a class='sort' href='#tag_H' onclick="return swap('tag_H');">H</a>
+<a class='sort' href='#tag_I' onclick="return swap('tag_I');">I</a>
+<a class='sort' href='#tag_J' onclick="return swap('tag_J');">J</a>
+<a class='sort' href='#tag_K' onclick="return swap('tag_K');">K</a>
+<a class='sort' href='#tag_L' onclick="return swap('tag_L');">L</a>
+<a class='sort' href='#tag_M' onclick="return swap('tag_M');">M</a>
+<a class='sort' href='#tag_N' onclick="return swap('tag_N');">N</a>
+<a class='sort' href='#tag_O' onclick="return swap('tag_O');">O</a>
+<a class='sort' href='#tag_P' onclick="return swap('tag_P');">P</a>
+<a class='sort' href='#tag_Q' onclick="return swap('tag_Q');">Q</a>
+<a class='sort' href='#tag_R' onclick="return swap('tag_R');">R</a>
+<a class='sort' href='#tag_S' onclick="return swap('tag_S');">S</a>
+<a class='sort' href='#tag_T' onclick="return swap('tag_T');">T</a>
+<a class='sort' href='#tag_U' onclick="return swap('tag_U');">U</a>
+<a class='sort' href='#tag_V' onclick="return swap('tag_V');">V</a>
+<a class='sort' href='#tag_W' onclick="return swap('tag_W');">W</a>
+<a class='sort' href='#tag_X' onclick="return swap('tag_X');">X</a>
+<a class='sort' href='#tag_Y' onclick="return swap('tag_Y');">Y</a>
+<a class='sort' href='#tag_Z' onclick="return swap('tag_Z');">Z</a>
+</div>
+<div class='sort' id='tag_A'>
+<a href='/tag/AU_0.html'>AU</a>
+<a href='/tag/AG_0.html'>AG</a>
+<a href='/tag/AF_0.html'>AF</a>
+<a href='/tag/AR_0.html'>AR</a>
+<a href='/tag/AE_0.html'>AE</a>
+<a href='/tag/AM_0.html'>AM</a>
+<a href='/tag/ASEC_0.html'>ASEC</a>
+<a href='/tag/AORC_0.html'>AORC</a>
+<a href='/tag/AMGT_0.html'>AMGT</a>
+<a href='/tag/APER_0.html'>APER</a>
+<a href='/tag/AJ_0.html'>AJ</a>
+<a href='/tag/AL_0.html'>AL</a>
+<a href='/tag/AGMT_0.html'>AGMT</a>
+<a href='/tag/AEMR_0.html'>AEMR</a>
+</div>
+<div class='sort' id='tag_B'>
+<a href='/tag/BA_0.html'>BA</a>
+<a href='/tag/BR_0.html'>BR</a>
+<a href='/tag/BE_0.html'>BE</a>
+<a href='/tag/BRUSSELS_0.html'>BRUSSELS</a>
+<a href='/tag/BIDEN_0.html'>BIDEN</a>
+<a href='/tag/BH_0.html'>BH</a>
+<a href='/tag/BL_0.html'>BL</a>
+<a href='/tag/BTIO_0.html'>BTIO</a>
+<a href='/tag/BEXP_0.html'>BEXP</a>
+<a href='/tag/BU_0.html'>BU</a>
+<a href='/tag/BY_0.html'>BY</a>
+<a href='/tag/BO_0.html'>BO</a>
+</div>
+<div class='sort' id='tag_C'>
+<a href='/tag/CA_0.html'>CA</a>
+<a href='/tag/CVIS_0.html'>CVIS</a>
+<a href='/tag/CMGT_0.html'>CMGT</a>
+<a href='/tag/CH_0.html'>CH</a>
+<a href='/tag/CASC_0.html'>CASC</a>
+<a href='/tag/CJAN_0.html'>CJAN</a>
+<a href='/tag/CLINTON_0.html'>CLINTON</a>
+<a href='/tag/CU_0.html'>CU</a>
+<a href='/tag/CD_0.html'>CD</a>
+<a href='/tag/CV_0.html'>CV</a>
+<a href='/tag/CO_0.html'>CO</a>
+<a href='/tag/CI_0.html'>CI</a>
+<a href='/tag/CS_0.html'>CS</a>
+<a href='/tag/CE_0.html'>CE</a>
+<a href='/tag/CY_0.html'>CY</a>
+<a href='/tag/CM_0.html'>CM</a>
+<a href='/tag/CF_0.html'>CF</a>
+<a href='/tag/CIA_0.html'>CIA</a>
+</div>
+<div class='sort' id='tag_D'>
+<a href='/tag/DJ_0.html'>DJ</a>
+</div>
+<div class='sort' id='tag_E'>
+<a href='/tag/EFIN_0.html'>EFIN</a>
+<a href='/tag/EPET_0.html'>EPET</a>
+<a href='/tag/ECON_0.html'>ECON</a>
+<a href='/tag/ENRG_0.html'>ENRG</a>
+<a href='/tag/EAID_0.html'>EAID</a>
+<a href='/tag/EINV_0.html'>EINV</a>
+<a href='/tag/EAIR_0.html'>EAIR</a>
+<a href='/tag/EUN_0.html'>EUN</a>
+<a href='/tag/ELAB_0.html'>ELAB</a>
+<a href='/tag/EU_0.html'>EU</a>
+<a href='/tag/ETTC_0.html'>ETTC</a>
+<a href='/tag/EG_0.html'>EG</a>
+<a href='/tag/ETRD_0.html'>ETRD</a>
+<a href='/tag/ELTN_0.html'>ELTN</a>
+<a href='/tag/EREL_0.html'>EREL</a>
+<a href='/tag/EAGR_0.html'>EAGR</a>
+<a href='/tag/EFIS_0.html'>EFIS</a>
+<a href='/tag/EWWT_0.html'>EWWT</a>
+<a href='/tag/EI_0.html'>EI</a>
+<a href='/tag/EIND_0.html'>EIND</a>
+<a href='/tag/EMIN_0.html'>EMIN</a>
+<a href='/tag/EZ_0.html'>EZ</a>
+<a href='/tag/EXTERNAL_0.html'>EXTERNAL</a>
+<a href='/tag/ECIP_0.html'>ECIP</a>
+<a href='/tag/ECPS_0.html'>ECPS</a>
+<a href='/tag/ECUN_0.html'>ECUN</a>
+<a href='/tag/ENVR_0.html'>ENVR</a>
+</div>
+<div class='sort' id='tag_F'>
+<a href='/tag/FR_0.html'>FR</a>
+<a href='/tag/FJ_0.html'>FJ</a>
+<a href='/tag/FINR_0.html'>FINR</a>
+</div>
+<div class='sort' id='tag_G'>
+<a href='/tag/GG_0.html'>GG</a>
+<a href='/tag/GM_0.html'>GM</a>
+<a href='/tag/GA_0.html'>GA</a>
+<a href='/tag/GOI_0.html'>GOI</a>
+<a href='/tag/GE_0.html'>GE</a>
+<a href='/tag/GR_0.html'>GR</a>
+<a href='/tag/GTMO_0.html'>GTMO</a>
+</div>
+<div class='sort' id='tag_H'>
+<a href='/tag/HO_0.html'>HO</a>
+<a href='/tag/HA_0.html'>HA</a>
+<a href='/tag/HILLARY_0.html'>HILLARY</a>
+<a href='/tag/HURI_0.html'>HURI</a>
+</div>
+<div class='sort' id='tag_I'>
+<a href='/tag/IS_0.html'>IS</a>
+<a href='/tag/IZ_0.html'>IZ</a>
+<a href='/tag/IR_0.html'>IR</a>
+<a href='/tag/IN_0.html'>IN</a>
+<a href='/tag/IQ_0.html'>IQ</a>
+<a href='/tag/IT_0.html'>IT</a>
+<a href='/tag/ICAO_0.html'>ICAO</a>
+<a href='/tag/IO_0.html'>IO</a>
+<a href='/tag/INRB_0.html'>INRB</a>
+<a href='/tag/IAEA_0.html'>IAEA</a>
+<a href='/tag/IRAJ_0.html'>IRAJ</a>
+<a href='/tag/INTERPOL_0.html'>INTERPOL</a>
+<a href='/tag/IMO_0.html'>IMO</a>
+<a href='/tag/ID_0.html'>ID</a>
+</div>
+<div class='sort' id='tag_J'>
+<a href='/tag/JA_0.html'>JA</a>
+<a href='/tag/JO_0.html'>JO</a>
+<a href='/tag/JOSEPH_0.html'>JOSEPH</a>
+<a href='/tag/JAMES_0.html'>JAMES</a>
+</div>
+<div class='sort' id='tag_K'>
+<a href='/tag/KPAO_0.html'>KPAO</a>
+<a href='/tag/KCRM_0.html'>KCRM</a>
+<a href='/tag/KTFN_0.html'>KTFN</a>
+<a href='/tag/KNNP_0.html'>KNNP</a>
+<a href='/tag/KFRD_0.html'>KFRD</a>
+<a href='/tag/KCOR_0.html'>KCOR</a>
+<a href='/tag/KTIP_0.html'>KTIP</a>
+<a href='/tag/KISL_0.html'>KISL</a>
+<a href='/tag/KU_0.html'>KU</a>
+<a href='/tag/KIRF_0.html'>KIRF</a>
+<a href='/tag/KJUS_0.html'>KJUS</a>
+<a href='/tag/KHLS_0.html'>KHLS</a>
+<a href='/tag/KAWK_0.html'>KAWK</a>
+<a href='/tag/KN_0.html'>KN</a>
+<a href='/tag/KZ_0.html'>KZ</a>
+<a href='/tag/KUNR_0.html'>KUNR</a>
+<a href='/tag/KS_0.html'>KS</a>
+<a href='/tag/KDEM_0.html'>KDEM</a>
+<a href='/tag/KACT_0.html'>KACT</a>
+<a href='/tag/KPRP_0.html'>KPRP</a>
+<a href='/tag/KWBG_0.html'>KWBG</a>
+<a href='/tag/KSCA_0.html'>KSCA</a>
+<a href='/tag/KG_0.html'>KG</a>
+<a href='/tag/KPAL_0.html'>KPAL</a>
+<a href='/tag/KMDR_0.html'>KMDR</a>
+<a href='/tag/KGHG_0.html'>KGHG</a>
+<a href='/tag/KDRG_0.html'>KDRG</a>
+<a href='/tag/KSPR_0.html'>KSPR</a>
+<a href='/tag/KWMN_0.html'>KWMN</a>
+<a href='/tag/KOLY_0.html'>KOLY</a>
+<a href='/tag/KPKO_0.html'>KPKO</a>
+<a href='/tag/KSEC_0.html'>KSEC</a>
+<a href='/tag/KTIA_0.html'>KTIA</a>
+<a href='/tag/KHIV_0.html'>KHIV</a>
+<a href='/tag/KGCC_0.html'>KGCC</a>
+<a href='/tag/KCIP_0.html'>KCIP</a>
+<a href='/tag/KBIO_0.html'>KBIO</a>
+<a href='/tag/KR_0.html'>KR</a>
+</div>
+<div class='sort' id='tag_L'>
+<a href='/tag/LY_0.html'>LY</a>
+<a href='/tag/LE_0.html'>LE</a>
+<a href='/tag/LU_0.html'>LU</a>
+<a href='/tag/LG_0.html'>LG</a>
+</div>
+<div class='sort' id='tag_M'>
+<a href='/tag/MNUC_0.html'>MNUC</a>
+<a href='/tag/MO_0.html'>MO</a>
+<a href='/tag/MARR_0.html'>MARR</a>
+<a href='/tag/MOPS_0.html'>MOPS</a>
+<a href='/tag/MASS_0.html'>MASS</a>
+<a href='/tag/MX_0.html'>MX</a>
+<a href='/tag/MTCRE_0.html'>MTCRE</a>
+<a href='/tag/MY_0.html'>MY</a>
+<a href='/tag/MCAP_0.html'>MCAP</a>
+<a href='/tag/MU_0.html'>MU</a>
+<a href='/tag/MP_0.html'>MP</a>
+<a href='/tag/ML_0.html'>ML</a>
+<a href='/tag/MR_0.html'>MR</a>
+<a href='/tag/MG_0.html'>MG</a>
+<a href='/tag/MAR_0.html'>MAR</a>
+<a href='/tag/MASC_0.html'>MASC</a>
+<a href='/tag/MPOS_0.html'>MPOS</a>
+<a href='/tag/MD_0.html'>MD</a>
+<a href='/tag/MOPPS_0.html'>MOPPS</a>
+<a href='/tag/MK_0.html'>MK</a>
+</div>
+<div class='sort' id='tag_N'>
+<a href='/tag/NATO_0.html'>NATO</a>
+<a href='/tag/NG_0.html'>NG</a>
+<a href='/tag/NI_0.html'>NI</a>
+<a href='/tag/NZ_0.html'>NZ</a>
+</div>
+<div class='sort' id='tag_O'>
+<a href='/tag/OVIP_0.html'>OVIP</a>
+<a href='/tag/OTRA_0.html'>OTRA</a>
+<a href='/tag/OPRC_0.html'>OPRC</a>
+<a href='/tag/OSCE_0.html'>OSCE</a>
+<a href='/tag/OEXC_0.html'>OEXC</a>
+<a href='/tag/OIIP_0.html'>OIIP</a>
+<a href='/tag/OTR_0.html'>OTR</a>
+</div>
+<div class='sort' id='tag_P'>
+<a href='/tag/PGOV_0.html'>PGOV</a>
+<a href='/tag/PARM_0.html'>PARM</a>
+<a href='/tag/PREL_0.html'>PREL</a>
+<a href='/tag/PINR_0.html'>PINR</a>
+<a href='/tag/PTER_0.html'>PTER</a>
+<a href='/tag/PK_0.html'>PK</a>
+<a href='/tag/PINS_0.html'>PINS</a>
+<a href='/tag/PREF_0.html'>PREF</a>
+<a href='/tag/PHUM_0.html'>PHUM</a>
+<a href='/tag/PE_0.html'>PE</a>
+<a href='/tag/PBTS_0.html'>PBTS</a>
+<a href='/tag/PA_0.html'>PA</a>
+<a href='/tag/PINT_0.html'>PINT</a>
+<a href='/tag/PL_0.html'>PL</a>
+<a href='/tag/PEPR_0.html'>PEPR</a>
+<a href='/tag/PM_0.html'>PM</a>
+<a href='/tag/PAK_0.html'>PAK</a>
+<a href='/tag/POL_0.html'>POL</a>
+<a href='/tag/PO_0.html'>PO</a>
+<a href='/tag/POLITICAL_0.html'>POLITICAL</a>
+<a href='/tag/PARTIES_0.html'>PARTIES</a>
+<a href='/tag/PGOF_0.html'>PGOF</a>
+<a href='/tag/PROP_0.html'>PROP</a>
+<a href='/tag/PBIO_0.html'>PBIO</a>
+<a href='/tag/PHSA_0.html'>PHSA</a>
+<a href='/tag/PSI_0.html'>PSI</a>
+</div>
+<div class='sort' id='tag_Q'>
+<a href='/tag/QA_0.html'>QA</a>
+</div>
+<div class='sort' id='tag_R'>
+<a href='/tag/RS_0.html'>RS</a>
+<a href='/tag/RU_0.html'>RU</a>
+<a href='/tag/RO_0.html'>RO</a>
+<a href='/tag/RW_0.html'>RW</a>
+</div>
+<div class='sort' id='tag_S'>
+<a href='/tag/SNAR_0.html'>SNAR</a>
+<a href='/tag/SA_0.html'>SA</a>
+<a href='/tag/SP_0.html'>SP</a>
+<a href='/tag/SHUM_0.html'>SHUM</a>
+<a href='/tag/SENV_0.html'>SENV</a>
+<a href='/tag/SOCI_0.html'>SOCI</a>
+<a href='/tag/SY_0.html'>SY</a>
+<a href='/tag/SW_0.html'>SW</a>
+<a href='/tag/SF_0.html'>SF</a>
+<a href='/tag/SG_0.html'>SG</a>
+<a href='/tag/SMIG_0.html'>SMIG</a>
+<a href='/tag/SR_0.html'>SR</a>
+<a href='/tag/SCUL_0.html'>SCUL</a>
+<a href='/tag/SYR_0.html'>SYR</a>
+<a href='/tag/SO_0.html'>SO</a>
+<a href='/tag/SU_0.html'>SU</a>
+<a href='/tag/STEINBERG_0.html'>STEINBERG</a>
+<a href='/tag/SN_0.html'>SN</a>
+<a href='/tag/SM_0.html'>SM</a>
+</div>
+<div class='sort' id='tag_T'>
+<a href='/tag/TS_0.html'>TS</a>
+<a href='/tag/TU_0.html'>TU</a>
+<a href='/tag/TW_0.html'>TW</a>
+<a href='/tag/TD_0.html'>TD</a>
+<a href='/tag/TI_0.html'>TI</a>
+<a href='/tag/TX_0.html'>TX</a>
+<a href='/tag/TH_0.html'>TH</a>
+<a href='/tag/TRGY_0.html'>TRGY</a>
+<a href='/tag/TC_0.html'>TC</a>
+<a href='/tag/TFIN_0.html'>TFIN</a>
+</div>
+<div class='sort' id='tag_U'>
+<a href='/tag/UK_0.html'>UK</a>
+<a href='/tag/US_0.html'>US</a>
+<a href='/tag/UP_0.html'>UP</a>
+<a href='/tag/UNO_0.html'>UNO</a>
+<a href='/tag/UZ_0.html'>UZ</a>
+<a href='/tag/UNSC_0.html'>UNSC</a>
+<a href='/tag/UN_0.html'>UN</a>
+<a href='/tag/USEU_0.html'>USEU</a>
+<a href='/tag/UV_0.html'>UV</a>
+<a href='/tag/UNMIK_0.html'>UNMIK</a>
+<a href='/tag/UNESCO_0.html'>UNESCO</a>
+<a href='/tag/UNGA_0.html'>UNGA</a>
+<a href='/tag/UAE_0.html'>UAE</a>
+<a href='/tag/UE_0.html'>UE</a>
+</div>
+<div class='sort' id='tag_V'>
+<a href='/tag/VE_0.html'>VE</a>
+<a href='/tag/VZ_0.html'>VZ</a>
+</div>
+<div class='sort' id='tag_W'>
+<a href='/tag/WTO_0.html'>WTO</a>
+</div>
+<div class='sort' id='tag_X'>
+<a href='/tag/XA_0.html'>XA</a>
+<a href='/tag/XL_0.html'>XL</a>
+<a href='/tag/XF_0.html'>XF</a>
+<a href='/tag/XH_0.html'>XH</a>
+<a href='/tag/XG_0.html'>XG</a>
+</div>
+<div class='sort' id='tag_Y'>
+<a href='/tag/YM_0.html'>YM</a>
+<a href='/tag/YI_0.html'>YI</a>
+</div>
+<div class='sort' id='tag_Z'>
+<a href='/tag/ZK_0.html'>ZK</a>
+<a href='/tag/ZP_0.html'>ZP</a>
+<a href='/tag/ZR_0.html'>ZR</a>
+<a href='/tag/ZF_0.html'>ZF</a>
+<a href='/tag/ZI_0.html'>ZI</a>
+</div>
+<h3>Browse by classification</h3>
+<div class='sort'>
+<a href='/classification/1_0.html' title='unclassified'>CONFIDENTIAL</a>
+<a href='/classification/2_0.html' title='secret'>CONFIDENTIAL//NOFORN</a>
+<a href='/classification/3_0.html' title='confidential'>SECRET</a>
+<a href='/classification/4_0.html' title='secret//noforn'>SECRET//NOFORN</a>
+<a href='/classification/5_0.html' title='unclassified//fouo'>UNCLASSIFIED</a>
+<a href='/classification/6_0.html' title='confidential//noforn'>UNCLASSIFIED//FOR OFFICIAL USE ONLY</a>
+</div>
+</div>
+<h3>Community resources</h3>
+<div class='sort'>
+<a href='http://twitter.com/wikileaks'>Follow us on Twitter</a>
+<a href='http://en.reddit.com/domain/wikileaks.org'>Check our Reddit</a>
+<a href='http://twitter.com/home?status=Reading%20http%3A%2F%2Fcablegate.wikileaks.org%2Fcable%2F2007%2F01%2F07PARIS306.html%20%2307PARIS306'>Twitter this</a>
+<a href='http://digg.com/submit?url=http%3A%2F%2Fcablegate.wikileaks.org%2Fcable%2F2007%2F01%2F07PARIS306.html'>Digg this page</a>
+</div>
+<p>
+<i>
+courage is contagious
+</i>
+</p>
+</div>
+<div class='pane big'>
+<h3>Viewing cable 07PARIS306, ENGAGEMENT WITH MUSLIM COMMUNITIES - FRANCE</h3>
+<div>
+If you are new to these pages, please read an introduction on the <a href="#help_1" onclick="return sh(1);">structure of a cable</a> as well as how to <a href="#help_2" onclick="return sh(2);">discuss them</a> with others. See also the <a href="/static/html/faq.html">FAQs</a>
+<br />
+</div>
+<div id='help_1'>
+<br />
+<b>Understanding cables</b>
+<br />
+Every cable message consists of three parts:
+<ul>
+<li>The top box shows each cables unique reference number, when and by whom it originally was sent, and what its initial classification was.</li>
+<li>The middle box contains the header information that is associated with the cable. It includes information about the receiver(s) as well as a general subject.</li>
+<li>The bottom box presents the body of the cable. The opening can contain a more specific subject, references to other cables (<a href="#by_A" onclick="swap('by_A'); setTimeout('document.location.href=(document.location.href + \'#by_A\').replace(/\#.*$/,\'#by_A\')', 100); return false;">browse by origin</a> to find them) or additional comment. This is followed by the main contents of the cable: a summary, a collection of specific topics and a comment section.</li>
+</ul>
+To understand the justification used for the classification of each cable, please use this <a href="http://en.wikisource.org/wiki/Executive_Order_13526#Part_1">WikiSource</a> article as reference.
+</div>
+<div id='help_2'>
+<br />
+<b>Discussing cables</b>
+<br />
+If you find meaningful or important information in a cable, please link directly to its unique reference number. Linking to a specific paragraph in the body of a cable is also possible by copying the appropriate link (to be found at theparagraph symbol).
+Please mark messages for social networking services like Twitter with the hash tags <b>#cablegate</b> and a hash containing the reference ID e.g. <b>#07PARIS306</b>.
+</div>
+<div id='kus'>
+<a href='http://wikileaks.org/support.html' target='_blank'>KEEP US STRONG!</a>
+</div>
+<table class='cable'>
+<tr>
+<th>Reference ID</th>
+<th>Created</th>
+<th>Released</th>
+<th>Classification</th>
+<th>Origin</th>
+</tr>
+<tr>
+<td>
+<a href='/cable/2007/01/07PARIS306.html'>07PARIS306</a>
+</td>
+<td>
+<a href='/date/2007-01_0.html'>2007-01-25 17:05</a>
+</td>
+<td>
+<a href='/reldate/2010-12-01_0.html'>2010-12-01 12:12</a>
+</td>
+<td>
+<a href='/classification/6_0.html' title='confidential//noforn'>UNCLASSIFIED//FOR OFFICIAL USE ONLY</a>
+</td>
+<td>
+<a href='/origin/24_0.html'>Embassy Paris</a>
+</td>
+</tr>
+</table>
+<code><pre>VZCZCXYZ0000&#x000A;RR RUEHWEB&#x000A;&#x000A;DE RUEHFR #0306/01 0251730&#x000A;ZNR UUUUU ZZH&#x000A;R 251730Z JAN 07&#x000A;FM AMEMBASSY PARIS&#x000A;TO SECSTATE WASHDC 4447</pre></code>
+<code><pre>UNCLAS PARIS 000306 &#x000A;&#x000A;SIPDIS &#x000A;&#x000A;SENSITIVE &#x000A;SIPDIS &#x000A;&#x000A;For EUR/PGI (Weinstein), EUR/PPD (Davis) &#x000A;&#x000A;E.O. 12958: N/A &#x000A;TAGS: <a href='/tag/OPRC_0.html'>OPRC</a> <a href='/tag/PREL_0.html'>PREL</a> <a href='/tag/PHUM_0.html'>PHUM</a> <a href='/tag/KPAO_0.html'>KPAO</a> <a href='/tag/KISL_0.html'>KISL</a> <a href='/tag/FR_0.html'>FR</a> <a href='/tag/XG_0.html'>XG</a>&#x000A;&#x000A;SUBJECT: ENGAGEMENT WITH MUSLIM COMMUNITIES - FRANCE &#x000A;&#x000A;REF: 06 STATE 185834 &#x000A;&#x000A;Sensitive but unclassified - entire text. Please protect &#x000A;accordingly. &#x000A;&#x000A;<a id='par1' href='#par1'>¶</a>1. Summary: The Ambassador and all of Mission France support a &#x000A;sustained and focused effort to engage France's Muslim minorities, &#x000A;recognizing that organizing and executing such an effort will &#x000A;continue to require considerable discretion, sensitivity and tact on &#x000A;our part. Although there is some evidence that France's Muslim &#x000A;minorities are better integrated than their counterparts elsewhere &#x000A;in Europe, the French have a well-known problem with discrimination &#x000A;against minorities. French media has fallen short in their &#x000A;reporting on these issues and French government and private &#x000A;institutions also found it difficult to face up squarely to the &#x000A;challenges involved. We can engage the French both privately and &#x000A;via the media on the issue of minority inclusion, but superior &#x000A;French language skills are crucial to make effective use of the &#x000A;French broadcast media. &#x000A;&#x000A;<a id='par2' href='#par2'>¶</a>2. Our specific goals for this strategy: a) demonstration of our &#x000A;commitment to these issues, b) sharing of our American experiences &#x000A;in managing diversity, and c) encouraging social reforms within &#x000A;France to improve the lot of its minorities. &#x000A;&#x000A;<a id='par3' href='#par3'>¶</a>3. Post will continue to grow its established minority outreach &#x000A;effort, identifying Arab-Muslim outreach projects as such in &#x000A;expanded program reporting. Effectiveness will be measured in terms &#x000A;of audience and participant totals, improved French media treatment &#x000A;of minority issues, a measurably improved perception of the U.S. &#x000A;among target audiences, and the initiation of new policies and &#x000A;programs by both the French government and French non-governmental &#x000A;organizations to improve the lot of French Arabs and Muslims. &#x000A;&#x000A;<a id='par4' href='#par4'>¶</a>4. Contact information for post's designated minority engagement &#x000A;officers - PDOff Colombia Barrosse and PolOff William Stephen Wells &#x000A;- is in the last paragraph. End summary. &#x000A;&#x000A;------------- &#x000A;The Challenge &#x000A;------------- &#x000A;&#x000A;<a id='par5' href='#par5'>¶</a>5. Reftel tasked post to produce a '07 - '08 public outreach &#x000A;strategy for engaging France's Muslim minorities, to counter &#x000A;terrorist recruiting among them, and to foster their greater &#x000A;integration into mainstream French society. We regret the late &#x000A;response to this tasking. &#x000A;&#x000A;<a id='par6' href='#par6'>¶</a>6. Embassy Paris and its seven field posts began to reach out &#x000A;systematically to France's Arab and Muslim populations several years &#x000A;ago, in 2003, targeting neighborhoods and institutions known to have &#x000A;large immigrant populations (first, second and third generation.) &#x000A;Since that time post established a broad base of political reporting &#x000A;on French Muslim issues, and the post's Public Affairs Section &#x000A;increasingly focused its program assets (speakers, DVCs, exhibits, &#x000A;exchanges and grants) on minority communities, under the more &#x000A;acceptable rubric of "civil society" outreach. &#x000A;&#x000A;<a id='par7' href='#par7'>¶</a>7. Organizing and executing this outreach required sensitivity and &#x000A;discretion due to France's particular philosophical outlook and &#x000A;history. It has the largest Muslim minority population in Western &#x000A;Europe, both as an absolute number and as a percentage of the &#x000A;national population. France's five million plus Muslims are largely &#x000A;North African (Algerian, Moroccan and Tunisian) in origin, although &#x000A;they remain diverse and resistant to blanket categorization. The &#x000A;French Government's approach to religion and minorities &#x000A;traditionally has been to promote assimilation under the banner of &#x000A;equality, however imperfectly that goal has been achieved, with a &#x000A;strong emphasis on "laicite" (secularism) in public spaces. This &#x000A;policy demands official blindness to all racial and ethnic &#x000A;differences. French law formally prohibits the collection of &#x000A;statistics on the basis of race, religion, or ethnic background; and &#x000A;only approximate figures are available to us regarding France's &#x000A;minorities, including Muslims. &#x000A;&#x000A;<a id='par8' href='#par8'>¶</a>8. Concepts such as "affirmative action," "diversity," &#x000A;"multiculturalism," or compound descriptions of identity (e.g. &#x000A;Arab-American) are relatively new and somewhat controversial in &#x000A;France, where the approach has been more to target specific &#x000A;geographic enclaves, e.g. educational programs for neighborhoods &#x000A;with a high percentage of socio-economically disadvantaged (often &#x000A;Arab and Muslim) youth. &#x000A;&#x000A;<a id='par9' href='#par9'>¶</a>9. Young French citizens across the religious spectrum tend not to &#x000A;be practicing/devout, but disadvantaged minority youth remain an &#x000A;obvious target for extremist recruiting. As a result of recent &#x000A;events (including the November 2005 unrest in the suburbs), &#x000A;diversity and integration are discussed more openly - at &#x000A;conferences, as well as on talk shows and campuses. Nevertheless, it &#x000A;remains generally indelicate in France to ask a person's religious &#x000A;affiliation. Challenging the government's approach to assimilation &#x000A;can amount to challenging the basis of French identity within the &#x000A;Republic. &#x000A;&#x000A;<a id='par10' href='#par10'>¶</a>10. The organization and execution of any official USG Muslim &#x000A;outreach strategy in such an environment - whatever the strong &#x000A;justification in our eyes - will continue to require considerable &#x000A;and continuing discretion, sensitivity and tact. &#x000A;&#x000A;----------------- &#x000A;Media Environment &#x000A;----------------- &#x000A;&#x000A;<a id='par11' href='#par11'>¶</a>11. As in other European countries, French media reporting of U.S. &#x000A;policies and intentions is often skeptical. Reporting by the &#x000A;mainstream media on Arab Muslims and their issues, however, is &#x000A;typically not so much negative as negligent, falling short both in &#x000A;its coverage of discrimination towards them and of juvenile &#x000A;delinquency among them. &#x000A;&#x000A;<a id='par12' href='#par12'>¶</a>12. Official Americans and pro-USG surrogates have ready access to &#x000A;most French media to convey official policy messages, but using that &#x000A;access effectively presents a special challenge. Superior French &#x000A;language and presentation skills are especially important for making &#x000A;effective use of French broadcast media. Communicating to the &#x000A;French about the treatment of their minorities, a topic they &#x000A;themselves are often reticent to explore in depth, is more difficult &#x000A;for us than, say, describing our own, American experience. Any &#x000A;ill-prepared efforts to reach out to France's Muslim audiences could &#x000A;easily become counter-productive. We therefore must continue to &#x000A;proceed with care. &#x000A;&#x000A;<a id='par13' href='#par13'>¶</a>13. Our primary media focus needs to be on TV and radio, but print - &#x000A;and the new media - should not be ignored. &#x000A;&#x000A;<a id='par14' href='#par14'>¶</a>14. Fewer or less than one French adult in four reads a national &#x000A;newspaper regularly. Regional papers are still important, however, &#x000A;with Ouest France (Rennes) being the largest daily. The French are &#x000A;more avid magazine readers, buying over three billion copies a year. &#x000A;&#x000A;<a id='par15' href='#par15'>¶</a>15. French broadcasting is partly state-owned and partly in the &#x000A;hands of private enterprise. Most French TV viewers still, &#x000A;reportedly, prefer the six major broadcast channels, but the number &#x000A;of channels offered by various cable and satellite operators &#x000A;continues to grow, with the newest being France 24, a CNN-like &#x000A;24-hour news-station. Average French TV viewership is over five and &#x000A;one-half hours per day. &#x000A;<a id='par16' href='#par16'>¶</a>16. Radio, especially FM, remains an important medium in France: &#x000A;over 99 per cent of French households own at least one radio and &#x000A;almost 5 in 6 over the age of 13 year listen to the radio daily. As &#x000A;with TV, French radio is part state-owned and part private. &#x000A;<a id='par17' href='#par17'>¶</a>17. Top French journalists are often products of the same elite &#x000A;schools as many French government leaders. These journalists do not &#x000A;necessarily regard their primary role as to check the power of &#x000A;government. Rather, many see themselves more as intellectuals, &#x000A;preferring to analyze events and influence readers more than to &#x000A;report events. &#x000A;<a id='par18' href='#par18'>¶</a>18. The private sector media in France - print and broadcast - &#x000A;continues to be dominated by a small number of conglomerates, and &#x000A;all French media are more regulated and subjected to political and &#x000A;commercial pressures than are their American counterparts. The &#x000A;Higher Audio-Visual Council, created in 1989, appoints the CEOs of &#x000A;all French public broadcasting channels and monitors their political &#x000A;content. &#x000A;<a id='par19' href='#par19'>¶</a>19. Internet access is growing steadily in France, especially among &#x000A;the younger generation, rapidly replacing traditional media. All &#x000A;important television and radio channels in France have their own &#x000A;websites, as do the major print media. Blogs are an increasingly &#x000A;popular method of communication for minorities and NGOs, who use &#x000A;them to express opinions they do not feel are reflected in the &#x000A;traditional media. &#x000A;<a id='par20' href='#par20'>¶</a>20. France's first generation Arab immigrants typically continue to &#x000A;read publications from their countries of origin, and the major &#x000A;Algerian, Moroccan and Tunisian papers are widely available in &#x000A;larger French cities. These individuals also watch satellite and &#x000A;cable TV stations in Arabic, including Al-Jazeerah TV. Second and &#x000A;third generation French Arabs, however, are typically not literate &#x000A;in Arab, and their print media habits are similar to those of other &#x000A;French readers. &#x000A;-------------- &#x000A;Specific Goals &#x000A;-------------- &#x000A;&#x000A;<a id='par21' href='#par21'>¶</a>21. DEMONSTRATE OUR COMMITMENT. We need to say and show, repeatedly, &#x000A;to Muslim and non-Muslim audiences alike, the USG is engaged for &#x000A;good in the Arab-Muslim world, we respect Islam, and the USG takes &#x000A;seriously the potentially global threat of disenfranchised and &#x000A;disadvantaged minorities in France. For those reasons, and because &#x000A;we believe in participatory democracy, we promote the advancement &#x000A;and full integration of France's minorities into mainstream &#x000A;society. &#x000A;&#x000A;<a id='par22' href='#par22'>¶</a>22. SHARE OUR EXPERIENCES. We also must continue to communicate, &#x000A;well and often, to both Muslim and non-Muslim audiences in France, &#x000A;the American experience with ethnic and social conflict - both our &#x000A;successes and our failures - in order to establish our legitimacy &#x000A;for engagement on this issue. We can strengthen the sense of shared &#x000A;values and common cause between Americans and French working for &#x000A;inter-communal cooperation, peace, stability, opportunity and &#x000A;respect. In addition, we need to remain present, listening and &#x000A;showing respect for French (immigrant and non-immigrant) &#x000A;experiences. &#x000A;&#x000A;<a id='par23' href='#par23'>¶</a>23. Most French minorities, including Arabs, are somewhat aware of &#x000A;the U.S. experience and positively inclined towards us, seeing us as &#x000A;having tried to address our shortcomings. What many French lack is &#x000A;specific information about or any in-depth understanding of our &#x000A;experience that might help them to conceive of and implement a &#x000A;workable French model for addressing ethnic conflict. The French &#x000A;establishment, for the most part, has been reticent to face up to &#x000A;these problems or their root causes, reluctant to accept the U.S. as &#x000A;a model - or as a partner. The Ministry of Education, however, has &#x000A;shown its willingness to engage with us in this area. &#x000A;&#x000A;<a id='par24' href='#par24'>¶</a>24. ENCOURAGE REFORM. We must continue to encourage and help to &#x000A;empower moderate social reformers in France to preempt and thwart &#x000A;those who would aggravate social discontent for the purposes of &#x000A;extremist recruiting. &#x000A;&#x000A;--------------------------------------------- -- &#x000A;Humanitarian/Development Issues to be addressed &#x000A;--------------------------------------------- -- &#x000A;&#x000A;<a id='par25' href='#par25'>¶</a>25. Although France has a highly developed, modern economy with &#x000A;significant resources at its disposal, much of the discontent &#x000A;reported by French minority communities relates to economic and &#x000A;social exclusion. While direct development assistance from the USG &#x000A;is not likely to be available for France, some USG financial and &#x000A;program resources were and will continue to be deployed to address &#x000A;the consequences of discrimination and minority exclusion in France. &#x000A;Some French NGOs working to assist minority youth, for example, &#x000A;received financial and other support - such as invitations to &#x000A;participate in exchange programs - through the Embassy to pursue &#x000A;specific programs. &#x000A;&#x000A;------------------------ &#x000A;Target Audiences by Goal &#x000A;------------------------ &#x000A;&#x000A;<a id='par26' href='#par26'>¶</a>26. DEMONSTRATE COMMITMENT. We need to show the USG takes seriously &#x000A;the threat of disenfranchised and disadvantaged minorities around &#x000A;the world, including in France, and we are committed to empowering &#x000A;minorities as part of our fundamental belief in participatory &#x000A;democracy. &#x000A;&#x000A;<a id='par27' href='#par27'>¶</a>27. Our target audiences for this goal include both Muslims and &#x000A;non-Muslims: at-risk youth, professionals who serve them, NGO &#x000A;leaders, and the media, both national and regional. We will &#x000A;continue to engage resident Muslim country diplomats to improve &#x000A;their understanding of the U.S. We also must continue to educate &#x000A;ourselves systematically on Islam through such efforts as our &#x000A;in-house speaker program, which recently invited a prominent French &#x000A;scholar on Islam to address a lunchtime roundtable for Embassy &#x000A;staffers. &#x000A;&#x000A;<a id='par28' href='#par28'>¶</a>28. While much of the existing effort already ties into our current &#x000A;Embassy public diplomacy strategy, increased funding for exchanges, &#x000A;speakers and grants would be most welcome. So would more help from &#x000A;Washington with recruiting minority speakers (Francophones) and &#x000A;further access to short-term exchanges, such as ECA's summer &#x000A;institutes, to target minority educators. &#x000A;&#x000A;<a id='par29' href='#par29'>¶</a>29. SHARE EXPERIENCES. We must continue communication in a broad &#x000A;and frequent manner to audiences in France about our own American &#x000A;experience with ethnic and social conflict. We need to demonstrate &#x000A;our legitimate standing on this issue in order to strengthen the &#x000A;sense of shared values and common cause between Americans and the &#x000A;French. &#x000A;&#x000A;<a id='par30' href='#par30'>¶</a>30. Our target audience for this goal, again, is Muslim and &#x000A;non-Muslim, but especially the media, NGOs, educators, and French &#x000A;youth (students and professionals.) All need to engage - themselves &#x000A;and each other - to resolve the minority problems facing France. &#x000A;&#x000A;<a id='par31' href='#par31'>¶</a>31. As with the earlier goal, a considerable effort is already &#x000A;underway, tied to our existing public diplomacy strategy, but &#x000A;increased funding for exchanges, speakers and grants would enable us &#x000A;to reinforce our current efforts. &#x000A;&#x000A;<a id='par32' href='#par32'>¶</a>32. ENCOURAGE REFORM. We need to encourage moderate social &#x000A;reformers in France and thwart those who would aggravate social &#x000A;discontent for the purposes of extremist recruiting. &#x000A;&#x000A;<a id='par33' href='#par33'>¶</a>33. Our target audience for this goal should be both social reform &#x000A;elements and the individual young Muslims most likely to be targeted &#x000A;by extremist recruiters. The reformers need to be encouraged and &#x000A;resourced. The minority youth need to believe that they have a &#x000A;bright future in their adopted country and that they have nothing to &#x000A;gain and much to lose by association with extremist violence. &#x000A;Specific programs we could deploy to address these audiences include &#x000A;our existing media and Information Resource Center outreach efforts, &#x000A;increased targeting of our exchange programs to those engaged on &#x000A;minority issues, and expanded personal outreach by the entire &#x000A;Mission staff via our in-house public speaker program. A concerted &#x000A;effort will also be made to increase invitations to Muslims and &#x000A;other minorities for Mission representational events, not only in &#x000A;Paris but also in our field posts across France. &#x000A;Again, increased funding for exchanges, speakers and grants would &#x000A;enable us to reinforce our current efforts. &#x000A;&#x000A;----------------------- &#x000A;Measuring Effectiveness &#x000A;----------------------- &#x000A;&#x000A;<a id='par34' href='#par34'>¶</a>34. We will now identify our minority outreach efforts more clearly &#x000A;as such in our routine program reporting, tying into the new PD &#x000A;evaluation project led by ECA's PD Evaluation Office. We will &#x000A;measure our effectiveness in terms of audience and participant &#x000A;totals, improved French media treatment of minority issues, improved &#x000A;perceptions of the U.S. among minority audiences, and the initiation &#x000A;of new policies and programs by the French government and/or French &#x000A;non-governmental organizations to improve the lot of French Arabs &#x000A;and Muslims. &#x000A;&#x000A;---------------- &#x000A;Embassy Contacts &#x000A;---------------- &#x000A;&#x000A;<a id='par35' href='#par35'>¶</a>35. Minority engagement officers for Embassy Paris are PDOff &#x000A;Colombia Barrosse (BarrosseCX@state.gov, x 4541), who coordinates &#x000A;our programmatic outreach and PolOff William S. (Steve) Wells &#x000A;(WellsWS@state.gov, x 4284), who tracks minority issues for &#x000A;reporting. &#x000A;STAPLETON</pre></code>
+</div>
+</div>
+<script src='/static/js/js.js' type='text/javascript'></script>
+</body>
+</html>

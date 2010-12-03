@@ -1,0 +1,723 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+<title>Cable Viewer</title>
+<link href='/static/gfx/favicon.ico' rel='shortcut icon' />
+<link href='/static/css/reset-fonts-grids.css' rel='stylesheet' type='text/css' />
+<link href='/static/css/cables.css' rel='stylesheet' type='text/css' />
+</head>
+<body>
+<div class='main'>
+<div class='pane small'>
+<a href='/index.html'>
+<img alt='WikiLeaks logo' src='/static/gfx/WL_Hour_Glass_small.png' />
+<p>Currently released so far... 597 / 251,287</p>
+</a>
+<div id='browse'>
+<h3>Articles</h3>
+<div class='sort'>
+<a href="/articles/2010/De-olho-nas-Olimpiadas-US-faz.html">Brazil</a>
+<a href="/articles/2010/Sri-Lankan-President-s-alleged-war.html">Sri Lanka</a>
+<a href="/articles/2010/Iraq-Inquiry-told-to-protect-US.html">United Kingdom</a>
+<a href="/articles/2010/USA-bekraftar-svensk-Natokoppling.html">Sweden</a>
+</div>
+<h3>Browse latest releases</h3>
+<div class='sort'>
+<a href='/reldate/2010-12-02_0.html'>2010/12/02</a>
+<a href='/reldate/2010-12-01_0.html'>2010/12/01</a>
+<a href='/reldate/2010-11-30_0.html'>2010/11/30</a>
+<a href='/reldate/2010-11-29_0.html'>2010/11/29</a>
+<a href='/reldate/2010-11-28_0.html'>2010/11/28</a>
+</div>
+<h3>Browse by creation <a href='#year_1966' onclick='return sha(0);'>date</a></h3>
+<div class='pick'>
+<a class='sort' href='#year_1966' onclick="return swap('year_1966');">66</a>
+<a class='sort' href='#year_1972' onclick="return swap('year_1972');">72</a>
+<a class='sort' href='#year_1975' onclick="return swap('year_1975');">75</a>
+<a class='sort' href='#year_1979' onclick="return swap('year_1979');">79</a>
+<a class='sort' href='#year_1986' onclick="return swap('year_1986');">86</a>
+<a class='sort' href='#year_1989' onclick="return swap('year_1989');">89</a>
+<a class='sort' href='#year_1990' onclick="return swap('year_1990');">90</a>
+<a class='sort' href='#year_2003' onclick="return swap('year_2003');">03</a>
+<a class='sort' href='#year_2004' onclick="return swap('year_2004');">04</a>
+<a class='sort' href='#year_2005' onclick="return swap('year_2005');">05</a>
+<a class='sort' href='#year_2006' onclick="return swap('year_2006');">06</a>
+<a class='sort' href='#year_2007' onclick="return swap('year_2007');">07</a>
+<a class='sort' href='#year_2008' onclick="return swap('year_2008');">08</a>
+<a class='sort' href='#year_2009' onclick="return swap('year_2009');">09</a>
+<a class='sort' href='#year_2010' onclick="return swap('year_2010');">10</a>
+</div>
+<div class='sort' id='year_1966'>
+<a href='/date/1966-12_0.html'>1966/12</a>
+</div>
+<div class='sort' id='year_1972'>
+<a href='/date/1972-02_0.html'>1972/02</a>
+<a href='/date/1972-08_0.html'>1972/08</a>
+</div>
+<div class='sort' id='year_1975'>
+<a href='/date/1975-03_0.html'>1975/03</a>
+</div>
+<div class='sort' id='year_1979'>
+<a href='/date/1979-08_0.html'>1979/08</a>
+</div>
+<div class='sort' id='year_1986'>
+<a href='/date/1986-05_0.html'>1986/05</a>
+</div>
+<div class='sort' id='year_1989'>
+<a href='/date/1989-12_0.html'>1989/12</a>
+</div>
+<div class='sort' id='year_1990'>
+<a href='/date/1990-01_0.html'>1990/01</a>
+</div>
+<div class='sort' id='year_2003'>
+<a href='/date/2003-06_0.html'>2003/06</a>
+</div>
+<div class='sort' id='year_2004'>
+<a href='/date/2004-01_0.html'>2004/01</a>
+<a href='/date/2004-02_0.html'>2004/02</a>
+<a href='/date/2004-04_0.html'>2004/04</a>
+<a href='/date/2004-11_0.html'>2004/11</a>
+<a href='/date/2004-12_0.html'>2004/12</a>
+</div>
+<div class='sort' id='year_2005'>
+<a href='/date/2005-01_0.html'>2005/01</a>
+<a href='/date/2005-03_0.html'>2005/03</a>
+<a href='/date/2005-04_0.html'>2005/04</a>
+<a href='/date/2005-05_0.html'>2005/05</a>
+<a href='/date/2005-06_0.html'>2005/06</a>
+<a href='/date/2005-07_0.html'>2005/07</a>
+<a href='/date/2005-08_0.html'>2005/08</a>
+<a href='/date/2005-10_0.html'>2005/10</a>
+<a href='/date/2005-11_0.html'>2005/11</a>
+<a href='/date/2005-12_0.html'>2005/12</a>
+</div>
+<div class='sort' id='year_2006'>
+<a href='/date/2006-01_0.html'>2006/01</a>
+<a href='/date/2006-02_0.html'>2006/02</a>
+<a href='/date/2006-03_0.html'>2006/03</a>
+<a href='/date/2006-04_0.html'>2006/04</a>
+<a href='/date/2006-05_0.html'>2006/05</a>
+<a href='/date/2006-06_0.html'>2006/06</a>
+<a href='/date/2006-07_0.html'>2006/07</a>
+<a href='/date/2006-08_0.html'>2006/08</a>
+<a href='/date/2006-09_0.html'>2006/09</a>
+<a href='/date/2006-10_0.html'>2006/10</a>
+<a href='/date/2006-11_0.html'>2006/11</a>
+<a href='/date/2006-12_0.html'>2006/12</a>
+</div>
+<div class='sort' id='year_2007'>
+<a href='/date/2007-01_0.html'>2007/01</a>
+<a href='/date/2007-02_0.html'>2007/02</a>
+<a href='/date/2007-03_0.html'>2007/03</a>
+<a href='/date/2007-04_0.html'>2007/04</a>
+<a href='/date/2007-05_0.html'>2007/05</a>
+<a href='/date/2007-06_0.html'>2007/06</a>
+<a href='/date/2007-07_0.html'>2007/07</a>
+<a href='/date/2007-08_0.html'>2007/08</a>
+<a href='/date/2007-09_0.html'>2007/09</a>
+<a href='/date/2007-10_0.html'>2007/10</a>
+<a href='/date/2007-11_0.html'>2007/11</a>
+<a href='/date/2007-12_0.html'>2007/12</a>
+</div>
+<div class='sort' id='year_2008'>
+<a href='/date/2008-01_0.html'>2008/01</a>
+<a href='/date/2008-02_0.html'>2008/02</a>
+<a href='/date/2008-03_0.html'>2008/03</a>
+<a href='/date/2008-04_0.html'>2008/04</a>
+<a href='/date/2008-05_0.html'>2008/05</a>
+<a href='/date/2008-07_0.html'>2008/07</a>
+<a href='/date/2008-08_0.html'>2008/08</a>
+<a href='/date/2008-09_0.html'>2008/09</a>
+<a href='/date/2008-10_0.html'>2008/10</a>
+<a href='/date/2008-11_0.html'>2008/11</a>
+<a href='/date/2008-12_0.html'>2008/12</a>
+</div>
+<div class='sort' id='year_2009'>
+<a href='/date/2009-01_0.html'>2009/01</a>
+<a href='/date/2009-02_0.html'>2009/02</a>
+<a href='/date/2009-03_0.html'>2009/03</a>
+<a href='/date/2009-04_0.html'>2009/04</a>
+<a href='/date/2009-05_0.html'>2009/05</a>
+<a href='/date/2009-06_0.html'>2009/06</a>
+<a href='/date/2009-07_0.html'>2009/07</a>
+<a href='/date/2009-08_0.html'>2009/08</a>
+<a href='/date/2009-09_0.html'>2009/09</a>
+<a href='/date/2009-10_0.html'>2009/10</a>
+<a href='/date/2009-11_0.html'>2009/11</a>
+<a href='/date/2009-12_0.html'>2009/12</a>
+</div>
+<div class='sort' id='year_2010'>
+<a href='/date/2010-01_0.html'>2010/01</a>
+<a href='/date/2010-02_0.html'>2010/02</a>
+</div>
+<h3>Browse by <a href='#by_A' onclick='return sha(1);'>origin</a></h3>
+<div class='pick'>
+<a class='sort' href='#by_A' onclick="return swap('by_A');">A</a>
+<a class='sort' href='#by_B' onclick="return swap('by_B');">B</a>
+<a class='sort' href='#by_C' onclick="return swap('by_C');">C</a>
+<a class='sort' href='#by_D' onclick="return swap('by_D');">D</a>
+<a class='sort' href='#by_H' onclick="return swap('by_H');">H</a>
+<a class='sort' href='#by_I' onclick="return swap('by_I');">I</a>
+<a class='sort' href='#by_J' onclick="return swap('by_J');">J</a>
+<a class='sort' href='#by_K' onclick="return swap('by_K');">K</a>
+<a class='sort' href='#by_L' onclick="return swap('by_L');">L</a>
+<a class='sort' href='#by_M' onclick="return swap('by_M');">M</a>
+<a class='sort' href='#by_N' onclick="return swap('by_N');">N</a>
+<a class='sort' href='#by_O' onclick="return swap('by_O');">O</a>
+<a class='sort' href='#by_P' onclick="return swap('by_P');">P</a>
+<a class='sort' href='#by_R' onclick="return swap('by_R');">R</a>
+<a class='sort' href='#by_S' onclick="return swap('by_S');">S</a>
+<a class='sort' href='#by_T' onclick="return swap('by_T');">T</a>
+<a class='sort' href='#by_U' onclick="return swap('by_U');">U</a>
+<a class='sort' href='#by_V' onclick="return swap('by_V');">V</a>
+</div>
+<div class='sort' id='by_A'>
+<a href='/origin/65_0.html'>Embassy Asuncion</a>
+<a href='/origin/66_0.html'>Embassy Astana</a>
+<a href='/origin/67_0.html'>Embassy Ashgabat</a>
+<a href='/origin/68_0.html'>Embassy Ankara</a>
+<a href='/origin/69_0.html'>Embassy Amman</a>
+<a href='/origin/70_0.html'>Embassy Algiers</a>
+<a href='/origin/71_0.html'>Embassy Abu Dhabi</a>
+</div>
+<div class='sort' id='by_B'>
+<a href='/origin/53_0.html'>Embassy Buenos Aires</a>
+<a href='/origin/54_0.html'>Embassy Bucharest</a>
+<a href='/origin/55_0.html'>Embassy Brussels</a>
+<a href='/origin/56_0.html'>Embassy Bridgetown</a>
+<a href='/origin/57_0.html'>Embassy Brasilia</a>
+<a href='/origin/58_0.html'>Embassy Bishkek</a>
+<a href='/origin/59_0.html'>Embassy Berlin</a>
+<a href='/origin/60_0.html'>Embassy Beirut</a>
+<a href='/origin/61_0.html'>Embassy Beijing</a>
+<a href='/origin/62_0.html'>Embassy Bangkok</a>
+<a href='/origin/63_0.html'>Embassy Baku</a>
+<a href='/origin/64_0.html'>Embassy Baghdad</a>
+</div>
+<div class='sort' id='by_C'>
+<a href='/origin/49_0.html'>Embassy Colombo</a>
+<a href='/origin/50_0.html'>Embassy Chisinau</a>
+<a href='/origin/51_0.html'>Embassy Caracas</a>
+<a href='/origin/52_0.html'>Embassy Cairo</a>
+<a href='/origin/82_0.html'>Consulate Cape Town</a>
+</div>
+<div class='sort' id='by_D'>
+<a href='/origin/44_0.html'>Embassy Dushanbe</a>
+<a href='/origin/45_0.html'>Embassy Dublin</a>
+<a href='/origin/46_0.html'>Embassy Doha</a>
+<a href='/origin/47_0.html'>Embassy Djibouti</a>
+<a href='/origin/48_0.html'>Embassy Damascus</a>
+<a href='/origin/81_0.html'>Consulate Dubai</a>
+</div>
+<div class='sort' id='by_H'>
+<a href='/origin/43_0.html'>Embassy Harare</a>
+<a href='/origin/80_0.html'>Consulate Hamburg</a>
+</div>
+<div class='sort' id='by_I'>
+<a href='/origin/5_0.html'>Iran RPO Dubai</a>
+<a href='/origin/42_0.html'>Embassy Islamabad</a>
+<a href='/origin/79_0.html'>Consulate Istanbul</a>
+</div>
+<div class='sort' id='by_J'>
+<a href='/origin/78_0.html'>Consulate Jeddah</a>
+</div>
+<div class='sort' id='by_K'>
+<a href='/origin/38_0.html'>Embassy Kyiv</a>
+<a href='/origin/39_0.html'>Embassy Kuwait</a>
+<a href='/origin/40_0.html'>Embassy Kuala Lumpur</a>
+<a href='/origin/41_0.html'>Embassy Kabul</a>
+</div>
+<div class='sort' id='by_L'>
+<a href='/origin/33_0.html'>Embassy Luxembourg</a>
+<a href='/origin/34_0.html'>Embassy London</a>
+<a href='/origin/35_0.html'>Embassy Lisbon</a>
+<a href='/origin/36_0.html'>Embassy Lima</a>
+<a href='/origin/37_0.html'>Embassy La Paz</a>
+</div>
+<div class='sort' id='by_M'>
+<a href='/origin/4_0.html'>Mission USNATO</a>
+<a href='/origin/28_0.html'>Embassy Muscat</a>
+<a href='/origin/29_0.html'>Embassy Moscow</a>
+<a href='/origin/30_0.html'>Embassy Mexico</a>
+<a href='/origin/31_0.html'>Embassy Manama</a>
+<a href='/origin/32_0.html'>Embassy Madrid</a>
+<a href='/origin/77_0.html'>Consulate Munich</a>
+</div>
+<div class='sort' id='by_N'>
+<a href='/origin/27_0.html'>Embassy New Delhi</a>
+</div>
+<div class='sort' id='by_O'>
+<a href='/origin/26_0.html'>Embassy Ottawa</a>
+</div>
+<div class='sort' id='by_P'>
+<a href='/origin/22_0.html'>Embassy Prague</a>
+<a href='/origin/23_0.html'>Embassy Port Au Prince</a>
+<a href='/origin/24_0.html'>Embassy Paris</a>
+<a href='/origin/25_0.html'>Embassy Panama</a>
+<a href='/origin/76_0.html'>Consulate Peshawar</a>
+</div>
+<div class='sort' id='by_R'>
+<a href='/origin/19_0.html'>Embassy Rome</a>
+<a href='/origin/20_0.html'>Embassy Riyadh</a>
+<a href='/origin/21_0.html'>Embassy Rabat</a>
+</div>
+<div class='sort' id='by_S'>
+<a href='/origin/3_0.html'>Secretary of State</a>
+<a href='/origin/14_0.html'>Embassy Stockholm</a>
+<a href='/origin/15_0.html'>Embassy Singapore</a>
+<a href='/origin/16_0.html'>Embassy Seoul</a>
+<a href='/origin/17_0.html'>Embassy Santiago</a>
+<a href='/origin/18_0.html'>Embassy Sanaa</a>
+<a href='/origin/73_0.html'>Consulate Shenyang</a>
+<a href='/origin/74_0.html'>Consulate Shanghai</a>
+<a href='/origin/75_0.html'>Consulate Sao Paulo</a>
+</div>
+<div class='sort' id='by_T'>
+<a href='/origin/8_0.html'>Embassy Tunis</a>
+<a href='/origin/9_0.html'>Embassy Tripoli</a>
+<a href='/origin/10_0.html'>Embassy Tel Aviv</a>
+<a href='/origin/11_0.html'>Embassy Tehran</a>
+<a href='/origin/12_0.html'>Embassy Tegucigalpa</a>
+<a href='/origin/13_0.html'>Embassy Tbilisi</a>
+</div>
+<div class='sort' id='by_U'>
+<a href='/origin/1_0.html'>USEU Brussels</a>
+<a href='/origin/2_0.html'>UNVIE</a>
+<a href='/origin/7_0.html'>Embassy Ulaanbaatar</a>
+</div>
+<div class='sort' id='by_V'>
+<a href='/origin/6_0.html'>Embassy Vienna</a>
+<a href='/origin/72_0.html'>Consulate Vladivostok</a>
+</div>
+<h3>Browse by <a href='#tag_A' onclick='return sha(2);'>tag</a></h3>
+<div class='pick'>
+<a class='sort' href='#tag_A' onclick="return swap('tag_A');">A</a>
+<a class='sort' href='#tag_B' onclick="return swap('tag_B');">B</a>
+<a class='sort' href='#tag_C' onclick="return swap('tag_C');">C</a>
+<a class='sort' href='#tag_D' onclick="return swap('tag_D');">D</a>
+<a class='sort' href='#tag_E' onclick="return swap('tag_E');">E</a>
+<a class='sort' href='#tag_F' onclick="return swap('tag_F');">F</a>
+<a class='sort' href='#tag_G' onclick="return swap('tag_G');">G</a>
+<a class='sort' href='#tag_H' onclick="return swap('tag_H');">H</a>
+<a class='sort' href='#tag_I' onclick="return swap('tag_I');">I</a>
+<a class='sort' href='#tag_J' onclick="return swap('tag_J');">J</a>
+<a class='sort' href='#tag_K' onclick="return swap('tag_K');">K</a>
+<a class='sort' href='#tag_L' onclick="return swap('tag_L');">L</a>
+<a class='sort' href='#tag_M' onclick="return swap('tag_M');">M</a>
+<a class='sort' href='#tag_N' onclick="return swap('tag_N');">N</a>
+<a class='sort' href='#tag_O' onclick="return swap('tag_O');">O</a>
+<a class='sort' href='#tag_P' onclick="return swap('tag_P');">P</a>
+<a class='sort' href='#tag_Q' onclick="return swap('tag_Q');">Q</a>
+<a class='sort' href='#tag_R' onclick="return swap('tag_R');">R</a>
+<a class='sort' href='#tag_S' onclick="return swap('tag_S');">S</a>
+<a class='sort' href='#tag_T' onclick="return swap('tag_T');">T</a>
+<a class='sort' href='#tag_U' onclick="return swap('tag_U');">U</a>
+<a class='sort' href='#tag_V' onclick="return swap('tag_V');">V</a>
+<a class='sort' href='#tag_W' onclick="return swap('tag_W');">W</a>
+<a class='sort' href='#tag_X' onclick="return swap('tag_X');">X</a>
+<a class='sort' href='#tag_Y' onclick="return swap('tag_Y');">Y</a>
+<a class='sort' href='#tag_Z' onclick="return swap('tag_Z');">Z</a>
+</div>
+<div class='sort' id='tag_A'>
+<a href='/tag/AU_0.html'>AU</a>
+<a href='/tag/AG_0.html'>AG</a>
+<a href='/tag/AF_0.html'>AF</a>
+<a href='/tag/AR_0.html'>AR</a>
+<a href='/tag/AE_0.html'>AE</a>
+<a href='/tag/AM_0.html'>AM</a>
+<a href='/tag/ASEC_0.html'>ASEC</a>
+<a href='/tag/AORC_0.html'>AORC</a>
+<a href='/tag/AMGT_0.html'>AMGT</a>
+<a href='/tag/APER_0.html'>APER</a>
+<a href='/tag/AJ_0.html'>AJ</a>
+<a href='/tag/AL_0.html'>AL</a>
+<a href='/tag/AGMT_0.html'>AGMT</a>
+<a href='/tag/AEMR_0.html'>AEMR</a>
+</div>
+<div class='sort' id='tag_B'>
+<a href='/tag/BA_0.html'>BA</a>
+<a href='/tag/BR_0.html'>BR</a>
+<a href='/tag/BE_0.html'>BE</a>
+<a href='/tag/BRUSSELS_0.html'>BRUSSELS</a>
+<a href='/tag/BIDEN_0.html'>BIDEN</a>
+<a href='/tag/BH_0.html'>BH</a>
+<a href='/tag/BL_0.html'>BL</a>
+<a href='/tag/BTIO_0.html'>BTIO</a>
+<a href='/tag/BEXP_0.html'>BEXP</a>
+<a href='/tag/BU_0.html'>BU</a>
+<a href='/tag/BY_0.html'>BY</a>
+<a href='/tag/BO_0.html'>BO</a>
+</div>
+<div class='sort' id='tag_C'>
+<a href='/tag/CA_0.html'>CA</a>
+<a href='/tag/CVIS_0.html'>CVIS</a>
+<a href='/tag/CMGT_0.html'>CMGT</a>
+<a href='/tag/CH_0.html'>CH</a>
+<a href='/tag/CASC_0.html'>CASC</a>
+<a href='/tag/CJAN_0.html'>CJAN</a>
+<a href='/tag/CLINTON_0.html'>CLINTON</a>
+<a href='/tag/CU_0.html'>CU</a>
+<a href='/tag/CD_0.html'>CD</a>
+<a href='/tag/CV_0.html'>CV</a>
+<a href='/tag/CO_0.html'>CO</a>
+<a href='/tag/CI_0.html'>CI</a>
+<a href='/tag/CS_0.html'>CS</a>
+<a href='/tag/CE_0.html'>CE</a>
+<a href='/tag/CY_0.html'>CY</a>
+<a href='/tag/CM_0.html'>CM</a>
+<a href='/tag/CF_0.html'>CF</a>
+<a href='/tag/CIA_0.html'>CIA</a>
+</div>
+<div class='sort' id='tag_D'>
+<a href='/tag/DJ_0.html'>DJ</a>
+</div>
+<div class='sort' id='tag_E'>
+<a href='/tag/EFIN_0.html'>EFIN</a>
+<a href='/tag/EPET_0.html'>EPET</a>
+<a href='/tag/ECON_0.html'>ECON</a>
+<a href='/tag/ENRG_0.html'>ENRG</a>
+<a href='/tag/EAID_0.html'>EAID</a>
+<a href='/tag/EINV_0.html'>EINV</a>
+<a href='/tag/EAIR_0.html'>EAIR</a>
+<a href='/tag/EUN_0.html'>EUN</a>
+<a href='/tag/ELAB_0.html'>ELAB</a>
+<a href='/tag/EU_0.html'>EU</a>
+<a href='/tag/ETTC_0.html'>ETTC</a>
+<a href='/tag/EG_0.html'>EG</a>
+<a href='/tag/ETRD_0.html'>ETRD</a>
+<a href='/tag/ELTN_0.html'>ELTN</a>
+<a href='/tag/EREL_0.html'>EREL</a>
+<a href='/tag/EAGR_0.html'>EAGR</a>
+<a href='/tag/EFIS_0.html'>EFIS</a>
+<a href='/tag/EWWT_0.html'>EWWT</a>
+<a href='/tag/EI_0.html'>EI</a>
+<a href='/tag/EIND_0.html'>EIND</a>
+<a href='/tag/EMIN_0.html'>EMIN</a>
+<a href='/tag/EZ_0.html'>EZ</a>
+<a href='/tag/EXTERNAL_0.html'>EXTERNAL</a>
+<a href='/tag/ECIP_0.html'>ECIP</a>
+<a href='/tag/ECPS_0.html'>ECPS</a>
+<a href='/tag/ECUN_0.html'>ECUN</a>
+<a href='/tag/ENVR_0.html'>ENVR</a>
+</div>
+<div class='sort' id='tag_F'>
+<a href='/tag/FR_0.html'>FR</a>
+<a href='/tag/FJ_0.html'>FJ</a>
+<a href='/tag/FINR_0.html'>FINR</a>
+</div>
+<div class='sort' id='tag_G'>
+<a href='/tag/GG_0.html'>GG</a>
+<a href='/tag/GM_0.html'>GM</a>
+<a href='/tag/GA_0.html'>GA</a>
+<a href='/tag/GOI_0.html'>GOI</a>
+<a href='/tag/GE_0.html'>GE</a>
+<a href='/tag/GR_0.html'>GR</a>
+<a href='/tag/GTMO_0.html'>GTMO</a>
+</div>
+<div class='sort' id='tag_H'>
+<a href='/tag/HO_0.html'>HO</a>
+<a href='/tag/HA_0.html'>HA</a>
+<a href='/tag/HILLARY_0.html'>HILLARY</a>
+<a href='/tag/HURI_0.html'>HURI</a>
+</div>
+<div class='sort' id='tag_I'>
+<a href='/tag/IS_0.html'>IS</a>
+<a href='/tag/IZ_0.html'>IZ</a>
+<a href='/tag/IR_0.html'>IR</a>
+<a href='/tag/IN_0.html'>IN</a>
+<a href='/tag/IQ_0.html'>IQ</a>
+<a href='/tag/IT_0.html'>IT</a>
+<a href='/tag/ICAO_0.html'>ICAO</a>
+<a href='/tag/IO_0.html'>IO</a>
+<a href='/tag/INRB_0.html'>INRB</a>
+<a href='/tag/IAEA_0.html'>IAEA</a>
+<a href='/tag/IRAJ_0.html'>IRAJ</a>
+<a href='/tag/INTERPOL_0.html'>INTERPOL</a>
+<a href='/tag/IMO_0.html'>IMO</a>
+<a href='/tag/ID_0.html'>ID</a>
+</div>
+<div class='sort' id='tag_J'>
+<a href='/tag/JA_0.html'>JA</a>
+<a href='/tag/JO_0.html'>JO</a>
+<a href='/tag/JOSEPH_0.html'>JOSEPH</a>
+<a href='/tag/JAMES_0.html'>JAMES</a>
+</div>
+<div class='sort' id='tag_K'>
+<a href='/tag/KPAO_0.html'>KPAO</a>
+<a href='/tag/KCRM_0.html'>KCRM</a>
+<a href='/tag/KTFN_0.html'>KTFN</a>
+<a href='/tag/KNNP_0.html'>KNNP</a>
+<a href='/tag/KFRD_0.html'>KFRD</a>
+<a href='/tag/KCOR_0.html'>KCOR</a>
+<a href='/tag/KTIP_0.html'>KTIP</a>
+<a href='/tag/KISL_0.html'>KISL</a>
+<a href='/tag/KU_0.html'>KU</a>
+<a href='/tag/KIRF_0.html'>KIRF</a>
+<a href='/tag/KJUS_0.html'>KJUS</a>
+<a href='/tag/KHLS_0.html'>KHLS</a>
+<a href='/tag/KAWK_0.html'>KAWK</a>
+<a href='/tag/KN_0.html'>KN</a>
+<a href='/tag/KZ_0.html'>KZ</a>
+<a href='/tag/KUNR_0.html'>KUNR</a>
+<a href='/tag/KS_0.html'>KS</a>
+<a href='/tag/KDEM_0.html'>KDEM</a>
+<a href='/tag/KACT_0.html'>KACT</a>
+<a href='/tag/KPRP_0.html'>KPRP</a>
+<a href='/tag/KWBG_0.html'>KWBG</a>
+<a href='/tag/KSCA_0.html'>KSCA</a>
+<a href='/tag/KG_0.html'>KG</a>
+<a href='/tag/KPAL_0.html'>KPAL</a>
+<a href='/tag/KMDR_0.html'>KMDR</a>
+<a href='/tag/KGHG_0.html'>KGHG</a>
+<a href='/tag/KDRG_0.html'>KDRG</a>
+<a href='/tag/KSPR_0.html'>KSPR</a>
+<a href='/tag/KWMN_0.html'>KWMN</a>
+<a href='/tag/KOLY_0.html'>KOLY</a>
+<a href='/tag/KPKO_0.html'>KPKO</a>
+<a href='/tag/KSEC_0.html'>KSEC</a>
+<a href='/tag/KTIA_0.html'>KTIA</a>
+<a href='/tag/KHIV_0.html'>KHIV</a>
+<a href='/tag/KGCC_0.html'>KGCC</a>
+<a href='/tag/KCIP_0.html'>KCIP</a>
+<a href='/tag/KBIO_0.html'>KBIO</a>
+<a href='/tag/KR_0.html'>KR</a>
+</div>
+<div class='sort' id='tag_L'>
+<a href='/tag/LY_0.html'>LY</a>
+<a href='/tag/LE_0.html'>LE</a>
+<a href='/tag/LU_0.html'>LU</a>
+<a href='/tag/LG_0.html'>LG</a>
+</div>
+<div class='sort' id='tag_M'>
+<a href='/tag/MNUC_0.html'>MNUC</a>
+<a href='/tag/MO_0.html'>MO</a>
+<a href='/tag/MARR_0.html'>MARR</a>
+<a href='/tag/MOPS_0.html'>MOPS</a>
+<a href='/tag/MASS_0.html'>MASS</a>
+<a href='/tag/MX_0.html'>MX</a>
+<a href='/tag/MTCRE_0.html'>MTCRE</a>
+<a href='/tag/MY_0.html'>MY</a>
+<a href='/tag/MCAP_0.html'>MCAP</a>
+<a href='/tag/MU_0.html'>MU</a>
+<a href='/tag/MP_0.html'>MP</a>
+<a href='/tag/ML_0.html'>ML</a>
+<a href='/tag/MR_0.html'>MR</a>
+<a href='/tag/MG_0.html'>MG</a>
+<a href='/tag/MAR_0.html'>MAR</a>
+<a href='/tag/MASC_0.html'>MASC</a>
+<a href='/tag/MPOS_0.html'>MPOS</a>
+<a href='/tag/MD_0.html'>MD</a>
+<a href='/tag/MOPPS_0.html'>MOPPS</a>
+<a href='/tag/MK_0.html'>MK</a>
+</div>
+<div class='sort' id='tag_N'>
+<a href='/tag/NATO_0.html'>NATO</a>
+<a href='/tag/NG_0.html'>NG</a>
+<a href='/tag/NI_0.html'>NI</a>
+<a href='/tag/NZ_0.html'>NZ</a>
+</div>
+<div class='sort' id='tag_O'>
+<a href='/tag/OVIP_0.html'>OVIP</a>
+<a href='/tag/OTRA_0.html'>OTRA</a>
+<a href='/tag/OPRC_0.html'>OPRC</a>
+<a href='/tag/OSCE_0.html'>OSCE</a>
+<a href='/tag/OEXC_0.html'>OEXC</a>
+<a href='/tag/OIIP_0.html'>OIIP</a>
+<a href='/tag/OTR_0.html'>OTR</a>
+</div>
+<div class='sort' id='tag_P'>
+<a href='/tag/PGOV_0.html'>PGOV</a>
+<a href='/tag/PARM_0.html'>PARM</a>
+<a href='/tag/PREL_0.html'>PREL</a>
+<a href='/tag/PINR_0.html'>PINR</a>
+<a href='/tag/PTER_0.html'>PTER</a>
+<a href='/tag/PK_0.html'>PK</a>
+<a href='/tag/PINS_0.html'>PINS</a>
+<a href='/tag/PREF_0.html'>PREF</a>
+<a href='/tag/PHUM_0.html'>PHUM</a>
+<a href='/tag/PE_0.html'>PE</a>
+<a href='/tag/PBTS_0.html'>PBTS</a>
+<a href='/tag/PA_0.html'>PA</a>
+<a href='/tag/PINT_0.html'>PINT</a>
+<a href='/tag/PL_0.html'>PL</a>
+<a href='/tag/PEPR_0.html'>PEPR</a>
+<a href='/tag/PM_0.html'>PM</a>
+<a href='/tag/PAK_0.html'>PAK</a>
+<a href='/tag/POL_0.html'>POL</a>
+<a href='/tag/PO_0.html'>PO</a>
+<a href='/tag/POLITICAL_0.html'>POLITICAL</a>
+<a href='/tag/PARTIES_0.html'>PARTIES</a>
+<a href='/tag/PGOF_0.html'>PGOF</a>
+<a href='/tag/PROP_0.html'>PROP</a>
+<a href='/tag/PBIO_0.html'>PBIO</a>
+<a href='/tag/PHSA_0.html'>PHSA</a>
+<a href='/tag/PSI_0.html'>PSI</a>
+</div>
+<div class='sort' id='tag_Q'>
+<a href='/tag/QA_0.html'>QA</a>
+</div>
+<div class='sort' id='tag_R'>
+<a href='/tag/RS_0.html'>RS</a>
+<a href='/tag/RU_0.html'>RU</a>
+<a href='/tag/RO_0.html'>RO</a>
+<a href='/tag/RW_0.html'>RW</a>
+</div>
+<div class='sort' id='tag_S'>
+<a href='/tag/SNAR_0.html'>SNAR</a>
+<a href='/tag/SA_0.html'>SA</a>
+<a href='/tag/SP_0.html'>SP</a>
+<a href='/tag/SHUM_0.html'>SHUM</a>
+<a href='/tag/SENV_0.html'>SENV</a>
+<a href='/tag/SOCI_0.html'>SOCI</a>
+<a href='/tag/SY_0.html'>SY</a>
+<a href='/tag/SW_0.html'>SW</a>
+<a href='/tag/SF_0.html'>SF</a>
+<a href='/tag/SG_0.html'>SG</a>
+<a href='/tag/SMIG_0.html'>SMIG</a>
+<a href='/tag/SR_0.html'>SR</a>
+<a href='/tag/SCUL_0.html'>SCUL</a>
+<a href='/tag/SYR_0.html'>SYR</a>
+<a href='/tag/SO_0.html'>SO</a>
+<a href='/tag/SU_0.html'>SU</a>
+<a href='/tag/STEINBERG_0.html'>STEINBERG</a>
+<a href='/tag/SN_0.html'>SN</a>
+<a href='/tag/SM_0.html'>SM</a>
+</div>
+<div class='sort' id='tag_T'>
+<a href='/tag/TS_0.html'>TS</a>
+<a href='/tag/TU_0.html'>TU</a>
+<a href='/tag/TW_0.html'>TW</a>
+<a href='/tag/TD_0.html'>TD</a>
+<a href='/tag/TI_0.html'>TI</a>
+<a href='/tag/TX_0.html'>TX</a>
+<a href='/tag/TH_0.html'>TH</a>
+<a href='/tag/TRGY_0.html'>TRGY</a>
+<a href='/tag/TC_0.html'>TC</a>
+<a href='/tag/TFIN_0.html'>TFIN</a>
+</div>
+<div class='sort' id='tag_U'>
+<a href='/tag/UK_0.html'>UK</a>
+<a href='/tag/US_0.html'>US</a>
+<a href='/tag/UP_0.html'>UP</a>
+<a href='/tag/UNO_0.html'>UNO</a>
+<a href='/tag/UZ_0.html'>UZ</a>
+<a href='/tag/UNSC_0.html'>UNSC</a>
+<a href='/tag/UN_0.html'>UN</a>
+<a href='/tag/USEU_0.html'>USEU</a>
+<a href='/tag/UV_0.html'>UV</a>
+<a href='/tag/UNMIK_0.html'>UNMIK</a>
+<a href='/tag/UNESCO_0.html'>UNESCO</a>
+<a href='/tag/UNGA_0.html'>UNGA</a>
+<a href='/tag/UAE_0.html'>UAE</a>
+<a href='/tag/UE_0.html'>UE</a>
+</div>
+<div class='sort' id='tag_V'>
+<a href='/tag/VE_0.html'>VE</a>
+<a href='/tag/VZ_0.html'>VZ</a>
+</div>
+<div class='sort' id='tag_W'>
+<a href='/tag/WTO_0.html'>WTO</a>
+</div>
+<div class='sort' id='tag_X'>
+<a href='/tag/XA_0.html'>XA</a>
+<a href='/tag/XL_0.html'>XL</a>
+<a href='/tag/XF_0.html'>XF</a>
+<a href='/tag/XH_0.html'>XH</a>
+<a href='/tag/XG_0.html'>XG</a>
+</div>
+<div class='sort' id='tag_Y'>
+<a href='/tag/YM_0.html'>YM</a>
+<a href='/tag/YI_0.html'>YI</a>
+</div>
+<div class='sort' id='tag_Z'>
+<a href='/tag/ZK_0.html'>ZK</a>
+<a href='/tag/ZP_0.html'>ZP</a>
+<a href='/tag/ZR_0.html'>ZR</a>
+<a href='/tag/ZF_0.html'>ZF</a>
+<a href='/tag/ZI_0.html'>ZI</a>
+</div>
+<h3>Browse by classification</h3>
+<div class='sort'>
+<a href='/classification/1_0.html' title='unclassified'>CONFIDENTIAL</a>
+<a href='/classification/2_0.html' title='secret'>CONFIDENTIAL//NOFORN</a>
+<a href='/classification/3_0.html' title='confidential'>SECRET</a>
+<a href='/classification/4_0.html' title='secret//noforn'>SECRET//NOFORN</a>
+<a href='/classification/5_0.html' title='unclassified//fouo'>UNCLASSIFIED</a>
+<a href='/classification/6_0.html' title='confidential//noforn'>UNCLASSIFIED//FOR OFFICIAL USE ONLY</a>
+</div>
+</div>
+<h3>Community resources</h3>
+<div class='sort'>
+<a href='http://twitter.com/wikileaks'>Follow us on Twitter</a>
+<a href='http://en.reddit.com/domain/wikileaks.org'>Check our Reddit</a>
+<a href='http://twitter.com/home?status=Reading%20http%3A%2F%2Fcablegate.wikileaks.org%2Fcable%2F2009%2F01%2F09LAPAZ96.html%20%2309LAPAZ96'>Twitter this</a>
+<a href='http://digg.com/submit?url=http%3A%2F%2Fcablegate.wikileaks.org%2Fcable%2F2009%2F01%2F09LAPAZ96.html'>Digg this page</a>
+</div>
+<p>
+<i>
+courage is contagious
+</i>
+</p>
+</div>
+<div class='pane big'>
+<h3>Viewing cable 09LAPAZ96, BOLIVIA'S REFERENDUM: MARGIN OF VICTORY MATTERS <br></h3>
+<div>
+If you are new to these pages, please read an introduction on the <a href="#help_1" onclick="return sh(1);">structure of a cable</a> as well as how to <a href="#help_2" onclick="return sh(2);">discuss them</a> with others. See also the <a href="/static/html/faq.html">FAQs</a>
+<br />
+</div>
+<div id='help_1'>
+<br />
+<b>Understanding cables</b>
+<br />
+Every cable message consists of three parts:
+<ul>
+<li>The top box shows each cables unique reference number, when and by whom it originally was sent, and what its initial classification was.</li>
+<li>The middle box contains the header information that is associated with the cable. It includes information about the receiver(s) as well as a general subject.</li>
+<li>The bottom box presents the body of the cable. The opening can contain a more specific subject, references to other cables (<a href="#by_A" onclick="swap('by_A'); setTimeout('document.location.href=(document.location.href + \'#by_A\').replace(/\#.*$/,\'#by_A\')', 100); return false;">browse by origin</a> to find them) or additional comment. This is followed by the main contents of the cable: a summary, a collection of specific topics and a comment section.</li>
+</ul>
+To understand the justification used for the classification of each cable, please use this <a href="http://en.wikisource.org/wiki/Executive_Order_13526#Part_1">WikiSource</a> article as reference.
+</div>
+<div id='help_2'>
+<br />
+<b>Discussing cables</b>
+<br />
+If you find meaningful or important information in a cable, please link directly to its unique reference number. Linking to a specific paragraph in the body of a cable is also possible by copying the appropriate link (to be found at theparagraph symbol).
+Please mark messages for social networking services like Twitter with the hash tags <b>#cablegate</b> and a hash containing the reference ID e.g. <b>#09LAPAZ96</b>.
+</div>
+<div id='kus'>
+<a href='http://wikileaks.org/support.html' target='_blank'>KEEP US STRONG!</a>
+</div>
+<table class='cable'>
+<tr>
+<th>Reference ID</th>
+<th>Created</th>
+<th>Released</th>
+<th>Classification</th>
+<th>Origin</th>
+</tr>
+<tr>
+<td>
+<a href='/cable/2009/01/09LAPAZ96.html'>09LAPAZ96</a>
+</td>
+<td>
+<a href='/date/2009-01_0.html'>2009-01-23 13:01</a>
+</td>
+<td>
+<a href='/reldate/2010-11-30_0.html'>2010-11-30 21:09</a>
+</td>
+<td>
+<a href='/classification/1_0.html' title='unclassified'>CONFIDENTIAL</a>
+</td>
+<td>
+<a href='/origin/37_0.html'>Embassy La Paz</a>
+</td>
+</tr>
+</table>
+<code><pre>VZCZCXYZ0000&#x000A;PP RUEHWEB&#x000A;&#x000A;DE RUEHLP #0096/01 0231326&#x000A;ZNY CCCCC ZZH&#x000A;P 231326Z JAN 09&#x000A;FM AMEMBASSY LA PAZ&#x000A;TO RUEHC/SECSTATE WASHDC PRIORITY 9793&#x000A;INFO RUEHAC/AMEMBASSY ASUNCION 8742&#x000A;RUEHBO/AMEMBASSY BOGOTA 6115&#x000A;RUEHBR/AMEMBASSY BRASILIA 0078&#x000A;RUEHBU/AMEMBASSY BUENOS AIRES 7298&#x000A;RUEHCV/AMEMBASSY CARACAS 4344&#x000A;RUEHCP/AMEMBASSY COPENHAGEN 0330&#x000A;RUEHPE/AMEMBASSY LIMA 4679&#x000A;RUEHMN/AMEMBASSY MONTEVIDEO 6085&#x000A;RUEHQT/AMEMBASSY QUITO 6963&#x000A;RUEHSG/AMEMBASSY SANTIAGO 1731&#x000A;RUEHUB/USINT HAVANA 1617&#x000A;RHEHNSC/NSC WASHINGTON DC&#x000A;RHMFISS/HQ USSOUTHCOM MIAMI FL&#x000A;RUEAIIA/CIA WASHINGTON DC&#x000A;RUEKJCS/SECDEF WASHINGTON DC&#x000A;RHEFDIA/DIA WASHINGTON DC</pre></code>
+<code><pre>SIPDIS <br>&#x000A;<br>&#x000A;E.O. 12958: DECL: 01/21/2019 <br>&#x000A;TAGS: <a href='/tag/PGOV_0.html'>PGOV</a> <a href='/tag/KDEM_0.html'>KDEM</a> <a href='/tag/PREL_0.html'>PREL</a> <a href='/tag/PHUM_0.html'>PHUM</a> <a href='/tag/PINR_0.html'>PINR</a> <a href='/tag/ENVR_0.html'>ENVR</a> <a href='/tag/BL_0.html'>BL</a>&#x000A;SUBJECT: BOLIVIA'S REFERENDUM: MARGIN OF VICTORY MATTERS <br>&#x000A;<br>&#x000A;REF: A. 08 LAPAZ 2606 <br>&#x000A;<a id='parB' href='#parB'>¶</a>B. LA PAZ 6 <br>&#x000A;&#x000A;<a id='parC' href='#parC'>¶</a>C. LA PAZ 11 <br>&#x000A;<a id='parD' href='#parD'>¶</a>D. LA PAZ 62 <br>&#x000A;<a id='parE' href='#parE'>¶</a>E. LA PAZ 90 <br>&#x000A;<br>&#x000A;Classified By: A/EcoPol Chief Joe Relk for reasons 1.4 (b, d) <br>&#x000A;<br>&#x000A;<a id='par1' href='#par1'>¶</a>1. (C) Summary:  With the January 25 constitutional <br>&#x000A;referendum rapidly approaching, all signs point to victory <br>&#x000A;for President Morales and his ruling Movement Toward <br>&#x000A;Socialism (MAS) party.  Although the opposition has made <br>&#x000A;&#x000A;inroads into the MAS lead, most national polls point to <br>&#x000A;between 54 and 60 percent support for the proposed <br>&#x000A;constitution (with one government poll showing 66 percent), <br>&#x000A;and the MAS appears set to leverage its considerable rural <br>&#x000A;base to victory.  After a series of national news articles <br>&#x000A;raised questions about significant fraud in the August 2008 <br>&#x000A;recall referendum, the National Electoral Court has taken <br>&#x000A;pains to advertise the electoral rolls as secure.  However, a <br>&#x000A;recent poll shows less than half of the public shares the <br>&#x000A;&#x000A;court's confidence, and the opposition believes significant <br>&#x000A;electoral fraud is likely.  While cheating seems unnecessary <br>&#x000A;to secure victory for the MAS, padding their lead would give <br>&#x000A;the party leverage in congressional negotiations regarding <br>&#x000A;legislation implementing hundreds of vague constitutional <br>&#x000A;clauses.  Opposition leaders continue to fear the MAS will <br>&#x000A;use any stalemate in these negotiations to close congress and <br>&#x000A;institute rule by decree.  At both the national and regional <br>&#x000A;levels, the margin of victory matters.  A landslide for the <br>&#x000A;&#x000A;MAS nationally, or large victories for the opposition in the <br>&#x000A;eastern departments, could spark more conflict.  End summary. <br>&#x000A;<br>&#x000A;- - - - - - - - - - - - - <br>&#x000A;MAS Victory Seems Assured <br>&#x000A;- - - - - - - - - - - - - <br>&#x000A;<br>&#x000A;<a id='par2' href='#par2'>¶</a>2. (C) With the January 25 constitutional referendum rapidly <br>&#x000A;approaching, all signs point to victory for President Morales <br>&#x000A;and his ruling Movement Toward Socialism (MAS) party. <br>&#x000A;&#x000A;Although the opposition has made inroads into their lead, <br>&#x000A;causing the MAS to tone down its rhetoric, national polls <br>&#x000A;point to between 54 and 60 percent support for the proposed <br>&#x000A;constitution.  (One government poll shows the "yes" vote <br>&#x000A;winning by 66 percent.)  However, many polls downplay or <br>&#x000A;ignore the MAS' rural base.  Almost as importantly, the MAS <br>&#x000A;seems prepared to take at least five of the nine departments, <br>&#x000A;including La Paz, Potosi, Oruro, Cochabamba, and Pando, with <br>&#x000A;Beni a distinct possibility.  If the MAS can win at levels <br>&#x000A;&#x000A;similar to their August 2008 referendum victory (i.e. 67 <br>&#x000A;percent or more) and can make inroads into the "Media Luna" <br>&#x000A;or eastern half of the country, they will have much more <br>&#x000A;leverage in upcoming congressional negotiations over <br>&#x000A;implementing legislation. <br>&#x000A;<br>&#x000A;- - - - - - <br>&#x000A;Polling Data <br>&#x000A;- - - - - - <br>&#x000A;&#x000A;<br>&#x000A;<a id='par3' href='#par3'>¶</a>3. (C) Polling data has varied widely over the past two <br>&#x000A;weeks, due to a combination of a tightening race and polling <br>&#x000A;methodologies (i.e. city vs. rural).  Recent national polls <br>&#x000A;by Gallup and Apoyo within the last week show approval for <br>&#x000A;the constitution with a much slimmer lead than many expected, <br>&#x000A;ahead only 48 to 42 percent and 49 to 43 percent, <br>&#x000A;respectively.  Ipsos and Mori both conducted polls of capital <br>&#x000A;cities and both found the "yes" vote ahead, with Ipsos <br>&#x000A;&#x000A;showing a 59 to 35 percent lead and Mori reporting 60 to 40 <br>&#x000A;percent.  However, our contacts tell us all these polls <br>&#x000A;partially or totally ignored the rural vote, where the MAS <br>&#x000A;has much of its base.  A poll by Observatorio de Gestion <br>&#x000A;Publica, publicized by government-friendly Radio Patria <br>&#x000A;Nueva, marked the constitution's lead at 66 percent, versus <br>&#x000A;31 percent against.  Some estimate a six percent "bump" when <br>&#x000A;the rural vote is included. <br>&#x000A;<br>&#x000A;&#x000A;<a id='par4' href='#par4'>¶</a>4. (U) Polls showing a breakdown <br>&#x000A;by city or region indicate <br>&#x000A;the constitution will easily win in at least four <br>&#x000A;departments: La Paz, Potosi, Oruro, and Cochabamba, likely <br>&#x000A;with at least 70 percent support in each.  The MAS has a <br>&#x000A;distinct chance to capture both Pando and Beni as well.  In <br>&#x000A;Pando, the Observatorio poll shows Pando department split <br>&#x000A;evenly, and the Ipsos poll shows the capital city of Cobija <br>&#x000A;supporting the constitution by a ratio of 64 to 36.  Polling <br>&#x000A;&#x000A;data for Beni has been more scattershot, but although its <br>&#x000A;capital city of Trinidad is firmly against the constitution, <br>&#x000A;by as much as 88 percent, the larger city of Riberalta is <br>&#x000A;leaning for approval of the constitution.  The Observatorio <br>&#x000A;poll shows Beni evenly split as a department. <br>&#x000A;<br>&#x000A;- - - - - - - - - - - - - <br>&#x000A;Rural and Indigenous Role <br>&#x000A;- - - - - - - - - - - - - <br>&#x000A;&#x000A;<br>&#x000A;<a id='par5' href='#par5'>¶</a>5. (SBU) Although the opposition is making a mighty effort <br>&#x000A;across the country to rally against the constitution, the <br>&#x000A;forces of inertia seem to be conspiring against them, <br>&#x000A;particularly in the form of a largely uneducated rural base <br>&#x000A;in the Altiplano.  Leading daily La Razon interviewed several <br>&#x000A;community leaders from the Altiplano, and their supporters, <br>&#x000A;and reported on January 18 that neither the leaders nor the <br>&#x000A;supporters had read the Constitution.  Instead, the repeated <br>&#x000A;&#x000A;message was that rural communities would take their marching <br>&#x000A;orders from the MAS, and vote for the constitution. According <br>&#x000A;to the Ipso poll of capital cities, only four percent of <br>&#x000A;respondents said they had read much or all of the <br>&#x000A;constitution, 45 percent of respondents said they have read <br>&#x000A;some, and 50 percent said they had read none of the draft <br>&#x000A;text.  In the countryside, the number of those reading the <br>&#x000A;constitution is much lower.  Post suspects disinterest, blind <br>&#x000A;faith in Evo Morales' political project, and illiteracy, <br>&#x000A;&#x000A;despite the Cuban literacy program, all play a role.  In <br>&#x000A;addition, the sheer volume of the 411-article constitution <br>&#x000A;probably scares some potential readership away. <br>&#x000A;<br>&#x000A;<a id='par6' href='#par6'>¶</a>6. (C) However, despite the overall level of MAS dominance <br>&#x000A;among campesinos and indigenous voters, some opposition does <br>&#x000A;exist, albeit for a variety of reasons.  The xxxxxxxxxxxx, has tried to rally <br>&#x000A;support against the MAS and the proposed constitution (Reftel <br>&#x000A;&#x000A;A).  In a meeting with PolOffs, they lamented the way the MAS <br>&#x000A;had "cheated" and "fooled" campesinos into believing Morales <br>&#x000A;was himself truly indigenous or cared about indigenous <br>&#x000A;issues.  Although they held a national meeting on January 17 <br>&#x000A;and tried to reach out to the press, they sounded defeated <br>&#x000A;when they acknowledged that the MAS, through a combination of <br>&#x000A;funding and pressure on local social and business leaders, <br>&#x000A;held a "vertical control" in the countryside that would be <br>&#x000A;difficult to break.  They also noted rural communities tended <br>&#x000A;&#x000A;to vote in blocks, supporting one political party until they <br>&#x000A;discarded it to vote en masse for another. <br>&#x000A;<br>&#x000A;<a id='par7' href='#par7'>¶</a>7. (C) Going in a completely different direction, some rural <br>&#x000A;social groups and far-left leaders, such as Achacachi Mayor <br>&#x000A;Eugenio Rojas and El Alto City Councilor Roberto de La Cruz <br>&#x000A;also publicly recommended voting against it because it was <br>&#x000A;seen as not revolutionary enough.  They criticized the <br>&#x000A;government for making too many concessions to the opposition <br>&#x000A;&#x000A;during the constitutional compromise reached on October 21, <br>&#x000A;including the agreement to not make land reform retroactive. <br>&#x000A;However, they have a relatively small following, and some, <br>&#x000A;like de La Cruz, eventually reversed course as the projected <br>&#x000A;MAS margin of victory shrunk in January.  Edgar Patana, <br>&#x000A;leader of the regional workers union (COR), other El Alto <br>&#x000A;union leaders, and the majority of social groups have <br>&#x000A;recommended voting for the constitution. <br>&#x000A;<br>&#x000A;&#x000A;- - - - - - - - - - - - - - - - <br>&#x000A;Opposition Feisty, But Realistic <br>&#x000A;- - - - - - - - - - - - - - - - <br>&#x000A;<br>&#x000A;<a id='par8' href='#par8'>¶</a>8. (C) The opposition has not given up, but seems to be <br>&#x000A;battling <br>&#x000A;more to limit the margin of defeat than to win.  In <br>&#x000A;Santa Cruz,xxxxxxxxxxxx<br>&#x000A;told EmbOff that polls show an overwhelming victory for the <br>&#x000A;&#x000A;"No" vote in Santa Cruz, but that he is worried about the <br>&#x000A;opposition's goal of winning in five of Bolivia's nine <br>&#x000A;departments (Reftel E).  Although a current <br>&#x000A;privately-commissioned opposition poll showed the <br>&#x000A;constitution ahead by a margin of only five points, 39 to 34 <br>&#x000A;percent (with 20 percent undecided), opposition alternate <br>&#x000A;xxxxxxxxxxxx doubted the opposition would be able to <br>&#x000A;win the referendum outright even under the most optimistic <br>&#x000A;scenario.  He predicted that Morales would succeed in <br>&#x000A;&#x000A;personalizing the constitution as "Evo's constitution" and <br>&#x000A;leverage his cult of personality.  Ultimately xxxxxxxxxxxx was more <br>&#x000A;concerned with the margin of the opposition's defeat and <br>&#x000A;discrediting the results of "any election that uses this <br>&#x000A;voter roll" (Reftel C). <br>&#x000A;<br>&#x000A;<a id='par9' href='#par9'>¶</a>9. (C) xxxxxxxxxxxx has been <br>&#x000A;criss-crossing the country with opposition xxxxxxxxxxxx <br>&#x000A;xxxxxxxxxxxx, campaigning against the proposed constitution, but <br>&#x000A;&#x000A;also building a foundation for a likely run for the <br>&#x000A;presidency. xxxxxxxxxxxx claimed opposition leaders put aside <br>&#x000A;jockeying to be the 2009 opposition unity presidential <br>&#x000A;candidate in the final days of the "no" campaign to "attack <br>&#x000A;the government from three sides:" the prefects (governors) <br>&#x000A;who been traveling around the Media Luna to show &they are <br>&#x000A;not afraid" of government threats to arrest them and <br>&#x000A;galvanize support in opposition departments, a group of three <br>&#x000A;&#x000A;presidential contenders to show opposition unity and <br>&#x000A;xxxxxxxxxxxx, who is used for more cerebral attacks on the CPE <br>&#x000A;and to &dismiss the governments mythology that they <br>&#x000A;exclusively represent the indigenous.8  xxxxxxxxxxxx noted that <br>&#x000A;opposition parties Podemos and MNR are playing a deliberately <br>&#x000A;muted role, recognizing that their unpopular association with <br>&#x000A;the &old regimes8 would play into MAS strategy.  "Political <br>&#x000A;&#x000A;parties are bad words in Bolivia," xxxxxxxxxxxx <br>&#x000A;xxxxxxxxxxxx La <br>&#x000A;Paz-based group of mostly young professionals who focus on <br>&#x000A;issues and distance themselves from the party moniker.  "We <br>&#x000A;need parties, but we need to start from scratch, without the <br>&#x000A;old leaders.  This will take time." <br>&#x000A;<br>&#x000A;<a id='par10' href='#par10'>¶</a>10. (C) xxxxxxxxxxxx told <br>&#x000A;PolOff the opposition is chipping away at the MAS referendum <br>&#x000A;&#x000A;lead despite the government's leviathan advantage in <br>&#x000A;resources by de-personalizing the constitution and <br>&#x000A;"convincing people on the street that is not in their best <br>&#x000A;interests."  Although he conceded the "no" campaign would <br>&#x000A;ultimately be a losing effort, he cited the emerging feud <br>&#x000A;between Morales and Church, corruption charges against <br>&#x000A;government officials, and the increasingly precarious economy <br>&#x000A;as emerging factors in December and January that created an <br>&#x000A;opposition "surge" after "we were so depressed" in the fall. <br>&#x000A;xxxxxxxxxxxx said that the government's newfound mobilization of <br>&#x000A;congressmen and deputies to challenge the opposition view on <br>&#x000A;television and radio shows is proof of government panic. <br>&#x000A;"Before they just thought they could ignore us (and win)," <br>&#x000A;said xxxxxxxxxxxx.  "They said there was no opposition." xxxxxxxxxxxx <br>&#x000A;agreed, and added that this is playing into the opposition's <br>&#x000A;hands, because they "are forced to defend a constitution they <br>&#x000A;often know little about."  According to xxxxxxxxxxxx has <br>&#x000A;been challenging MAS supporters to debate him during his <br>&#x000A;&#x000A;speaking tours and embarrassed Vice Minister of Social Groups <br>&#x000A;Sacha Llorenti in a January 20 debate when he started talking <br>&#x000A;in fluent Aymara.  He asked the dumbstruck Llorenti what he <br>&#x000A;planned to do if the constitution passed, since all public <br>&#x000A;officials will be required to speak one of Bolivia's <br>&#x000A;indigenous languages.  Later he challenged President Morales <br>&#x000A;to debate him in Aymara, which the president allegedly speaks <br>&#x000A;poorly. <br>&#x000A;<br>&#x000A;&#x000A;- - - - - - - - - - - - - - <br>&#x000A;Fraud, Doubts, and Questions <br>&#x000A;- - - - - - - - - - - - - - <br>&#x000A;<br>&#x000A;<br>&#x000A;<a id='par11' href='#par11'>¶</a>11. (C) The National Electoral Court (CNE), which will <br>&#x000A;oversee and ratify the results of the referendum, has <br>&#x000A;undertaken a public relations campaign to assure the public <br>&#x000A;of the security of the election rolls, which came under <br>&#x000A;scrutiny after leading daily La Razon published a series of <br>&#x000A;&#x000A;articles questioning the validity of the August 10, 2008 <br>&#x000A;recall referendum.  Several contacts, including xxxxxxxxxxxx <br>&#x000A;xxxxxxxxxxxx, told us the MAS padded their <br>&#x000A;August referendum victory by five to seven points through <br>&#x000A;fraud at several levels (reftel C).  While many international <br>&#x000A;observers groups are expected to view the January 25 <br>&#x000A;constitutional referendum -- including the European Union, <br>&#x000A;the OAS, the Carter Center, the UN, the CAN, the <br>&#x000A;South-American and Andean parliaments, and UNASUR (septel) -- <br>&#x000A;&#x000A;the depth of the earlier fraud has muted the opposition's <br>&#x000A;confidence in observers' ability to ensure the results are <br>&#x000A;fair.  Members of the Santa Cruz civic committee told EmbOff <br>&#x000A;that they have no faith in international observers.  The <br>&#x000A;committee has met with the OAS team already and "told our <br>&#x000A;side of the story", describing the discoveries of tens of <br>&#x000A;thousands of false voter cards and the statistical signs of <br>&#x000A;fraud in areas that managed to vote 100 percent for President <br>&#x000A;Morales in the August 2008 referendum.  However, the civic <br>&#x000A;&#x000A;committee said that the fact that international observers <br>&#x000A;blessed the August referendum means they do not expect an <br>&#x000A;honest review of the constitutional referendum.  Civic <br>&#x000A;committee members also noted that small numbers of observers, <br>&#x000A;generally based in the city, will not be able to stop <br>&#x000A;widespread fraud in the countryside, which is where they <br>&#x000A;believe most of the August 10 fraud took place. <br>&#x000A;<br>&#x000A;<a id='par12' href='#par12'>¶</a>12. (C) In a press conference designed to bolster confidence <br>&#x000A;&#x000A;in the security of the electoral rolls, National Electoral <br>&#x000A;Court (CNE) President Jose Luis Exeni presented a PowerPoint <br>&#x000A;describing the bill of clean health given by the OAS.  As <br>&#x000A;part of the presentation, he showed the number of voters <br>&#x000A;dropped from the rolls for not participating in prior <br>&#x000A;elections and the number added during this cycle.  While all <br>&#x000A;departments projected to vote against the constitution had a <br>&#x000A;net reduction in the voter rolls, including 85,000 Crucenos <br>&#x000A;and 17,000 Benianos, MAS strongholds including La Paz <br>&#x000A;&#x000A;(38,000) and Potosi (16,000) saw substantial gains -- a <br>&#x000A;curious reckoning, considering population and migration <br>&#x000A;trends to the contrary. <br>&#x000A;<br>&#x000A;- - - - - - - - - - - - - - - - <br>&#x000A;Pando At Center of Storm, Again <br>&#x000A;- - - - - - - - - - - - - - - - <br>&#x000A;<br>&#x000A;<a id='par13' href='#par13'>¶</a>13. (C) While it is possible the constitution could pass in <br>&#x000A;Beni, most opposition leaders tell us the MAS has set its <br>&#x000A;&#x000A;sights on lightly-populated Pando department as its best <br>&#x000A;chance to win in five departments.  By winning the popular <br>&#x000A;vote and a majority of the departments, the MAS could more <br>&#x000A;credibly claim to have support throughout the country.  Pando <br>&#x000A;has also traditionally aligned with the opposition, so a <br>&#x000A;breakthrough win there would send a strong signal that the <br>&#x000A;strength of the MAS continues to rise.  And with fewer than <br>&#x000A;32,000 registered voters, or less than one percent of the <br>&#x000A;country's voting population, Pando is the most vulnerable <br>&#x000A;&#x000A;department to even small amounts of fraud or voter <br>&#x000A;registration changes. <br>&#x000A;<br>&#x000A;<a id='par14' href='#par14'>¶</a>14. (C) In a conversation with PolOff, xxxxxxxxxxxx <br>&#x000A;xxxxxxxxxxxx alleged the MAS deliberately fomented unrest in Pando <br>&#x000A;in September to justify a military siege, depose Prefect <br>&#x000A;Leopoldo Fernandez, and arrest opposition-aligned leaders to <br>&#x000A;swing the balance of power to the MAS in the Senate.  Besides <br>&#x000A;disabling the opposition's ability to campaign by arresting <br>&#x000A;&#x000A;many of its leaders,xxxxxxxxxxxx alleged the government crackdown <br>&#x000A;changed Pando's electoral map by causing hundreds of <br>&#x000A;opposition voters to flee to Brazil while importing 2,000 new <br>&#x000A;security forces, which xxxxxxxxxxxx claimed were likely MAS voters <br>&#x000A;from the Altiplano (Reftel B).  xxxxxxxxxxxx added <br>&#x000A;that in the run-up to the August 2008 referendum, Government <br>&#x000A;Minister Alfredo Rada facilitated the establishment of fake <br>&#x000A;identities via the police role in issuing national identity <br>&#x000A;cards (which can then be used to vote).  (Reftel C). <br>&#x000A;&#x000A;<br>&#x000A;- - - - - - - - - - - - - - - <br>&#x000A;January 26: What Happens Next? <br>&#x000A;- - - - - - - - - - - - - - - <br>&#x000A;<br>&#x000A;<a id='par15' href='#par15'>¶</a>15. (C) xxxxxxxxxxxx told PolOff December 31 that <br>&#x000A;a general election prompted by passage of the new <br>&#x000A;constitution requires a plethora of enabling legislation that <br>&#x000A;the opposition-controlled Senate will block, at least in the <br>&#x000A;forms likely to be proposed by the MAS (Reftel B).  xxxxxxxxxxxx <br>&#x000A;&#x000A;said the new draft constitution is deliberately vague, which <br>&#x000A;grants MAS legislators wide discretion to "fill in the <br>&#x000A;blanks" with new implementing legislation.  He also said the <br>&#x000A;Senate would clash with the government on assigning new <br>&#x000A;borders for electoral districts, needed for the general <br>&#x000A;election.  xxxxxxxxxxxx added that Morales' MAS party is <br>&#x000A;already injecting "ridiculous" interpretations of the <br>&#x000A;constitution into a wide gamut of implementing legislation <br>&#x000A;that "the Senate cannot in good conscious agree to."  He said <br>&#x000A;&#x000A;Senate rejection of MAS proposals provides a ready excuse for <br>&#x000A;Morales to dismiss congress for "rejecting the will of the <br>&#x000A;people" and then have President Morales rule by decree <br>&#x000A;(Reftel D). <br>&#x000A;<br>&#x000A;<a id='par16' href='#par16'>¶</a>16. (C) Despite the official government position that <br>&#x000A;President Morales will undergo treatment to correct a <br>&#x000A;deviated septum immediately following the referendum, several <br>&#x000A;contacts confirm that the problem is actually a tumor in the <br>&#x000A;&#x000A;pituitary near the sella turcica and that Morales will travel <br>&#x000A;to Spain for the operation.  xxxxxxxxxxxx <br>&#x000A;xxxxxxxxxxxx told us Morales' first choice, Cuba, could not <br>&#x000A;perform the surgery.  Article 238 is also of consequence to <br>&#x000A;the post-January 25 political landscape.  It would establish <br>&#x000A;that all other government officials must stand down three <br>&#x000A;months before general elections expected in 2009, with the <br>&#x000A;notable exception of the president and vice president. <br>&#x000A;Besides providing the MAS the advantage of ruling during the <br>&#x000A;&#x000A;campaign, it also ensures leadership cannot pass to the <br>&#x000A;opposition-controlled Senate.  It is unclear why the <br>&#x000A;opposition waited until the final week before the referendum <br>&#x000A;to complain about the article or why they accepted it during <br>&#x000A;marathon sessions in October to arrive at a "compromise <br>&#x000A;text," which, it should be noted, the opposition agreed to <br>&#x000A;under duress, with thousands of MAS-aligned protesters <br>&#x000A;surrounding the congress and threatening violence. <br>&#x000A;<br>&#x000A;&#x000A;- - - - <br>&#x000A;Comment <br>&#x000A;- - - - <br>&#x000A;<br>&#x000A;<a id='par17' href='#par17'>¶</a>17. (C) It is likely there will be some amount of fraud in a <br>&#x000A;referendum the MAS seems likely to win legitimately anyway. <br>&#x000A;While it can be difficult to separate fact from fiction, the <br>&#x000A;Morales administration has a reputation of doing exactly what <br>&#x000A;they announce they will do.  In this case, 66 percent seems <br>&#x000A;&#x000A;to be the target number, and the MAS is likely to pull out <br>&#x000A;all the stops to reach that level.  With at least two-thirds <br>&#x000A;support across the country and a minimum of five of the nine <br>&#x000A;departments under his belt, President Morales would be able <br>&#x000A;to claim a political mandate to implement the constitution <br>&#x000A;quickly.  Practically speaking, this will put great pressure <br>&#x000A;on the Congress, especially the opposition-controlled Senate, <br>&#x000A;to acquiesce in negotiations and accept MAS versions of <br>&#x000A;implementation legislation.  If they do not, Morales and <br>&#x000A;&#x000A;others in the MAS have spoken of rule by decree.  Using <br>&#x000A;similar logic, Morales could call for early elections to more <br>&#x000A;quickly advance the "democratic revolution" in Bolivia. <br>&#x000A;Early elections would also help the MAS avoid dealing with <br>&#x000A;the quickly-crumbling economy, which would likely be more of <br>&#x000A;an issue in December. <br>&#x000A;<br>&#x000A;<a id='par18' href='#par18'>¶</a>18. (C) Both sides seem to be angling over the margin of the <br>&#x000A;MAS victory, not the victory itself.  While Morales continues <br>&#x000A;&#x000A;to predict a victory of up to 80 percent, Vice President <br>&#x000A;Garcia <br>&#x000A;Linera tried to manage expectations with a 66 percent <br>&#x000A;estimate on January 21.  The margin matters.  If the <br>&#x000A;constitution gets less than two-thirds support, many <br>&#x000A;observers feel this would represent a relative defeat, <br>&#x000A;especially when Morales himself has set such high <br>&#x000A;expectations.  On the other hand, we are equally concerned <br>&#x000A;that large-margin victories in media luna departments could <br>&#x000A;&#x000A;lead opposition leaders to ignore the national results and <br>&#x000A;resume a course for autonomy on their own terms -- putting <br>&#x000A;them on a collision course with the national government.  A <br>&#x000A;solid but not overwhelming MAS victory, perhaps around 56 to <br>&#x000A;60 percent, might be the best outcome to keep both sides from <br>&#x000A;claiming a strong mandate for extreme measures. <br>&#x000A;URS <br>&#x000A;</td></tr>&#x000A;</table></pre></code>
+</div>
+</div>
+<script src='/static/js/js.js' type='text/javascript'></script>
+</body>
+</html>

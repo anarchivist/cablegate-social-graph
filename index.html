@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Wikileaks Cablegate Social Graph</title>
+        <link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+        <style type="text/css">
+            body {
+                margin-left: 10%;
+                margin-right: 10%;
+                font-family: "Inconsolata";
+            }
+            h2 {
+                font-size: 26pt;
+                text-align: center;
+                margin-bottom: 10px;
+            }
+            #content {
+                width: 100%;
+            }
+            #graph_console {
+                width: 100%;
+            }
+            #graph {
+                height: 550px;
+                width: 100%;
+                border-color: ltgray;
+            }
+            #about {
+                margin-left: 3%;
+                margin-right: 3%;
+            }
+            #last_update {
+                font-size: smaller;
+                font-style: italic;
+                text-align: center;
+            }
+            a { 
+                font-weight: bold;
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Wikileaks Cablegate Social Graph</h2>
+        <div id="content">
+        <div id="about">
+            <p>
+            This is a <a href="http://vis.stanford.edu/protovis/">Protovis</a>
+            visualization of the sending/receiving stations scraped from the <a
+                href="http://cablegate.wikileaks.org/">Wikileaks Cablegate</a>
+            cable messages (cablegate-201012021401.7z), 
+            using some <a href="http://www.state.gov/documents/organization/89289.pdf">documentation</a>. I guess it's also a sort of tongue in cheek homage to graph artist <a href="http://en.wikipedia.org/wiki/Mark_Lombardi">Mark Lombardi</a>.  The code (such as it is) is available on <a href="http://github.com/anarchivist/cablegate-social-graph/">GitHub</a>. If you have ideas on how to make this better please leave a comment below.
+            </p>
+
+            <p>
+            Stations are grouped according to their country into a single node.
+            The nodes are sized according to how many cables that country sent
+            and received. The colors reflect the geographic region that
+            the country is from.
+            </p>
+        </div>
+        <div id="graph_console">
+            <iframe id="graph" src="cablegate.html"></iframe>
+        </div>
+        </div>
+        <br />
+        <br />
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'cablegate-social-graph'; // required: replace example with your forum shortname
+
+    // The following are highly recommended additional parameters. Remove the slashes in front to use.
+    // var disqus_identifier = 'unique_dynamic_id_1234';
+    // var disqus_url = 'http://example.com/permalink-to-page.html';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+    </body>
+</html>

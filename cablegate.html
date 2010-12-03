@@ -1,0 +1,70 @@
+<html>
+  <head>
+    <title>Force-Directed Layout</title>
+    <script type="text/javascript" src="protovis-d3.2.js"></script>
+    <script type="text/javascript" src="cablegate.js"></script>
+    <style type="text/css">
+    body {
+      margin: 0;
+    }
+    </style>
+  </head>
+  <body>
+  <script type="text/javascript+protovis">
+
+function nodeColor(node) {
+    if (node.region == "Africa") 
+        return pv.color("rgb(204,255,204)");
+    else if (node.region == "Europe")
+        return pv.color("rgb(255,255,204)");
+    else if (node.region == "South America")
+        return pv.color("rgb(255,218,185)")
+    else if (node.region == "North America")
+        return pv.color("rgb(230,230,350)")
+    else if (node.region == "Asia")
+        return pv.color("rgb(255,255,120)")
+    else
+        return pv.color("rgb(255,255,255)")
+}
+
+var w = document.body.clientWidth,
+    h = document.body.clientHeight,
+    colors = pv.Colors.category19();
+
+var vis = new pv.Panel()
+    .width(w)
+    .height(h)
+    .fillStyle("white")
+    .event("mousedown", pv.Behavior.pan())
+    .event("mousewheel", pv.Behavior.zoom());
+
+var force = vis.add(pv.Layout.Force)
+    .nodes(cablegate.nodes)
+    .links(cablegate.links)
+    .bound(true)
+    .chargeConstant(-100)
+    .springDamping(0.1)
+    .springLength(50)
+    .springConstant(0.0005);
+
+force.link.add(pv.Line);
+
+force.node.add(pv.Dot)
+    .size(function(d) {return Math.sqrt(Math.pow(d.size+10, 2) * 4);})
+    .fillStyle(function(d) nodeColor(d))
+    .lineWidth(1)
+    .title(function(d) d.nodeTitle + " (" + d.size + " cables)")
+    .event("mousedown", pv.Behavior.drag())
+    .event("drag", force);
+    //.event("click", function(d) {if (d.url) {window.open(d.url)}});
+
+force.label.add(pv.Label)
+    .font('10px sans-serif')
+    .textStyle('#666');
+    //.visible(function(d) d.triples > 5000000);
+
+vis.render();
+
+    </script>
+  </body>
+</html>

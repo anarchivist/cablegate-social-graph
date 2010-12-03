@@ -1,0 +1,723 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+<title>Cable Viewer</title>
+<link href='/static/gfx/favicon.ico' rel='shortcut icon' />
+<link href='/static/css/reset-fonts-grids.css' rel='stylesheet' type='text/css' />
+<link href='/static/css/cables.css' rel='stylesheet' type='text/css' />
+</head>
+<body>
+<div class='main'>
+<div class='pane small'>
+<a href='/index.html'>
+<img alt='WikiLeaks logo' src='/static/gfx/WL_Hour_Glass_small.png' />
+<p>Currently released so far... 597 / 251,287</p>
+</a>
+<div id='browse'>
+<h3>Articles</h3>
+<div class='sort'>
+<a href="/articles/2010/De-olho-nas-Olimpiadas-US-faz.html">Brazil</a>
+<a href="/articles/2010/Sri-Lankan-President-s-alleged-war.html">Sri Lanka</a>
+<a href="/articles/2010/Iraq-Inquiry-told-to-protect-US.html">United Kingdom</a>
+<a href="/articles/2010/USA-bekraftar-svensk-Natokoppling.html">Sweden</a>
+</div>
+<h3>Browse latest releases</h3>
+<div class='sort'>
+<a href='/reldate/2010-12-02_0.html'>2010/12/02</a>
+<a href='/reldate/2010-12-01_0.html'>2010/12/01</a>
+<a href='/reldate/2010-11-30_0.html'>2010/11/30</a>
+<a href='/reldate/2010-11-29_0.html'>2010/11/29</a>
+<a href='/reldate/2010-11-28_0.html'>2010/11/28</a>
+</div>
+<h3>Browse by creation <a href='#year_1966' onclick='return sha(0);'>date</a></h3>
+<div class='pick'>
+<a class='sort' href='#year_1966' onclick="return swap('year_1966');">66</a>
+<a class='sort' href='#year_1972' onclick="return swap('year_1972');">72</a>
+<a class='sort' href='#year_1975' onclick="return swap('year_1975');">75</a>
+<a class='sort' href='#year_1979' onclick="return swap('year_1979');">79</a>
+<a class='sort' href='#year_1986' onclick="return swap('year_1986');">86</a>
+<a class='sort' href='#year_1989' onclick="return swap('year_1989');">89</a>
+<a class='sort' href='#year_1990' onclick="return swap('year_1990');">90</a>
+<a class='sort' href='#year_2003' onclick="return swap('year_2003');">03</a>
+<a class='sort' href='#year_2004' onclick="return swap('year_2004');">04</a>
+<a class='sort' href='#year_2005' onclick="return swap('year_2005');">05</a>
+<a class='sort' href='#year_2006' onclick="return swap('year_2006');">06</a>
+<a class='sort' href='#year_2007' onclick="return swap('year_2007');">07</a>
+<a class='sort' href='#year_2008' onclick="return swap('year_2008');">08</a>
+<a class='sort' href='#year_2009' onclick="return swap('year_2009');">09</a>
+<a class='sort' href='#year_2010' onclick="return swap('year_2010');">10</a>
+</div>
+<div class='sort' id='year_1966'>
+<a href='/date/1966-12_0.html'>1966/12</a>
+</div>
+<div class='sort' id='year_1972'>
+<a href='/date/1972-02_0.html'>1972/02</a>
+<a href='/date/1972-08_0.html'>1972/08</a>
+</div>
+<div class='sort' id='year_1975'>
+<a href='/date/1975-03_0.html'>1975/03</a>
+</div>
+<div class='sort' id='year_1979'>
+<a href='/date/1979-08_0.html'>1979/08</a>
+</div>
+<div class='sort' id='year_1986'>
+<a href='/date/1986-05_0.html'>1986/05</a>
+</div>
+<div class='sort' id='year_1989'>
+<a href='/date/1989-12_0.html'>1989/12</a>
+</div>
+<div class='sort' id='year_1990'>
+<a href='/date/1990-01_0.html'>1990/01</a>
+</div>
+<div class='sort' id='year_2003'>
+<a href='/date/2003-06_0.html'>2003/06</a>
+</div>
+<div class='sort' id='year_2004'>
+<a href='/date/2004-01_0.html'>2004/01</a>
+<a href='/date/2004-02_0.html'>2004/02</a>
+<a href='/date/2004-04_0.html'>2004/04</a>
+<a href='/date/2004-11_0.html'>2004/11</a>
+<a href='/date/2004-12_0.html'>2004/12</a>
+</div>
+<div class='sort' id='year_2005'>
+<a href='/date/2005-01_0.html'>2005/01</a>
+<a href='/date/2005-03_0.html'>2005/03</a>
+<a href='/date/2005-04_0.html'>2005/04</a>
+<a href='/date/2005-05_0.html'>2005/05</a>
+<a href='/date/2005-06_0.html'>2005/06</a>
+<a href='/date/2005-07_0.html'>2005/07</a>
+<a href='/date/2005-08_0.html'>2005/08</a>
+<a href='/date/2005-10_0.html'>2005/10</a>
+<a href='/date/2005-11_0.html'>2005/11</a>
+<a href='/date/2005-12_0.html'>2005/12</a>
+</div>
+<div class='sort' id='year_2006'>
+<a href='/date/2006-01_0.html'>2006/01</a>
+<a href='/date/2006-02_0.html'>2006/02</a>
+<a href='/date/2006-03_0.html'>2006/03</a>
+<a href='/date/2006-04_0.html'>2006/04</a>
+<a href='/date/2006-05_0.html'>2006/05</a>
+<a href='/date/2006-06_0.html'>2006/06</a>
+<a href='/date/2006-07_0.html'>2006/07</a>
+<a href='/date/2006-08_0.html'>2006/08</a>
+<a href='/date/2006-09_0.html'>2006/09</a>
+<a href='/date/2006-10_0.html'>2006/10</a>
+<a href='/date/2006-11_0.html'>2006/11</a>
+<a href='/date/2006-12_0.html'>2006/12</a>
+</div>
+<div class='sort' id='year_2007'>
+<a href='/date/2007-01_0.html'>2007/01</a>
+<a href='/date/2007-02_0.html'>2007/02</a>
+<a href='/date/2007-03_0.html'>2007/03</a>
+<a href='/date/2007-04_0.html'>2007/04</a>
+<a href='/date/2007-05_0.html'>2007/05</a>
+<a href='/date/2007-06_0.html'>2007/06</a>
+<a href='/date/2007-07_0.html'>2007/07</a>
+<a href='/date/2007-08_0.html'>2007/08</a>
+<a href='/date/2007-09_0.html'>2007/09</a>
+<a href='/date/2007-10_0.html'>2007/10</a>
+<a href='/date/2007-11_0.html'>2007/11</a>
+<a href='/date/2007-12_0.html'>2007/12</a>
+</div>
+<div class='sort' id='year_2008'>
+<a href='/date/2008-01_0.html'>2008/01</a>
+<a href='/date/2008-02_0.html'>2008/02</a>
+<a href='/date/2008-03_0.html'>2008/03</a>
+<a href='/date/2008-04_0.html'>2008/04</a>
+<a href='/date/2008-05_0.html'>2008/05</a>
+<a href='/date/2008-07_0.html'>2008/07</a>
+<a href='/date/2008-08_0.html'>2008/08</a>
+<a href='/date/2008-09_0.html'>2008/09</a>
+<a href='/date/2008-10_0.html'>2008/10</a>
+<a href='/date/2008-11_0.html'>2008/11</a>
+<a href='/date/2008-12_0.html'>2008/12</a>
+</div>
+<div class='sort' id='year_2009'>
+<a href='/date/2009-01_0.html'>2009/01</a>
+<a href='/date/2009-02_0.html'>2009/02</a>
+<a href='/date/2009-03_0.html'>2009/03</a>
+<a href='/date/2009-04_0.html'>2009/04</a>
+<a href='/date/2009-05_0.html'>2009/05</a>
+<a href='/date/2009-06_0.html'>2009/06</a>
+<a href='/date/2009-07_0.html'>2009/07</a>
+<a href='/date/2009-08_0.html'>2009/08</a>
+<a href='/date/2009-09_0.html'>2009/09</a>
+<a href='/date/2009-10_0.html'>2009/10</a>
+<a href='/date/2009-11_0.html'>2009/11</a>
+<a href='/date/2009-12_0.html'>2009/12</a>
+</div>
+<div class='sort' id='year_2010'>
+<a href='/date/2010-01_0.html'>2010/01</a>
+<a href='/date/2010-02_0.html'>2010/02</a>
+</div>
+<h3>Browse by <a href='#by_A' onclick='return sha(1);'>origin</a></h3>
+<div class='pick'>
+<a class='sort' href='#by_A' onclick="return swap('by_A');">A</a>
+<a class='sort' href='#by_B' onclick="return swap('by_B');">B</a>
+<a class='sort' href='#by_C' onclick="return swap('by_C');">C</a>
+<a class='sort' href='#by_D' onclick="return swap('by_D');">D</a>
+<a class='sort' href='#by_H' onclick="return swap('by_H');">H</a>
+<a class='sort' href='#by_I' onclick="return swap('by_I');">I</a>
+<a class='sort' href='#by_J' onclick="return swap('by_J');">J</a>
+<a class='sort' href='#by_K' onclick="return swap('by_K');">K</a>
+<a class='sort' href='#by_L' onclick="return swap('by_L');">L</a>
+<a class='sort' href='#by_M' onclick="return swap('by_M');">M</a>
+<a class='sort' href='#by_N' onclick="return swap('by_N');">N</a>
+<a class='sort' href='#by_O' onclick="return swap('by_O');">O</a>
+<a class='sort' href='#by_P' onclick="return swap('by_P');">P</a>
+<a class='sort' href='#by_R' onclick="return swap('by_R');">R</a>
+<a class='sort' href='#by_S' onclick="return swap('by_S');">S</a>
+<a class='sort' href='#by_T' onclick="return swap('by_T');">T</a>
+<a class='sort' href='#by_U' onclick="return swap('by_U');">U</a>
+<a class='sort' href='#by_V' onclick="return swap('by_V');">V</a>
+</div>
+<div class='sort' id='by_A'>
+<a href='/origin/65_0.html'>Embassy Asuncion</a>
+<a href='/origin/66_0.html'>Embassy Astana</a>
+<a href='/origin/67_0.html'>Embassy Ashgabat</a>
+<a href='/origin/68_0.html'>Embassy Ankara</a>
+<a href='/origin/69_0.html'>Embassy Amman</a>
+<a href='/origin/70_0.html'>Embassy Algiers</a>
+<a href='/origin/71_0.html'>Embassy Abu Dhabi</a>
+</div>
+<div class='sort' id='by_B'>
+<a href='/origin/53_0.html'>Embassy Buenos Aires</a>
+<a href='/origin/54_0.html'>Embassy Bucharest</a>
+<a href='/origin/55_0.html'>Embassy Brussels</a>
+<a href='/origin/56_0.html'>Embassy Bridgetown</a>
+<a href='/origin/57_0.html'>Embassy Brasilia</a>
+<a href='/origin/58_0.html'>Embassy Bishkek</a>
+<a href='/origin/59_0.html'>Embassy Berlin</a>
+<a href='/origin/60_0.html'>Embassy Beirut</a>
+<a href='/origin/61_0.html'>Embassy Beijing</a>
+<a href='/origin/62_0.html'>Embassy Bangkok</a>
+<a href='/origin/63_0.html'>Embassy Baku</a>
+<a href='/origin/64_0.html'>Embassy Baghdad</a>
+</div>
+<div class='sort' id='by_C'>
+<a href='/origin/49_0.html'>Embassy Colombo</a>
+<a href='/origin/50_0.html'>Embassy Chisinau</a>
+<a href='/origin/51_0.html'>Embassy Caracas</a>
+<a href='/origin/52_0.html'>Embassy Cairo</a>
+<a href='/origin/82_0.html'>Consulate Cape Town</a>
+</div>
+<div class='sort' id='by_D'>
+<a href='/origin/44_0.html'>Embassy Dushanbe</a>
+<a href='/origin/45_0.html'>Embassy Dublin</a>
+<a href='/origin/46_0.html'>Embassy Doha</a>
+<a href='/origin/47_0.html'>Embassy Djibouti</a>
+<a href='/origin/48_0.html'>Embassy Damascus</a>
+<a href='/origin/81_0.html'>Consulate Dubai</a>
+</div>
+<div class='sort' id='by_H'>
+<a href='/origin/43_0.html'>Embassy Harare</a>
+<a href='/origin/80_0.html'>Consulate Hamburg</a>
+</div>
+<div class='sort' id='by_I'>
+<a href='/origin/5_0.html'>Iran RPO Dubai</a>
+<a href='/origin/42_0.html'>Embassy Islamabad</a>
+<a href='/origin/79_0.html'>Consulate Istanbul</a>
+</div>
+<div class='sort' id='by_J'>
+<a href='/origin/78_0.html'>Consulate Jeddah</a>
+</div>
+<div class='sort' id='by_K'>
+<a href='/origin/38_0.html'>Embassy Kyiv</a>
+<a href='/origin/39_0.html'>Embassy Kuwait</a>
+<a href='/origin/40_0.html'>Embassy Kuala Lumpur</a>
+<a href='/origin/41_0.html'>Embassy Kabul</a>
+</div>
+<div class='sort' id='by_L'>
+<a href='/origin/33_0.html'>Embassy Luxembourg</a>
+<a href='/origin/34_0.html'>Embassy London</a>
+<a href='/origin/35_0.html'>Embassy Lisbon</a>
+<a href='/origin/36_0.html'>Embassy Lima</a>
+<a href='/origin/37_0.html'>Embassy La Paz</a>
+</div>
+<div class='sort' id='by_M'>
+<a href='/origin/4_0.html'>Mission USNATO</a>
+<a href='/origin/28_0.html'>Embassy Muscat</a>
+<a href='/origin/29_0.html'>Embassy Moscow</a>
+<a href='/origin/30_0.html'>Embassy Mexico</a>
+<a href='/origin/31_0.html'>Embassy Manama</a>
+<a href='/origin/32_0.html'>Embassy Madrid</a>
+<a href='/origin/77_0.html'>Consulate Munich</a>
+</div>
+<div class='sort' id='by_N'>
+<a href='/origin/27_0.html'>Embassy New Delhi</a>
+</div>
+<div class='sort' id='by_O'>
+<a href='/origin/26_0.html'>Embassy Ottawa</a>
+</div>
+<div class='sort' id='by_P'>
+<a href='/origin/22_0.html'>Embassy Prague</a>
+<a href='/origin/23_0.html'>Embassy Port Au Prince</a>
+<a href='/origin/24_0.html'>Embassy Paris</a>
+<a href='/origin/25_0.html'>Embassy Panama</a>
+<a href='/origin/76_0.html'>Consulate Peshawar</a>
+</div>
+<div class='sort' id='by_R'>
+<a href='/origin/19_0.html'>Embassy Rome</a>
+<a href='/origin/20_0.html'>Embassy Riyadh</a>
+<a href='/origin/21_0.html'>Embassy Rabat</a>
+</div>
+<div class='sort' id='by_S'>
+<a href='/origin/3_0.html'>Secretary of State</a>
+<a href='/origin/14_0.html'>Embassy Stockholm</a>
+<a href='/origin/15_0.html'>Embassy Singapore</a>
+<a href='/origin/16_0.html'>Embassy Seoul</a>
+<a href='/origin/17_0.html'>Embassy Santiago</a>
+<a href='/origin/18_0.html'>Embassy Sanaa</a>
+<a href='/origin/73_0.html'>Consulate Shenyang</a>
+<a href='/origin/74_0.html'>Consulate Shanghai</a>
+<a href='/origin/75_0.html'>Consulate Sao Paulo</a>
+</div>
+<div class='sort' id='by_T'>
+<a href='/origin/8_0.html'>Embassy Tunis</a>
+<a href='/origin/9_0.html'>Embassy Tripoli</a>
+<a href='/origin/10_0.html'>Embassy Tel Aviv</a>
+<a href='/origin/11_0.html'>Embassy Tehran</a>
+<a href='/origin/12_0.html'>Embassy Tegucigalpa</a>
+<a href='/origin/13_0.html'>Embassy Tbilisi</a>
+</div>
+<div class='sort' id='by_U'>
+<a href='/origin/1_0.html'>USEU Brussels</a>
+<a href='/origin/2_0.html'>UNVIE</a>
+<a href='/origin/7_0.html'>Embassy Ulaanbaatar</a>
+</div>
+<div class='sort' id='by_V'>
+<a href='/origin/6_0.html'>Embassy Vienna</a>
+<a href='/origin/72_0.html'>Consulate Vladivostok</a>
+</div>
+<h3>Browse by <a href='#tag_A' onclick='return sha(2);'>tag</a></h3>
+<div class='pick'>
+<a class='sort' href='#tag_A' onclick="return swap('tag_A');">A</a>
+<a class='sort' href='#tag_B' onclick="return swap('tag_B');">B</a>
+<a class='sort' href='#tag_C' onclick="return swap('tag_C');">C</a>
+<a class='sort' href='#tag_D' onclick="return swap('tag_D');">D</a>
+<a class='sort' href='#tag_E' onclick="return swap('tag_E');">E</a>
+<a class='sort' href='#tag_F' onclick="return swap('tag_F');">F</a>
+<a class='sort' href='#tag_G' onclick="return swap('tag_G');">G</a>
+<a class='sort' href='#tag_H' onclick="return swap('tag_H');">H</a>
+<a class='sort' href='#tag_I' onclick="return swap('tag_I');">I</a>
+<a class='sort' href='#tag_J' onclick="return swap('tag_J');">J</a>
+<a class='sort' href='#tag_K' onclick="return swap('tag_K');">K</a>
+<a class='sort' href='#tag_L' onclick="return swap('tag_L');">L</a>
+<a class='sort' href='#tag_M' onclick="return swap('tag_M');">M</a>
+<a class='sort' href='#tag_N' onclick="return swap('tag_N');">N</a>
+<a class='sort' href='#tag_O' onclick="return swap('tag_O');">O</a>
+<a class='sort' href='#tag_P' onclick="return swap('tag_P');">P</a>
+<a class='sort' href='#tag_Q' onclick="return swap('tag_Q');">Q</a>
+<a class='sort' href='#tag_R' onclick="return swap('tag_R');">R</a>
+<a class='sort' href='#tag_S' onclick="return swap('tag_S');">S</a>
+<a class='sort' href='#tag_T' onclick="return swap('tag_T');">T</a>
+<a class='sort' href='#tag_U' onclick="return swap('tag_U');">U</a>
+<a class='sort' href='#tag_V' onclick="return swap('tag_V');">V</a>
+<a class='sort' href='#tag_W' onclick="return swap('tag_W');">W</a>
+<a class='sort' href='#tag_X' onclick="return swap('tag_X');">X</a>
+<a class='sort' href='#tag_Y' onclick="return swap('tag_Y');">Y</a>
+<a class='sort' href='#tag_Z' onclick="return swap('tag_Z');">Z</a>
+</div>
+<div class='sort' id='tag_A'>
+<a href='/tag/AU_0.html'>AU</a>
+<a href='/tag/AG_0.html'>AG</a>
+<a href='/tag/AF_0.html'>AF</a>
+<a href='/tag/AR_0.html'>AR</a>
+<a href='/tag/AE_0.html'>AE</a>
+<a href='/tag/AM_0.html'>AM</a>
+<a href='/tag/ASEC_0.html'>ASEC</a>
+<a href='/tag/AORC_0.html'>AORC</a>
+<a href='/tag/AMGT_0.html'>AMGT</a>
+<a href='/tag/APER_0.html'>APER</a>
+<a href='/tag/AJ_0.html'>AJ</a>
+<a href='/tag/AL_0.html'>AL</a>
+<a href='/tag/AGMT_0.html'>AGMT</a>
+<a href='/tag/AEMR_0.html'>AEMR</a>
+</div>
+<div class='sort' id='tag_B'>
+<a href='/tag/BA_0.html'>BA</a>
+<a href='/tag/BR_0.html'>BR</a>
+<a href='/tag/BE_0.html'>BE</a>
+<a href='/tag/BRUSSELS_0.html'>BRUSSELS</a>
+<a href='/tag/BIDEN_0.html'>BIDEN</a>
+<a href='/tag/BH_0.html'>BH</a>
+<a href='/tag/BL_0.html'>BL</a>
+<a href='/tag/BTIO_0.html'>BTIO</a>
+<a href='/tag/BEXP_0.html'>BEXP</a>
+<a href='/tag/BU_0.html'>BU</a>
+<a href='/tag/BY_0.html'>BY</a>
+<a href='/tag/BO_0.html'>BO</a>
+</div>
+<div class='sort' id='tag_C'>
+<a href='/tag/CA_0.html'>CA</a>
+<a href='/tag/CVIS_0.html'>CVIS</a>
+<a href='/tag/CMGT_0.html'>CMGT</a>
+<a href='/tag/CH_0.html'>CH</a>
+<a href='/tag/CASC_0.html'>CASC</a>
+<a href='/tag/CJAN_0.html'>CJAN</a>
+<a href='/tag/CLINTON_0.html'>CLINTON</a>
+<a href='/tag/CU_0.html'>CU</a>
+<a href='/tag/CD_0.html'>CD</a>
+<a href='/tag/CV_0.html'>CV</a>
+<a href='/tag/CO_0.html'>CO</a>
+<a href='/tag/CI_0.html'>CI</a>
+<a href='/tag/CS_0.html'>CS</a>
+<a href='/tag/CE_0.html'>CE</a>
+<a href='/tag/CY_0.html'>CY</a>
+<a href='/tag/CM_0.html'>CM</a>
+<a href='/tag/CF_0.html'>CF</a>
+<a href='/tag/CIA_0.html'>CIA</a>
+</div>
+<div class='sort' id='tag_D'>
+<a href='/tag/DJ_0.html'>DJ</a>
+</div>
+<div class='sort' id='tag_E'>
+<a href='/tag/EFIN_0.html'>EFIN</a>
+<a href='/tag/EPET_0.html'>EPET</a>
+<a href='/tag/ECON_0.html'>ECON</a>
+<a href='/tag/ENRG_0.html'>ENRG</a>
+<a href='/tag/EAID_0.html'>EAID</a>
+<a href='/tag/EINV_0.html'>EINV</a>
+<a href='/tag/EAIR_0.html'>EAIR</a>
+<a href='/tag/EUN_0.html'>EUN</a>
+<a href='/tag/ELAB_0.html'>ELAB</a>
+<a href='/tag/EU_0.html'>EU</a>
+<a href='/tag/ETTC_0.html'>ETTC</a>
+<a href='/tag/EG_0.html'>EG</a>
+<a href='/tag/ETRD_0.html'>ETRD</a>
+<a href='/tag/ELTN_0.html'>ELTN</a>
+<a href='/tag/EREL_0.html'>EREL</a>
+<a href='/tag/EAGR_0.html'>EAGR</a>
+<a href='/tag/EFIS_0.html'>EFIS</a>
+<a href='/tag/EWWT_0.html'>EWWT</a>
+<a href='/tag/EI_0.html'>EI</a>
+<a href='/tag/EIND_0.html'>EIND</a>
+<a href='/tag/EMIN_0.html'>EMIN</a>
+<a href='/tag/EZ_0.html'>EZ</a>
+<a href='/tag/EXTERNAL_0.html'>EXTERNAL</a>
+<a href='/tag/ECIP_0.html'>ECIP</a>
+<a href='/tag/ECPS_0.html'>ECPS</a>
+<a href='/tag/ECUN_0.html'>ECUN</a>
+<a href='/tag/ENVR_0.html'>ENVR</a>
+</div>
+<div class='sort' id='tag_F'>
+<a href='/tag/FR_0.html'>FR</a>
+<a href='/tag/FJ_0.html'>FJ</a>
+<a href='/tag/FINR_0.html'>FINR</a>
+</div>
+<div class='sort' id='tag_G'>
+<a href='/tag/GG_0.html'>GG</a>
+<a href='/tag/GM_0.html'>GM</a>
+<a href='/tag/GA_0.html'>GA</a>
+<a href='/tag/GOI_0.html'>GOI</a>
+<a href='/tag/GE_0.html'>GE</a>
+<a href='/tag/GR_0.html'>GR</a>
+<a href='/tag/GTMO_0.html'>GTMO</a>
+</div>
+<div class='sort' id='tag_H'>
+<a href='/tag/HO_0.html'>HO</a>
+<a href='/tag/HA_0.html'>HA</a>
+<a href='/tag/HILLARY_0.html'>HILLARY</a>
+<a href='/tag/HURI_0.html'>HURI</a>
+</div>
+<div class='sort' id='tag_I'>
+<a href='/tag/IS_0.html'>IS</a>
+<a href='/tag/IZ_0.html'>IZ</a>
+<a href='/tag/IR_0.html'>IR</a>
+<a href='/tag/IN_0.html'>IN</a>
+<a href='/tag/IQ_0.html'>IQ</a>
+<a href='/tag/IT_0.html'>IT</a>
+<a href='/tag/ICAO_0.html'>ICAO</a>
+<a href='/tag/IO_0.html'>IO</a>
+<a href='/tag/INRB_0.html'>INRB</a>
+<a href='/tag/IAEA_0.html'>IAEA</a>
+<a href='/tag/IRAJ_0.html'>IRAJ</a>
+<a href='/tag/INTERPOL_0.html'>INTERPOL</a>
+<a href='/tag/IMO_0.html'>IMO</a>
+<a href='/tag/ID_0.html'>ID</a>
+</div>
+<div class='sort' id='tag_J'>
+<a href='/tag/JA_0.html'>JA</a>
+<a href='/tag/JO_0.html'>JO</a>
+<a href='/tag/JOSEPH_0.html'>JOSEPH</a>
+<a href='/tag/JAMES_0.html'>JAMES</a>
+</div>
+<div class='sort' id='tag_K'>
+<a href='/tag/KPAO_0.html'>KPAO</a>
+<a href='/tag/KCRM_0.html'>KCRM</a>
+<a href='/tag/KTFN_0.html'>KTFN</a>
+<a href='/tag/KNNP_0.html'>KNNP</a>
+<a href='/tag/KFRD_0.html'>KFRD</a>
+<a href='/tag/KCOR_0.html'>KCOR</a>
+<a href='/tag/KTIP_0.html'>KTIP</a>
+<a href='/tag/KISL_0.html'>KISL</a>
+<a href='/tag/KU_0.html'>KU</a>
+<a href='/tag/KIRF_0.html'>KIRF</a>
+<a href='/tag/KJUS_0.html'>KJUS</a>
+<a href='/tag/KHLS_0.html'>KHLS</a>
+<a href='/tag/KAWK_0.html'>KAWK</a>
+<a href='/tag/KN_0.html'>KN</a>
+<a href='/tag/KZ_0.html'>KZ</a>
+<a href='/tag/KUNR_0.html'>KUNR</a>
+<a href='/tag/KS_0.html'>KS</a>
+<a href='/tag/KDEM_0.html'>KDEM</a>
+<a href='/tag/KACT_0.html'>KACT</a>
+<a href='/tag/KPRP_0.html'>KPRP</a>
+<a href='/tag/KWBG_0.html'>KWBG</a>
+<a href='/tag/KSCA_0.html'>KSCA</a>
+<a href='/tag/KG_0.html'>KG</a>
+<a href='/tag/KPAL_0.html'>KPAL</a>
+<a href='/tag/KMDR_0.html'>KMDR</a>
+<a href='/tag/KGHG_0.html'>KGHG</a>
+<a href='/tag/KDRG_0.html'>KDRG</a>
+<a href='/tag/KSPR_0.html'>KSPR</a>
+<a href='/tag/KWMN_0.html'>KWMN</a>
+<a href='/tag/KOLY_0.html'>KOLY</a>
+<a href='/tag/KPKO_0.html'>KPKO</a>
+<a href='/tag/KSEC_0.html'>KSEC</a>
+<a href='/tag/KTIA_0.html'>KTIA</a>
+<a href='/tag/KHIV_0.html'>KHIV</a>
+<a href='/tag/KGCC_0.html'>KGCC</a>
+<a href='/tag/KCIP_0.html'>KCIP</a>
+<a href='/tag/KBIO_0.html'>KBIO</a>
+<a href='/tag/KR_0.html'>KR</a>
+</div>
+<div class='sort' id='tag_L'>
+<a href='/tag/LY_0.html'>LY</a>
+<a href='/tag/LE_0.html'>LE</a>
+<a href='/tag/LU_0.html'>LU</a>
+<a href='/tag/LG_0.html'>LG</a>
+</div>
+<div class='sort' id='tag_M'>
+<a href='/tag/MNUC_0.html'>MNUC</a>
+<a href='/tag/MO_0.html'>MO</a>
+<a href='/tag/MARR_0.html'>MARR</a>
+<a href='/tag/MOPS_0.html'>MOPS</a>
+<a href='/tag/MASS_0.html'>MASS</a>
+<a href='/tag/MX_0.html'>MX</a>
+<a href='/tag/MTCRE_0.html'>MTCRE</a>
+<a href='/tag/MY_0.html'>MY</a>
+<a href='/tag/MCAP_0.html'>MCAP</a>
+<a href='/tag/MU_0.html'>MU</a>
+<a href='/tag/MP_0.html'>MP</a>
+<a href='/tag/ML_0.html'>ML</a>
+<a href='/tag/MR_0.html'>MR</a>
+<a href='/tag/MG_0.html'>MG</a>
+<a href='/tag/MAR_0.html'>MAR</a>
+<a href='/tag/MASC_0.html'>MASC</a>
+<a href='/tag/MPOS_0.html'>MPOS</a>
+<a href='/tag/MD_0.html'>MD</a>
+<a href='/tag/MOPPS_0.html'>MOPPS</a>
+<a href='/tag/MK_0.html'>MK</a>
+</div>
+<div class='sort' id='tag_N'>
+<a href='/tag/NATO_0.html'>NATO</a>
+<a href='/tag/NG_0.html'>NG</a>
+<a href='/tag/NI_0.html'>NI</a>
+<a href='/tag/NZ_0.html'>NZ</a>
+</div>
+<div class='sort' id='tag_O'>
+<a href='/tag/OVIP_0.html'>OVIP</a>
+<a href='/tag/OTRA_0.html'>OTRA</a>
+<a href='/tag/OPRC_0.html'>OPRC</a>
+<a href='/tag/OSCE_0.html'>OSCE</a>
+<a href='/tag/OEXC_0.html'>OEXC</a>
+<a href='/tag/OIIP_0.html'>OIIP</a>
+<a href='/tag/OTR_0.html'>OTR</a>
+</div>
+<div class='sort' id='tag_P'>
+<a href='/tag/PGOV_0.html'>PGOV</a>
+<a href='/tag/PARM_0.html'>PARM</a>
+<a href='/tag/PREL_0.html'>PREL</a>
+<a href='/tag/PINR_0.html'>PINR</a>
+<a href='/tag/PTER_0.html'>PTER</a>
+<a href='/tag/PK_0.html'>PK</a>
+<a href='/tag/PINS_0.html'>PINS</a>
+<a href='/tag/PREF_0.html'>PREF</a>
+<a href='/tag/PHUM_0.html'>PHUM</a>
+<a href='/tag/PE_0.html'>PE</a>
+<a href='/tag/PBTS_0.html'>PBTS</a>
+<a href='/tag/PA_0.html'>PA</a>
+<a href='/tag/PINT_0.html'>PINT</a>
+<a href='/tag/PL_0.html'>PL</a>
+<a href='/tag/PEPR_0.html'>PEPR</a>
+<a href='/tag/PM_0.html'>PM</a>
+<a href='/tag/PAK_0.html'>PAK</a>
+<a href='/tag/POL_0.html'>POL</a>
+<a href='/tag/PO_0.html'>PO</a>
+<a href='/tag/POLITICAL_0.html'>POLITICAL</a>
+<a href='/tag/PARTIES_0.html'>PARTIES</a>
+<a href='/tag/PGOF_0.html'>PGOF</a>
+<a href='/tag/PROP_0.html'>PROP</a>
+<a href='/tag/PBIO_0.html'>PBIO</a>
+<a href='/tag/PHSA_0.html'>PHSA</a>
+<a href='/tag/PSI_0.html'>PSI</a>
+</div>
+<div class='sort' id='tag_Q'>
+<a href='/tag/QA_0.html'>QA</a>
+</div>
+<div class='sort' id='tag_R'>
+<a href='/tag/RS_0.html'>RS</a>
+<a href='/tag/RU_0.html'>RU</a>
+<a href='/tag/RO_0.html'>RO</a>
+<a href='/tag/RW_0.html'>RW</a>
+</div>
+<div class='sort' id='tag_S'>
+<a href='/tag/SNAR_0.html'>SNAR</a>
+<a href='/tag/SA_0.html'>SA</a>
+<a href='/tag/SP_0.html'>SP</a>
+<a href='/tag/SHUM_0.html'>SHUM</a>
+<a href='/tag/SENV_0.html'>SENV</a>
+<a href='/tag/SOCI_0.html'>SOCI</a>
+<a href='/tag/SY_0.html'>SY</a>
+<a href='/tag/SW_0.html'>SW</a>
+<a href='/tag/SF_0.html'>SF</a>
+<a href='/tag/SG_0.html'>SG</a>
+<a href='/tag/SMIG_0.html'>SMIG</a>
+<a href='/tag/SR_0.html'>SR</a>
+<a href='/tag/SCUL_0.html'>SCUL</a>
+<a href='/tag/SYR_0.html'>SYR</a>
+<a href='/tag/SO_0.html'>SO</a>
+<a href='/tag/SU_0.html'>SU</a>
+<a href='/tag/STEINBERG_0.html'>STEINBERG</a>
+<a href='/tag/SN_0.html'>SN</a>
+<a href='/tag/SM_0.html'>SM</a>
+</div>
+<div class='sort' id='tag_T'>
+<a href='/tag/TS_0.html'>TS</a>
+<a href='/tag/TU_0.html'>TU</a>
+<a href='/tag/TW_0.html'>TW</a>
+<a href='/tag/TD_0.html'>TD</a>
+<a href='/tag/TI_0.html'>TI</a>
+<a href='/tag/TX_0.html'>TX</a>
+<a href='/tag/TH_0.html'>TH</a>
+<a href='/tag/TRGY_0.html'>TRGY</a>
+<a href='/tag/TC_0.html'>TC</a>
+<a href='/tag/TFIN_0.html'>TFIN</a>
+</div>
+<div class='sort' id='tag_U'>
+<a href='/tag/UK_0.html'>UK</a>
+<a href='/tag/US_0.html'>US</a>
+<a href='/tag/UP_0.html'>UP</a>
+<a href='/tag/UNO_0.html'>UNO</a>
+<a href='/tag/UZ_0.html'>UZ</a>
+<a href='/tag/UNSC_0.html'>UNSC</a>
+<a href='/tag/UN_0.html'>UN</a>
+<a href='/tag/USEU_0.html'>USEU</a>
+<a href='/tag/UV_0.html'>UV</a>
+<a href='/tag/UNMIK_0.html'>UNMIK</a>
+<a href='/tag/UNESCO_0.html'>UNESCO</a>
+<a href='/tag/UNGA_0.html'>UNGA</a>
+<a href='/tag/UAE_0.html'>UAE</a>
+<a href='/tag/UE_0.html'>UE</a>
+</div>
+<div class='sort' id='tag_V'>
+<a href='/tag/VE_0.html'>VE</a>
+<a href='/tag/VZ_0.html'>VZ</a>
+</div>
+<div class='sort' id='tag_W'>
+<a href='/tag/WTO_0.html'>WTO</a>
+</div>
+<div class='sort' id='tag_X'>
+<a href='/tag/XA_0.html'>XA</a>
+<a href='/tag/XL_0.html'>XL</a>
+<a href='/tag/XF_0.html'>XF</a>
+<a href='/tag/XH_0.html'>XH</a>
+<a href='/tag/XG_0.html'>XG</a>
+</div>
+<div class='sort' id='tag_Y'>
+<a href='/tag/YM_0.html'>YM</a>
+<a href='/tag/YI_0.html'>YI</a>
+</div>
+<div class='sort' id='tag_Z'>
+<a href='/tag/ZK_0.html'>ZK</a>
+<a href='/tag/ZP_0.html'>ZP</a>
+<a href='/tag/ZR_0.html'>ZR</a>
+<a href='/tag/ZF_0.html'>ZF</a>
+<a href='/tag/ZI_0.html'>ZI</a>
+</div>
+<h3>Browse by classification</h3>
+<div class='sort'>
+<a href='/classification/1_0.html' title='unclassified'>CONFIDENTIAL</a>
+<a href='/classification/2_0.html' title='secret'>CONFIDENTIAL//NOFORN</a>
+<a href='/classification/3_0.html' title='confidential'>SECRET</a>
+<a href='/classification/4_0.html' title='secret//noforn'>SECRET//NOFORN</a>
+<a href='/classification/5_0.html' title='unclassified//fouo'>UNCLASSIFIED</a>
+<a href='/classification/6_0.html' title='confidential//noforn'>UNCLASSIFIED//FOR OFFICIAL USE ONLY</a>
+</div>
+</div>
+<h3>Community resources</h3>
+<div class='sort'>
+<a href='http://twitter.com/wikileaks'>Follow us on Twitter</a>
+<a href='http://en.reddit.com/domain/wikileaks.org'>Check our Reddit</a>
+<a href='http://twitter.com/home?status=Reading%20http%3A%2F%2Fcablegate.wikileaks.org%2Fcable%2F2009%2F09%2F09BUENOSAIRES1017.html%20%2309BUENOSAIRES1017'>Twitter this</a>
+<a href='http://digg.com/submit?url=http%3A%2F%2Fcablegate.wikileaks.org%2Fcable%2F2009%2F09%2F09BUENOSAIRES1017.html'>Digg this page</a>
+</div>
+<p>
+<i>
+courage is contagious
+</i>
+</p>
+</div>
+<div class='pane big'>
+<h3>Viewing cable 09BUENOSAIRES1017, ARGENTINA: CFK'S NEW CABINET CHIEF</h3>
+<div>
+If you are new to these pages, please read an introduction on the <a href="#help_1" onclick="return sh(1);">structure of a cable</a> as well as how to <a href="#help_2" onclick="return sh(2);">discuss them</a> with others. See also the <a href="/static/html/faq.html">FAQs</a>
+<br />
+</div>
+<div id='help_1'>
+<br />
+<b>Understanding cables</b>
+<br />
+Every cable message consists of three parts:
+<ul>
+<li>The top box shows each cables unique reference number, when and by whom it originally was sent, and what its initial classification was.</li>
+<li>The middle box contains the header information that is associated with the cable. It includes information about the receiver(s) as well as a general subject.</li>
+<li>The bottom box presents the body of the cable. The opening can contain a more specific subject, references to other cables (<a href="#by_A" onclick="swap('by_A'); setTimeout('document.location.href=(document.location.href + \'#by_A\').replace(/\#.*$/,\'#by_A\')', 100); return false;">browse by origin</a> to find them) or additional comment. This is followed by the main contents of the cable: a summary, a collection of specific topics and a comment section.</li>
+</ul>
+To understand the justification used for the classification of each cable, please use this <a href="http://en.wikisource.org/wiki/Executive_Order_13526#Part_1">WikiSource</a> article as reference.
+</div>
+<div id='help_2'>
+<br />
+<b>Discussing cables</b>
+<br />
+If you find meaningful or important information in a cable, please link directly to its unique reference number. Linking to a specific paragraph in the body of a cable is also possible by copying the appropriate link (to be found at theparagraph symbol).
+Please mark messages for social networking services like Twitter with the hash tags <b>#cablegate</b> and a hash containing the reference ID e.g. <b>#09BUENOSAIRES1017</b>.
+</div>
+<div id='kus'>
+<a href='http://wikileaks.org/support.html' target='_blank'>KEEP US STRONG!</a>
+</div>
+<table class='cable'>
+<tr>
+<th>Reference ID</th>
+<th>Created</th>
+<th>Released</th>
+<th>Classification</th>
+<th>Origin</th>
+</tr>
+<tr>
+<td>
+<a href='/cable/2009/09/09BUENOSAIRES1017.html'>09BUENOSAIRES1017</a>
+</td>
+<td>
+<a href='/date/2009-09_0.html'>2009-09-10 15:03</a>
+</td>
+<td>
+<a href='/reldate/2010-11-30_0.html'>2010-11-30 16:04</a>
+</td>
+<td>
+<a href='/classification/4_0.html' title='secret//noforn'>SECRET//NOFORN</a>
+</td>
+<td>
+<a href='/origin/53_0.html'>Embassy Buenos Aires</a>
+</td>
+</tr>
+</table>
+<code><pre>VZCZCXYZ0013&#x000A;PP RUEHWEB&#x000A;&#x000A;DE RUEHBU #1017/01 2531523&#x000A;ZNY SSSSS ZZH (CCY ADAEBDBB MSI7235-695)&#x000A;P 101523Z SEP 09&#x000A;FM AMEMBASSY BUENOS AIRES&#x000A;TO RUEHC/SECSTATE WASHDC PRIORITY 4324&#x000A;INFO RUCNMER/MERCOSUR COLLECTIVE PRIORITY&#x000A;RHEHAAA/NATIONAL SECURITY COUNCIL WASHINGTON DC PRIORITY&#x000A;RUEAIIA/CIA WASHINGTON DC PRIORITY</pre></code>
+<code><pre>S E C R E T BUENOS AIRES 001017&#x000A;&#x000A;NOFORN&#x000A;SIPDIS&#x000A;&#x000A;C O R R E C T E D COPY CAPTION&#x000A;&#x000A;E.O. 12958: DECL: 09/10/2039&#x000A;TAGS: <a href='/tag/PGOV_0.html'>PGOV</a> <a href='/tag/PREL_0.html'>PREL</a> <a href='/tag/SNAR_0.html'>SNAR</a> <a href='/tag/KCOR_0.html'>KCOR</a> <a href='/tag/ECON_0.html'>ECON</a> <a href='/tag/AR_0.html'>AR</a>&#x000A;SUBJECT: ARGENTINA: CFK'S NEW CABINET CHIEF&#x000A;&#x000A;REF: A. TDX-315/090481-08 AND TDX-315/042493-09&#x000A;<a id='parB' href='#parB'>¶</a>B. TD-314/65216-07&#x000A;<a id='parC' href='#parC'>¶</a>C. TD-314/67647-07&#x000A;<a id='parD' href='#parD'>¶</a>D. BUENOS AIRES 0126&#x000A;<a id='parE' href='#parE'>¶</a>E. BUENOS AIRES 0750&#x000A;<a id='parF' href='#parF'>¶</a>F. BUENOS AIRES 0980 AND PREVIOUS&#x000A;<a id='parG' href='#parG'>¶</a>G. TD-314/046516-08&#x000A;<a id='parH' href='#parH'>¶</a>H. 08 BUENOS AIRES 1550 AND PREVIOUS&#x000A;<a id='parI' href='#parI'>¶</a>I. 08 BUENOS AIRES 1478&#x000A;<a id='parJ' href='#parJ'>¶</a>J. 08 BUENOS AIRES 0322&#x000A;<a id='parK' href='#parK'>¶</a>K. TD-314/08212-07&#x000A;<a id='parL' href='#parL'>¶</a>L. TD-314/043023-09&#x000A;<a id='parM' href='#parM'>¶</a>M. TD-314/054350-09&#x000A;&#x000A;Classified By: CDA Thomas P. Kelly for reasons 1.4 (B) and (D).&#x000A;&#x000A;<a id='par1' href='#par1'>¶</a>1. (S) Summary: Argentine President Cristina Fernandez de&#x000A;Kirchner's (CFK) promotion of former Justice Minister Anibal&#x000A;Fernandez (AF) to Cabinet Chief puts in place someone with&#x000A;six years of experience working for the First Couple, first&#x000A;as former president Nestor Kirchner's Interior Minister and&#x000A;then as CFK's Justice Minister. By dint of his office's&#x000A;physical proximity to the President's as well as his&#x000A;portfolio's constitutional responsibilities, AF is in a&#x000A;position to wield significant power and influence, and is&#x000A;already playing a key role in shaping Casa Rosada politics,&#x000A;policy, and message.&#x000A;&#x000A;<a id='par2' href='#par2'>¶</a>2. (S) AF has been the most accessible member of CFK's&#x000A;Cabinet for the Embassy, but, unlike his two immediate&#x000A;predecessors, he has also not been shy about vociferously&#x000A;attacking the USG (or any other target) in order to defend&#x000A;the Kirchners. Like many Argentine politicians, he is dogged&#x000A;by corruption rumors, including ties to narcotrafficking,&#x000A;according to unsubstantiated press and intelligence reports&#x000A;(ref A). Additionally, he is suspected of directing&#x000A;intelligence teams to clandestinely monitor the emails of the&#x000A;administration's political opponents, according to separate&#x000A;intelligence reports (refs B and C), and he has been linked&#x000A;to reported CFK administration efforts to secure additional&#x000A;votes illegally in Buenos Aires and Cordoba provinces ahead&#x000A;of the June midterms. Despite the varied and persistent&#x000A;accusations of corruption lodged against him, however, there&#x000A;is no hard evidence. End Summary.&#x000A;&#x000A;CFK Rewards Fernandez' Loyalty with Cabinet Chief Post&#x000A;--------------------------------------------- -----&#x000A;&#x000A;<a id='par3' href='#par3'>¶</a>3. (C) Former Minister of Justice, Human Rights and Security&#x000A;Anibal Fernandez (AF) became CFK's third Chief of Cabinet&#x000A;since she assumed office in December 2007. A longtime&#x000A;Peronist and a close ally of former President Nestor Kirchner&#x000A;(NK), AF has worked over six years for the presidential&#x000A;couple, since the first day of NK's term. He has been one of&#x000A;the administration's most outspoken public defenders, first&#x000A;while serving as NK's Interior Minister and later as CFK's&#x000A;Justice Minister. Many viewed AF's promotion to Cabinet&#x000A;Chief as a reward for securing in his hometown of Quilmes one&#x000A;of the few significant Kirchner victories in the June 28&#x000A;mid-term elections (ref E).&#x000A;&#x000A;Origins of the Cabinet Chief Post&#x000A;---------------------------------&#x000A;&#x000A;<a id='par4' href='#par4'>¶</a>4. (C) As Cabinet Chief, AF has considerable power and&#x000A;influence. The authors of the 1994 constitutional reforms&#x000A;intended the position to be a check on presidential power as&#x000A;a watered-down prime minister, although in practice the&#x000A;Cabinet Chief has become a presidential chief of staff,&#x000A;spokesman, and all-purpose firefighter. The Cabinet Chief is&#x000A;technically responsible for the collection of national taxes;&#x000A;submitting the executive's budget request to Congress;&#x000A;co-signing executive decrees; appointing administration&#x000A;employees not designated by the President; and overseeing the&#x000A;Cabinet's ministers. Additionally, the President's Cabinet&#x000A;Chief is expected to report at least monthly to Congress,&#x000A;alternating between the Lower House and the Senate. (Note:&#x000A;The last two cabinet chiefs, Alberto Fernandez and Sergio&#x000A;Massa, appeared before Congress less than once a year; Anibal&#x000A;Fernandez will make his first such appearance this week.)&#x000A;&#x000A;Under the Ks, Cabinet Chief Influence Grew&#x000A;------------------------------------------&#x000A;&#x000A;<a id='par5' href='#par5'>¶</a>5. (C) Under the Kirchner administration, the cabinet chief&#x000A;position has grown in influence beyond its&#x000A;constitutionally-proscribed powers. Since 2002, the&#x000A;Argentine Congress has annually authorized economic&#x000A;"superpowers" for the executive branch. Originally enacted&#x000A;to address the 2001 financial crisis, these controversial&#x000A;superpowers enable the Cabinet Chief to redistribute federal&#x000A;funds coming from export taxes and tax collections above and&#x000A;beyond budget estimates, at the President's discretion.&#x000A;&#x000A;<a id='par6' href='#par6'>¶</a>6. (C) The Cabinet Chief's influence ultimately depends on&#x000A;his relationship with the First Couple. AF's immediate&#x000A;predecessor, the media-friendly Sergio Massa, reportedly had&#x000A;differences with NK over style and substance. Their tense&#x000A;relationship soured even further with NK's poor showing in&#x000A;Massa's hometown in the June 28 midterm elections (ref E).&#x000A;Alberto Fernandez (not related to AF), who served as CFK's&#x000A;and NK's first Cabinet Chief, was one of the few capable of&#x000A;moderating the temperamental First Couple. But even he was&#x000A;unable to walk the Kirchners back from their&#x000A;take-no-prisoners approach to an extended conflict with the&#x000A;farm sector, and he resigned in July 2008 out of frustration&#x000A;(ref F). Amid a cabinet that does not speak much to the&#x000A;media, Anibal Fernandez has long been one of the most visible&#x000A;spokesmen for the Kirchners, and his influence over policy&#x000A;and political decisions will likely grow in his new post.&#x000A;&#x000A;Embassy Interaction with Fernandez&#x000A;----------------------------------&#x000A;&#x000A;<a id='par7' href='#par7'>¶</a>7. (C) AF has been for us the most accessible and&#x000A;forward-leaning member of CFK's Cabinet, welcoming USG law&#x000A;enforcement training and cooperation (ref G). Again and&#x000A;again, he has gone out of his way to rearrange his travel&#x000A;schedule to meet with visiting U.S. officials and greet&#x000A;Embassy officials at diplomatic events. Although he has&#x000A;frequently told us that he is the most "pro-American" member&#x000A;of CFK's Cabinet, we think this reflects his deep-seated&#x000A;pragmatism rather than any abiding affinity for the United&#x000A;States. Our positive working relationship with Fernandez,&#x000A;for example, did not stop him from criticizing the United&#x000A;States to protect the Kirchners, as he did during the 2007-08&#x000A;suitcase scandal (ref H). Nonetheless, he was one of the&#x000A;first Argentine officials to assure Embassy officials that&#x000A;the suitcase scandal was "water under the bridge."&#x000A;&#x000A;<a id='par8' href='#par8'>¶</a>8. (C) More political hack than diplomat, AF is a&#x000A;fiefdom-builder who loathes giving up control over strategic&#x000A;resources. When he moved from the Interior Ministry to&#x000A;Justice, for example, he took the internal security agencies&#x000A;with him. Many believe that even now, as Cabinet Chief, AF&#x000A;retains operational control over the law enforcement forces.&#x000A;&#x000A;<a id='par9' href='#par9'>¶</a>9. (C) Although AF confided to the Embassy's former LEGAT&#x000A;that he was not in a position to micromanage the Ministry of&#x000A;Justice at first, he said he immediately centralized control&#x000A;once he got the lay of the land. As Chief of the internal&#x000A;security forces, including the Border Patrol/Paramilitary&#x000A;Police (Gendarmeria Nacional), Coast Guard, federal police,&#x000A;and special airport police, AF quickly imposed a strict&#x000A;vertical hierarchy where he discouraged information sharing&#x000A;and commanded security chiefs to report directly to him. He&#x000A;has boasted to Embassy officials that while his predecessor&#x000A;at Justice, Alberto Iribarne, only signed a few ministerial&#x000A;decrees, he signed hundreds. Judicial contacts have told us&#x000A;that as Justice Minister, he even tried to pressure&#x000A;provincial judges to advise him of any judicial assistance&#x000A;requests from federal judges, but subsequently backtracked on&#x000A;that position after judges complained that the directive&#x000A;interfered with judicial independence. His micro-management&#x000A;over even routine matters in his portfolio resulted in&#x000A;bureaucratic backlogs for us. Naming participants to U.S.&#x000A;training programs, the visits of Transportation Security&#x000A;Administration teams to conduct airport/air carrier&#x000A;assessments, and clearance for U.S. Federal Air Marshals all&#x000A;required his personal approval. Once, when the DCM visited&#x000A;Fernandez's Chief of Staff at Justice, Fernandez got wind of&#x000A;the meeting while it was in progress, got into a car, and&#x000A;stormed into the office, taking over the meeting while the&#x000A;chief of staff clammed up.&#x000A;&#x000A;<a id='par10' href='#par10'>¶</a>10. (C) A pragmatic and politically savvy interlocutor, AF&#x000A;prefers not to include his staff in meetings with Embassy&#x000A;officials. Although he is always well-prepared, his speech&#x000A;and demeanor can sometimes be crass. On more than one&#x000A;occasion, he has taken obvious notice of an attractive&#x000A;translator during a meeting with visiting U.S. officials.&#x000A;Additionally, he has referred to the existence of local&#x000A;"demand for young genitals" when explaining the challenges&#x000A;his Ministry faces in fighting human trafficking for the&#x000A;purposes of sexual exploitation.&#x000A;&#x000A;AF Denies Drug Problem, Advocates Decriminalization&#x000A;--------------------------------------------- ------&#x000A;&#x000A;<a id='par11' href='#par11'>¶</a>11. (C) Although he has not interfered with USG CN activity&#x000A;here insofar as we can ascertain, AF has frequently denied&#x000A;that drug trafficking is a major problem in Argentina,&#x000A;despite evidence indicating that Colombian and Mexican drug&#x000A;cartels operate in Argentina, and that Argentina leads Latin&#x000A;America in cocaine consumption. AF insists that Argentina is&#x000A;merely a transit point and continues to deny the existence of&#x000A;drug labs in Argentina. In an October 2008 workshop on&#x000A;Argentine narcotics policy, AF described press reports&#x000A;claiming that drug cartels had established production&#x000A;facilities in Argentina (ref I) as mere fiction. He is also&#x000A;a long-time advocate for the decriminalization of drug use,&#x000A;saying he dreams "of the day when drug addicts are sent to&#x000A;rehab instead of prison." AF argues that the government&#x000A;should stop focusing on small-time carriers in order to focus&#x000A;on dismantling large drug trafficking networks (ref J).&#x000A;&#x000A;<a id='par12' href='#par12'>¶</a>12. (S/NF) According to late December 2006 intelligence&#x000A;reporting (ref K), AF advised then Vice-President Scioli that&#x000A;he should not make counternarcotics his number one campaign&#x000A;issue when he ran for Governor of Buenos Aires province.&#x000A;Reasoning that the narcotraffickers are well-organized with&#x000A;the capacity to frame politicians, AF suggested that Scioli&#x000A;pay only lip service to counternarcotics efforts. He argued&#x000A;that Scioli should not assume the risks since drug-related&#x000A;crimes would never be resolved.&#x000A;&#x000A;Ties to Drug Trafficking?&#x000A;-------------------------&#x000A;&#x000A;<a id='par13' href='#par13'>¶</a>13. (S/NF) Unsubstantiated press and intelligence reports&#x000A;(refs A and M) suggest that AF may be financially profiting&#x000A;from narcotrafficking. These reports state that AF's ties to&#x000A;narcotrafficking date back to 1994 when AF was mayor of&#x000A;Quilmes and allegedly directed a cocaine trafficking network.&#x000A;The Embassy's DEA section has heard similar allegations from&#x000A;contacts at the Argentine Counternarcotics Secretariat&#x000A;(SEDRONAR), which has been at loggerheads with AF. SEDRONAR&#x000A;contacts told poloff that AF personally called off an ongoing&#x000A;drug investigation in Salta province near the Bolivian border&#x000A;when he got wind of the investigation.&#x000A;&#x000A;<a id='par14' href='#par14'>¶</a>14. (S/NF) We have no information to corroborate these&#x000A;allegations, and we are unaware of any formal legal complaint&#x000A;against him on narcotrafficking charges. However, there are&#x000A;two formal legal complaints pending against former&#x000A;subordinates -- including Federal Police officials -- for&#x000A;protecting or willfully ignoring various illegal brothels in&#x000A;the Monserrat neighborhood (within a five-block radius of&#x000A;Federal Police headquarters) in Buenos Aires City where the&#x000A;sale of drugs is suspected.&#x000A;&#x000A;Spying on the Opposition&#x000A;------------------------&#x000A;&#x000A;<a id='par15' href='#par15'>¶</a>15. (S/NF) Intelligence reporting suggests that AF has not&#x000A;hesitated to resort to questionable means to keep tabs on&#x000A;political opponents. In mid-May 2007, AF, as Interior&#x000A;Minister, allegedly directed a private intelligence team&#x000A;composed of retired military and intelligence officers to&#x000A;clandestinely monitor the emails of provincial and federal&#x000A;government officials, business executives and journalists&#x000A;suspected of working against NK's administration (ref B). In&#x000A;September 2007, he reportedly used a private, unofficial&#x000A;investigative team to read the emails and collect derogatory&#x000A;information on then-gubernatorial candidates for Buenos Aires&#x000A;province, Francisco de Narvaez and Juan Carlos Blumberg, and&#x000A;Buenos Aires province Minister of Security Leon Arslanian&#x000A;(ref C). According to intelligence reporting in November&#x000A;2007, AF used two computer technicians to hack into&#x000A;high-level email accounts, including Chief Justice&#x000A;Lorenzetti's email (ref G). San Isidro judge Sandra&#x000A;Arroyo-Salgado (wife of Alberto Nisman, the Special&#x000A;Prosecutor investigating the 1994 bombing of the Argentine&#x000A;Jewish Mutual Association (AMIA)) is investigating AF's&#x000A;relationship with the two technicians, according to press&#x000A;reports. (Note: These technicians in the past have been&#x000A;associated with Argentina's State Secretariat for&#x000A;Intelligence (SIDE) and sought asylum in Uruguay.)&#x000A;&#x000A;<a id='par16' href='#par16'>¶</a>16. (S/NF) AF reportedly may have played a tangential role in&#x000A;illegally bolstering voter registration ahead of the June 28&#x000A;midterms, according to a June 2009 intelligence report. He&#x000A;supported efforts -- led by Interior Minister Florencio&#x000A;Randazzo and Secretary of Intelligence Hector Icazuriaga --&#x000A;to illegally procure national registry identification numbers&#x000A;(DNIs) to register ostensible supporters and secure&#x000A;additional votes in Buenos Aires and Cordoba provinces (ref&#x000A;L).&#x000A;&#x000A;Transparency&#x000A;------------&#x000A;&#x000A;<a id='par17' href='#par17'>¶</a>17. (C) Although AF once bragged to the Embassy's former&#x000A;LEGAT that he has a "transparent and honest style," he did&#x000A;little as Justice Minister to fortify his agency's&#x000A;anti-corruption efforts or enhance governmental transparency.&#x000A;Admittedly, the MOJ's Anti-Corruption Office (ACO) was a&#x000A;weak unit to begin with, but it made no headway during AF's&#x000A;tenure. Contacts who work for the Cabinet Chief's government&#x000A;accountability and transparency unit have expressed concern&#x000A;that the GOA will become even less transparent under his&#x000A;watch. They note that since AF took over as chief of the&#x000A;internal security forces, criminal statistics are no longer&#x000A;public information. Indeed, despite public alarm over rising&#x000A;insecurity, AF refuses to acknowledge a rise in robberies and&#x000A;kidnappings and instead has argued that insecurity is only "a&#x000A;sensation fed by the media."&#x000A;&#x000A;Corruption&#x000A;----------&#x000A;&#x000A;<a id='par18' href='#par18'>¶</a>18. (C) Like many Argentine politicians, AF has been dogged&#x000A;by rumors of corruption. In recent years, some Embassy&#x000A;contacts have alleged that AF has a corrupt relationship with&#x000A;the Japanese computer company, NEC. When AF was mayor of&#x000A;Quilmes (1991-1995), he was charged with several counts of&#x000A;corruption, becoming a fugitive for 48 hours. Although he&#x000A;was later acquitted, he has continued to face accusations of&#x000A;corruption from the opposition, and the allegations remain&#x000A;fresh in the minds of some Argentines. When CFK named him&#x000A;Minister of Justice, one judicial contact told us that many&#x000A;in the judicial system considered the appointment "ironic"&#x000A;and called AF the "fugitive from Quilmes."&#x000A;&#x000A;Bio Data&#x000A;--------&#x000A;&#x000A;<a id='par19' href='#par19'>¶</a>19. (SBU) AF began his political career in 1983, working&#x000A;first as an advisor to the budget committee of the Buenos&#x000A;Aires provincial Senate. From 1985 to 1987, he served as the&#x000A;administrative secretary for the Peronist party (PJ) in the&#x000A;Buenos Aires provincial Senate. He also simultaneously held&#x000A;positions in the municipal councils of Quilmes and Florencio&#x000A;Varela. In 1991, AF was elected mayor of Quilmes. In 1995,&#x000A;he won a provincial Senate seat where he presided over the&#x000A;Commission on Public Health and Control over Addictions. He&#x000A;was named provincial government secretary in 1997, labor&#x000A;secretary in 1999, and the province,s first labor minister&#x000A;in 2001. AF served in former President Eduardo Duhalde's&#x000A;cabinet as secretary general of the presidency in January&#x000A;2002, and then as production minister in October of the same&#x000A;year. He switched allegiance to NK in 2004 when the Peronist&#x000A;party split into two factions - one that supported NK and&#x000A;another that supported Duhalde. Since then, Duhalde&#x000A;supporters have called him a traitor and the "first Kirchner&#x000A;convert." In 2007, CFK tapped him to serve as her Justice&#x000A;Minister and on July 7 she named him Cabinet Chief.&#x000A;&#x000A;<a id='par20' href='#par20'>¶</a>20. (SBU) AF was born in Quilmes, Buenos Aires Province on&#x000A;January 9, 1957. A public accountant, AF received his law&#x000A;degree while serving as Interior Minister. Although the&#x000A;Kirchners stifled AF's ambitions to run for Governor of BA&#x000A;province in 2007 when they tapped then Vice President Daniel&#x000A;Scioli for the job, AF's power and influence within the&#x000A;Kirchner Cabinet has steadily grown. He accompanied CFK to&#x000A;the United States in July when she went to the OAS to discuss&#x000A;the political crisis in Honduras. He also accompanied her in&#x000A;May 2007 when she addressed the American Jewish Committee as&#x000A;Senator and First Lady. During that visit, he met with the&#x000A;U.S. Attorney General, FBI officials, and State Department&#x000A;officers on TIP-related issues. AF lives in the trendy&#x000A;waterfront Puerto Madero neighborhood in Buenos Aires City&#x000A;with his wife and one son. A fan of technology, he carries&#x000A;multiple cell phones and his office has six television sets&#x000A;permanently tuned in to every local news channel. He speaks&#x000A;limited English.&#x000A;&#x000A;Comment: Handle with Care&#x000A;-------------------------&#x000A;&#x000A;<a id='par21' href='#par21'>¶</a>21. (S) For USG officials, Anibal Fernandez has long been the&#x000A;most readily accessible GOA cabinet member. That has&#x000A;continued since he became Cabinet Chief, assuming more&#x000A;importance than ever. Fernandez has far better access to the&#x000A;ruling first couple than any other member of the Cabinet;&#x000A;perhaps only reclusive Casa Rosada staffer Carlos Zannini has&#x000A;more influence with the Kirchners. Given AF's importance,&#x000A;accessibility, and the absence of hard evidence to&#x000A;substantiate the allegations described above, we continue to&#x000A;meet and work with him. At the same time, there are enough&#x000A;rumors about Fernandez -- even in this rumor-plagued,&#x000A;conspiratorial society -- to approach interactions with him&#x000A;with some caution.&#x000A;&#x000A;KELLY</pre></code>
+</div>
+</div>
+<script src='/static/js/js.js' type='text/javascript'></script>
+</body>
+</html>

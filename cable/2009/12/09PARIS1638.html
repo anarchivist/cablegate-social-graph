@@ -1,0 +1,723 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+<title>Cable Viewer</title>
+<link href='/static/gfx/favicon.ico' rel='shortcut icon' />
+<link href='/static/css/reset-fonts-grids.css' rel='stylesheet' type='text/css' />
+<link href='/static/css/cables.css' rel='stylesheet' type='text/css' />
+</head>
+<body>
+<div class='main'>
+<div class='pane small'>
+<a href='/index.html'>
+<img alt='WikiLeaks logo' src='/static/gfx/WL_Hour_Glass_small.png' />
+<p>Currently released so far... 597 / 251,287</p>
+</a>
+<div id='browse'>
+<h3>Articles</h3>
+<div class='sort'>
+<a href="/articles/2010/De-olho-nas-Olimpiadas-US-faz.html">Brazil</a>
+<a href="/articles/2010/Sri-Lankan-President-s-alleged-war.html">Sri Lanka</a>
+<a href="/articles/2010/Iraq-Inquiry-told-to-protect-US.html">United Kingdom</a>
+<a href="/articles/2010/USA-bekraftar-svensk-Natokoppling.html">Sweden</a>
+</div>
+<h3>Browse latest releases</h3>
+<div class='sort'>
+<a href='/reldate/2010-12-02_0.html'>2010/12/02</a>
+<a href='/reldate/2010-12-01_0.html'>2010/12/01</a>
+<a href='/reldate/2010-11-30_0.html'>2010/11/30</a>
+<a href='/reldate/2010-11-29_0.html'>2010/11/29</a>
+<a href='/reldate/2010-11-28_0.html'>2010/11/28</a>
+</div>
+<h3>Browse by creation <a href='#year_1966' onclick='return sha(0);'>date</a></h3>
+<div class='pick'>
+<a class='sort' href='#year_1966' onclick="return swap('year_1966');">66</a>
+<a class='sort' href='#year_1972' onclick="return swap('year_1972');">72</a>
+<a class='sort' href='#year_1975' onclick="return swap('year_1975');">75</a>
+<a class='sort' href='#year_1979' onclick="return swap('year_1979');">79</a>
+<a class='sort' href='#year_1986' onclick="return swap('year_1986');">86</a>
+<a class='sort' href='#year_1989' onclick="return swap('year_1989');">89</a>
+<a class='sort' href='#year_1990' onclick="return swap('year_1990');">90</a>
+<a class='sort' href='#year_2003' onclick="return swap('year_2003');">03</a>
+<a class='sort' href='#year_2004' onclick="return swap('year_2004');">04</a>
+<a class='sort' href='#year_2005' onclick="return swap('year_2005');">05</a>
+<a class='sort' href='#year_2006' onclick="return swap('year_2006');">06</a>
+<a class='sort' href='#year_2007' onclick="return swap('year_2007');">07</a>
+<a class='sort' href='#year_2008' onclick="return swap('year_2008');">08</a>
+<a class='sort' href='#year_2009' onclick="return swap('year_2009');">09</a>
+<a class='sort' href='#year_2010' onclick="return swap('year_2010');">10</a>
+</div>
+<div class='sort' id='year_1966'>
+<a href='/date/1966-12_0.html'>1966/12</a>
+</div>
+<div class='sort' id='year_1972'>
+<a href='/date/1972-02_0.html'>1972/02</a>
+<a href='/date/1972-08_0.html'>1972/08</a>
+</div>
+<div class='sort' id='year_1975'>
+<a href='/date/1975-03_0.html'>1975/03</a>
+</div>
+<div class='sort' id='year_1979'>
+<a href='/date/1979-08_0.html'>1979/08</a>
+</div>
+<div class='sort' id='year_1986'>
+<a href='/date/1986-05_0.html'>1986/05</a>
+</div>
+<div class='sort' id='year_1989'>
+<a href='/date/1989-12_0.html'>1989/12</a>
+</div>
+<div class='sort' id='year_1990'>
+<a href='/date/1990-01_0.html'>1990/01</a>
+</div>
+<div class='sort' id='year_2003'>
+<a href='/date/2003-06_0.html'>2003/06</a>
+</div>
+<div class='sort' id='year_2004'>
+<a href='/date/2004-01_0.html'>2004/01</a>
+<a href='/date/2004-02_0.html'>2004/02</a>
+<a href='/date/2004-04_0.html'>2004/04</a>
+<a href='/date/2004-11_0.html'>2004/11</a>
+<a href='/date/2004-12_0.html'>2004/12</a>
+</div>
+<div class='sort' id='year_2005'>
+<a href='/date/2005-01_0.html'>2005/01</a>
+<a href='/date/2005-03_0.html'>2005/03</a>
+<a href='/date/2005-04_0.html'>2005/04</a>
+<a href='/date/2005-05_0.html'>2005/05</a>
+<a href='/date/2005-06_0.html'>2005/06</a>
+<a href='/date/2005-07_0.html'>2005/07</a>
+<a href='/date/2005-08_0.html'>2005/08</a>
+<a href='/date/2005-10_0.html'>2005/10</a>
+<a href='/date/2005-11_0.html'>2005/11</a>
+<a href='/date/2005-12_0.html'>2005/12</a>
+</div>
+<div class='sort' id='year_2006'>
+<a href='/date/2006-01_0.html'>2006/01</a>
+<a href='/date/2006-02_0.html'>2006/02</a>
+<a href='/date/2006-03_0.html'>2006/03</a>
+<a href='/date/2006-04_0.html'>2006/04</a>
+<a href='/date/2006-05_0.html'>2006/05</a>
+<a href='/date/2006-06_0.html'>2006/06</a>
+<a href='/date/2006-07_0.html'>2006/07</a>
+<a href='/date/2006-08_0.html'>2006/08</a>
+<a href='/date/2006-09_0.html'>2006/09</a>
+<a href='/date/2006-10_0.html'>2006/10</a>
+<a href='/date/2006-11_0.html'>2006/11</a>
+<a href='/date/2006-12_0.html'>2006/12</a>
+</div>
+<div class='sort' id='year_2007'>
+<a href='/date/2007-01_0.html'>2007/01</a>
+<a href='/date/2007-02_0.html'>2007/02</a>
+<a href='/date/2007-03_0.html'>2007/03</a>
+<a href='/date/2007-04_0.html'>2007/04</a>
+<a href='/date/2007-05_0.html'>2007/05</a>
+<a href='/date/2007-06_0.html'>2007/06</a>
+<a href='/date/2007-07_0.html'>2007/07</a>
+<a href='/date/2007-08_0.html'>2007/08</a>
+<a href='/date/2007-09_0.html'>2007/09</a>
+<a href='/date/2007-10_0.html'>2007/10</a>
+<a href='/date/2007-11_0.html'>2007/11</a>
+<a href='/date/2007-12_0.html'>2007/12</a>
+</div>
+<div class='sort' id='year_2008'>
+<a href='/date/2008-01_0.html'>2008/01</a>
+<a href='/date/2008-02_0.html'>2008/02</a>
+<a href='/date/2008-03_0.html'>2008/03</a>
+<a href='/date/2008-04_0.html'>2008/04</a>
+<a href='/date/2008-05_0.html'>2008/05</a>
+<a href='/date/2008-07_0.html'>2008/07</a>
+<a href='/date/2008-08_0.html'>2008/08</a>
+<a href='/date/2008-09_0.html'>2008/09</a>
+<a href='/date/2008-10_0.html'>2008/10</a>
+<a href='/date/2008-11_0.html'>2008/11</a>
+<a href='/date/2008-12_0.html'>2008/12</a>
+</div>
+<div class='sort' id='year_2009'>
+<a href='/date/2009-01_0.html'>2009/01</a>
+<a href='/date/2009-02_0.html'>2009/02</a>
+<a href='/date/2009-03_0.html'>2009/03</a>
+<a href='/date/2009-04_0.html'>2009/04</a>
+<a href='/date/2009-05_0.html'>2009/05</a>
+<a href='/date/2009-06_0.html'>2009/06</a>
+<a href='/date/2009-07_0.html'>2009/07</a>
+<a href='/date/2009-08_0.html'>2009/08</a>
+<a href='/date/2009-09_0.html'>2009/09</a>
+<a href='/date/2009-10_0.html'>2009/10</a>
+<a href='/date/2009-11_0.html'>2009/11</a>
+<a href='/date/2009-12_0.html'>2009/12</a>
+</div>
+<div class='sort' id='year_2010'>
+<a href='/date/2010-01_0.html'>2010/01</a>
+<a href='/date/2010-02_0.html'>2010/02</a>
+</div>
+<h3>Browse by <a href='#by_A' onclick='return sha(1);'>origin</a></h3>
+<div class='pick'>
+<a class='sort' href='#by_A' onclick="return swap('by_A');">A</a>
+<a class='sort' href='#by_B' onclick="return swap('by_B');">B</a>
+<a class='sort' href='#by_C' onclick="return swap('by_C');">C</a>
+<a class='sort' href='#by_D' onclick="return swap('by_D');">D</a>
+<a class='sort' href='#by_H' onclick="return swap('by_H');">H</a>
+<a class='sort' href='#by_I' onclick="return swap('by_I');">I</a>
+<a class='sort' href='#by_J' onclick="return swap('by_J');">J</a>
+<a class='sort' href='#by_K' onclick="return swap('by_K');">K</a>
+<a class='sort' href='#by_L' onclick="return swap('by_L');">L</a>
+<a class='sort' href='#by_M' onclick="return swap('by_M');">M</a>
+<a class='sort' href='#by_N' onclick="return swap('by_N');">N</a>
+<a class='sort' href='#by_O' onclick="return swap('by_O');">O</a>
+<a class='sort' href='#by_P' onclick="return swap('by_P');">P</a>
+<a class='sort' href='#by_R' onclick="return swap('by_R');">R</a>
+<a class='sort' href='#by_S' onclick="return swap('by_S');">S</a>
+<a class='sort' href='#by_T' onclick="return swap('by_T');">T</a>
+<a class='sort' href='#by_U' onclick="return swap('by_U');">U</a>
+<a class='sort' href='#by_V' onclick="return swap('by_V');">V</a>
+</div>
+<div class='sort' id='by_A'>
+<a href='/origin/65_0.html'>Embassy Asuncion</a>
+<a href='/origin/66_0.html'>Embassy Astana</a>
+<a href='/origin/67_0.html'>Embassy Ashgabat</a>
+<a href='/origin/68_0.html'>Embassy Ankara</a>
+<a href='/origin/69_0.html'>Embassy Amman</a>
+<a href='/origin/70_0.html'>Embassy Algiers</a>
+<a href='/origin/71_0.html'>Embassy Abu Dhabi</a>
+</div>
+<div class='sort' id='by_B'>
+<a href='/origin/53_0.html'>Embassy Buenos Aires</a>
+<a href='/origin/54_0.html'>Embassy Bucharest</a>
+<a href='/origin/55_0.html'>Embassy Brussels</a>
+<a href='/origin/56_0.html'>Embassy Bridgetown</a>
+<a href='/origin/57_0.html'>Embassy Brasilia</a>
+<a href='/origin/58_0.html'>Embassy Bishkek</a>
+<a href='/origin/59_0.html'>Embassy Berlin</a>
+<a href='/origin/60_0.html'>Embassy Beirut</a>
+<a href='/origin/61_0.html'>Embassy Beijing</a>
+<a href='/origin/62_0.html'>Embassy Bangkok</a>
+<a href='/origin/63_0.html'>Embassy Baku</a>
+<a href='/origin/64_0.html'>Embassy Baghdad</a>
+</div>
+<div class='sort' id='by_C'>
+<a href='/origin/49_0.html'>Embassy Colombo</a>
+<a href='/origin/50_0.html'>Embassy Chisinau</a>
+<a href='/origin/51_0.html'>Embassy Caracas</a>
+<a href='/origin/52_0.html'>Embassy Cairo</a>
+<a href='/origin/82_0.html'>Consulate Cape Town</a>
+</div>
+<div class='sort' id='by_D'>
+<a href='/origin/44_0.html'>Embassy Dushanbe</a>
+<a href='/origin/45_0.html'>Embassy Dublin</a>
+<a href='/origin/46_0.html'>Embassy Doha</a>
+<a href='/origin/47_0.html'>Embassy Djibouti</a>
+<a href='/origin/48_0.html'>Embassy Damascus</a>
+<a href='/origin/81_0.html'>Consulate Dubai</a>
+</div>
+<div class='sort' id='by_H'>
+<a href='/origin/43_0.html'>Embassy Harare</a>
+<a href='/origin/80_0.html'>Consulate Hamburg</a>
+</div>
+<div class='sort' id='by_I'>
+<a href='/origin/5_0.html'>Iran RPO Dubai</a>
+<a href='/origin/42_0.html'>Embassy Islamabad</a>
+<a href='/origin/79_0.html'>Consulate Istanbul</a>
+</div>
+<div class='sort' id='by_J'>
+<a href='/origin/78_0.html'>Consulate Jeddah</a>
+</div>
+<div class='sort' id='by_K'>
+<a href='/origin/38_0.html'>Embassy Kyiv</a>
+<a href='/origin/39_0.html'>Embassy Kuwait</a>
+<a href='/origin/40_0.html'>Embassy Kuala Lumpur</a>
+<a href='/origin/41_0.html'>Embassy Kabul</a>
+</div>
+<div class='sort' id='by_L'>
+<a href='/origin/33_0.html'>Embassy Luxembourg</a>
+<a href='/origin/34_0.html'>Embassy London</a>
+<a href='/origin/35_0.html'>Embassy Lisbon</a>
+<a href='/origin/36_0.html'>Embassy Lima</a>
+<a href='/origin/37_0.html'>Embassy La Paz</a>
+</div>
+<div class='sort' id='by_M'>
+<a href='/origin/4_0.html'>Mission USNATO</a>
+<a href='/origin/28_0.html'>Embassy Muscat</a>
+<a href='/origin/29_0.html'>Embassy Moscow</a>
+<a href='/origin/30_0.html'>Embassy Mexico</a>
+<a href='/origin/31_0.html'>Embassy Manama</a>
+<a href='/origin/32_0.html'>Embassy Madrid</a>
+<a href='/origin/77_0.html'>Consulate Munich</a>
+</div>
+<div class='sort' id='by_N'>
+<a href='/origin/27_0.html'>Embassy New Delhi</a>
+</div>
+<div class='sort' id='by_O'>
+<a href='/origin/26_0.html'>Embassy Ottawa</a>
+</div>
+<div class='sort' id='by_P'>
+<a href='/origin/22_0.html'>Embassy Prague</a>
+<a href='/origin/23_0.html'>Embassy Port Au Prince</a>
+<a href='/origin/24_0.html'>Embassy Paris</a>
+<a href='/origin/25_0.html'>Embassy Panama</a>
+<a href='/origin/76_0.html'>Consulate Peshawar</a>
+</div>
+<div class='sort' id='by_R'>
+<a href='/origin/19_0.html'>Embassy Rome</a>
+<a href='/origin/20_0.html'>Embassy Riyadh</a>
+<a href='/origin/21_0.html'>Embassy Rabat</a>
+</div>
+<div class='sort' id='by_S'>
+<a href='/origin/3_0.html'>Secretary of State</a>
+<a href='/origin/14_0.html'>Embassy Stockholm</a>
+<a href='/origin/15_0.html'>Embassy Singapore</a>
+<a href='/origin/16_0.html'>Embassy Seoul</a>
+<a href='/origin/17_0.html'>Embassy Santiago</a>
+<a href='/origin/18_0.html'>Embassy Sanaa</a>
+<a href='/origin/73_0.html'>Consulate Shenyang</a>
+<a href='/origin/74_0.html'>Consulate Shanghai</a>
+<a href='/origin/75_0.html'>Consulate Sao Paulo</a>
+</div>
+<div class='sort' id='by_T'>
+<a href='/origin/8_0.html'>Embassy Tunis</a>
+<a href='/origin/9_0.html'>Embassy Tripoli</a>
+<a href='/origin/10_0.html'>Embassy Tel Aviv</a>
+<a href='/origin/11_0.html'>Embassy Tehran</a>
+<a href='/origin/12_0.html'>Embassy Tegucigalpa</a>
+<a href='/origin/13_0.html'>Embassy Tbilisi</a>
+</div>
+<div class='sort' id='by_U'>
+<a href='/origin/1_0.html'>USEU Brussels</a>
+<a href='/origin/2_0.html'>UNVIE</a>
+<a href='/origin/7_0.html'>Embassy Ulaanbaatar</a>
+</div>
+<div class='sort' id='by_V'>
+<a href='/origin/6_0.html'>Embassy Vienna</a>
+<a href='/origin/72_0.html'>Consulate Vladivostok</a>
+</div>
+<h3>Browse by <a href='#tag_A' onclick='return sha(2);'>tag</a></h3>
+<div class='pick'>
+<a class='sort' href='#tag_A' onclick="return swap('tag_A');">A</a>
+<a class='sort' href='#tag_B' onclick="return swap('tag_B');">B</a>
+<a class='sort' href='#tag_C' onclick="return swap('tag_C');">C</a>
+<a class='sort' href='#tag_D' onclick="return swap('tag_D');">D</a>
+<a class='sort' href='#tag_E' onclick="return swap('tag_E');">E</a>
+<a class='sort' href='#tag_F' onclick="return swap('tag_F');">F</a>
+<a class='sort' href='#tag_G' onclick="return swap('tag_G');">G</a>
+<a class='sort' href='#tag_H' onclick="return swap('tag_H');">H</a>
+<a class='sort' href='#tag_I' onclick="return swap('tag_I');">I</a>
+<a class='sort' href='#tag_J' onclick="return swap('tag_J');">J</a>
+<a class='sort' href='#tag_K' onclick="return swap('tag_K');">K</a>
+<a class='sort' href='#tag_L' onclick="return swap('tag_L');">L</a>
+<a class='sort' href='#tag_M' onclick="return swap('tag_M');">M</a>
+<a class='sort' href='#tag_N' onclick="return swap('tag_N');">N</a>
+<a class='sort' href='#tag_O' onclick="return swap('tag_O');">O</a>
+<a class='sort' href='#tag_P' onclick="return swap('tag_P');">P</a>
+<a class='sort' href='#tag_Q' onclick="return swap('tag_Q');">Q</a>
+<a class='sort' href='#tag_R' onclick="return swap('tag_R');">R</a>
+<a class='sort' href='#tag_S' onclick="return swap('tag_S');">S</a>
+<a class='sort' href='#tag_T' onclick="return swap('tag_T');">T</a>
+<a class='sort' href='#tag_U' onclick="return swap('tag_U');">U</a>
+<a class='sort' href='#tag_V' onclick="return swap('tag_V');">V</a>
+<a class='sort' href='#tag_W' onclick="return swap('tag_W');">W</a>
+<a class='sort' href='#tag_X' onclick="return swap('tag_X');">X</a>
+<a class='sort' href='#tag_Y' onclick="return swap('tag_Y');">Y</a>
+<a class='sort' href='#tag_Z' onclick="return swap('tag_Z');">Z</a>
+</div>
+<div class='sort' id='tag_A'>
+<a href='/tag/AU_0.html'>AU</a>
+<a href='/tag/AG_0.html'>AG</a>
+<a href='/tag/AF_0.html'>AF</a>
+<a href='/tag/AR_0.html'>AR</a>
+<a href='/tag/AE_0.html'>AE</a>
+<a href='/tag/AM_0.html'>AM</a>
+<a href='/tag/ASEC_0.html'>ASEC</a>
+<a href='/tag/AORC_0.html'>AORC</a>
+<a href='/tag/AMGT_0.html'>AMGT</a>
+<a href='/tag/APER_0.html'>APER</a>
+<a href='/tag/AJ_0.html'>AJ</a>
+<a href='/tag/AL_0.html'>AL</a>
+<a href='/tag/AGMT_0.html'>AGMT</a>
+<a href='/tag/AEMR_0.html'>AEMR</a>
+</div>
+<div class='sort' id='tag_B'>
+<a href='/tag/BA_0.html'>BA</a>
+<a href='/tag/BR_0.html'>BR</a>
+<a href='/tag/BE_0.html'>BE</a>
+<a href='/tag/BRUSSELS_0.html'>BRUSSELS</a>
+<a href='/tag/BIDEN_0.html'>BIDEN</a>
+<a href='/tag/BH_0.html'>BH</a>
+<a href='/tag/BL_0.html'>BL</a>
+<a href='/tag/BTIO_0.html'>BTIO</a>
+<a href='/tag/BEXP_0.html'>BEXP</a>
+<a href='/tag/BU_0.html'>BU</a>
+<a href='/tag/BY_0.html'>BY</a>
+<a href='/tag/BO_0.html'>BO</a>
+</div>
+<div class='sort' id='tag_C'>
+<a href='/tag/CA_0.html'>CA</a>
+<a href='/tag/CVIS_0.html'>CVIS</a>
+<a href='/tag/CMGT_0.html'>CMGT</a>
+<a href='/tag/CH_0.html'>CH</a>
+<a href='/tag/CASC_0.html'>CASC</a>
+<a href='/tag/CJAN_0.html'>CJAN</a>
+<a href='/tag/CLINTON_0.html'>CLINTON</a>
+<a href='/tag/CU_0.html'>CU</a>
+<a href='/tag/CD_0.html'>CD</a>
+<a href='/tag/CV_0.html'>CV</a>
+<a href='/tag/CO_0.html'>CO</a>
+<a href='/tag/CI_0.html'>CI</a>
+<a href='/tag/CS_0.html'>CS</a>
+<a href='/tag/CE_0.html'>CE</a>
+<a href='/tag/CY_0.html'>CY</a>
+<a href='/tag/CM_0.html'>CM</a>
+<a href='/tag/CF_0.html'>CF</a>
+<a href='/tag/CIA_0.html'>CIA</a>
+</div>
+<div class='sort' id='tag_D'>
+<a href='/tag/DJ_0.html'>DJ</a>
+</div>
+<div class='sort' id='tag_E'>
+<a href='/tag/EFIN_0.html'>EFIN</a>
+<a href='/tag/EPET_0.html'>EPET</a>
+<a href='/tag/ECON_0.html'>ECON</a>
+<a href='/tag/ENRG_0.html'>ENRG</a>
+<a href='/tag/EAID_0.html'>EAID</a>
+<a href='/tag/EINV_0.html'>EINV</a>
+<a href='/tag/EAIR_0.html'>EAIR</a>
+<a href='/tag/EUN_0.html'>EUN</a>
+<a href='/tag/ELAB_0.html'>ELAB</a>
+<a href='/tag/EU_0.html'>EU</a>
+<a href='/tag/ETTC_0.html'>ETTC</a>
+<a href='/tag/EG_0.html'>EG</a>
+<a href='/tag/ETRD_0.html'>ETRD</a>
+<a href='/tag/ELTN_0.html'>ELTN</a>
+<a href='/tag/EREL_0.html'>EREL</a>
+<a href='/tag/EAGR_0.html'>EAGR</a>
+<a href='/tag/EFIS_0.html'>EFIS</a>
+<a href='/tag/EWWT_0.html'>EWWT</a>
+<a href='/tag/EI_0.html'>EI</a>
+<a href='/tag/EIND_0.html'>EIND</a>
+<a href='/tag/EMIN_0.html'>EMIN</a>
+<a href='/tag/EZ_0.html'>EZ</a>
+<a href='/tag/EXTERNAL_0.html'>EXTERNAL</a>
+<a href='/tag/ECIP_0.html'>ECIP</a>
+<a href='/tag/ECPS_0.html'>ECPS</a>
+<a href='/tag/ECUN_0.html'>ECUN</a>
+<a href='/tag/ENVR_0.html'>ENVR</a>
+</div>
+<div class='sort' id='tag_F'>
+<a href='/tag/FR_0.html'>FR</a>
+<a href='/tag/FJ_0.html'>FJ</a>
+<a href='/tag/FINR_0.html'>FINR</a>
+</div>
+<div class='sort' id='tag_G'>
+<a href='/tag/GG_0.html'>GG</a>
+<a href='/tag/GM_0.html'>GM</a>
+<a href='/tag/GA_0.html'>GA</a>
+<a href='/tag/GOI_0.html'>GOI</a>
+<a href='/tag/GE_0.html'>GE</a>
+<a href='/tag/GR_0.html'>GR</a>
+<a href='/tag/GTMO_0.html'>GTMO</a>
+</div>
+<div class='sort' id='tag_H'>
+<a href='/tag/HO_0.html'>HO</a>
+<a href='/tag/HA_0.html'>HA</a>
+<a href='/tag/HILLARY_0.html'>HILLARY</a>
+<a href='/tag/HURI_0.html'>HURI</a>
+</div>
+<div class='sort' id='tag_I'>
+<a href='/tag/IS_0.html'>IS</a>
+<a href='/tag/IZ_0.html'>IZ</a>
+<a href='/tag/IR_0.html'>IR</a>
+<a href='/tag/IN_0.html'>IN</a>
+<a href='/tag/IQ_0.html'>IQ</a>
+<a href='/tag/IT_0.html'>IT</a>
+<a href='/tag/ICAO_0.html'>ICAO</a>
+<a href='/tag/IO_0.html'>IO</a>
+<a href='/tag/INRB_0.html'>INRB</a>
+<a href='/tag/IAEA_0.html'>IAEA</a>
+<a href='/tag/IRAJ_0.html'>IRAJ</a>
+<a href='/tag/INTERPOL_0.html'>INTERPOL</a>
+<a href='/tag/IMO_0.html'>IMO</a>
+<a href='/tag/ID_0.html'>ID</a>
+</div>
+<div class='sort' id='tag_J'>
+<a href='/tag/JA_0.html'>JA</a>
+<a href='/tag/JO_0.html'>JO</a>
+<a href='/tag/JOSEPH_0.html'>JOSEPH</a>
+<a href='/tag/JAMES_0.html'>JAMES</a>
+</div>
+<div class='sort' id='tag_K'>
+<a href='/tag/KPAO_0.html'>KPAO</a>
+<a href='/tag/KCRM_0.html'>KCRM</a>
+<a href='/tag/KTFN_0.html'>KTFN</a>
+<a href='/tag/KNNP_0.html'>KNNP</a>
+<a href='/tag/KFRD_0.html'>KFRD</a>
+<a href='/tag/KCOR_0.html'>KCOR</a>
+<a href='/tag/KTIP_0.html'>KTIP</a>
+<a href='/tag/KISL_0.html'>KISL</a>
+<a href='/tag/KU_0.html'>KU</a>
+<a href='/tag/KIRF_0.html'>KIRF</a>
+<a href='/tag/KJUS_0.html'>KJUS</a>
+<a href='/tag/KHLS_0.html'>KHLS</a>
+<a href='/tag/KAWK_0.html'>KAWK</a>
+<a href='/tag/KN_0.html'>KN</a>
+<a href='/tag/KZ_0.html'>KZ</a>
+<a href='/tag/KUNR_0.html'>KUNR</a>
+<a href='/tag/KS_0.html'>KS</a>
+<a href='/tag/KDEM_0.html'>KDEM</a>
+<a href='/tag/KACT_0.html'>KACT</a>
+<a href='/tag/KPRP_0.html'>KPRP</a>
+<a href='/tag/KWBG_0.html'>KWBG</a>
+<a href='/tag/KSCA_0.html'>KSCA</a>
+<a href='/tag/KG_0.html'>KG</a>
+<a href='/tag/KPAL_0.html'>KPAL</a>
+<a href='/tag/KMDR_0.html'>KMDR</a>
+<a href='/tag/KGHG_0.html'>KGHG</a>
+<a href='/tag/KDRG_0.html'>KDRG</a>
+<a href='/tag/KSPR_0.html'>KSPR</a>
+<a href='/tag/KWMN_0.html'>KWMN</a>
+<a href='/tag/KOLY_0.html'>KOLY</a>
+<a href='/tag/KPKO_0.html'>KPKO</a>
+<a href='/tag/KSEC_0.html'>KSEC</a>
+<a href='/tag/KTIA_0.html'>KTIA</a>
+<a href='/tag/KHIV_0.html'>KHIV</a>
+<a href='/tag/KGCC_0.html'>KGCC</a>
+<a href='/tag/KCIP_0.html'>KCIP</a>
+<a href='/tag/KBIO_0.html'>KBIO</a>
+<a href='/tag/KR_0.html'>KR</a>
+</div>
+<div class='sort' id='tag_L'>
+<a href='/tag/LY_0.html'>LY</a>
+<a href='/tag/LE_0.html'>LE</a>
+<a href='/tag/LU_0.html'>LU</a>
+<a href='/tag/LG_0.html'>LG</a>
+</div>
+<div class='sort' id='tag_M'>
+<a href='/tag/MNUC_0.html'>MNUC</a>
+<a href='/tag/MO_0.html'>MO</a>
+<a href='/tag/MARR_0.html'>MARR</a>
+<a href='/tag/MOPS_0.html'>MOPS</a>
+<a href='/tag/MASS_0.html'>MASS</a>
+<a href='/tag/MX_0.html'>MX</a>
+<a href='/tag/MTCRE_0.html'>MTCRE</a>
+<a href='/tag/MY_0.html'>MY</a>
+<a href='/tag/MCAP_0.html'>MCAP</a>
+<a href='/tag/MU_0.html'>MU</a>
+<a href='/tag/MP_0.html'>MP</a>
+<a href='/tag/ML_0.html'>ML</a>
+<a href='/tag/MR_0.html'>MR</a>
+<a href='/tag/MG_0.html'>MG</a>
+<a href='/tag/MAR_0.html'>MAR</a>
+<a href='/tag/MASC_0.html'>MASC</a>
+<a href='/tag/MPOS_0.html'>MPOS</a>
+<a href='/tag/MD_0.html'>MD</a>
+<a href='/tag/MOPPS_0.html'>MOPPS</a>
+<a href='/tag/MK_0.html'>MK</a>
+</div>
+<div class='sort' id='tag_N'>
+<a href='/tag/NATO_0.html'>NATO</a>
+<a href='/tag/NG_0.html'>NG</a>
+<a href='/tag/NI_0.html'>NI</a>
+<a href='/tag/NZ_0.html'>NZ</a>
+</div>
+<div class='sort' id='tag_O'>
+<a href='/tag/OVIP_0.html'>OVIP</a>
+<a href='/tag/OTRA_0.html'>OTRA</a>
+<a href='/tag/OPRC_0.html'>OPRC</a>
+<a href='/tag/OSCE_0.html'>OSCE</a>
+<a href='/tag/OEXC_0.html'>OEXC</a>
+<a href='/tag/OIIP_0.html'>OIIP</a>
+<a href='/tag/OTR_0.html'>OTR</a>
+</div>
+<div class='sort' id='tag_P'>
+<a href='/tag/PGOV_0.html'>PGOV</a>
+<a href='/tag/PARM_0.html'>PARM</a>
+<a href='/tag/PREL_0.html'>PREL</a>
+<a href='/tag/PINR_0.html'>PINR</a>
+<a href='/tag/PTER_0.html'>PTER</a>
+<a href='/tag/PK_0.html'>PK</a>
+<a href='/tag/PINS_0.html'>PINS</a>
+<a href='/tag/PREF_0.html'>PREF</a>
+<a href='/tag/PHUM_0.html'>PHUM</a>
+<a href='/tag/PE_0.html'>PE</a>
+<a href='/tag/PBTS_0.html'>PBTS</a>
+<a href='/tag/PA_0.html'>PA</a>
+<a href='/tag/PINT_0.html'>PINT</a>
+<a href='/tag/PL_0.html'>PL</a>
+<a href='/tag/PEPR_0.html'>PEPR</a>
+<a href='/tag/PM_0.html'>PM</a>
+<a href='/tag/PAK_0.html'>PAK</a>
+<a href='/tag/POL_0.html'>POL</a>
+<a href='/tag/PO_0.html'>PO</a>
+<a href='/tag/POLITICAL_0.html'>POLITICAL</a>
+<a href='/tag/PARTIES_0.html'>PARTIES</a>
+<a href='/tag/PGOF_0.html'>PGOF</a>
+<a href='/tag/PROP_0.html'>PROP</a>
+<a href='/tag/PBIO_0.html'>PBIO</a>
+<a href='/tag/PHSA_0.html'>PHSA</a>
+<a href='/tag/PSI_0.html'>PSI</a>
+</div>
+<div class='sort' id='tag_Q'>
+<a href='/tag/QA_0.html'>QA</a>
+</div>
+<div class='sort' id='tag_R'>
+<a href='/tag/RS_0.html'>RS</a>
+<a href='/tag/RU_0.html'>RU</a>
+<a href='/tag/RO_0.html'>RO</a>
+<a href='/tag/RW_0.html'>RW</a>
+</div>
+<div class='sort' id='tag_S'>
+<a href='/tag/SNAR_0.html'>SNAR</a>
+<a href='/tag/SA_0.html'>SA</a>
+<a href='/tag/SP_0.html'>SP</a>
+<a href='/tag/SHUM_0.html'>SHUM</a>
+<a href='/tag/SENV_0.html'>SENV</a>
+<a href='/tag/SOCI_0.html'>SOCI</a>
+<a href='/tag/SY_0.html'>SY</a>
+<a href='/tag/SW_0.html'>SW</a>
+<a href='/tag/SF_0.html'>SF</a>
+<a href='/tag/SG_0.html'>SG</a>
+<a href='/tag/SMIG_0.html'>SMIG</a>
+<a href='/tag/SR_0.html'>SR</a>
+<a href='/tag/SCUL_0.html'>SCUL</a>
+<a href='/tag/SYR_0.html'>SYR</a>
+<a href='/tag/SO_0.html'>SO</a>
+<a href='/tag/SU_0.html'>SU</a>
+<a href='/tag/STEINBERG_0.html'>STEINBERG</a>
+<a href='/tag/SN_0.html'>SN</a>
+<a href='/tag/SM_0.html'>SM</a>
+</div>
+<div class='sort' id='tag_T'>
+<a href='/tag/TS_0.html'>TS</a>
+<a href='/tag/TU_0.html'>TU</a>
+<a href='/tag/TW_0.html'>TW</a>
+<a href='/tag/TD_0.html'>TD</a>
+<a href='/tag/TI_0.html'>TI</a>
+<a href='/tag/TX_0.html'>TX</a>
+<a href='/tag/TH_0.html'>TH</a>
+<a href='/tag/TRGY_0.html'>TRGY</a>
+<a href='/tag/TC_0.html'>TC</a>
+<a href='/tag/TFIN_0.html'>TFIN</a>
+</div>
+<div class='sort' id='tag_U'>
+<a href='/tag/UK_0.html'>UK</a>
+<a href='/tag/US_0.html'>US</a>
+<a href='/tag/UP_0.html'>UP</a>
+<a href='/tag/UNO_0.html'>UNO</a>
+<a href='/tag/UZ_0.html'>UZ</a>
+<a href='/tag/UNSC_0.html'>UNSC</a>
+<a href='/tag/UN_0.html'>UN</a>
+<a href='/tag/USEU_0.html'>USEU</a>
+<a href='/tag/UV_0.html'>UV</a>
+<a href='/tag/UNMIK_0.html'>UNMIK</a>
+<a href='/tag/UNESCO_0.html'>UNESCO</a>
+<a href='/tag/UNGA_0.html'>UNGA</a>
+<a href='/tag/UAE_0.html'>UAE</a>
+<a href='/tag/UE_0.html'>UE</a>
+</div>
+<div class='sort' id='tag_V'>
+<a href='/tag/VE_0.html'>VE</a>
+<a href='/tag/VZ_0.html'>VZ</a>
+</div>
+<div class='sort' id='tag_W'>
+<a href='/tag/WTO_0.html'>WTO</a>
+</div>
+<div class='sort' id='tag_X'>
+<a href='/tag/XA_0.html'>XA</a>
+<a href='/tag/XL_0.html'>XL</a>
+<a href='/tag/XF_0.html'>XF</a>
+<a href='/tag/XH_0.html'>XH</a>
+<a href='/tag/XG_0.html'>XG</a>
+</div>
+<div class='sort' id='tag_Y'>
+<a href='/tag/YM_0.html'>YM</a>
+<a href='/tag/YI_0.html'>YI</a>
+</div>
+<div class='sort' id='tag_Z'>
+<a href='/tag/ZK_0.html'>ZK</a>
+<a href='/tag/ZP_0.html'>ZP</a>
+<a href='/tag/ZR_0.html'>ZR</a>
+<a href='/tag/ZF_0.html'>ZF</a>
+<a href='/tag/ZI_0.html'>ZI</a>
+</div>
+<h3>Browse by classification</h3>
+<div class='sort'>
+<a href='/classification/1_0.html' title='unclassified'>CONFIDENTIAL</a>
+<a href='/classification/2_0.html' title='secret'>CONFIDENTIAL//NOFORN</a>
+<a href='/classification/3_0.html' title='confidential'>SECRET</a>
+<a href='/classification/4_0.html' title='secret//noforn'>SECRET//NOFORN</a>
+<a href='/classification/5_0.html' title='unclassified//fouo'>UNCLASSIFIED</a>
+<a href='/classification/6_0.html' title='confidential//noforn'>UNCLASSIFIED//FOR OFFICIAL USE ONLY</a>
+</div>
+</div>
+<h3>Community resources</h3>
+<div class='sort'>
+<a href='http://twitter.com/wikileaks'>Follow us on Twitter</a>
+<a href='http://en.reddit.com/domain/wikileaks.org'>Check our Reddit</a>
+<a href='http://twitter.com/home?status=Reading%20http%3A%2F%2Fcablegate.wikileaks.org%2Fcable%2F2009%2F12%2F09PARIS1638.html%20%2309PARIS1638'>Twitter this</a>
+<a href='http://digg.com/submit?url=http%3A%2F%2Fcablegate.wikileaks.org%2Fcable%2F2009%2F12%2F09PARIS1638.html'>Digg this page</a>
+</div>
+<p>
+<i>
+courage is contagious
+</i>
+</p>
+</div>
+<div class='pane big'>
+<h3>Viewing cable 09PARIS1638, PRESIDENT SARKOZY: THE KEY DECISION-MAKER WHO CAN</h3>
+<div>
+If you are new to these pages, please read an introduction on the <a href="#help_1" onclick="return sh(1);">structure of a cable</a> as well as how to <a href="#help_2" onclick="return sh(2);">discuss them</a> with others. See also the <a href="/static/html/faq.html">FAQs</a>
+<br />
+</div>
+<div id='help_1'>
+<br />
+<b>Understanding cables</b>
+<br />
+Every cable message consists of three parts:
+<ul>
+<li>The top box shows each cables unique reference number, when and by whom it originally was sent, and what its initial classification was.</li>
+<li>The middle box contains the header information that is associated with the cable. It includes information about the receiver(s) as well as a general subject.</li>
+<li>The bottom box presents the body of the cable. The opening can contain a more specific subject, references to other cables (<a href="#by_A" onclick="swap('by_A'); setTimeout('document.location.href=(document.location.href + \'#by_A\').replace(/\#.*$/,\'#by_A\')', 100); return false;">browse by origin</a> to find them) or additional comment. This is followed by the main contents of the cable: a summary, a collection of specific topics and a comment section.</li>
+</ul>
+To understand the justification used for the classification of each cable, please use this <a href="http://en.wikisource.org/wiki/Executive_Order_13526#Part_1">WikiSource</a> article as reference.
+</div>
+<div id='help_2'>
+<br />
+<b>Discussing cables</b>
+<br />
+If you find meaningful or important information in a cable, please link directly to its unique reference number. Linking to a specific paragraph in the body of a cable is also possible by copying the appropriate link (to be found at theparagraph symbol).
+Please mark messages for social networking services like Twitter with the hash tags <b>#cablegate</b> and a hash containing the reference ID e.g. <b>#09PARIS1638</b>.
+</div>
+<div id='kus'>
+<a href='http://wikileaks.org/support.html' target='_blank'>KEEP US STRONG!</a>
+</div>
+<table class='cable'>
+<tr>
+<th>Reference ID</th>
+<th>Created</th>
+<th>Released</th>
+<th>Classification</th>
+<th>Origin</th>
+</tr>
+<tr>
+<td>
+<a href='/cable/2009/12/09PARIS1638.html'>09PARIS1638</a>
+</td>
+<td>
+<a href='/date/2009-12_0.html'>2009-12-04 11:11</a>
+</td>
+<td>
+<a href='/reldate/2010-11-30_0.html'>2010-11-30 21:09</a>
+</td>
+<td>
+<a href='/classification/2_0.html' title='secret'>CONFIDENTIAL//NOFORN</a>
+</td>
+<td>
+<a href='/origin/24_0.html'>Embassy Paris</a>
+</td>
+</tr>
+</table>
+<code><pre>VZCZCXRO7625&#x000A;PP RUEHDBU RUEHFL RUEHKW RUEHLA RUEHNP RUEHROV RUEHSL RUEHSR&#x000A;DE RUEHFR #1638/01 3381149&#x000A;ZNY CCCCC ZZH&#x000A;P 041149Z DEC 09&#x000A;FM AMEMBASSY PARIS&#x000A;TO RUEHC/SECSTATE WASHDC PRIORITY 7735&#x000A;INFO RUEHZL/EUROPEAN POLITICAL COLLECTIVE PRIORITY&#x000A;RHEHNSC/WHITE HOUSE NSC WASHINGTON DC PRIORITY&#x000A;RUEKJCS/SECDEF WASHINGTON DC PRIORITY</pre></code>
+<code><pre>C O N F I D E N T I A L SECTION 01 OF 04 PARIS 001638 &#x000A;&#x000A;NOFORN &#x000A;SIPDIS &#x000A;&#x000A;FOR THE SECRETARY FROM AMBASSADOR RIVKIN &#x000A;&#x000A;EO 12958 DECL: 12/04/2019 &#x000A;TAGS PREL, PGOV, FR &#x000A;SUBJECT: PRESIDENT SARKOZY: THE KEY DECISION-MAKER WHO CAN &#x000A;BE A FORCE MULTIPLIER ON GLOBAL ISSUES&#x000A;REF: A. PARIS 1588  B. PARIS 1589  C. PARIS 1521&#x000A;&#x000A;Classified By: Ambassador Charles Rivkin for reasons 1.4(b) and (d).&#x000A;&#x000A;<a id='par1' href='#par1'>¶</a>1. (C/NF) Summary. At the mid-point of his five-year term, French President Sarkozy continues to be the dominant, virtually unchallenged, political force in France. Slowed in domestic reform efforts by entrenched interests and the world-wide financial crisis, Sarkozy is increasingly focused on successfully leveraging France’s foreign policy influence on the global stage. Ambitious and action-oriented, Sarkozy doesn’t hesitate to break traditional French policies and reach out to new partners, from Saudi Arabia and Syria to India and Brazil. His impatience for results and desire to seize the initiative -- with or without the support of international partners and his own advisors -- challenges us to channel his impulsive proposals into constructive directions with an eye to long-term results. Sarkozy himself is firmly convinced of the need for a strong transatlantic partnership and he has long desired to be THE major partner to the U.S. in Europe, whether on climate change and non-proliferation or Iran and the Middle East. Our effort to secure increased French contributions in Afghanistan offers an interesting perspective on the centralization of key decision-making powers in the French President and how to best work with Sarkozy as a valued, and valuable, partner. With high-profile events like the Non-Proliferation Treaty (NPT) prep-com next spring, and Sarkozy preparing to lead France’s chairmanship of the G-8/G-20 in 2011, we believe we can best secure our interests across a broad front through continued close consultations with our French partners (including, and perhaps especially, at the highest levels), with an eye to leveraging Sarkozy’s strong political standing, desire for action, and willingness to make difficult decisions into force multipliers for our foreign policy interests. End Summary.&#x000A;&#x000A;----------------------------------------- &#x000A;DOMESTIC DRAMA BUT NO DOMESTIC OPPOSITION&#x000A;----------------------------------------- &#x000A;<a id='par2' href='#par2'>¶</a>2. (C/NF) Sarkozy’s domestic standing is virtually unchallenged despite lagging opinion polls which place his personal approval ratings at 39 percent. His center-right UMP party controls both houses of parliament, and opposition leaders in France have spent the past two years fighting among themselves rather than mounting any serious political challenge to the incumbent president. Sarkozy’s policy of “openness” in appointing opposition politicians to high-profile positions has contributed to the leadership drain on the left. IMF President Dominique Strauss-Kahn and FM Kouchner are just two examples of this successful political ploy. Despite this political security -- or perhaps because of it -- there is some internal grumbling about Sarkozy’s high-handed style within his own party, revealed by the recent attempt to name his 23-year old son Jean Sarkozy, who is still an undergraduate student, to a position at the head of Paris’s most prestigious business development commission. A brilliant political tactician, Sarkozy is raising the profile of the March 2010 regional elections to rally his base and steal voters from the far right as part of a ramp-up to his re-election bid in 2012. While this makes him more sensitive to the near-term domestic political impact of certain foreign policy issues (like Afghanistan), his domestic stature remains fundamentally secure, freeing him to focus on his goal of leveraging French power in Europe and globally.&#x000A;&#x000A;------------------------------------------ &#x000A;FOREIGN POLICY SUCCESSES AND CHALLENGES&#x000A;------------------------------------------ &#x000A;<a id='par3' href='#par3'>¶</a>3. (C/NF) The net result of Sarkozy’s dominance of the domestic political scene is that he is also one of the most secure leaders in Europe, with no awkward coalition partner or imminent presidential elections to distract or hinder him.  Sarkozy occasionally recognizes that to be heard on the world stage -- whether on strategic questions or the global financial crisis -- France’s voice is amplified when speaking in concert with others. Sarkozy has worked hard to successfully parlay an initially awkward personal relationship with German Chancellor Merkel into a smoothly&#x000A;PARIS 00001638 002 OF 004&#x000A;coordinated tandem that drives much of European policy. Likewise, he will frequently pair with Merkel and UK PM Brown to add needed clout to messages in Brussels and Washington. Sarkozy’s ability to leverage his (and France’s) voice on the world stage by building on strategic partnerships is one of his greatest strengths; one of his greatest weaknesses, however, may be his impatience and penchant to launch proposals with insufficient consultation with other major players.&#x000A;&#x000A;<a id='par4' href='#par4'>¶</a>4. (C/NF) Sarkozy’s most visible successes to date are largely in the foreign affairs domain, with his greatest achievements within Europe. He championed the Lisbon treaty in his first months in office, helping to end the stalemate over reform of EU institutions. This was succeeded by his leadership of the rotating EU presidency in the second half of 2008, which included the creation of the Union for the Mediterranean (UfM), the launch of the EU’s counter-piracy operation, and his negotiation of a cease-fire after the Russian invasion of Georgia. Characteristically, he didn’t hesitate to disregard European sensitivities by attempting to retain the lead on specific portfolios where he doubted the Czech ability to provide the necessary follow-on EU lead after Prague took over the rotating presidency in January 2009. On security issues, Sarkozy is equally bold. He personally authorized additional French troops for Afghanistan at the 2008 Bucharest NATO summit and this year he fought to bring France back into NATO’s integrated military command, reversing more than 40 years of bipartisan French policy, in spite of strong skepticism within his own party and intense opposition from others.&#x000A;&#x000A;------------------------------------------- &#x000A;NEW PARTNERS, NEW IDEAS&#x000A;------------------------------------------- &#x000A;<a id='par5' href='#par5'>¶</a>5. (C/NF) In a departure from previous French leaders, Sarkozy has also devoted a great deal of effort to reaching out bilaterally to countries like Israel, Saudi Arabia and Syria, recognizing that they are major players in the Middle East where French ambitions have been frustrated. French officials are convinced that Sarkozy’s outreach to Syria has made Syrian President al Asad a more productive partner in resolving Middle East issues (although they are hard-pressed to provide concrete examples of a change). Sarkozy fully recognizes the growing role played by emerging powers like Brazil (he has meet with Brazilian President Lula nine times in the past two years) and India (whose troops he invited to star in the July 14, 2009 military parade). He lobbied successfully for the G-20 meeting in Washington to address the global financial crisis, and he supports an expanded UN Security Council, which earns him additional popularity among rising powers. The Elysee has also looked to Brazil as a partner in climate change negotiations and a buyer of French defense equipment -- including potentially the first overseas sale of the Rafale fighter aircraft. All of these outreach efforts stem from genuine convictions as well as an eye to the image of France at the center of a global network of influential leaders.&#x000A;&#x000A;<a id='par6' href='#par6'>¶</a>6. (C/NF) Sarkozy is most prone to disappoint when, in his impatience for action, he effectively “gets ahead” of other key players and his own advisors. Sarkozy is firmly convinced that the most intractable diplomatic problems can only be solved by getting leaders together in person to cut through bureaucratic red tape and make bold decisions -- hence his predilection for proposing summits. He has little patience for the incremental steps of diplomacy and once he latches onto an idea he is loath to let it go. Impatient for progress in the Middle East, he has sought ways to make France a player, first through creation of the UfM and second by championing a summit, either in the guise of the UfM or now through other partners (such as the U.S., the Quartet, etc) to achieve his goals. In another example, his surprise announcement last June in support of a new treaty on European security architecture took many allies, and his own staff, by surprise. Although that debate has been channelled into the OSCE Corfu process for the present, Sarkozy is already chafing at what he considers lack of progress on this strategic issue and is continuously tasking his staff to come up with new proposals to address the impasse of CFE, improve the partnership with Russia, and provide other ideas to overcome blocked initiatives.&#x000A;PARIS 00001638 003 OF 004&#x000A;&#x000A;------------------------------------------ &#x000A;NO ONE TO SAY “NO”&#x000A;------------------------------------------ &#x000A;<a id='par7' href='#par7'>¶</a>7. (C/NF) Sarkozy has few restraints -- political, personal or ideological -- to act as a brake on his global ambitions. Domestically, he rewards party leaders prepared to adopt his policies and marginalizes any opponents with a diverse view. Several “favored” cabinet ministers with high profiles early in his administration -- including Rama Yade and Rachida Dati -- were subsequently bumped into secondary jobs after having disagreed with Sarkozy. On the other hand, State Secretary for European Affairs, Pierre Lellouche, willingly muzzled his long-term outspoken support for Turkish Accession to the EU in exchange for his current post. While Diplomatic Advisor (NSA-equivalent) Jean-David Levitte remains a key player, with an extensive background in diplomacy and a calming personality, other advisors like Secretary General Claude Gueant are playing an increasingly public role. Despite having Sarkozy’s ear to various degrees, few appear to exercise any significant degree of influence over the activist president.&#x000A;&#x000A;<a id='par8' href='#par8'>¶</a>8. (C/NF) Sarkozy’s own advisors likewise demonstrate little independence and appear to have little effect on curbing the hyperactive president, even when he is at his most mercurial. Elysee contacts have reported to us the great lengths they will go to avoid disagreeing with him or provoking his displeasure -- even recently reportedly re-routing the President’s plane to avoid his seeing the Eiffel Tower lit up in Turkey’s colors on the visit of PM Erdogan (a decision made by the Paris city hall). After two years in office, many seasoned key Elysee staff are leaving for prestigious onward assignments as a reward for their hard work, raising questions as to whether new faces will be any more willQg to point out when the emperor is less than fully dressed.&#x000A;&#x000A;------------------------------------------- &#x000A;WORKING TOGETHER IN THE FUTURE&#x000A;------------------------------------------- &#x000A;<a id='par9' href='#par9'>¶</a>9. (C/NF) When he was elected in 2007, Sarkozy was among the first French leaders to openly embrace the United States, despite a U.S. administration very unpopular in Europe at the time. This was due to Sarkozy’s conviction that France can accomplish more in cooperation with, rather than opposition to, the United States. When then-Senator and presidential candidate Obama came to France in July 2008, Sarkozy cleared his schedule to meet with him and further broke his own protocol rules and held a joint press conference (a privilege normally reserved exclusively for visiting heads of state). Sarkozy is prepared to be the U.S.’s key partner in Europe and is hoping for intense regular contact with President Obama (which enhances Sarkozy’s domestic stature and therefore directly increases his ability to make hard decisions). French journalists are pointing out with increasing frequency that Sarkozy has not paid a White House call on President Obama, and French officials are beginning to express concern over this perceived lack of high-level visits and other regular consultations. Journalists and officials alike are expressing the concern that France, and Europe as a whole, may be of less strategic importance to the United States today (a view that, all things being equal, does not enhance their incentives to work closely with us).&#x000A;&#x000A;<a id='par10' href='#par10'>¶</a>10. (C/NF) On strategic questions, Paris is frequently willing to back U.S. positions, even in the face of general European reluctance. Paris has welcomed U.S. efforts to “re-set” relations with Russia and has consistently emphasized developing a common approach with Washington toward Moscow. On Iran, Presidents Sarkozy remains personally engaged and is willing to work intensely within Europe (both institutionally in the EU and through efforts to persuade individual countries to adopt national measures). On non-proliferation and disarmament issues, the GOF has urged regular consultations in the run up to the 2010 NPT Review Conference and launch of discussions on a FMCT treaty.  The most important thing for French officials and Sarkozy himself is to feel like they are part oQthe decision-making process and not simply called in to ratify decisions after they have been made in Washington.&#x000A;&#x000A;--------------------------------------------- &#x000A;AFGHANISTAN: AN ILLUSTRATIVE CASE&#x000A;PARIS 00001638 004 OF 004&#x000A;--------------------------------------------- &#x000A;<a id='par11' href='#par11'>¶</a>11. (C/NF) Our effort to secure increased French contributions to Afghanistan underlines how much decision-making power is vested in the French president and how best we can work with him to achieve desired results. Last year, on our request, President Sarkozy went against all of his political and military advisors to deploy a French OMLT to assist the Dutch forces in Uruzgan, a critical reinforcement of a key ally. It was also Sarkozy alone who made the decision to deploy an additional 700 troops at last year’s Bucharest summit -- at the time of the announcement, even key staff were still unsure what the final decision would be. This year, in intense exchanges with all the major French players including FM Kouchner, NSA-equivalent Levitte and French CHOD Georgelin, each one expressed support for U.S. policy but were doubtful about additional French financial or military resources, frequently citing Sarkozy’s earlier statement of “no additional troops.”&#x000A;&#x000A;<a id='par12' href='#par12'>¶</a>12. (C/NF) However, following a direct conversation with President Obama, President Sarkozy dropped the formerly firm “no” position and moved forward more quickly and proactively than we envisioned, opening the door to military reinforcements “in time” and promising increased financial and training assistance. Although the specifics are not yet provided, the personal outreach to President Sarkozy made the difference between getting a cautious bureaucratic response and a genuine commitment from a key ally when we needed it. The French press led their reports noting Sarkozy was the first foreign leader on Obama’s call sheet, thereby increasing the pressure on Sarkozy to respond favorably.&#x000A;&#x000A;--------------------------------------------- &#x000A;COMMENT&#x000A;--------------------------------------------- &#x000A;<a id='par13' href='#par13'>¶</a>13. (C/NF) Comment: As one of Europe’s most politically secure leaders at the head of a country with significant ability to contribute more to global problem-solving across a broad front, from Afghanistan to climate change, economic stabilization, Iran, and the Middle East Peace Process, Sarkozy represents a key actor in the fulfillment of our shared policy goals. We will not always see eye-to-eye, and differences on key issues (such as non-proliferation and disarmament, which are seen as critical to French national interests) are looming. However, though enhanced consultation (including, and perhaps especially, at the highest levels), I believe we can address these differences, minimize unhelpful proposals and foster increased collaboration to better leverage French interests to fulfill ours. France is a like-minded country with a major economy and the second-largest deployed military and diplomatic forces in the world. By striking the right note in our bilateral relationship, we can leverage Sarkozy’s strengths, including his willingness to take a stand on unpopular issues, to be a major contributor to U.S. goals. We must also recognize that Sarkozy has an extraordinary degree of decision-making power which is vested in him alone as the French president. In my opinion it will necessitQe periodic PreQntial intervention to reassure Sarkozy of our commitment as an ally and partner and, in many cases, to close the deal. Sarkozy will remain a power to be reckoned with in France and a significant driver of Europe for the foreseeable future. It is clearly in our interest to work hard to channel his energy and initiatives into a constructive form of cooperation that enhances our ability to solve global issues together. End comment. RIVKIN</pre></code>
+</div>
+</div>
+<script src='/static/js/js.js' type='text/javascript'></script>
+</body>
+</html>

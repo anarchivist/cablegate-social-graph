@@ -1,0 +1,723 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+<title>Cable Viewer</title>
+<link href='/static/gfx/favicon.ico' rel='shortcut icon' />
+<link href='/static/css/reset-fonts-grids.css' rel='stylesheet' type='text/css' />
+<link href='/static/css/cables.css' rel='stylesheet' type='text/css' />
+</head>
+<body>
+<div class='main'>
+<div class='pane small'>
+<a href='/index.html'>
+<img alt='WikiLeaks logo' src='/static/gfx/WL_Hour_Glass_small.png' />
+<p>Currently released so far... 597 / 251,287</p>
+</a>
+<div id='browse'>
+<h3>Articles</h3>
+<div class='sort'>
+<a href="/articles/2010/De-olho-nas-Olimpiadas-US-faz.html">Brazil</a>
+<a href="/articles/2010/Sri-Lankan-President-s-alleged-war.html">Sri Lanka</a>
+<a href="/articles/2010/Iraq-Inquiry-told-to-protect-US.html">United Kingdom</a>
+<a href="/articles/2010/USA-bekraftar-svensk-Natokoppling.html">Sweden</a>
+</div>
+<h3>Browse latest releases</h3>
+<div class='sort'>
+<a href='/reldate/2010-12-02_0.html'>2010/12/02</a>
+<a href='/reldate/2010-12-01_0.html'>2010/12/01</a>
+<a href='/reldate/2010-11-30_0.html'>2010/11/30</a>
+<a href='/reldate/2010-11-29_0.html'>2010/11/29</a>
+<a href='/reldate/2010-11-28_0.html'>2010/11/28</a>
+</div>
+<h3>Browse by creation <a href='#year_1966' onclick='return sha(0);'>date</a></h3>
+<div class='pick'>
+<a class='sort' href='#year_1966' onclick="return swap('year_1966');">66</a>
+<a class='sort' href='#year_1972' onclick="return swap('year_1972');">72</a>
+<a class='sort' href='#year_1975' onclick="return swap('year_1975');">75</a>
+<a class='sort' href='#year_1979' onclick="return swap('year_1979');">79</a>
+<a class='sort' href='#year_1986' onclick="return swap('year_1986');">86</a>
+<a class='sort' href='#year_1989' onclick="return swap('year_1989');">89</a>
+<a class='sort' href='#year_1990' onclick="return swap('year_1990');">90</a>
+<a class='sort' href='#year_2003' onclick="return swap('year_2003');">03</a>
+<a class='sort' href='#year_2004' onclick="return swap('year_2004');">04</a>
+<a class='sort' href='#year_2005' onclick="return swap('year_2005');">05</a>
+<a class='sort' href='#year_2006' onclick="return swap('year_2006');">06</a>
+<a class='sort' href='#year_2007' onclick="return swap('year_2007');">07</a>
+<a class='sort' href='#year_2008' onclick="return swap('year_2008');">08</a>
+<a class='sort' href='#year_2009' onclick="return swap('year_2009');">09</a>
+<a class='sort' href='#year_2010' onclick="return swap('year_2010');">10</a>
+</div>
+<div class='sort' id='year_1966'>
+<a href='/date/1966-12_0.html'>1966/12</a>
+</div>
+<div class='sort' id='year_1972'>
+<a href='/date/1972-02_0.html'>1972/02</a>
+<a href='/date/1972-08_0.html'>1972/08</a>
+</div>
+<div class='sort' id='year_1975'>
+<a href='/date/1975-03_0.html'>1975/03</a>
+</div>
+<div class='sort' id='year_1979'>
+<a href='/date/1979-08_0.html'>1979/08</a>
+</div>
+<div class='sort' id='year_1986'>
+<a href='/date/1986-05_0.html'>1986/05</a>
+</div>
+<div class='sort' id='year_1989'>
+<a href='/date/1989-12_0.html'>1989/12</a>
+</div>
+<div class='sort' id='year_1990'>
+<a href='/date/1990-01_0.html'>1990/01</a>
+</div>
+<div class='sort' id='year_2003'>
+<a href='/date/2003-06_0.html'>2003/06</a>
+</div>
+<div class='sort' id='year_2004'>
+<a href='/date/2004-01_0.html'>2004/01</a>
+<a href='/date/2004-02_0.html'>2004/02</a>
+<a href='/date/2004-04_0.html'>2004/04</a>
+<a href='/date/2004-11_0.html'>2004/11</a>
+<a href='/date/2004-12_0.html'>2004/12</a>
+</div>
+<div class='sort' id='year_2005'>
+<a href='/date/2005-01_0.html'>2005/01</a>
+<a href='/date/2005-03_0.html'>2005/03</a>
+<a href='/date/2005-04_0.html'>2005/04</a>
+<a href='/date/2005-05_0.html'>2005/05</a>
+<a href='/date/2005-06_0.html'>2005/06</a>
+<a href='/date/2005-07_0.html'>2005/07</a>
+<a href='/date/2005-08_0.html'>2005/08</a>
+<a href='/date/2005-10_0.html'>2005/10</a>
+<a href='/date/2005-11_0.html'>2005/11</a>
+<a href='/date/2005-12_0.html'>2005/12</a>
+</div>
+<div class='sort' id='year_2006'>
+<a href='/date/2006-01_0.html'>2006/01</a>
+<a href='/date/2006-02_0.html'>2006/02</a>
+<a href='/date/2006-03_0.html'>2006/03</a>
+<a href='/date/2006-04_0.html'>2006/04</a>
+<a href='/date/2006-05_0.html'>2006/05</a>
+<a href='/date/2006-06_0.html'>2006/06</a>
+<a href='/date/2006-07_0.html'>2006/07</a>
+<a href='/date/2006-08_0.html'>2006/08</a>
+<a href='/date/2006-09_0.html'>2006/09</a>
+<a href='/date/2006-10_0.html'>2006/10</a>
+<a href='/date/2006-11_0.html'>2006/11</a>
+<a href='/date/2006-12_0.html'>2006/12</a>
+</div>
+<div class='sort' id='year_2007'>
+<a href='/date/2007-01_0.html'>2007/01</a>
+<a href='/date/2007-02_0.html'>2007/02</a>
+<a href='/date/2007-03_0.html'>2007/03</a>
+<a href='/date/2007-04_0.html'>2007/04</a>
+<a href='/date/2007-05_0.html'>2007/05</a>
+<a href='/date/2007-06_0.html'>2007/06</a>
+<a href='/date/2007-07_0.html'>2007/07</a>
+<a href='/date/2007-08_0.html'>2007/08</a>
+<a href='/date/2007-09_0.html'>2007/09</a>
+<a href='/date/2007-10_0.html'>2007/10</a>
+<a href='/date/2007-11_0.html'>2007/11</a>
+<a href='/date/2007-12_0.html'>2007/12</a>
+</div>
+<div class='sort' id='year_2008'>
+<a href='/date/2008-01_0.html'>2008/01</a>
+<a href='/date/2008-02_0.html'>2008/02</a>
+<a href='/date/2008-03_0.html'>2008/03</a>
+<a href='/date/2008-04_0.html'>2008/04</a>
+<a href='/date/2008-05_0.html'>2008/05</a>
+<a href='/date/2008-07_0.html'>2008/07</a>
+<a href='/date/2008-08_0.html'>2008/08</a>
+<a href='/date/2008-09_0.html'>2008/09</a>
+<a href='/date/2008-10_0.html'>2008/10</a>
+<a href='/date/2008-11_0.html'>2008/11</a>
+<a href='/date/2008-12_0.html'>2008/12</a>
+</div>
+<div class='sort' id='year_2009'>
+<a href='/date/2009-01_0.html'>2009/01</a>
+<a href='/date/2009-02_0.html'>2009/02</a>
+<a href='/date/2009-03_0.html'>2009/03</a>
+<a href='/date/2009-04_0.html'>2009/04</a>
+<a href='/date/2009-05_0.html'>2009/05</a>
+<a href='/date/2009-06_0.html'>2009/06</a>
+<a href='/date/2009-07_0.html'>2009/07</a>
+<a href='/date/2009-08_0.html'>2009/08</a>
+<a href='/date/2009-09_0.html'>2009/09</a>
+<a href='/date/2009-10_0.html'>2009/10</a>
+<a href='/date/2009-11_0.html'>2009/11</a>
+<a href='/date/2009-12_0.html'>2009/12</a>
+</div>
+<div class='sort' id='year_2010'>
+<a href='/date/2010-01_0.html'>2010/01</a>
+<a href='/date/2010-02_0.html'>2010/02</a>
+</div>
+<h3>Browse by <a href='#by_A' onclick='return sha(1);'>origin</a></h3>
+<div class='pick'>
+<a class='sort' href='#by_A' onclick="return swap('by_A');">A</a>
+<a class='sort' href='#by_B' onclick="return swap('by_B');">B</a>
+<a class='sort' href='#by_C' onclick="return swap('by_C');">C</a>
+<a class='sort' href='#by_D' onclick="return swap('by_D');">D</a>
+<a class='sort' href='#by_H' onclick="return swap('by_H');">H</a>
+<a class='sort' href='#by_I' onclick="return swap('by_I');">I</a>
+<a class='sort' href='#by_J' onclick="return swap('by_J');">J</a>
+<a class='sort' href='#by_K' onclick="return swap('by_K');">K</a>
+<a class='sort' href='#by_L' onclick="return swap('by_L');">L</a>
+<a class='sort' href='#by_M' onclick="return swap('by_M');">M</a>
+<a class='sort' href='#by_N' onclick="return swap('by_N');">N</a>
+<a class='sort' href='#by_O' onclick="return swap('by_O');">O</a>
+<a class='sort' href='#by_P' onclick="return swap('by_P');">P</a>
+<a class='sort' href='#by_R' onclick="return swap('by_R');">R</a>
+<a class='sort' href='#by_S' onclick="return swap('by_S');">S</a>
+<a class='sort' href='#by_T' onclick="return swap('by_T');">T</a>
+<a class='sort' href='#by_U' onclick="return swap('by_U');">U</a>
+<a class='sort' href='#by_V' onclick="return swap('by_V');">V</a>
+</div>
+<div class='sort' id='by_A'>
+<a href='/origin/65_0.html'>Embassy Asuncion</a>
+<a href='/origin/66_0.html'>Embassy Astana</a>
+<a href='/origin/67_0.html'>Embassy Ashgabat</a>
+<a href='/origin/68_0.html'>Embassy Ankara</a>
+<a href='/origin/69_0.html'>Embassy Amman</a>
+<a href='/origin/70_0.html'>Embassy Algiers</a>
+<a href='/origin/71_0.html'>Embassy Abu Dhabi</a>
+</div>
+<div class='sort' id='by_B'>
+<a href='/origin/53_0.html'>Embassy Buenos Aires</a>
+<a href='/origin/54_0.html'>Embassy Bucharest</a>
+<a href='/origin/55_0.html'>Embassy Brussels</a>
+<a href='/origin/56_0.html'>Embassy Bridgetown</a>
+<a href='/origin/57_0.html'>Embassy Brasilia</a>
+<a href='/origin/58_0.html'>Embassy Bishkek</a>
+<a href='/origin/59_0.html'>Embassy Berlin</a>
+<a href='/origin/60_0.html'>Embassy Beirut</a>
+<a href='/origin/61_0.html'>Embassy Beijing</a>
+<a href='/origin/62_0.html'>Embassy Bangkok</a>
+<a href='/origin/63_0.html'>Embassy Baku</a>
+<a href='/origin/64_0.html'>Embassy Baghdad</a>
+</div>
+<div class='sort' id='by_C'>
+<a href='/origin/49_0.html'>Embassy Colombo</a>
+<a href='/origin/50_0.html'>Embassy Chisinau</a>
+<a href='/origin/51_0.html'>Embassy Caracas</a>
+<a href='/origin/52_0.html'>Embassy Cairo</a>
+<a href='/origin/82_0.html'>Consulate Cape Town</a>
+</div>
+<div class='sort' id='by_D'>
+<a href='/origin/44_0.html'>Embassy Dushanbe</a>
+<a href='/origin/45_0.html'>Embassy Dublin</a>
+<a href='/origin/46_0.html'>Embassy Doha</a>
+<a href='/origin/47_0.html'>Embassy Djibouti</a>
+<a href='/origin/48_0.html'>Embassy Damascus</a>
+<a href='/origin/81_0.html'>Consulate Dubai</a>
+</div>
+<div class='sort' id='by_H'>
+<a href='/origin/43_0.html'>Embassy Harare</a>
+<a href='/origin/80_0.html'>Consulate Hamburg</a>
+</div>
+<div class='sort' id='by_I'>
+<a href='/origin/5_0.html'>Iran RPO Dubai</a>
+<a href='/origin/42_0.html'>Embassy Islamabad</a>
+<a href='/origin/79_0.html'>Consulate Istanbul</a>
+</div>
+<div class='sort' id='by_J'>
+<a href='/origin/78_0.html'>Consulate Jeddah</a>
+</div>
+<div class='sort' id='by_K'>
+<a href='/origin/38_0.html'>Embassy Kyiv</a>
+<a href='/origin/39_0.html'>Embassy Kuwait</a>
+<a href='/origin/40_0.html'>Embassy Kuala Lumpur</a>
+<a href='/origin/41_0.html'>Embassy Kabul</a>
+</div>
+<div class='sort' id='by_L'>
+<a href='/origin/33_0.html'>Embassy Luxembourg</a>
+<a href='/origin/34_0.html'>Embassy London</a>
+<a href='/origin/35_0.html'>Embassy Lisbon</a>
+<a href='/origin/36_0.html'>Embassy Lima</a>
+<a href='/origin/37_0.html'>Embassy La Paz</a>
+</div>
+<div class='sort' id='by_M'>
+<a href='/origin/4_0.html'>Mission USNATO</a>
+<a href='/origin/28_0.html'>Embassy Muscat</a>
+<a href='/origin/29_0.html'>Embassy Moscow</a>
+<a href='/origin/30_0.html'>Embassy Mexico</a>
+<a href='/origin/31_0.html'>Embassy Manama</a>
+<a href='/origin/32_0.html'>Embassy Madrid</a>
+<a href='/origin/77_0.html'>Consulate Munich</a>
+</div>
+<div class='sort' id='by_N'>
+<a href='/origin/27_0.html'>Embassy New Delhi</a>
+</div>
+<div class='sort' id='by_O'>
+<a href='/origin/26_0.html'>Embassy Ottawa</a>
+</div>
+<div class='sort' id='by_P'>
+<a href='/origin/22_0.html'>Embassy Prague</a>
+<a href='/origin/23_0.html'>Embassy Port Au Prince</a>
+<a href='/origin/24_0.html'>Embassy Paris</a>
+<a href='/origin/25_0.html'>Embassy Panama</a>
+<a href='/origin/76_0.html'>Consulate Peshawar</a>
+</div>
+<div class='sort' id='by_R'>
+<a href='/origin/19_0.html'>Embassy Rome</a>
+<a href='/origin/20_0.html'>Embassy Riyadh</a>
+<a href='/origin/21_0.html'>Embassy Rabat</a>
+</div>
+<div class='sort' id='by_S'>
+<a href='/origin/3_0.html'>Secretary of State</a>
+<a href='/origin/14_0.html'>Embassy Stockholm</a>
+<a href='/origin/15_0.html'>Embassy Singapore</a>
+<a href='/origin/16_0.html'>Embassy Seoul</a>
+<a href='/origin/17_0.html'>Embassy Santiago</a>
+<a href='/origin/18_0.html'>Embassy Sanaa</a>
+<a href='/origin/73_0.html'>Consulate Shenyang</a>
+<a href='/origin/74_0.html'>Consulate Shanghai</a>
+<a href='/origin/75_0.html'>Consulate Sao Paulo</a>
+</div>
+<div class='sort' id='by_T'>
+<a href='/origin/8_0.html'>Embassy Tunis</a>
+<a href='/origin/9_0.html'>Embassy Tripoli</a>
+<a href='/origin/10_0.html'>Embassy Tel Aviv</a>
+<a href='/origin/11_0.html'>Embassy Tehran</a>
+<a href='/origin/12_0.html'>Embassy Tegucigalpa</a>
+<a href='/origin/13_0.html'>Embassy Tbilisi</a>
+</div>
+<div class='sort' id='by_U'>
+<a href='/origin/1_0.html'>USEU Brussels</a>
+<a href='/origin/2_0.html'>UNVIE</a>
+<a href='/origin/7_0.html'>Embassy Ulaanbaatar</a>
+</div>
+<div class='sort' id='by_V'>
+<a href='/origin/6_0.html'>Embassy Vienna</a>
+<a href='/origin/72_0.html'>Consulate Vladivostok</a>
+</div>
+<h3>Browse by <a href='#tag_A' onclick='return sha(2);'>tag</a></h3>
+<div class='pick'>
+<a class='sort' href='#tag_A' onclick="return swap('tag_A');">A</a>
+<a class='sort' href='#tag_B' onclick="return swap('tag_B');">B</a>
+<a class='sort' href='#tag_C' onclick="return swap('tag_C');">C</a>
+<a class='sort' href='#tag_D' onclick="return swap('tag_D');">D</a>
+<a class='sort' href='#tag_E' onclick="return swap('tag_E');">E</a>
+<a class='sort' href='#tag_F' onclick="return swap('tag_F');">F</a>
+<a class='sort' href='#tag_G' onclick="return swap('tag_G');">G</a>
+<a class='sort' href='#tag_H' onclick="return swap('tag_H');">H</a>
+<a class='sort' href='#tag_I' onclick="return swap('tag_I');">I</a>
+<a class='sort' href='#tag_J' onclick="return swap('tag_J');">J</a>
+<a class='sort' href='#tag_K' onclick="return swap('tag_K');">K</a>
+<a class='sort' href='#tag_L' onclick="return swap('tag_L');">L</a>
+<a class='sort' href='#tag_M' onclick="return swap('tag_M');">M</a>
+<a class='sort' href='#tag_N' onclick="return swap('tag_N');">N</a>
+<a class='sort' href='#tag_O' onclick="return swap('tag_O');">O</a>
+<a class='sort' href='#tag_P' onclick="return swap('tag_P');">P</a>
+<a class='sort' href='#tag_Q' onclick="return swap('tag_Q');">Q</a>
+<a class='sort' href='#tag_R' onclick="return swap('tag_R');">R</a>
+<a class='sort' href='#tag_S' onclick="return swap('tag_S');">S</a>
+<a class='sort' href='#tag_T' onclick="return swap('tag_T');">T</a>
+<a class='sort' href='#tag_U' onclick="return swap('tag_U');">U</a>
+<a class='sort' href='#tag_V' onclick="return swap('tag_V');">V</a>
+<a class='sort' href='#tag_W' onclick="return swap('tag_W');">W</a>
+<a class='sort' href='#tag_X' onclick="return swap('tag_X');">X</a>
+<a class='sort' href='#tag_Y' onclick="return swap('tag_Y');">Y</a>
+<a class='sort' href='#tag_Z' onclick="return swap('tag_Z');">Z</a>
+</div>
+<div class='sort' id='tag_A'>
+<a href='/tag/AU_0.html'>AU</a>
+<a href='/tag/AG_0.html'>AG</a>
+<a href='/tag/AF_0.html'>AF</a>
+<a href='/tag/AR_0.html'>AR</a>
+<a href='/tag/AE_0.html'>AE</a>
+<a href='/tag/AM_0.html'>AM</a>
+<a href='/tag/ASEC_0.html'>ASEC</a>
+<a href='/tag/AORC_0.html'>AORC</a>
+<a href='/tag/AMGT_0.html'>AMGT</a>
+<a href='/tag/APER_0.html'>APER</a>
+<a href='/tag/AJ_0.html'>AJ</a>
+<a href='/tag/AL_0.html'>AL</a>
+<a href='/tag/AGMT_0.html'>AGMT</a>
+<a href='/tag/AEMR_0.html'>AEMR</a>
+</div>
+<div class='sort' id='tag_B'>
+<a href='/tag/BA_0.html'>BA</a>
+<a href='/tag/BR_0.html'>BR</a>
+<a href='/tag/BE_0.html'>BE</a>
+<a href='/tag/BRUSSELS_0.html'>BRUSSELS</a>
+<a href='/tag/BIDEN_0.html'>BIDEN</a>
+<a href='/tag/BH_0.html'>BH</a>
+<a href='/tag/BL_0.html'>BL</a>
+<a href='/tag/BTIO_0.html'>BTIO</a>
+<a href='/tag/BEXP_0.html'>BEXP</a>
+<a href='/tag/BU_0.html'>BU</a>
+<a href='/tag/BY_0.html'>BY</a>
+<a href='/tag/BO_0.html'>BO</a>
+</div>
+<div class='sort' id='tag_C'>
+<a href='/tag/CA_0.html'>CA</a>
+<a href='/tag/CVIS_0.html'>CVIS</a>
+<a href='/tag/CMGT_0.html'>CMGT</a>
+<a href='/tag/CH_0.html'>CH</a>
+<a href='/tag/CASC_0.html'>CASC</a>
+<a href='/tag/CJAN_0.html'>CJAN</a>
+<a href='/tag/CLINTON_0.html'>CLINTON</a>
+<a href='/tag/CU_0.html'>CU</a>
+<a href='/tag/CD_0.html'>CD</a>
+<a href='/tag/CV_0.html'>CV</a>
+<a href='/tag/CO_0.html'>CO</a>
+<a href='/tag/CI_0.html'>CI</a>
+<a href='/tag/CS_0.html'>CS</a>
+<a href='/tag/CE_0.html'>CE</a>
+<a href='/tag/CY_0.html'>CY</a>
+<a href='/tag/CM_0.html'>CM</a>
+<a href='/tag/CF_0.html'>CF</a>
+<a href='/tag/CIA_0.html'>CIA</a>
+</div>
+<div class='sort' id='tag_D'>
+<a href='/tag/DJ_0.html'>DJ</a>
+</div>
+<div class='sort' id='tag_E'>
+<a href='/tag/EFIN_0.html'>EFIN</a>
+<a href='/tag/EPET_0.html'>EPET</a>
+<a href='/tag/ECON_0.html'>ECON</a>
+<a href='/tag/ENRG_0.html'>ENRG</a>
+<a href='/tag/EAID_0.html'>EAID</a>
+<a href='/tag/EINV_0.html'>EINV</a>
+<a href='/tag/EAIR_0.html'>EAIR</a>
+<a href='/tag/EUN_0.html'>EUN</a>
+<a href='/tag/ELAB_0.html'>ELAB</a>
+<a href='/tag/EU_0.html'>EU</a>
+<a href='/tag/ETTC_0.html'>ETTC</a>
+<a href='/tag/EG_0.html'>EG</a>
+<a href='/tag/ETRD_0.html'>ETRD</a>
+<a href='/tag/ELTN_0.html'>ELTN</a>
+<a href='/tag/EREL_0.html'>EREL</a>
+<a href='/tag/EAGR_0.html'>EAGR</a>
+<a href='/tag/EFIS_0.html'>EFIS</a>
+<a href='/tag/EWWT_0.html'>EWWT</a>
+<a href='/tag/EI_0.html'>EI</a>
+<a href='/tag/EIND_0.html'>EIND</a>
+<a href='/tag/EMIN_0.html'>EMIN</a>
+<a href='/tag/EZ_0.html'>EZ</a>
+<a href='/tag/EXTERNAL_0.html'>EXTERNAL</a>
+<a href='/tag/ECIP_0.html'>ECIP</a>
+<a href='/tag/ECPS_0.html'>ECPS</a>
+<a href='/tag/ECUN_0.html'>ECUN</a>
+<a href='/tag/ENVR_0.html'>ENVR</a>
+</div>
+<div class='sort' id='tag_F'>
+<a href='/tag/FR_0.html'>FR</a>
+<a href='/tag/FJ_0.html'>FJ</a>
+<a href='/tag/FINR_0.html'>FINR</a>
+</div>
+<div class='sort' id='tag_G'>
+<a href='/tag/GG_0.html'>GG</a>
+<a href='/tag/GM_0.html'>GM</a>
+<a href='/tag/GA_0.html'>GA</a>
+<a href='/tag/GOI_0.html'>GOI</a>
+<a href='/tag/GE_0.html'>GE</a>
+<a href='/tag/GR_0.html'>GR</a>
+<a href='/tag/GTMO_0.html'>GTMO</a>
+</div>
+<div class='sort' id='tag_H'>
+<a href='/tag/HO_0.html'>HO</a>
+<a href='/tag/HA_0.html'>HA</a>
+<a href='/tag/HILLARY_0.html'>HILLARY</a>
+<a href='/tag/HURI_0.html'>HURI</a>
+</div>
+<div class='sort' id='tag_I'>
+<a href='/tag/IS_0.html'>IS</a>
+<a href='/tag/IZ_0.html'>IZ</a>
+<a href='/tag/IR_0.html'>IR</a>
+<a href='/tag/IN_0.html'>IN</a>
+<a href='/tag/IQ_0.html'>IQ</a>
+<a href='/tag/IT_0.html'>IT</a>
+<a href='/tag/ICAO_0.html'>ICAO</a>
+<a href='/tag/IO_0.html'>IO</a>
+<a href='/tag/INRB_0.html'>INRB</a>
+<a href='/tag/IAEA_0.html'>IAEA</a>
+<a href='/tag/IRAJ_0.html'>IRAJ</a>
+<a href='/tag/INTERPOL_0.html'>INTERPOL</a>
+<a href='/tag/IMO_0.html'>IMO</a>
+<a href='/tag/ID_0.html'>ID</a>
+</div>
+<div class='sort' id='tag_J'>
+<a href='/tag/JA_0.html'>JA</a>
+<a href='/tag/JO_0.html'>JO</a>
+<a href='/tag/JOSEPH_0.html'>JOSEPH</a>
+<a href='/tag/JAMES_0.html'>JAMES</a>
+</div>
+<div class='sort' id='tag_K'>
+<a href='/tag/KPAO_0.html'>KPAO</a>
+<a href='/tag/KCRM_0.html'>KCRM</a>
+<a href='/tag/KTFN_0.html'>KTFN</a>
+<a href='/tag/KNNP_0.html'>KNNP</a>
+<a href='/tag/KFRD_0.html'>KFRD</a>
+<a href='/tag/KCOR_0.html'>KCOR</a>
+<a href='/tag/KTIP_0.html'>KTIP</a>
+<a href='/tag/KISL_0.html'>KISL</a>
+<a href='/tag/KU_0.html'>KU</a>
+<a href='/tag/KIRF_0.html'>KIRF</a>
+<a href='/tag/KJUS_0.html'>KJUS</a>
+<a href='/tag/KHLS_0.html'>KHLS</a>
+<a href='/tag/KAWK_0.html'>KAWK</a>
+<a href='/tag/KN_0.html'>KN</a>
+<a href='/tag/KZ_0.html'>KZ</a>
+<a href='/tag/KUNR_0.html'>KUNR</a>
+<a href='/tag/KS_0.html'>KS</a>
+<a href='/tag/KDEM_0.html'>KDEM</a>
+<a href='/tag/KACT_0.html'>KACT</a>
+<a href='/tag/KPRP_0.html'>KPRP</a>
+<a href='/tag/KWBG_0.html'>KWBG</a>
+<a href='/tag/KSCA_0.html'>KSCA</a>
+<a href='/tag/KG_0.html'>KG</a>
+<a href='/tag/KPAL_0.html'>KPAL</a>
+<a href='/tag/KMDR_0.html'>KMDR</a>
+<a href='/tag/KGHG_0.html'>KGHG</a>
+<a href='/tag/KDRG_0.html'>KDRG</a>
+<a href='/tag/KSPR_0.html'>KSPR</a>
+<a href='/tag/KWMN_0.html'>KWMN</a>
+<a href='/tag/KOLY_0.html'>KOLY</a>
+<a href='/tag/KPKO_0.html'>KPKO</a>
+<a href='/tag/KSEC_0.html'>KSEC</a>
+<a href='/tag/KTIA_0.html'>KTIA</a>
+<a href='/tag/KHIV_0.html'>KHIV</a>
+<a href='/tag/KGCC_0.html'>KGCC</a>
+<a href='/tag/KCIP_0.html'>KCIP</a>
+<a href='/tag/KBIO_0.html'>KBIO</a>
+<a href='/tag/KR_0.html'>KR</a>
+</div>
+<div class='sort' id='tag_L'>
+<a href='/tag/LY_0.html'>LY</a>
+<a href='/tag/LE_0.html'>LE</a>
+<a href='/tag/LU_0.html'>LU</a>
+<a href='/tag/LG_0.html'>LG</a>
+</div>
+<div class='sort' id='tag_M'>
+<a href='/tag/MNUC_0.html'>MNUC</a>
+<a href='/tag/MO_0.html'>MO</a>
+<a href='/tag/MARR_0.html'>MARR</a>
+<a href='/tag/MOPS_0.html'>MOPS</a>
+<a href='/tag/MASS_0.html'>MASS</a>
+<a href='/tag/MX_0.html'>MX</a>
+<a href='/tag/MTCRE_0.html'>MTCRE</a>
+<a href='/tag/MY_0.html'>MY</a>
+<a href='/tag/MCAP_0.html'>MCAP</a>
+<a href='/tag/MU_0.html'>MU</a>
+<a href='/tag/MP_0.html'>MP</a>
+<a href='/tag/ML_0.html'>ML</a>
+<a href='/tag/MR_0.html'>MR</a>
+<a href='/tag/MG_0.html'>MG</a>
+<a href='/tag/MAR_0.html'>MAR</a>
+<a href='/tag/MASC_0.html'>MASC</a>
+<a href='/tag/MPOS_0.html'>MPOS</a>
+<a href='/tag/MD_0.html'>MD</a>
+<a href='/tag/MOPPS_0.html'>MOPPS</a>
+<a href='/tag/MK_0.html'>MK</a>
+</div>
+<div class='sort' id='tag_N'>
+<a href='/tag/NATO_0.html'>NATO</a>
+<a href='/tag/NG_0.html'>NG</a>
+<a href='/tag/NI_0.html'>NI</a>
+<a href='/tag/NZ_0.html'>NZ</a>
+</div>
+<div class='sort' id='tag_O'>
+<a href='/tag/OVIP_0.html'>OVIP</a>
+<a href='/tag/OTRA_0.html'>OTRA</a>
+<a href='/tag/OPRC_0.html'>OPRC</a>
+<a href='/tag/OSCE_0.html'>OSCE</a>
+<a href='/tag/OEXC_0.html'>OEXC</a>
+<a href='/tag/OIIP_0.html'>OIIP</a>
+<a href='/tag/OTR_0.html'>OTR</a>
+</div>
+<div class='sort' id='tag_P'>
+<a href='/tag/PGOV_0.html'>PGOV</a>
+<a href='/tag/PARM_0.html'>PARM</a>
+<a href='/tag/PREL_0.html'>PREL</a>
+<a href='/tag/PINR_0.html'>PINR</a>
+<a href='/tag/PTER_0.html'>PTER</a>
+<a href='/tag/PK_0.html'>PK</a>
+<a href='/tag/PINS_0.html'>PINS</a>
+<a href='/tag/PREF_0.html'>PREF</a>
+<a href='/tag/PHUM_0.html'>PHUM</a>
+<a href='/tag/PE_0.html'>PE</a>
+<a href='/tag/PBTS_0.html'>PBTS</a>
+<a href='/tag/PA_0.html'>PA</a>
+<a href='/tag/PINT_0.html'>PINT</a>
+<a href='/tag/PL_0.html'>PL</a>
+<a href='/tag/PEPR_0.html'>PEPR</a>
+<a href='/tag/PM_0.html'>PM</a>
+<a href='/tag/PAK_0.html'>PAK</a>
+<a href='/tag/POL_0.html'>POL</a>
+<a href='/tag/PO_0.html'>PO</a>
+<a href='/tag/POLITICAL_0.html'>POLITICAL</a>
+<a href='/tag/PARTIES_0.html'>PARTIES</a>
+<a href='/tag/PGOF_0.html'>PGOF</a>
+<a href='/tag/PROP_0.html'>PROP</a>
+<a href='/tag/PBIO_0.html'>PBIO</a>
+<a href='/tag/PHSA_0.html'>PHSA</a>
+<a href='/tag/PSI_0.html'>PSI</a>
+</div>
+<div class='sort' id='tag_Q'>
+<a href='/tag/QA_0.html'>QA</a>
+</div>
+<div class='sort' id='tag_R'>
+<a href='/tag/RS_0.html'>RS</a>
+<a href='/tag/RU_0.html'>RU</a>
+<a href='/tag/RO_0.html'>RO</a>
+<a href='/tag/RW_0.html'>RW</a>
+</div>
+<div class='sort' id='tag_S'>
+<a href='/tag/SNAR_0.html'>SNAR</a>
+<a href='/tag/SA_0.html'>SA</a>
+<a href='/tag/SP_0.html'>SP</a>
+<a href='/tag/SHUM_0.html'>SHUM</a>
+<a href='/tag/SENV_0.html'>SENV</a>
+<a href='/tag/SOCI_0.html'>SOCI</a>
+<a href='/tag/SY_0.html'>SY</a>
+<a href='/tag/SW_0.html'>SW</a>
+<a href='/tag/SF_0.html'>SF</a>
+<a href='/tag/SG_0.html'>SG</a>
+<a href='/tag/SMIG_0.html'>SMIG</a>
+<a href='/tag/SR_0.html'>SR</a>
+<a href='/tag/SCUL_0.html'>SCUL</a>
+<a href='/tag/SYR_0.html'>SYR</a>
+<a href='/tag/SO_0.html'>SO</a>
+<a href='/tag/SU_0.html'>SU</a>
+<a href='/tag/STEINBERG_0.html'>STEINBERG</a>
+<a href='/tag/SN_0.html'>SN</a>
+<a href='/tag/SM_0.html'>SM</a>
+</div>
+<div class='sort' id='tag_T'>
+<a href='/tag/TS_0.html'>TS</a>
+<a href='/tag/TU_0.html'>TU</a>
+<a href='/tag/TW_0.html'>TW</a>
+<a href='/tag/TD_0.html'>TD</a>
+<a href='/tag/TI_0.html'>TI</a>
+<a href='/tag/TX_0.html'>TX</a>
+<a href='/tag/TH_0.html'>TH</a>
+<a href='/tag/TRGY_0.html'>TRGY</a>
+<a href='/tag/TC_0.html'>TC</a>
+<a href='/tag/TFIN_0.html'>TFIN</a>
+</div>
+<div class='sort' id='tag_U'>
+<a href='/tag/UK_0.html'>UK</a>
+<a href='/tag/US_0.html'>US</a>
+<a href='/tag/UP_0.html'>UP</a>
+<a href='/tag/UNO_0.html'>UNO</a>
+<a href='/tag/UZ_0.html'>UZ</a>
+<a href='/tag/UNSC_0.html'>UNSC</a>
+<a href='/tag/UN_0.html'>UN</a>
+<a href='/tag/USEU_0.html'>USEU</a>
+<a href='/tag/UV_0.html'>UV</a>
+<a href='/tag/UNMIK_0.html'>UNMIK</a>
+<a href='/tag/UNESCO_0.html'>UNESCO</a>
+<a href='/tag/UNGA_0.html'>UNGA</a>
+<a href='/tag/UAE_0.html'>UAE</a>
+<a href='/tag/UE_0.html'>UE</a>
+</div>
+<div class='sort' id='tag_V'>
+<a href='/tag/VE_0.html'>VE</a>
+<a href='/tag/VZ_0.html'>VZ</a>
+</div>
+<div class='sort' id='tag_W'>
+<a href='/tag/WTO_0.html'>WTO</a>
+</div>
+<div class='sort' id='tag_X'>
+<a href='/tag/XA_0.html'>XA</a>
+<a href='/tag/XL_0.html'>XL</a>
+<a href='/tag/XF_0.html'>XF</a>
+<a href='/tag/XH_0.html'>XH</a>
+<a href='/tag/XG_0.html'>XG</a>
+</div>
+<div class='sort' id='tag_Y'>
+<a href='/tag/YM_0.html'>YM</a>
+<a href='/tag/YI_0.html'>YI</a>
+</div>
+<div class='sort' id='tag_Z'>
+<a href='/tag/ZK_0.html'>ZK</a>
+<a href='/tag/ZP_0.html'>ZP</a>
+<a href='/tag/ZR_0.html'>ZR</a>
+<a href='/tag/ZF_0.html'>ZF</a>
+<a href='/tag/ZI_0.html'>ZI</a>
+</div>
+<h3>Browse by classification</h3>
+<div class='sort'>
+<a href='/classification/1_0.html' title='unclassified'>CONFIDENTIAL</a>
+<a href='/classification/2_0.html' title='secret'>CONFIDENTIAL//NOFORN</a>
+<a href='/classification/3_0.html' title='confidential'>SECRET</a>
+<a href='/classification/4_0.html' title='secret//noforn'>SECRET//NOFORN</a>
+<a href='/classification/5_0.html' title='unclassified//fouo'>UNCLASSIFIED</a>
+<a href='/classification/6_0.html' title='confidential//noforn'>UNCLASSIFIED//FOR OFFICIAL USE ONLY</a>
+</div>
+</div>
+<h3>Community resources</h3>
+<div class='sort'>
+<a href='http://twitter.com/wikileaks'>Follow us on Twitter</a>
+<a href='http://en.reddit.com/domain/wikileaks.org'>Check our Reddit</a>
+<a href='http://twitter.com/home?status=Reading%20http%3A%2F%2Fcablegate.wikileaks.org%2Fcable%2F2005%2F08%2F05PARIS5539.html%20%2305PARIS5539'>Twitter this</a>
+<a href='http://digg.com/submit?url=http%3A%2F%2Fcablegate.wikileaks.org%2Fcable%2F2005%2F08%2F05PARIS5539.html'>Digg this page</a>
+</div>
+<p>
+<i>
+courage is contagious
+</i>
+</p>
+</div>
+<div class='pane big'>
+<h3>Viewing cable 05PARIS5539, PUTTING OUT BRUSHFIRES: FRANCE AND ISLAMIC</h3>
+<div>
+If you are new to these pages, please read an introduction on the <a href="#help_1" onclick="return sh(1);">structure of a cable</a> as well as how to <a href="#help_2" onclick="return sh(2);">discuss them</a> with others. See also the <a href="/static/html/faq.html">FAQs</a>
+<br />
+</div>
+<div id='help_1'>
+<br />
+<b>Understanding cables</b>
+<br />
+Every cable message consists of three parts:
+<ul>
+<li>The top box shows each cables unique reference number, when and by whom it originally was sent, and what its initial classification was.</li>
+<li>The middle box contains the header information that is associated with the cable. It includes information about the receiver(s) as well as a general subject.</li>
+<li>The bottom box presents the body of the cable. The opening can contain a more specific subject, references to other cables (<a href="#by_A" onclick="swap('by_A'); setTimeout('document.location.href=(document.location.href + \'#by_A\').replace(/\#.*$/,\'#by_A\')', 100); return false;">browse by origin</a> to find them) or additional comment. This is followed by the main contents of the cable: a summary, a collection of specific topics and a comment section.</li>
+</ul>
+To understand the justification used for the classification of each cable, please use this <a href="http://en.wikisource.org/wiki/Executive_Order_13526#Part_1">WikiSource</a> article as reference.
+</div>
+<div id='help_2'>
+<br />
+<b>Discussing cables</b>
+<br />
+If you find meaningful or important information in a cable, please link directly to its unique reference number. Linking to a specific paragraph in the body of a cable is also possible by copying the appropriate link (to be found at theparagraph symbol).
+Please mark messages for social networking services like Twitter with the hash tags <b>#cablegate</b> and a hash containing the reference ID e.g. <b>#05PARIS5539</b>.
+</div>
+<div id='kus'>
+<a href='http://wikileaks.org/support.html' target='_blank'>KEEP US STRONG!</a>
+</div>
+<table class='cable'>
+<tr>
+<th>Reference ID</th>
+<th>Created</th>
+<th>Released</th>
+<th>Classification</th>
+<th>Origin</th>
+</tr>
+<tr>
+<td>
+<a href='/cable/2005/08/05PARIS5539.html'>05PARIS5539</a>
+</td>
+<td>
+<a href='/date/2005-08_0.html'>2005-08-17 08:08</a>
+</td>
+<td>
+<a href='/reldate/2010-12-01_0.html'>2010-12-01 12:12</a>
+</td>
+<td>
+<a href='/classification/3_0.html' title='confidential'>SECRET</a>
+</td>
+<td>
+<a href='/origin/24_0.html'>Embassy Paris</a>
+</td>
+</tr>
+</table>
+<code><pre>This record is a partial extract of the original cable. The full text of the original cable is not available.</pre></code>
+<code><pre>S E C R E T SECTION 01 OF 04 PARIS 005539 &#x000A;&#x000A;SIPDIS &#x000A;&#x000A;E.O. 12958: DECL: 08/16/2015 &#x000A;TAGS: <a href='/tag/PREL_0.html'>PREL</a> <a href='/tag/PGOV_0.html'>PGOV</a> <a href='/tag/PHUM_0.html'>PHUM</a> <a href='/tag/KISL_0.html'>KISL</a> <a href='/tag/AL_0.html'>AL</a> <a href='/tag/MO_0.html'>MO</a> <a href='/tag/PTER_0.html'>PTER</a> <a href='/tag/FR_0.html'>FR</a>&#x000A;SUBJECT: PUTTING OUT BRUSHFIRES: FRANCE AND ISLAMIC &#x000A;EXTREMISM &#x000A;&#x000A;REF: A. STATE 144222 &#x000A;<a id='parB' href='#parB'>¶</a>B. PARIS 5203 &#x000A;<a id='parC' href='#parC'>¶</a>C. PARIS 4644 &#x000A;<a id='parD' href='#parD'>¶</a>D. 04 PARIS 2981 &#x000A;<a id='parE' href='#parE'>¶</a>E. PARIS 4750 &#x000A;<a id='parF' href='#parF'>¶</a>F. PARIS 1732 &#x000A;&#x000A;Classified By: POLITICAL MINISTER COUNSELOR JOSIAH ROSENBLATT, FOR REAS &#x000A;ONS 1.4 B/D &#x000A;&#x000A;<a id='par1' href='#par1'>¶</a>1. (C) Summary: Through surveillance, arrests and other &#x000A;methods, the GOF prevents or puts out brushfires of Islamic &#x000A;extremism on an almost daily basis, and has been doing so for &#x000A;decades. According to recent press reports, the RG, France's &#x000A;police intelligence service, estimates that 6 million Muslims &#x000A;live in France, approximately 10 percent of the population. &#x000A;The RG estimates that approximately 9,000 of them might be &#x000A;extremist. These numbers, coupled with a widespread &#x000A;recognition that France continues to struggle mightily to &#x000A;integrate its immigrant/Muslim population, provide a sober &#x000A;counterpoint to the past success and unquestionable &#x000A;capabilities of the counter-terrorism apparatus. Although in &#x000A;the short and medium-term, France clearly can rely on its &#x000A;police, security and judicial services to aggressively combat &#x000A;terrorism, in the long-term it must focus on giving a place &#x000A;to Muslims (be they first-generation immigrants, their &#x000A;second- and third-generation children, or the growing number &#x000A;of converts) in the French identity. End summary. &#x000A;&#x000A;THE POTENTIAL OF ISLAMIC EXTREMISM &#x000A;---------------------------------- &#x000A;&#x000A;<a id='par2' href='#par2'>¶</a>2. (C) In the Muslim community of some six million, 70 &#x000A;percent are estimated to be of North African (Algeria, &#x000A;Morocco, and Tunisia) origin. Other sizable groups include &#x000A;Turks and Pakistanis. Within this overall population, the RG &#x000A;estimates (according to recent press reports) that roughly &#x000A;9,000 could be considered extremist, or, just over one-tenth &#x000A;of one percent. The RG also estimated that of the 1,500 &#x000A;mosques and prayer halls in France, fewer than 40 were &#x000A;considered extremist. GOF officials routinely claim that 90 &#x000A;percent of French Muslims are non-practicing. Among the &#x000A;minority of French Muslims considered "practicing," there is &#x000A;a small but distinct current of fundamentalist thought. On &#x000A;August 5, Poloffs toured a number of Islamic bookshops in &#x000A;Paris, and found that the literature extolled strongly &#x000A;conservative views on the role of Muslim women and also &#x000A;included numerous guides (in French) of how to pray. The &#x000A;bookstores did not present any moderate alternatives to &#x000A;conservative dogma. &#x000A;&#x000A;<a id='par3' href='#par3'>¶</a>3. (U) Two specific sources of Islamic extremism are of &#x000A;special interest. First is the French prison system, with a &#x000A;population that is estimated at over 50 percent Muslim. &#x000A;According to another leaked RG report from May 2005, Islamic &#x000A;extremism here is growing in popularity, with scattered &#x000A;reports of prisoners hanging up posters of Bin Laden, &#x000A;destroying Christmas trees and bibles, and cries of joy at &#x000A;the news of American soldiers killed in Iraq or suicide &#x000A;bombings in Israel. It is often the shock of prison, &#x000A;detailed the RG report, that transforms petty criminals into &#x000A;Islamic extremists. The shortage of Muslim chaplains in &#x000A;French prisons fuels potential for extremist ideologies to &#x000A;spread unabated. Radicalized prisoners, once released, are &#x000A;"time bombs," said the RG report. It estimated that within &#x000A;the prison system, 200 inmates "merit attention," and 95 of &#x000A;these should be considered "dangerous." A second source of &#x000A;Islamic extremism is the growing number of conversions to &#x000A;radical Islam by European-origin French citizens. In a &#x000A;report submitted to Interior Minister Sarkozy in June, the RG &#x000A;profiled new French converts to Islam, and found that most &#x000A;were young males in urban areas and/or in areas largely &#x000A;populated by those of North African descent. Of those &#x000A;converts profiled, the RG reported 49 percent did not have &#x000A;any diploma, and a full 44 percent opted for Salafist or &#x000A;Tabligh-inspired versions of fundamentalist Islam. The &#x000A;unemployment rate among new converts of European-French &#x000A;origin is five times the national average, according to the &#x000A;RG report. More than ten percent of the new converts had &#x000A;discovered Islam in prison. The RG report also revealed that &#x000A;approximately 3.5 percent of the French military, including &#x000A;officers, had converted to Islam. (Note: Although this is a &#x000A;striking statistic, many military converts have presumably &#x000A;done so in order to marry Muslims, and not necessarily for &#x000A;ideological reasons. End note.) &#x000A;&#x000A;FRANCE'S LONG HISTORY WITH ISLAMIC EXTREMISM &#x000A;-------------------------------------------- &#x000A;&#x000A;<a id='par4' href='#par4'>¶</a>4. (S) The sheer number of recent "terrorism conspiracy" &#x000A;arrests in France involving Islamic extremists underscores &#x000A;the GOF's counter-terrorism challenges. Since 2002, it has &#x000A;arrested 322 people linked to terrorism, of whom 91 were &#x000A;charged and imprisoned. Islamic extremist violence has &#x000A;struck France in the past, especially Paris. A year after a &#x000A;failed hijacking attempt of an Air France jet in 1994, the &#x000A;Algerian terrorist group GIA conducted a wave of bombings in &#x000A;Paris subway stations and landmarks, killing 8 and wounding &#x000A;over 200. Spillover from Maghreb-based Islamic extremists &#x000A;continues to this day, with the Algerian-based GSPC group and &#x000A;the Moroccan-based GICM group both present covertly on French &#x000A;soil. Furthermore, French intelligence believes that the &#x000A;GSPC has increasingly taken on the goals of worldwide &#x000A;jihadism and is seeking to position itself as a complement to &#x000A;al-Qaida. A terrorism investigating judge told us recently &#x000A;that the GSPC is expanding its reach in France, and is &#x000A;working to take advantage of old connections within the &#x000A;well-organized Algerian community. As for the GICM, French &#x000A;judiciary officials told us that those arrested in 2004 were &#x000A;frighteningly professional and maintain to this day a strict &#x000A;discipline when interrogated (ref D). (Comment: The GOF &#x000A;prides itself on its ability to keep tabs on extremist &#x000A;groups; their discovery of the GICM cell shocked them because &#x000A;they had stumbled upon it by chance, further evidence of the &#x000A;GICM group's operational security. End comment.) &#x000A;&#x000A;<a id='par5' href='#par5'>¶</a>5. (S) France has also seen Islamic extremist cells appear &#x000A;with seemingly little to no support from terrorist &#x000A;organizations such as the GICM and the GSPC. One example is &#x000A;the eleven "jihadists to Iraq" arrested in January in Paris' &#x000A;19th arrondissement. Those involved were arrested days &#x000A;before leaving for Iraq. The DST told USG interlocutors (ref &#x000A;E) that the suspected ringleader, 23-year old Farid &#x000A;Benyettou, had never studied theology but by force of &#x000A;personality, had managed within a few months to convince a &#x000A;group of teenagers to fight jihad in Iraq. One example that &#x000A;demonstrates the fluid interconnectedness of many Islamic &#x000A;extremists was revealed during the trial of Ahmed Laidouni &#x000A;and David Courtailler, two French citizens convicted and &#x000A;sentenced in 2004 for organizing recruitment networks for &#x000A;terrorist training camps in Afghanistan. Laidouni and &#x000A;Courtailler (who converted at the age of 27 to fundamentalist &#x000A;Islam) have been linked to members of the Beghal network that &#x000A;were convicted in March 2005 of plotting to bomb the U.S. &#x000A;Embassy in Paris (ref F). They have also been linked to &#x000A;extremist circles in the UK. Members of the Beghal network &#x000A;are suspected of having ties with (among others) members of &#x000A;the "Chechen" network (a loose grouping of individuals from &#x000A;Lyon that attempted to develop chemical agents to commit &#x000A;terrorist attacks), the "Frankfurt" network (which attempted &#x000A;in 2000 to attack cultural sites in Strasbourg), and Lionel &#x000A;Dumont, a member of the Islamic extremist "Roubaix gang" that &#x000A;in the late 1990s terrorized the north of France. Dumont &#x000A;spent a number of years in Japan, and is suspected of &#x000A;building links there to Islamic extremism. In short, Islamic &#x000A;political extremism in France takes on many forms: it has &#x000A;bubbled up on its own, in cooperation with other autonomous &#x000A;groups, and also in cooperation with al-Qaida linked groups &#x000A;such as the GSPC. &#x000A;&#x000A;<a id='par6' href='#par6'>¶</a>6. (SBU) Islamic extremism is connected in the public mind to &#x000A;the poor suburbs outside of major French cities, especially &#x000A;Paris, Lyon, Strasbourg and Marseilles. However, pockets of &#x000A;low-income housing are scattered throughout France, and &#x000A;recent arrests in Grenoble, a medium-sized university town in &#x000A;the southeast, and Lorraine, a region near the French-German &#x000A;border, illustrate the fact that Islamic extremism is not &#x000A;confined to the suburbs of France's largest cities. French &#x000A;residents and citizens of North African extraction are &#x000A;scattered throughout France. The Turkish community is based &#x000A;largely in Paris and in eastern France, and the Pakistani &#x000A;community is based almost exclusively in the Paris &#x000A;metropolitan area. &#x000A;&#x000A;THE GOVERNMENT AS FIREFIGHTER &#x000A;----------------------------- &#x000A;&#x000A;<a id='par7' href='#par7'>¶</a>7. (SBU) Although attention since the July bombings in London &#x000A;and Sharm el-Sheikh is on new enforcement and security &#x000A;initiatives, the GOF continues its work to integrate the &#x000A;Muslim community into what is still a historically Catholic &#x000A;country. High-profile Muslims in government, politics and &#x000A;culture are relatively rare, and in general, Muslims are &#x000A;underrepresented in positions of power. The GOF reached back &#x000A;into its history of dealing with other religious/ethnic &#x000A;communities when in 2003 it created the Council for the &#x000A;Muslim Faith (CFCM), an umbrella organization of various &#x000A;Muslim groups which serves as the official French Muslim &#x000A;interlocutor with the government on a range of &#x000A;civil-religious issues, including mosque construction. The &#x000A;CFCM includes a broad brush of Muslim groups, including the &#x000A;fundamentalist-leaning UOIF (considered by some to have links &#x000A;to the Muslim Brotherhood), the FMNF (also considered &#x000A;fundamentalist, but backed by the Moroccan government), and &#x000A;the Tabligh (an ultra-orthodox Pakistani origin group &#x000A;described as a way-station for some French jihadists). GOF &#x000A;officials also point out that around 40 percent of French &#x000A;mosques are not CFCM-affiliated. Moreover, the CFCM is &#x000A;riddled with internal conflict (ref C), and for many who &#x000A;espouse a highly fundamentalist worldview, it is considered &#x000A;too close to the GOF. &#x000A;&#x000A;<a id='par8' href='#par8'>¶</a>8. (U) Another GOF initiative to spur the growth of a &#x000A;moderate, France-centric Islam is to encourage imams to speak &#x000A;French and learn more about French culture. More than half &#x000A;of the imams in France either do not speak French or speak it &#x000A;very poorly. In addition, less than 20 percent have French &#x000A;nationality. New immigration policies stipulate that those &#x000A;wishing to attain French citizenship must receive a GOF &#x000A;certification of French fluency. Although this new policy &#x000A;does not specifically target imams, their participation is &#x000A;encouraged. A similar initiative, proposed by PM Villepin &#x000A;when he was Interior Minister, has been stymied. Villepin &#x000A;said he would push French universities to inaugurate specific &#x000A;courses for imams on French culture. Only the Sorbonne &#x000A;university evinced any interest, although it finally &#x000A;announced in early August that it would not proceed with the &#x000A;imam program because it ran counter to the principles of &#x000A;secularism. &#x000A;&#x000A;ALTHOUGH CONFIDENT IN ITS "OFFENSIVE" C/T STRATEGY, FRANCE &#x000A;STILL STRUGGLES WITH INTEGRATION &#x000A;--------------------------------------------- ------------- &#x000A;&#x000A;<a id='par9' href='#par9'>¶</a>9. (U) Notwithstanding the recent spurt of GOF &#x000A;counter-terrorism proposals (ref B), the French government &#x000A;and media generally believe the GOF's method of fighting &#x000A;Islamic extremism works well. A July 12 article in Le Figaro &#x000A;outlined the two basic approaches, France's "offensive" &#x000A;strategy and the UK's "communitarian" strategy. Louis &#x000A;Caprioli, former head of the DST's counter-terrorism bureau &#x000A;(the DST is France's internal security service), said the &#x000A;French strategy emphasizes total cooperation between the &#x000A;security/police services and the specialized &#x000A;counter-terrorism judiciary. This allows for constant &#x000A;surveillance of suspects and a focus on maximum disturbance &#x000A;of Islamic extremists, hence the "offensive" nature of the &#x000A;strategy. Alain Chouet, former head of the DGSE (France's &#x000A;external intelligence service), added that the presence of &#x000A;the RG throughout French territory allows for "permanent &#x000A;surveillance and penetration of problematic communities." &#x000A;Furthermore, said Chouet, "It is hard to imagine the &#x000A;Anglo-Saxon countries imitating our harassment tactics, which &#x000A;sometimes take place without any real proof of wrongdoing." &#x000A;(Comment: There is undoubtedly a whiff of traditional Gallic &#x000A;competitiveness regarding the "Anglo-Saxons" in these &#x000A;comparisons of counter-terrorism models. Of all those &#x000A;calling for additional C/T proposals in France following the &#x000A;July attacks, only the unabashedly pro-Anglo-Saxon Sarkozy &#x000A;pointedly said France had something to learn from the British &#x000A;public transport surveillance system. End comment) &#x000A;&#x000A;<a id='par10' href='#par10'>¶</a>10. (U) Although most believe the GOF's "offensive" &#x000A;counter-terrorism approach has been successful, many consider &#x000A;that the GOF has failed in its quest to integrate those in &#x000A;the marginalized suburbs, or "cites". Jean-Marie Colombani, &#x000A;the editor-in-chief of Le Monde, wrote in a rare front-page &#x000A;editorial on July 26: "Stories abound of the young, born in &#x000A;our 'cites,' that incomprehensibly swung from complete &#x000A;integration to marginalization to then becoming &#x000A;irretrievable." Guillaume Bigot, a French researcher who &#x000A;recently co-wrote a well-reviewed book on Islamic extremism &#x000A;in France, is even more biting: "The Muslim community in &#x000A;France...is massively excluded at the social and economic &#x000A;level, and is accustomed to a sense of humiliation. These &#x000A;youth, whose first or last names become obstacles to finding &#x000A;work, do not have a past or a feeling of belonging to a land, &#x000A;and have absolutely no future. It is not necessary to invent &#x000A;a James Bond of Islamist extremism. You only need people who &#x000A;can be manipulated with a simplistic ideology." &#x000A;&#x000A;<a id='par11' href='#par11'>¶</a>11. (SBU) Poloffs recently visited the northern Paris suburb &#x000A;of La Courneuve, which has recently become a living metaphor &#x000A;for violence and Islamic extremism in France. Interior &#x000A;Minister Sarkozy visited La Courneuve several times over the &#x000A;past months, and has vowed to make it an example of his new &#x000A;efforts to foster integration. Members of the "Chechen" &#x000A;network (see para 6) were arrested there in 2002 with &#x000A;explosive material and the chemical agent ricin. Originally &#x000A;a small town independent from Paris, La Courneuve now &#x000A;features many large HLM (low-income housing projects). The &#x000A;streets are relatively wide and empty, with little &#x000A;street-level commerce aside from government services and &#x000A;larger supermarkets. No one background dominated and we saw &#x000A;no visible signs of an Islamic presence (we passed only one &#x000A;synagogue and no mosques). The suburb did not feel &#x000A;dangerous; instead it seemed more bleak and deserted than &#x000A;anything else, as if everybody was inside their apartments or &#x000A;out of town. Satellite dishes sprouted from many apartments. &#x000A;The presence of planters with flowers and tree-lined &#x000A;sidewalks gave the impression of a municipal government &#x000A;trying to improve the area. Indeed, the local government's &#x000A;slogan was "La Courneuve is inventing another future for &#x000A;itself." Overall, and despite its terrible reputation, La &#x000A;Courneuve looked to be a modest, multicultural place. Its &#x000A;appearance confirmed what statistics report: the overwhelming &#x000A;majority of Muslims in France (whether from Africa, the &#x000A;Maghreb, or the newly converted) are moderate. The problem &#x000A;lies with the one or two apartments that harbor Islamic &#x000A;extremists hidden within the tens of thousands that do not. &#x000A;&#x000A;<a id='par12' href='#par12'>¶</a>12. (C) Comment: As is widely recognized, the GOF wields a &#x000A;muscular and effective counter-terrorism apparatus that &#x000A;identifies potential terrorists and thwarts potential &#x000A;terrorist operations. Although there is always room for &#x000A;improvement, the GOF appears to have done what it can in the &#x000A;short- and medium-term to combat Islamic extremism. Over the &#x000A;long-term, however, much work needs to be done. France does &#x000A;not only have an integration/immigration problem; it must &#x000A;also work to give a place to Muslims in the French identity. &#x000A;Despite claims that its commitment to secularism nullifies &#x000A;prejudice against any religion, it is an open secret that &#x000A;historically Catholic France has heretofore failed to muster &#x000A;sufficient will and understanding to truly accept Muslims as &#x000A;French citizens. Although Islamic extremism may never &#x000A;completely disappear from France, acceptance of Muslims as &#x000A;full, participating members of French society will go a long &#x000A;way to minimizing its reach. End comment. &#x000A;Hofmann</pre></code>
+</div>
+</div>
+<script src='/static/js/js.js' type='text/javascript'></script>
+</body>
+</html>

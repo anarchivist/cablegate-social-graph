@@ -1,0 +1,723 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+<title>Cable Viewer</title>
+<link href='/static/gfx/favicon.ico' rel='shortcut icon' />
+<link href='/static/css/reset-fonts-grids.css' rel='stylesheet' type='text/css' />
+<link href='/static/css/cables.css' rel='stylesheet' type='text/css' />
+</head>
+<body>
+<div class='main'>
+<div class='pane small'>
+<a href='/index.html'>
+<img alt='WikiLeaks logo' src='/static/gfx/WL_Hour_Glass_small.png' />
+<p>Currently released so far... 597 / 251,287</p>
+</a>
+<div id='browse'>
+<h3>Articles</h3>
+<div class='sort'>
+<a href="/articles/2010/De-olho-nas-Olimpiadas-US-faz.html">Brazil</a>
+<a href="/articles/2010/Sri-Lankan-President-s-alleged-war.html">Sri Lanka</a>
+<a href="/articles/2010/Iraq-Inquiry-told-to-protect-US.html">United Kingdom</a>
+<a href="/articles/2010/USA-bekraftar-svensk-Natokoppling.html">Sweden</a>
+</div>
+<h3>Browse latest releases</h3>
+<div class='sort'>
+<a href='/reldate/2010-12-02_0.html'>2010/12/02</a>
+<a href='/reldate/2010-12-01_0.html'>2010/12/01</a>
+<a href='/reldate/2010-11-30_0.html'>2010/11/30</a>
+<a href='/reldate/2010-11-29_0.html'>2010/11/29</a>
+<a href='/reldate/2010-11-28_0.html'>2010/11/28</a>
+</div>
+<h3>Browse by creation <a href='#year_1966' onclick='return sha(0);'>date</a></h3>
+<div class='pick'>
+<a class='sort' href='#year_1966' onclick="return swap('year_1966');">66</a>
+<a class='sort' href='#year_1972' onclick="return swap('year_1972');">72</a>
+<a class='sort' href='#year_1975' onclick="return swap('year_1975');">75</a>
+<a class='sort' href='#year_1979' onclick="return swap('year_1979');">79</a>
+<a class='sort' href='#year_1986' onclick="return swap('year_1986');">86</a>
+<a class='sort' href='#year_1989' onclick="return swap('year_1989');">89</a>
+<a class='sort' href='#year_1990' onclick="return swap('year_1990');">90</a>
+<a class='sort' href='#year_2003' onclick="return swap('year_2003');">03</a>
+<a class='sort' href='#year_2004' onclick="return swap('year_2004');">04</a>
+<a class='sort' href='#year_2005' onclick="return swap('year_2005');">05</a>
+<a class='sort' href='#year_2006' onclick="return swap('year_2006');">06</a>
+<a class='sort' href='#year_2007' onclick="return swap('year_2007');">07</a>
+<a class='sort' href='#year_2008' onclick="return swap('year_2008');">08</a>
+<a class='sort' href='#year_2009' onclick="return swap('year_2009');">09</a>
+<a class='sort' href='#year_2010' onclick="return swap('year_2010');">10</a>
+</div>
+<div class='sort' id='year_1966'>
+<a href='/date/1966-12_0.html'>1966/12</a>
+</div>
+<div class='sort' id='year_1972'>
+<a href='/date/1972-02_0.html'>1972/02</a>
+<a href='/date/1972-08_0.html'>1972/08</a>
+</div>
+<div class='sort' id='year_1975'>
+<a href='/date/1975-03_0.html'>1975/03</a>
+</div>
+<div class='sort' id='year_1979'>
+<a href='/date/1979-08_0.html'>1979/08</a>
+</div>
+<div class='sort' id='year_1986'>
+<a href='/date/1986-05_0.html'>1986/05</a>
+</div>
+<div class='sort' id='year_1989'>
+<a href='/date/1989-12_0.html'>1989/12</a>
+</div>
+<div class='sort' id='year_1990'>
+<a href='/date/1990-01_0.html'>1990/01</a>
+</div>
+<div class='sort' id='year_2003'>
+<a href='/date/2003-06_0.html'>2003/06</a>
+</div>
+<div class='sort' id='year_2004'>
+<a href='/date/2004-01_0.html'>2004/01</a>
+<a href='/date/2004-02_0.html'>2004/02</a>
+<a href='/date/2004-04_0.html'>2004/04</a>
+<a href='/date/2004-11_0.html'>2004/11</a>
+<a href='/date/2004-12_0.html'>2004/12</a>
+</div>
+<div class='sort' id='year_2005'>
+<a href='/date/2005-01_0.html'>2005/01</a>
+<a href='/date/2005-03_0.html'>2005/03</a>
+<a href='/date/2005-04_0.html'>2005/04</a>
+<a href='/date/2005-05_0.html'>2005/05</a>
+<a href='/date/2005-06_0.html'>2005/06</a>
+<a href='/date/2005-07_0.html'>2005/07</a>
+<a href='/date/2005-08_0.html'>2005/08</a>
+<a href='/date/2005-10_0.html'>2005/10</a>
+<a href='/date/2005-11_0.html'>2005/11</a>
+<a href='/date/2005-12_0.html'>2005/12</a>
+</div>
+<div class='sort' id='year_2006'>
+<a href='/date/2006-01_0.html'>2006/01</a>
+<a href='/date/2006-02_0.html'>2006/02</a>
+<a href='/date/2006-03_0.html'>2006/03</a>
+<a href='/date/2006-04_0.html'>2006/04</a>
+<a href='/date/2006-05_0.html'>2006/05</a>
+<a href='/date/2006-06_0.html'>2006/06</a>
+<a href='/date/2006-07_0.html'>2006/07</a>
+<a href='/date/2006-08_0.html'>2006/08</a>
+<a href='/date/2006-09_0.html'>2006/09</a>
+<a href='/date/2006-10_0.html'>2006/10</a>
+<a href='/date/2006-11_0.html'>2006/11</a>
+<a href='/date/2006-12_0.html'>2006/12</a>
+</div>
+<div class='sort' id='year_2007'>
+<a href='/date/2007-01_0.html'>2007/01</a>
+<a href='/date/2007-02_0.html'>2007/02</a>
+<a href='/date/2007-03_0.html'>2007/03</a>
+<a href='/date/2007-04_0.html'>2007/04</a>
+<a href='/date/2007-05_0.html'>2007/05</a>
+<a href='/date/2007-06_0.html'>2007/06</a>
+<a href='/date/2007-07_0.html'>2007/07</a>
+<a href='/date/2007-08_0.html'>2007/08</a>
+<a href='/date/2007-09_0.html'>2007/09</a>
+<a href='/date/2007-10_0.html'>2007/10</a>
+<a href='/date/2007-11_0.html'>2007/11</a>
+<a href='/date/2007-12_0.html'>2007/12</a>
+</div>
+<div class='sort' id='year_2008'>
+<a href='/date/2008-01_0.html'>2008/01</a>
+<a href='/date/2008-02_0.html'>2008/02</a>
+<a href='/date/2008-03_0.html'>2008/03</a>
+<a href='/date/2008-04_0.html'>2008/04</a>
+<a href='/date/2008-05_0.html'>2008/05</a>
+<a href='/date/2008-07_0.html'>2008/07</a>
+<a href='/date/2008-08_0.html'>2008/08</a>
+<a href='/date/2008-09_0.html'>2008/09</a>
+<a href='/date/2008-10_0.html'>2008/10</a>
+<a href='/date/2008-11_0.html'>2008/11</a>
+<a href='/date/2008-12_0.html'>2008/12</a>
+</div>
+<div class='sort' id='year_2009'>
+<a href='/date/2009-01_0.html'>2009/01</a>
+<a href='/date/2009-02_0.html'>2009/02</a>
+<a href='/date/2009-03_0.html'>2009/03</a>
+<a href='/date/2009-04_0.html'>2009/04</a>
+<a href='/date/2009-05_0.html'>2009/05</a>
+<a href='/date/2009-06_0.html'>2009/06</a>
+<a href='/date/2009-07_0.html'>2009/07</a>
+<a href='/date/2009-08_0.html'>2009/08</a>
+<a href='/date/2009-09_0.html'>2009/09</a>
+<a href='/date/2009-10_0.html'>2009/10</a>
+<a href='/date/2009-11_0.html'>2009/11</a>
+<a href='/date/2009-12_0.html'>2009/12</a>
+</div>
+<div class='sort' id='year_2010'>
+<a href='/date/2010-01_0.html'>2010/01</a>
+<a href='/date/2010-02_0.html'>2010/02</a>
+</div>
+<h3>Browse by <a href='#by_A' onclick='return sha(1);'>origin</a></h3>
+<div class='pick'>
+<a class='sort' href='#by_A' onclick="return swap('by_A');">A</a>
+<a class='sort' href='#by_B' onclick="return swap('by_B');">B</a>
+<a class='sort' href='#by_C' onclick="return swap('by_C');">C</a>
+<a class='sort' href='#by_D' onclick="return swap('by_D');">D</a>
+<a class='sort' href='#by_H' onclick="return swap('by_H');">H</a>
+<a class='sort' href='#by_I' onclick="return swap('by_I');">I</a>
+<a class='sort' href='#by_J' onclick="return swap('by_J');">J</a>
+<a class='sort' href='#by_K' onclick="return swap('by_K');">K</a>
+<a class='sort' href='#by_L' onclick="return swap('by_L');">L</a>
+<a class='sort' href='#by_M' onclick="return swap('by_M');">M</a>
+<a class='sort' href='#by_N' onclick="return swap('by_N');">N</a>
+<a class='sort' href='#by_O' onclick="return swap('by_O');">O</a>
+<a class='sort' href='#by_P' onclick="return swap('by_P');">P</a>
+<a class='sort' href='#by_R' onclick="return swap('by_R');">R</a>
+<a class='sort' href='#by_S' onclick="return swap('by_S');">S</a>
+<a class='sort' href='#by_T' onclick="return swap('by_T');">T</a>
+<a class='sort' href='#by_U' onclick="return swap('by_U');">U</a>
+<a class='sort' href='#by_V' onclick="return swap('by_V');">V</a>
+</div>
+<div class='sort' id='by_A'>
+<a href='/origin/65_0.html'>Embassy Asuncion</a>
+<a href='/origin/66_0.html'>Embassy Astana</a>
+<a href='/origin/67_0.html'>Embassy Ashgabat</a>
+<a href='/origin/68_0.html'>Embassy Ankara</a>
+<a href='/origin/69_0.html'>Embassy Amman</a>
+<a href='/origin/70_0.html'>Embassy Algiers</a>
+<a href='/origin/71_0.html'>Embassy Abu Dhabi</a>
+</div>
+<div class='sort' id='by_B'>
+<a href='/origin/53_0.html'>Embassy Buenos Aires</a>
+<a href='/origin/54_0.html'>Embassy Bucharest</a>
+<a href='/origin/55_0.html'>Embassy Brussels</a>
+<a href='/origin/56_0.html'>Embassy Bridgetown</a>
+<a href='/origin/57_0.html'>Embassy Brasilia</a>
+<a href='/origin/58_0.html'>Embassy Bishkek</a>
+<a href='/origin/59_0.html'>Embassy Berlin</a>
+<a href='/origin/60_0.html'>Embassy Beirut</a>
+<a href='/origin/61_0.html'>Embassy Beijing</a>
+<a href='/origin/62_0.html'>Embassy Bangkok</a>
+<a href='/origin/63_0.html'>Embassy Baku</a>
+<a href='/origin/64_0.html'>Embassy Baghdad</a>
+</div>
+<div class='sort' id='by_C'>
+<a href='/origin/49_0.html'>Embassy Colombo</a>
+<a href='/origin/50_0.html'>Embassy Chisinau</a>
+<a href='/origin/51_0.html'>Embassy Caracas</a>
+<a href='/origin/52_0.html'>Embassy Cairo</a>
+<a href='/origin/82_0.html'>Consulate Cape Town</a>
+</div>
+<div class='sort' id='by_D'>
+<a href='/origin/44_0.html'>Embassy Dushanbe</a>
+<a href='/origin/45_0.html'>Embassy Dublin</a>
+<a href='/origin/46_0.html'>Embassy Doha</a>
+<a href='/origin/47_0.html'>Embassy Djibouti</a>
+<a href='/origin/48_0.html'>Embassy Damascus</a>
+<a href='/origin/81_0.html'>Consulate Dubai</a>
+</div>
+<div class='sort' id='by_H'>
+<a href='/origin/43_0.html'>Embassy Harare</a>
+<a href='/origin/80_0.html'>Consulate Hamburg</a>
+</div>
+<div class='sort' id='by_I'>
+<a href='/origin/5_0.html'>Iran RPO Dubai</a>
+<a href='/origin/42_0.html'>Embassy Islamabad</a>
+<a href='/origin/79_0.html'>Consulate Istanbul</a>
+</div>
+<div class='sort' id='by_J'>
+<a href='/origin/78_0.html'>Consulate Jeddah</a>
+</div>
+<div class='sort' id='by_K'>
+<a href='/origin/38_0.html'>Embassy Kyiv</a>
+<a href='/origin/39_0.html'>Embassy Kuwait</a>
+<a href='/origin/40_0.html'>Embassy Kuala Lumpur</a>
+<a href='/origin/41_0.html'>Embassy Kabul</a>
+</div>
+<div class='sort' id='by_L'>
+<a href='/origin/33_0.html'>Embassy Luxembourg</a>
+<a href='/origin/34_0.html'>Embassy London</a>
+<a href='/origin/35_0.html'>Embassy Lisbon</a>
+<a href='/origin/36_0.html'>Embassy Lima</a>
+<a href='/origin/37_0.html'>Embassy La Paz</a>
+</div>
+<div class='sort' id='by_M'>
+<a href='/origin/4_0.html'>Mission USNATO</a>
+<a href='/origin/28_0.html'>Embassy Muscat</a>
+<a href='/origin/29_0.html'>Embassy Moscow</a>
+<a href='/origin/30_0.html'>Embassy Mexico</a>
+<a href='/origin/31_0.html'>Embassy Manama</a>
+<a href='/origin/32_0.html'>Embassy Madrid</a>
+<a href='/origin/77_0.html'>Consulate Munich</a>
+</div>
+<div class='sort' id='by_N'>
+<a href='/origin/27_0.html'>Embassy New Delhi</a>
+</div>
+<div class='sort' id='by_O'>
+<a href='/origin/26_0.html'>Embassy Ottawa</a>
+</div>
+<div class='sort' id='by_P'>
+<a href='/origin/22_0.html'>Embassy Prague</a>
+<a href='/origin/23_0.html'>Embassy Port Au Prince</a>
+<a href='/origin/24_0.html'>Embassy Paris</a>
+<a href='/origin/25_0.html'>Embassy Panama</a>
+<a href='/origin/76_0.html'>Consulate Peshawar</a>
+</div>
+<div class='sort' id='by_R'>
+<a href='/origin/19_0.html'>Embassy Rome</a>
+<a href='/origin/20_0.html'>Embassy Riyadh</a>
+<a href='/origin/21_0.html'>Embassy Rabat</a>
+</div>
+<div class='sort' id='by_S'>
+<a href='/origin/3_0.html'>Secretary of State</a>
+<a href='/origin/14_0.html'>Embassy Stockholm</a>
+<a href='/origin/15_0.html'>Embassy Singapore</a>
+<a href='/origin/16_0.html'>Embassy Seoul</a>
+<a href='/origin/17_0.html'>Embassy Santiago</a>
+<a href='/origin/18_0.html'>Embassy Sanaa</a>
+<a href='/origin/73_0.html'>Consulate Shenyang</a>
+<a href='/origin/74_0.html'>Consulate Shanghai</a>
+<a href='/origin/75_0.html'>Consulate Sao Paulo</a>
+</div>
+<div class='sort' id='by_T'>
+<a href='/origin/8_0.html'>Embassy Tunis</a>
+<a href='/origin/9_0.html'>Embassy Tripoli</a>
+<a href='/origin/10_0.html'>Embassy Tel Aviv</a>
+<a href='/origin/11_0.html'>Embassy Tehran</a>
+<a href='/origin/12_0.html'>Embassy Tegucigalpa</a>
+<a href='/origin/13_0.html'>Embassy Tbilisi</a>
+</div>
+<div class='sort' id='by_U'>
+<a href='/origin/1_0.html'>USEU Brussels</a>
+<a href='/origin/2_0.html'>UNVIE</a>
+<a href='/origin/7_0.html'>Embassy Ulaanbaatar</a>
+</div>
+<div class='sort' id='by_V'>
+<a href='/origin/6_0.html'>Embassy Vienna</a>
+<a href='/origin/72_0.html'>Consulate Vladivostok</a>
+</div>
+<h3>Browse by <a href='#tag_A' onclick='return sha(2);'>tag</a></h3>
+<div class='pick'>
+<a class='sort' href='#tag_A' onclick="return swap('tag_A');">A</a>
+<a class='sort' href='#tag_B' onclick="return swap('tag_B');">B</a>
+<a class='sort' href='#tag_C' onclick="return swap('tag_C');">C</a>
+<a class='sort' href='#tag_D' onclick="return swap('tag_D');">D</a>
+<a class='sort' href='#tag_E' onclick="return swap('tag_E');">E</a>
+<a class='sort' href='#tag_F' onclick="return swap('tag_F');">F</a>
+<a class='sort' href='#tag_G' onclick="return swap('tag_G');">G</a>
+<a class='sort' href='#tag_H' onclick="return swap('tag_H');">H</a>
+<a class='sort' href='#tag_I' onclick="return swap('tag_I');">I</a>
+<a class='sort' href='#tag_J' onclick="return swap('tag_J');">J</a>
+<a class='sort' href='#tag_K' onclick="return swap('tag_K');">K</a>
+<a class='sort' href='#tag_L' onclick="return swap('tag_L');">L</a>
+<a class='sort' href='#tag_M' onclick="return swap('tag_M');">M</a>
+<a class='sort' href='#tag_N' onclick="return swap('tag_N');">N</a>
+<a class='sort' href='#tag_O' onclick="return swap('tag_O');">O</a>
+<a class='sort' href='#tag_P' onclick="return swap('tag_P');">P</a>
+<a class='sort' href='#tag_Q' onclick="return swap('tag_Q');">Q</a>
+<a class='sort' href='#tag_R' onclick="return swap('tag_R');">R</a>
+<a class='sort' href='#tag_S' onclick="return swap('tag_S');">S</a>
+<a class='sort' href='#tag_T' onclick="return swap('tag_T');">T</a>
+<a class='sort' href='#tag_U' onclick="return swap('tag_U');">U</a>
+<a class='sort' href='#tag_V' onclick="return swap('tag_V');">V</a>
+<a class='sort' href='#tag_W' onclick="return swap('tag_W');">W</a>
+<a class='sort' href='#tag_X' onclick="return swap('tag_X');">X</a>
+<a class='sort' href='#tag_Y' onclick="return swap('tag_Y');">Y</a>
+<a class='sort' href='#tag_Z' onclick="return swap('tag_Z');">Z</a>
+</div>
+<div class='sort' id='tag_A'>
+<a href='/tag/AU_0.html'>AU</a>
+<a href='/tag/AG_0.html'>AG</a>
+<a href='/tag/AF_0.html'>AF</a>
+<a href='/tag/AR_0.html'>AR</a>
+<a href='/tag/AE_0.html'>AE</a>
+<a href='/tag/AM_0.html'>AM</a>
+<a href='/tag/ASEC_0.html'>ASEC</a>
+<a href='/tag/AORC_0.html'>AORC</a>
+<a href='/tag/AMGT_0.html'>AMGT</a>
+<a href='/tag/APER_0.html'>APER</a>
+<a href='/tag/AJ_0.html'>AJ</a>
+<a href='/tag/AL_0.html'>AL</a>
+<a href='/tag/AGMT_0.html'>AGMT</a>
+<a href='/tag/AEMR_0.html'>AEMR</a>
+</div>
+<div class='sort' id='tag_B'>
+<a href='/tag/BA_0.html'>BA</a>
+<a href='/tag/BR_0.html'>BR</a>
+<a href='/tag/BE_0.html'>BE</a>
+<a href='/tag/BRUSSELS_0.html'>BRUSSELS</a>
+<a href='/tag/BIDEN_0.html'>BIDEN</a>
+<a href='/tag/BH_0.html'>BH</a>
+<a href='/tag/BL_0.html'>BL</a>
+<a href='/tag/BTIO_0.html'>BTIO</a>
+<a href='/tag/BEXP_0.html'>BEXP</a>
+<a href='/tag/BU_0.html'>BU</a>
+<a href='/tag/BY_0.html'>BY</a>
+<a href='/tag/BO_0.html'>BO</a>
+</div>
+<div class='sort' id='tag_C'>
+<a href='/tag/CA_0.html'>CA</a>
+<a href='/tag/CVIS_0.html'>CVIS</a>
+<a href='/tag/CMGT_0.html'>CMGT</a>
+<a href='/tag/CH_0.html'>CH</a>
+<a href='/tag/CASC_0.html'>CASC</a>
+<a href='/tag/CJAN_0.html'>CJAN</a>
+<a href='/tag/CLINTON_0.html'>CLINTON</a>
+<a href='/tag/CU_0.html'>CU</a>
+<a href='/tag/CD_0.html'>CD</a>
+<a href='/tag/CV_0.html'>CV</a>
+<a href='/tag/CO_0.html'>CO</a>
+<a href='/tag/CI_0.html'>CI</a>
+<a href='/tag/CS_0.html'>CS</a>
+<a href='/tag/CE_0.html'>CE</a>
+<a href='/tag/CY_0.html'>CY</a>
+<a href='/tag/CM_0.html'>CM</a>
+<a href='/tag/CF_0.html'>CF</a>
+<a href='/tag/CIA_0.html'>CIA</a>
+</div>
+<div class='sort' id='tag_D'>
+<a href='/tag/DJ_0.html'>DJ</a>
+</div>
+<div class='sort' id='tag_E'>
+<a href='/tag/EFIN_0.html'>EFIN</a>
+<a href='/tag/EPET_0.html'>EPET</a>
+<a href='/tag/ECON_0.html'>ECON</a>
+<a href='/tag/ENRG_0.html'>ENRG</a>
+<a href='/tag/EAID_0.html'>EAID</a>
+<a href='/tag/EINV_0.html'>EINV</a>
+<a href='/tag/EAIR_0.html'>EAIR</a>
+<a href='/tag/EUN_0.html'>EUN</a>
+<a href='/tag/ELAB_0.html'>ELAB</a>
+<a href='/tag/EU_0.html'>EU</a>
+<a href='/tag/ETTC_0.html'>ETTC</a>
+<a href='/tag/EG_0.html'>EG</a>
+<a href='/tag/ETRD_0.html'>ETRD</a>
+<a href='/tag/ELTN_0.html'>ELTN</a>
+<a href='/tag/EREL_0.html'>EREL</a>
+<a href='/tag/EAGR_0.html'>EAGR</a>
+<a href='/tag/EFIS_0.html'>EFIS</a>
+<a href='/tag/EWWT_0.html'>EWWT</a>
+<a href='/tag/EI_0.html'>EI</a>
+<a href='/tag/EIND_0.html'>EIND</a>
+<a href='/tag/EMIN_0.html'>EMIN</a>
+<a href='/tag/EZ_0.html'>EZ</a>
+<a href='/tag/EXTERNAL_0.html'>EXTERNAL</a>
+<a href='/tag/ECIP_0.html'>ECIP</a>
+<a href='/tag/ECPS_0.html'>ECPS</a>
+<a href='/tag/ECUN_0.html'>ECUN</a>
+<a href='/tag/ENVR_0.html'>ENVR</a>
+</div>
+<div class='sort' id='tag_F'>
+<a href='/tag/FR_0.html'>FR</a>
+<a href='/tag/FJ_0.html'>FJ</a>
+<a href='/tag/FINR_0.html'>FINR</a>
+</div>
+<div class='sort' id='tag_G'>
+<a href='/tag/GG_0.html'>GG</a>
+<a href='/tag/GM_0.html'>GM</a>
+<a href='/tag/GA_0.html'>GA</a>
+<a href='/tag/GOI_0.html'>GOI</a>
+<a href='/tag/GE_0.html'>GE</a>
+<a href='/tag/GR_0.html'>GR</a>
+<a href='/tag/GTMO_0.html'>GTMO</a>
+</div>
+<div class='sort' id='tag_H'>
+<a href='/tag/HO_0.html'>HO</a>
+<a href='/tag/HA_0.html'>HA</a>
+<a href='/tag/HILLARY_0.html'>HILLARY</a>
+<a href='/tag/HURI_0.html'>HURI</a>
+</div>
+<div class='sort' id='tag_I'>
+<a href='/tag/IS_0.html'>IS</a>
+<a href='/tag/IZ_0.html'>IZ</a>
+<a href='/tag/IR_0.html'>IR</a>
+<a href='/tag/IN_0.html'>IN</a>
+<a href='/tag/IQ_0.html'>IQ</a>
+<a href='/tag/IT_0.html'>IT</a>
+<a href='/tag/ICAO_0.html'>ICAO</a>
+<a href='/tag/IO_0.html'>IO</a>
+<a href='/tag/INRB_0.html'>INRB</a>
+<a href='/tag/IAEA_0.html'>IAEA</a>
+<a href='/tag/IRAJ_0.html'>IRAJ</a>
+<a href='/tag/INTERPOL_0.html'>INTERPOL</a>
+<a href='/tag/IMO_0.html'>IMO</a>
+<a href='/tag/ID_0.html'>ID</a>
+</div>
+<div class='sort' id='tag_J'>
+<a href='/tag/JA_0.html'>JA</a>
+<a href='/tag/JO_0.html'>JO</a>
+<a href='/tag/JOSEPH_0.html'>JOSEPH</a>
+<a href='/tag/JAMES_0.html'>JAMES</a>
+</div>
+<div class='sort' id='tag_K'>
+<a href='/tag/KPAO_0.html'>KPAO</a>
+<a href='/tag/KCRM_0.html'>KCRM</a>
+<a href='/tag/KTFN_0.html'>KTFN</a>
+<a href='/tag/KNNP_0.html'>KNNP</a>
+<a href='/tag/KFRD_0.html'>KFRD</a>
+<a href='/tag/KCOR_0.html'>KCOR</a>
+<a href='/tag/KTIP_0.html'>KTIP</a>
+<a href='/tag/KISL_0.html'>KISL</a>
+<a href='/tag/KU_0.html'>KU</a>
+<a href='/tag/KIRF_0.html'>KIRF</a>
+<a href='/tag/KJUS_0.html'>KJUS</a>
+<a href='/tag/KHLS_0.html'>KHLS</a>
+<a href='/tag/KAWK_0.html'>KAWK</a>
+<a href='/tag/KN_0.html'>KN</a>
+<a href='/tag/KZ_0.html'>KZ</a>
+<a href='/tag/KUNR_0.html'>KUNR</a>
+<a href='/tag/KS_0.html'>KS</a>
+<a href='/tag/KDEM_0.html'>KDEM</a>
+<a href='/tag/KACT_0.html'>KACT</a>
+<a href='/tag/KPRP_0.html'>KPRP</a>
+<a href='/tag/KWBG_0.html'>KWBG</a>
+<a href='/tag/KSCA_0.html'>KSCA</a>
+<a href='/tag/KG_0.html'>KG</a>
+<a href='/tag/KPAL_0.html'>KPAL</a>
+<a href='/tag/KMDR_0.html'>KMDR</a>
+<a href='/tag/KGHG_0.html'>KGHG</a>
+<a href='/tag/KDRG_0.html'>KDRG</a>
+<a href='/tag/KSPR_0.html'>KSPR</a>
+<a href='/tag/KWMN_0.html'>KWMN</a>
+<a href='/tag/KOLY_0.html'>KOLY</a>
+<a href='/tag/KPKO_0.html'>KPKO</a>
+<a href='/tag/KSEC_0.html'>KSEC</a>
+<a href='/tag/KTIA_0.html'>KTIA</a>
+<a href='/tag/KHIV_0.html'>KHIV</a>
+<a href='/tag/KGCC_0.html'>KGCC</a>
+<a href='/tag/KCIP_0.html'>KCIP</a>
+<a href='/tag/KBIO_0.html'>KBIO</a>
+<a href='/tag/KR_0.html'>KR</a>
+</div>
+<div class='sort' id='tag_L'>
+<a href='/tag/LY_0.html'>LY</a>
+<a href='/tag/LE_0.html'>LE</a>
+<a href='/tag/LU_0.html'>LU</a>
+<a href='/tag/LG_0.html'>LG</a>
+</div>
+<div class='sort' id='tag_M'>
+<a href='/tag/MNUC_0.html'>MNUC</a>
+<a href='/tag/MO_0.html'>MO</a>
+<a href='/tag/MARR_0.html'>MARR</a>
+<a href='/tag/MOPS_0.html'>MOPS</a>
+<a href='/tag/MASS_0.html'>MASS</a>
+<a href='/tag/MX_0.html'>MX</a>
+<a href='/tag/MTCRE_0.html'>MTCRE</a>
+<a href='/tag/MY_0.html'>MY</a>
+<a href='/tag/MCAP_0.html'>MCAP</a>
+<a href='/tag/MU_0.html'>MU</a>
+<a href='/tag/MP_0.html'>MP</a>
+<a href='/tag/ML_0.html'>ML</a>
+<a href='/tag/MR_0.html'>MR</a>
+<a href='/tag/MG_0.html'>MG</a>
+<a href='/tag/MAR_0.html'>MAR</a>
+<a href='/tag/MASC_0.html'>MASC</a>
+<a href='/tag/MPOS_0.html'>MPOS</a>
+<a href='/tag/MD_0.html'>MD</a>
+<a href='/tag/MOPPS_0.html'>MOPPS</a>
+<a href='/tag/MK_0.html'>MK</a>
+</div>
+<div class='sort' id='tag_N'>
+<a href='/tag/NATO_0.html'>NATO</a>
+<a href='/tag/NG_0.html'>NG</a>
+<a href='/tag/NI_0.html'>NI</a>
+<a href='/tag/NZ_0.html'>NZ</a>
+</div>
+<div class='sort' id='tag_O'>
+<a href='/tag/OVIP_0.html'>OVIP</a>
+<a href='/tag/OTRA_0.html'>OTRA</a>
+<a href='/tag/OPRC_0.html'>OPRC</a>
+<a href='/tag/OSCE_0.html'>OSCE</a>
+<a href='/tag/OEXC_0.html'>OEXC</a>
+<a href='/tag/OIIP_0.html'>OIIP</a>
+<a href='/tag/OTR_0.html'>OTR</a>
+</div>
+<div class='sort' id='tag_P'>
+<a href='/tag/PGOV_0.html'>PGOV</a>
+<a href='/tag/PARM_0.html'>PARM</a>
+<a href='/tag/PREL_0.html'>PREL</a>
+<a href='/tag/PINR_0.html'>PINR</a>
+<a href='/tag/PTER_0.html'>PTER</a>
+<a href='/tag/PK_0.html'>PK</a>
+<a href='/tag/PINS_0.html'>PINS</a>
+<a href='/tag/PREF_0.html'>PREF</a>
+<a href='/tag/PHUM_0.html'>PHUM</a>
+<a href='/tag/PE_0.html'>PE</a>
+<a href='/tag/PBTS_0.html'>PBTS</a>
+<a href='/tag/PA_0.html'>PA</a>
+<a href='/tag/PINT_0.html'>PINT</a>
+<a href='/tag/PL_0.html'>PL</a>
+<a href='/tag/PEPR_0.html'>PEPR</a>
+<a href='/tag/PM_0.html'>PM</a>
+<a href='/tag/PAK_0.html'>PAK</a>
+<a href='/tag/POL_0.html'>POL</a>
+<a href='/tag/PO_0.html'>PO</a>
+<a href='/tag/POLITICAL_0.html'>POLITICAL</a>
+<a href='/tag/PARTIES_0.html'>PARTIES</a>
+<a href='/tag/PGOF_0.html'>PGOF</a>
+<a href='/tag/PROP_0.html'>PROP</a>
+<a href='/tag/PBIO_0.html'>PBIO</a>
+<a href='/tag/PHSA_0.html'>PHSA</a>
+<a href='/tag/PSI_0.html'>PSI</a>
+</div>
+<div class='sort' id='tag_Q'>
+<a href='/tag/QA_0.html'>QA</a>
+</div>
+<div class='sort' id='tag_R'>
+<a href='/tag/RS_0.html'>RS</a>
+<a href='/tag/RU_0.html'>RU</a>
+<a href='/tag/RO_0.html'>RO</a>
+<a href='/tag/RW_0.html'>RW</a>
+</div>
+<div class='sort' id='tag_S'>
+<a href='/tag/SNAR_0.html'>SNAR</a>
+<a href='/tag/SA_0.html'>SA</a>
+<a href='/tag/SP_0.html'>SP</a>
+<a href='/tag/SHUM_0.html'>SHUM</a>
+<a href='/tag/SENV_0.html'>SENV</a>
+<a href='/tag/SOCI_0.html'>SOCI</a>
+<a href='/tag/SY_0.html'>SY</a>
+<a href='/tag/SW_0.html'>SW</a>
+<a href='/tag/SF_0.html'>SF</a>
+<a href='/tag/SG_0.html'>SG</a>
+<a href='/tag/SMIG_0.html'>SMIG</a>
+<a href='/tag/SR_0.html'>SR</a>
+<a href='/tag/SCUL_0.html'>SCUL</a>
+<a href='/tag/SYR_0.html'>SYR</a>
+<a href='/tag/SO_0.html'>SO</a>
+<a href='/tag/SU_0.html'>SU</a>
+<a href='/tag/STEINBERG_0.html'>STEINBERG</a>
+<a href='/tag/SN_0.html'>SN</a>
+<a href='/tag/SM_0.html'>SM</a>
+</div>
+<div class='sort' id='tag_T'>
+<a href='/tag/TS_0.html'>TS</a>
+<a href='/tag/TU_0.html'>TU</a>
+<a href='/tag/TW_0.html'>TW</a>
+<a href='/tag/TD_0.html'>TD</a>
+<a href='/tag/TI_0.html'>TI</a>
+<a href='/tag/TX_0.html'>TX</a>
+<a href='/tag/TH_0.html'>TH</a>
+<a href='/tag/TRGY_0.html'>TRGY</a>
+<a href='/tag/TC_0.html'>TC</a>
+<a href='/tag/TFIN_0.html'>TFIN</a>
+</div>
+<div class='sort' id='tag_U'>
+<a href='/tag/UK_0.html'>UK</a>
+<a href='/tag/US_0.html'>US</a>
+<a href='/tag/UP_0.html'>UP</a>
+<a href='/tag/UNO_0.html'>UNO</a>
+<a href='/tag/UZ_0.html'>UZ</a>
+<a href='/tag/UNSC_0.html'>UNSC</a>
+<a href='/tag/UN_0.html'>UN</a>
+<a href='/tag/USEU_0.html'>USEU</a>
+<a href='/tag/UV_0.html'>UV</a>
+<a href='/tag/UNMIK_0.html'>UNMIK</a>
+<a href='/tag/UNESCO_0.html'>UNESCO</a>
+<a href='/tag/UNGA_0.html'>UNGA</a>
+<a href='/tag/UAE_0.html'>UAE</a>
+<a href='/tag/UE_0.html'>UE</a>
+</div>
+<div class='sort' id='tag_V'>
+<a href='/tag/VE_0.html'>VE</a>
+<a href='/tag/VZ_0.html'>VZ</a>
+</div>
+<div class='sort' id='tag_W'>
+<a href='/tag/WTO_0.html'>WTO</a>
+</div>
+<div class='sort' id='tag_X'>
+<a href='/tag/XA_0.html'>XA</a>
+<a href='/tag/XL_0.html'>XL</a>
+<a href='/tag/XF_0.html'>XF</a>
+<a href='/tag/XH_0.html'>XH</a>
+<a href='/tag/XG_0.html'>XG</a>
+</div>
+<div class='sort' id='tag_Y'>
+<a href='/tag/YM_0.html'>YM</a>
+<a href='/tag/YI_0.html'>YI</a>
+</div>
+<div class='sort' id='tag_Z'>
+<a href='/tag/ZK_0.html'>ZK</a>
+<a href='/tag/ZP_0.html'>ZP</a>
+<a href='/tag/ZR_0.html'>ZR</a>
+<a href='/tag/ZF_0.html'>ZF</a>
+<a href='/tag/ZI_0.html'>ZI</a>
+</div>
+<h3>Browse by classification</h3>
+<div class='sort'>
+<a href='/classification/1_0.html' title='unclassified'>CONFIDENTIAL</a>
+<a href='/classification/2_0.html' title='secret'>CONFIDENTIAL//NOFORN</a>
+<a href='/classification/3_0.html' title='confidential'>SECRET</a>
+<a href='/classification/4_0.html' title='secret//noforn'>SECRET//NOFORN</a>
+<a href='/classification/5_0.html' title='unclassified//fouo'>UNCLASSIFIED</a>
+<a href='/classification/6_0.html' title='confidential//noforn'>UNCLASSIFIED//FOR OFFICIAL USE ONLY</a>
+</div>
+</div>
+<h3>Community resources</h3>
+<div class='sort'>
+<a href='http://twitter.com/wikileaks'>Follow us on Twitter</a>
+<a href='http://en.reddit.com/domain/wikileaks.org'>Check our Reddit</a>
+<a href='http://twitter.com/home?status=Reading%20http%3A%2F%2Fcablegate.wikileaks.org%2Fcable%2F2009%2F07%2F09BUENOSAIRES827.html%20%2309BUENOSAIRES827'>Twitter this</a>
+<a href='http://digg.com/submit?url=http%3A%2F%2Fcablegate.wikileaks.org%2Fcable%2F2009%2F07%2F09BUENOSAIRES827.html'>Digg this page</a>
+</div>
+<p>
+<i>
+courage is contagious
+</i>
+</p>
+</div>
+<div class='pane big'>
+<h3>Viewing cable 09BUENOSAIRES827, NOW WHAT? THE KIRCHNERS' OPTIONS IN POST-ELECTION</h3>
+<div>
+If you are new to these pages, please read an introduction on the <a href="#help_1" onclick="return sh(1);">structure of a cable</a> as well as how to <a href="#help_2" onclick="return sh(2);">discuss them</a> with others. See also the <a href="/static/html/faq.html">FAQs</a>
+<br />
+</div>
+<div id='help_1'>
+<br />
+<b>Understanding cables</b>
+<br />
+Every cable message consists of three parts:
+<ul>
+<li>The top box shows each cables unique reference number, when and by whom it originally was sent, and what its initial classification was.</li>
+<li>The middle box contains the header information that is associated with the cable. It includes information about the receiver(s) as well as a general subject.</li>
+<li>The bottom box presents the body of the cable. The opening can contain a more specific subject, references to other cables (<a href="#by_A" onclick="swap('by_A'); setTimeout('document.location.href=(document.location.href + \'#by_A\').replace(/\#.*$/,\'#by_A\')', 100); return false;">browse by origin</a> to find them) or additional comment. This is followed by the main contents of the cable: a summary, a collection of specific topics and a comment section.</li>
+</ul>
+To understand the justification used for the classification of each cable, please use this <a href="http://en.wikisource.org/wiki/Executive_Order_13526#Part_1">WikiSource</a> article as reference.
+</div>
+<div id='help_2'>
+<br />
+<b>Discussing cables</b>
+<br />
+If you find meaningful or important information in a cable, please link directly to its unique reference number. Linking to a specific paragraph in the body of a cable is also possible by copying the appropriate link (to be found at theparagraph symbol).
+Please mark messages for social networking services like Twitter with the hash tags <b>#cablegate</b> and a hash containing the reference ID e.g. <b>#09BUENOSAIRES827</b>.
+</div>
+<div id='kus'>
+<a href='http://wikileaks.org/support.html' target='_blank'>KEEP US STRONG!</a>
+</div>
+<table class='cable'>
+<tr>
+<th>Reference ID</th>
+<th>Created</th>
+<th>Released</th>
+<th>Classification</th>
+<th>Origin</th>
+</tr>
+<tr>
+<td>
+<a href='/cable/2009/07/09BUENOSAIRES827.html'>09BUENOSAIRES827</a>
+</td>
+<td>
+<a href='/date/2009-07_0.html'>2009-07-15 18:06</a>
+</td>
+<td>
+<a href='/reldate/2010-11-30_0.html'>2010-11-30 16:04</a>
+</td>
+<td>
+<a href='/classification/3_0.html' title='confidential'>SECRET</a>
+</td>
+<td>
+<a href='/origin/53_0.html'>Embassy Buenos Aires</a>
+</td>
+</tr>
+</table>
+<code><pre>VZCZCXRO8303&#x000A;RR RUEHAO RUEHCD RUEHGA RUEHGD RUEHHA RUEHHO RUEHMC RUEHMT RUEHNG&#x000A;RUEHNL RUEHQU RUEHRD RUEHRG RUEHRS RUEHTM RUEHVC&#x000A;DE RUEHBU #0827/01 1961828&#x000A;ZNY SSSSS ZZH&#x000A;R 151828Z JUL 09&#x000A;FM AMEMBASSY BUENOS AIRES&#x000A;TO RUEHC/SECSTATE WASHDC 4069&#x000A;INFO RUEHWH/WESTERN HEMISPHERIC AFFAIRS DIPL POSTS&#x000A;RHEHAAA/NATIONAL SECURITY COUNCIL WASHINGTON DC&#x000A;RUEATRS/DEPT OF TREASURY WASHINGTON DC</pre></code>
+<code><pre>S E C R E T SECTION 01 OF 05 BUENOS AIRES 000827&#x000A;&#x000A;SIPDIS&#x000A;&#x000A;E.O. 12958: DECL: 07/15/2029&#x000A;TAGS: <a href='/tag/PGOV_0.html'>PGOV</a> <a href='/tag/PREL_0.html'>PREL</a> <a href='/tag/ECON_0.html'>ECON</a> <a href='/tag/AR_0.html'>AR</a>&#x000A;SUBJECT: NOW WHAT? THE KIRCHNERS' OPTIONS IN POST-ELECTION&#x000A;ARGENTINA&#x000A;&#x000A;Classified By: Charge d' Affaires Tom Kelly for reasons 1.4 (B) and (D)&#x000A;.&#x000A;&#x000A;<a id='par1' href='#par1'>¶</a>1. (C) Summary/Introduction. More than two weeks have&#x000A;passed since Argentina's ruling first couple lost badly in&#x000A;mid-term congressional elections. It has taken President&#x000A;Cristina Fernandez de Kirchner (CFK) and her husband Nestor&#x000A;time to process the meaning of the debacle and respond.&#x000A;Though the GOA has taken some significant steps over the past&#x000A;two weeks, including a Cabinet shuffle, the signals that the&#x000A;Kirchners and their associates have sent have been decidedly&#x000A;mixed. It may be another month before their new strategy is&#x000A;fully discernible.&#x000A;&#x000A;<a id='par2' href='#par2'>¶</a>2. (S/NF) In the past two weeks, Mission personnel have&#x000A;talked to dozens of political analysts, economists,&#x000A;businesspersons, and politicians about the Kirchners' likely&#x000A;course. Most analyses posit three possible scenarios:&#x000A;radicalization, reform, or the status quo. While there are&#x000A;serious, smart people who believe that the government will&#x000A;lurch simply left or right over the coming months, we, and&#x000A;most of our contacts, believe that the government will behave&#x000A;in the future much as it has in the past. We think a tepid&#x000A;move toward reform is more likely than radicalization because&#x000A;the country's ascendant forces support the former, not the&#x000A;latter. At the same time, we doubt that Kirchner-led reform&#x000A;will be ambitious. The best that can be expected from this&#x000A;weakened government is a "reform-lite" agenda that seeks to&#x000A;recapture political space without significant policy&#x000A;concessions. This cable examines the three scenarios in&#x000A;depth; identifies evidence in support of each one, as well as&#x000A;indicators to watch for that might clarify the Kirchners'&#x000A;future intentions; and evaluates the scenarios' likelihood.&#x000A;A separate message will critically examine another possible&#x000A;political outcome - that CFK will fail to reach the end of&#x000A;her term. End Summary/Introduction.&#x000A;&#x000A;---------------------------&#x000A;The Radicalization Scenario&#x000A;---------------------------&#x000A;&#x000A;<a id='par3' href='#par3'>¶</a>3. (C) In the first (and least likely) scenario, the&#x000A;Kirchners react by turning hard left, attempting to reverse&#x000A;their fortunes through a radicalization of their regime that&#x000A;would propel them unambiguously into the Bolivarian camp led&#x000A;by Hugo Chavez. This approach is referred to locally as&#x000A;"deepening the model." Key elements of this approach would&#x000A;include:&#x000A;&#x000A;-- Economy: Further nationalization of private companies&#x000A;and/or intensified attempts to manage their behavior; a&#x000A;partial default on sovereign debt instruments; and a&#x000A;confirmation of Internal Commerce Secretary Guillermo Moreno&#x000A;as the executor of NK's dirigiste economic policy; increased&#x000A;influence by labor unions.&#x000A;&#x000A;-- Governance: Abandonment of the Peronist party in favor of&#x000A;"transversality," in which the Kirchners consort with any and&#x000A;all who offer their fealty; use of the government budget and&#x000A;other means to punish Peronist governors and other&#x000A;politicians deemed disloyal; pursuit of restrictive media&#x000A;legislation; increased resort to executive decrees.&#x000A;&#x000A;-- Foreign Policy: Closer identification with Hugo Chavez&#x000A;and his Bolivarian allies; increasing criticism of USG&#x000A;policies.&#x000A;&#x000A;-------------------------------&#x000A;Evidence of a Shift to the Left&#x000A;-------------------------------&#x000A;&#x000A;<a id='par4' href='#par4'>¶</a>4. (C) There is a significant group of observers (including&#x000A;political analyst Rosendo Fraga and Deutsche Bank Managing&#x000A;Director Marcelo Blanco) who subscribe to this school of&#x000A;thought. They do not lack evidence. Erstwhile Kirchner&#x000A;allies in the private sector, including Bank Association&#x000A;chief Jorge Brito and Argentine Industrialist Association&#x000A;head Hector Mendez, tell us that they are disgruntled with&#x000A;the Kirchners and lack influence on them. Their loss seems&#x000A;to be union boss Hugo Moyano's gain. He flexed his muscles&#x000A;last week, compelling the GOA to withdraw a subcabinet&#x000A;nomination in the Health Ministry that threatened his unions'&#x000A;financial interests and installing the son of his attorney as&#x000A;head of Aerolineas Argentinas (septel).&#x000A;&#x000A;<a id='par5' href='#par5'>¶</a>5. (C) On the political front, Nestor Kirchner resigned his&#x000A;position as head of the Peronist Party the day after the June&#x000A;28 election. Since then, rumors have proliferated of a new&#x000A;"transversal" approach that elevates Kirchner loyalists and&#x000A;hard-line ideologues like "piquetero" street activists and&#x000A;&#x000A;BUENOS AIR 00000827 002 OF 005&#x000A;&#x000A;&#x000A;the "Carta Abierta" intellectual group. Kirchner showed up&#x000A;last week at an open-air meeting of "Carta Abierta," his&#x000A;first public appearance since his June 29 resignation as&#x000A;Peronist-in-chief. Last week's cabinet shuffle only&#x000A;strengthened the hands of the loyalists, with no new blood&#x000A;and the replacement of the reform-oriented Sergio Massa with&#x000A;Kirchnerista Anibal Fernandez as Cabinet Chief.&#x000A;&#x000A;<a id='par6' href='#par6'>¶</a>6. (C) Some of the GOA's post-election foreign policy moves&#x000A;can also be read to support the radicalization thesis. The&#x000A;most obvious was CFK's spur-of-the-moment trip to Central&#x000A;America (via the OAS in Washington) in a hastily conceived&#x000A;effort to restore Manual Zelaya to power in Honduras. Only&#x000A;Ecuador's Rafael Correa and Paraguay's Fernando Lugo&#x000A;accompanied CFK and OAS Secretary General Insulza on the&#x000A;ill-fated Mission. Wittingly or not, she seemed to side with&#x000A;hasty Bolivarian efforts to force the issue in Honduras&#x000A;rather than to wait for mediation to take its course. A more&#x000A;careful leader, Uruguay's Tabare Vazquez, let it be known&#x000A;that he declined CFK's invitation to join her aboard Tango&#x000A;One.&#x000A;&#x000A;<a id='par7' href='#par7'>¶</a>7. (C) There was one other foreign policy-related event that&#x000A;may suggest a leftward turn. Kirchner congressional ally&#x000A;Patricia Vaca Narvaja recently wrote a letter to U.S. Speaker&#x000A;of the House Nancy Pelosi asking for the USG to declassify&#x000A;all information at its disposal regarding the Argentine&#x000A;military dictatorship. The Kirchner government has often&#x000A;seemed obsessed with refighting the "Dirty War" of the 1970s&#x000A;and early 80s, and the request could be construed as a&#x000A;prelude to another rhetorical offensive against the USG for&#x000A;its "support" of military regimes in the region.&#x000A;(Alternatively, it could be a routine request consistent with&#x000A;the government's longstanding interest in settling Dirty&#x000A;War-related human rights cases.)&#x000A;&#x000A;--------------------------------&#x000A;The Verdict: "Red Dawn" Unlikely&#x000A;--------------------------------&#x000A;&#x000A;<a id='par8' href='#par8'>¶</a>8. (C) Despite all of the above, we view the radicalization&#x000A;scenario as the least likely of the three paths that the&#x000A;government will take, with a probability of less than five&#x000A;percent. Even if the Kirchners prefer this approach in their&#x000A;heart of hearts, circumstances in the wake of the election&#x000A;give them virtually no margin to implement it. Immediately&#x000A;after the election, many of the most powerful forces within&#x000A;the governing coalition began clamoring for more moderate&#x000A;policies, a more inclusive approach to governance, and&#x000A;(especially) a larger share of government finances. These&#x000A;Peronist governors and mayors fared far better than Nestor&#x000A;did, and they are in no mood to take orders from the&#x000A;Kirchners. As a source close to Buenos Aires Governor Daniel&#x000A;Scioli told the CDA, "There are no captive politicians after&#x000A;these elections." The private sector is similarly&#x000A;emboldened. As Industrialist Association (UIA) chief Hector&#x000A;Mendez told us that "deepening the model won't happen. We&#x000A;just won't allow it." Finally, the anti-Kirchner opposition&#x000A;is clearly ascendant. These groups will fight GOA efforts to&#x000A;march Argentina further to the left. Given the current&#x000A;political climate, they should have the votes to hold the&#x000A;Kirchners at bay even before the new Congress is seated in&#x000A;December.&#x000A;&#x000A;<a id='par9' href='#par9'>¶</a>9. (C) Nor do we believe that Argentina's foreign policy is&#x000A;becoming more Bolivarian. The GOA has become much less eager&#x000A;to criticize the USG directly since Barack Obama became&#x000A;President. CFK wears her affection for our&#x000A;Commander-in-Chief on her sleeve. In addition, as mentioned&#x000A;in the next section (para 16), there is new evidence of&#x000A;concrete GOA efforts to support U.S. foreign policy&#x000A;objectives in multilateral fora, at least behind the scenes.&#x000A;&#x000A;<a id='par10' href='#par10'>¶</a>10. (C) There is another external factor that makes&#x000A;Argentina's embrace of Bolivarian politics unlikely -- the&#x000A;growing influence of Brazil here. The local IDB rep,&#x000A;Brazilian Daniel Oliveira, told econoff recently that&#x000A;"Argentina has become as important to Brazil as Mexico is to&#x000A;the United States." With a US$31 billion trade relationship&#x000A;and more than US$10 billion in Brazilian investment flowing&#x000A;into the Argentina economy since 1997, Brazil is strongly&#x000A;engaged here, and is not shy about defending its interests.&#x000A;The local press has reported that Lula worked the phones in&#x000A;July 2008 to prevent the Kirchners from abandoning power in&#x000A;the wake of their failed attempt to push a tax increase on&#x000A;agricultural exports through Congress. Lula and his&#x000A;associates will remain an important moderating influence on&#x000A;the Kirchners.&#x000A;&#x000A;<a id='par11' href='#par11'>¶</a>11. (S/NF) Although we think this scenario's likelihood is&#x000A;&#x000A;BUENOS AIR 00000827 003 OF 005&#x000A;&#x000A;&#x000A;limited, it bears mention that it is also the most likely to&#x000A;lead to political crisis, confrontation, escalating violence,&#x000A;and CFK's failure to reach the end of her term. We explore&#x000A;how such a downward spiral might play out, and the likelihood&#x000A;of this calamitous scenario, in a separate report.&#x000A;&#x000A;-------------------------------------------&#x000A;Scenario Two: The Kirchners Embrace Reform&#x000A;-------------------------------------------&#x000A;&#x000A;<a id='par12' href='#par12'>¶</a>12. (C) Some observers expect (and many more hope) that the&#x000A;Kirchners will reinvent themselves, pursuing a reform-minded&#x000A;agenda that mollifies Peronist governors, defangs the&#x000A;opposition, and wins over new foreign friends. A larger&#x000A;group believes that a rebellious Peronist establishment will&#x000A;put them on that course, whether they like it or not. Key&#x000A;policy features of such an approach would include:&#x000A;&#x000A;-- Economy: Interventionist-in-Chief Guillermo Moreno is&#x000A;dismissed, clearing the way for a normalization of the state&#x000A;statistical institute INDEC (and thus a return to&#x000A;methodological integrity in the national accounts); GOA makes&#x000A;deals with the Paris Club and private bondholders left out of&#x000A;the 2005 debt swap deal and normalizes its relationship with&#x000A;the IMF, starting with an Article IV Consultation; progress&#x000A;on outstanding ICSID judgments against Argentina.&#x000A;&#x000A;-- Governance: CFK rules more inclusively, coordinating&#x000A;policies with governors and looking for common ground with&#x000A;the opposition in the current and next Congress. Government&#x000A;rolls back agricultural export taxes as a down-payment on its&#x000A;new conciliatory approach. NK reduces his public profile.&#x000A;&#x000A;-- Foreign Policy: Concrete steps benefiting the United&#x000A;States and non-Bolivarian governments in the hemisphere,&#x000A;coupled with distancing from Chavez and his allies.&#x000A;&#x000A;<a id='par13' href='#par13'>¶</a>13. (C) Proponents of this scenario's likelihood have plenty&#x000A;of recent evidence to back them up. There is clearly ferment&#x000A;in the government's approach to economic policy, with a new&#x000A;Economy Minister on board, powerful (and heretofore&#x000A;pro-Venezuelan) Planning Minister Julio De Vido now reputed&#x000A;to be an advocate of pragmatic moderation, and prestigious,&#x000A;market-oriented advisors (specifically, former Central Banker&#x000A;and IMF official Mario Blejer) said to be poised to join the&#x000A;government. The government sacked its statist, corrupt&#x000A;Transportation Secretary Ricardo Jaime days after the&#x000A;election, and rumors abound that Moreno, the icon of "market&#x000A;repression" economics, has become such a political liability&#x000A;that his days in the government are numbered. Well-placed&#x000A;sources within the government confirm that change is in the&#x000A;air. Top Kirchner aide Carlos Zannini indicated that the GOA&#x000A;would focus almost exclusively on changes on the economic&#x000A;policy front this month, and influential Buenos Aires&#x000A;Province Vice-Governor Alberto Balestrini told the CDA last&#x000A;week that the GOA would roll back agricultural export taxes&#x000A;on wheat and corn soon.&#x000A;&#x000A;<a id='par14' href='#par14'>¶</a>14. (C) Nor is there any doubt that the political center of&#x000A;gravity has shifted dramatically in Argentina since the&#x000A;election. Most of the country's 16 Peronist governors have&#x000A;reportedly expressed their desire for market-oriented&#x000A;changes, at least privately. Some former allies, like&#x000A;ambitious Chubut Governor Mario Das Neves, have broken ranks&#x000A;with the Kirchners and openly criticize them. Even loyalist&#x000A;governors like Chaco's Jorge Capitanich have publicly called&#x000A;for straightening out INDEC and other changes. Faced with&#x000A;this onslaught from ostensible allies, CFK announced on July&#x000A;9 (as she has before) that she would convoke the country's&#x000A;main political and private sector leaders to a process of&#x000A;dialogue. The following week, she modified the proposed&#x000A;process to accommodate opposition demands.&#x000A;&#x000A;<a id='par15' href='#par15'>¶</a>15. (C) The GOA's political position is further weakened by&#x000A;the prospect that it will suffer defections from its ranks in&#x000A;the current Congress. Of course, the next Congress that&#x000A;takes office December 10 will be more independent, with the&#x000A;government losing majorities in both chambers. This will&#x000A;make it easier for reform-minded groups to push the Kirchners&#x000A;into accepting elements of their agendas. As Balestrini told&#x000A;us, the GOA will need to renegotiate and compromise in order&#x000A;to rule.&#x000A;&#x000A;<a id='par16' href='#par16'>¶</a>16. (C) The GOA has taken a few subtle foreign policy moves&#x000A;that could be construed as harbingers of a closer&#x000A;relationship with the United States. After he received a&#x000A;call on the issue from Secretary Clinton, FM Jorge Taiana&#x000A;convinced CFK to change the voting instructions of the&#x000A;Argentine delegation to the International Atomic Energy&#x000A;Agency, which enabled U.S.-supported candidate Yukiya Amano&#x000A;&#x000A;BUENOS AIR 00000827 004 OF 005&#x000A;&#x000A;&#x000A;to win election after a month-long impasse. In a more&#x000A;prosaic but perhaps symbolically important development, the&#x000A;CDA received a warm note from CFK expressing regret for her&#x000A;failure to attend the Mission's Independence Day celebration&#x000A;and offering best wishes. We had never before received such&#x000A;a note from either Kirchner.&#x000A;&#x000A;-------------------------------------&#x000A;The Verdict: Don't Bet On A New Leaf&#x000A;-------------------------------------&#x000A;&#x000A;<a id='par17' href='#par17'>¶</a>17. (C) While the reform scenario has gained credence over&#x000A;the past week, driven primarily by economic policy news and&#x000A;rumors, we remain skeptical that Nestor and Cristina will&#x000A;turn into a latter-day incarnation of Ozzie and Harriet,&#x000A;dispensing moderation and good sense wherever they turn.&#x000A;Neither Kirchner seems inclined to admit error, even tacitly,&#x000A;by shifting course so abruptly. A senior official at the&#x000A;Central Bank told us that Nestor will resist reformist&#x000A;policies because they would be interpreted as a sign of his&#x000A;weakness and even irrelevance. If changes come, he argues,&#x000A;they will come at a time of his choosing. A reformist path&#x000A;may also strike the Kirchners as politically risky,&#x000A;distancing them from their most fervent supporters in the&#x000A;working class, poor "villas," and intelligentsia in deference&#x000A;to sectors that are at best disloyal and at worst openly&#x000A;hostile to them.&#x000A;&#x000A;<a id='par18' href='#par18'>¶</a>18. (C) The "forced reform" variant of this scenario seems&#x000A;somewhat more likely, but not by much. For it to work, one&#x000A;of two things must happen. Either the Peronist governors&#x000A;will need to set aside their rivalries and effectively&#x000A;advocate for a more robust approach to reform than seems&#x000A;likely, or the bickering, often inept opposition will need to&#x000A;get its act together and engage the Kirchners as a united&#x000A;front. Much depends, for example, on whether dissident&#x000A;Peronists coalesce behind Senator Carlos Reutemann, who has&#x000A;emerged as a frontrunner for the Peronist presidential&#x000A;nomination in 2011, and whether Vice President Julio Cobos&#x000A;can gain some traction in pulling together support from the&#x000A;Radicals, Civic Coalition, and Socialists. If either of&#x000A;these two groups works cooperatively over the coming two&#x000A;months, it is possible that positive changes can come to&#x000A;Argentina before CFK leaves office in 2011. We don't think&#x000A;that will happen, however, and estimate the two reform&#x000A;scenarios' combined probability at no more than twenty&#x000A;percent.&#x000A;&#x000A;---------------------------------&#x000A;Scenario Three: Muddling Through&#x000A;---------------------------------&#x000A;&#x000A;<a id='par19' href='#par19'>¶</a>19. (C) In the third scenario, the Kirchners do not&#x000A;definitively opt for reform or radicalization. Maintaining&#x000A;the short-term focus that has characterized their six years&#x000A;in power, they muddle through as best they can, trying to&#x000A;salvage their political futures or at least to reach the end&#x000A;of CFK's term in 2011. There may be some positive changes in&#x000A;this scenario -- one analyst dubs it "reform-lite" -- but the&#x000A;electoral setback does not ultimately result in a dramatic&#x000A;course correction. In the words of economist Nicolas&#x000A;Dujovne, the Kirchners will pursue a strategy of "minimum&#x000A;reforms, but without collapse." Under this scenario, the&#x000A;following might happen:&#x000A;&#x000A;-- Economy: Lots of policy zigzagging without a clear&#x000A;direction; Moreno stays, or leaves and is replaced with&#x000A;another hard-liner; new, "reform-minded" Economy Minister&#x000A;Boudou changes little, like the Cabinet's previous reformist&#x000A;also-rans Martin Lousteau and Sergio Massa.&#x000A;&#x000A;-- Governance: Cooption of some Peronist governors and&#x000A;mayors, punishment of others considered to be disloyal.&#x000A;Stalemate on legislation in Congress. Top-down dialogue&#x000A;process initiated without intention to compromise.&#x000A;&#x000A;-- Foreign Policy: Some private gestures to the USG, but&#x000A;little movement towards resolution of long-term sources of&#x000A;friction; no palpable distancing from Chavez's camp or&#x000A;modification of the GOA's "independent" foreign policy.&#x000A;&#x000A;--------------------------------------------- ---------&#x000A;For Evidence That Nothing Has Changed, Buy a Newspaper&#x000A;--------------------------------------------- ---------&#x000A;&#x000A;<a id='par20' href='#par20'>¶</a>20. (C) This status-quo scenario is the clear frontrunner&#x000A;among our contacts. There is fresh evidence to support it in&#x000A;every day's harvest of newspapers. The two dominant news&#x000A;stories since the election, CFK's botched trip to Honduras&#x000A;and the GOA's response to the H1N1 epidemic here, both&#x000A;&#x000A;BUENOS AIR 00000827 005 OF 005&#x000A;&#x000A;&#x000A;suggest that the government's improvisational style and&#x000A;closed decision-making process remain intact. This in turn&#x000A;will mean that GOA policies are more likely to develop in&#x000A;response to the first couple's whims than to a coherent&#x000A;design. It also means that the government bureaucracy is&#x000A;unlikely to save the Kirchners from the consequences of their&#x000A;impulses. For example, CFK went ahead with her ill-advised&#x000A;trip to Washington and Central America earlier this month&#x000A;against the advice of her Foreign Ministry. She ended up&#x000A;achieving no more than Nestor did in December 2007 when he&#x000A;participated in the Chavez-organized "bungle in the jungle"&#x000A;in Colombia, in which Nestor and others sat helplessly in the&#x000A;jungle for days in the futile hope that the FARC would&#x000A;deliver hostages to them.&#x000A;&#x000A;<a id='par21' href='#par21'>¶</a>21. (C) The opacity of decision-making at the GOA's apex&#x000A;means that the government will continue to meander hither and&#x000A;yon, regardless of whether or not it has definitively chosen&#x000A;a particular direction. The GOA's performance in dealing&#x000A;with H1N1 flu is a case in point. Although many public&#x000A;health officials in the GOA are working around the clock to&#x000A;contain the challenging problem, the government's lack of&#x000A;internal communication made it look hapless. For example,&#x000A;upon alighting on Argentine territory after her Central&#x000A;American jaunt, CFK denounced "fear-mongering" media reports&#x000A;of 100,000 flu cases in Argentina -- information that had&#x000A;come from her own health ministry. (The 100,000 number&#x000A;referred to all flu cases, not just H1N1 flu.) The poor&#x000A;coordination continues. Over the past weekend, the Mission&#x000A;found itself in the middle of an unsightly (non-public)&#x000A;dispute between the federal Ministry of Health and its&#x000A;counterpart in the Province of Buenos Aires (governed by&#x000A;Kirchner ally Daniel Scioli) over the destination of&#x000A;CDC-donated Tamiflu doses, with each accusing the other of&#x000A;bad faith and subterfuge.&#x000A;&#x000A;--------------------------------------------- ------&#x000A;The Verdict: More of the Same, But Good Can Happen&#x000A;--------------------------------------------- ------&#x000A;&#x000A;<a id='par22' href='#par22'>¶</a>22. (C) Like most of our contacts, we think that this untidy&#x000A;scenario is the most likely outcome. We don't expect the&#x000A;Kirchners to change, but given the magnitude of their defeat&#x000A;in the mid-terms, we don't expect the Peronist establishment&#x000A;or the opposition to back down, either. The Kirchners may&#x000A;even be able to prevail if their rivals and opponents fail to&#x000A;unite. Prolonged stalemate on most of the "big" policy&#x000A;issues seems the most likely outcome of a collision between a&#x000A;closed, reform-adverse, and politically weakened regime and&#x000A;disparate political groups that believe that they have a&#x000A;mandate for reform.&#x000A;&#x000A;<a id='par23' href='#par23'>¶</a>23. (C) This does not mean, however, that no positive change&#x000A;in this scenario is possible. The Kirchners could take steps&#x000A;for ulterior motives that turn out to have beneficial&#x000A;consequences. This has already happened in the post mid-term&#x000A;era, when Transportation Secretary Ricardo Jaime departed&#x000A;office soon after the election. One of our contacts&#x000A;characterized the Kirchners' willingness to cut the&#x000A;notoriously corrupt official loose as the beginning of a&#x000A;purge designed to distance them from the shadiest elements of&#x000A;their regime in an effort to reduce the likelihood that they&#x000A;themselves could end up in prison. Whatever the reason,&#x000A;Jaime's removal could lead to policy improvements in the&#x000A;transportation sector.&#x000A;&#x000A;<a id='par24' href='#par24'>¶</a>24. (C) Nor does it mean that the USG should ignore the&#x000A;Kirchner regime or give up on it as hopeless. CFK may not&#x000A;have a grand scheme in mind for her remaining two years in&#x000A;power, but she clearly would like to associate herself with&#x000A;President Obama's star power. The intensity of this desire&#x000A;opens all kinds of opportunities for us, as it did in&#x000A;Argentina's decisive IAEA vote. As the Kirchners struggle&#x000A;for political relevance or at least survival, they will be&#x000A;looking for success stories -- and we should be on guard for&#x000A;opportunities to induce them to do the right thing. Even if&#x000A;the Kirchner government is unlikely to resolve every single&#x000A;outstanding bilateral issue to our satisfaction, we think&#x000A;that cultivation of the GOA -- CFK in particular -- can lead&#x000A;to beneficial outcomes for U.S. interests bilaterally,&#x000A;regionally, and multilaterally.&#x000A;&#x000A;KELLY</pre></code>
+</div>
+</div>
+<script src='/static/js/js.js' type='text/javascript'></script>
+</body>
+</html>

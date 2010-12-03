@@ -1,0 +1,723 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+<title>Cable Viewer</title>
+<link href='/static/gfx/favicon.ico' rel='shortcut icon' />
+<link href='/static/css/reset-fonts-grids.css' rel='stylesheet' type='text/css' />
+<link href='/static/css/cables.css' rel='stylesheet' type='text/css' />
+</head>
+<body>
+<div class='main'>
+<div class='pane small'>
+<a href='/index.html'>
+<img alt='WikiLeaks logo' src='/static/gfx/WL_Hour_Glass_small.png' />
+<p>Currently released so far... 597 / 251,287</p>
+</a>
+<div id='browse'>
+<h3>Articles</h3>
+<div class='sort'>
+<a href="/articles/2010/De-olho-nas-Olimpiadas-US-faz.html">Brazil</a>
+<a href="/articles/2010/Sri-Lankan-President-s-alleged-war.html">Sri Lanka</a>
+<a href="/articles/2010/Iraq-Inquiry-told-to-protect-US.html">United Kingdom</a>
+<a href="/articles/2010/USA-bekraftar-svensk-Natokoppling.html">Sweden</a>
+</div>
+<h3>Browse latest releases</h3>
+<div class='sort'>
+<a href='/reldate/2010-12-02_0.html'>2010/12/02</a>
+<a href='/reldate/2010-12-01_0.html'>2010/12/01</a>
+<a href='/reldate/2010-11-30_0.html'>2010/11/30</a>
+<a href='/reldate/2010-11-29_0.html'>2010/11/29</a>
+<a href='/reldate/2010-11-28_0.html'>2010/11/28</a>
+</div>
+<h3>Browse by creation <a href='#year_1966' onclick='return sha(0);'>date</a></h3>
+<div class='pick'>
+<a class='sort' href='#year_1966' onclick="return swap('year_1966');">66</a>
+<a class='sort' href='#year_1972' onclick="return swap('year_1972');">72</a>
+<a class='sort' href='#year_1975' onclick="return swap('year_1975');">75</a>
+<a class='sort' href='#year_1979' onclick="return swap('year_1979');">79</a>
+<a class='sort' href='#year_1986' onclick="return swap('year_1986');">86</a>
+<a class='sort' href='#year_1989' onclick="return swap('year_1989');">89</a>
+<a class='sort' href='#year_1990' onclick="return swap('year_1990');">90</a>
+<a class='sort' href='#year_2003' onclick="return swap('year_2003');">03</a>
+<a class='sort' href='#year_2004' onclick="return swap('year_2004');">04</a>
+<a class='sort' href='#year_2005' onclick="return swap('year_2005');">05</a>
+<a class='sort' href='#year_2006' onclick="return swap('year_2006');">06</a>
+<a class='sort' href='#year_2007' onclick="return swap('year_2007');">07</a>
+<a class='sort' href='#year_2008' onclick="return swap('year_2008');">08</a>
+<a class='sort' href='#year_2009' onclick="return swap('year_2009');">09</a>
+<a class='sort' href='#year_2010' onclick="return swap('year_2010');">10</a>
+</div>
+<div class='sort' id='year_1966'>
+<a href='/date/1966-12_0.html'>1966/12</a>
+</div>
+<div class='sort' id='year_1972'>
+<a href='/date/1972-02_0.html'>1972/02</a>
+<a href='/date/1972-08_0.html'>1972/08</a>
+</div>
+<div class='sort' id='year_1975'>
+<a href='/date/1975-03_0.html'>1975/03</a>
+</div>
+<div class='sort' id='year_1979'>
+<a href='/date/1979-08_0.html'>1979/08</a>
+</div>
+<div class='sort' id='year_1986'>
+<a href='/date/1986-05_0.html'>1986/05</a>
+</div>
+<div class='sort' id='year_1989'>
+<a href='/date/1989-12_0.html'>1989/12</a>
+</div>
+<div class='sort' id='year_1990'>
+<a href='/date/1990-01_0.html'>1990/01</a>
+</div>
+<div class='sort' id='year_2003'>
+<a href='/date/2003-06_0.html'>2003/06</a>
+</div>
+<div class='sort' id='year_2004'>
+<a href='/date/2004-01_0.html'>2004/01</a>
+<a href='/date/2004-02_0.html'>2004/02</a>
+<a href='/date/2004-04_0.html'>2004/04</a>
+<a href='/date/2004-11_0.html'>2004/11</a>
+<a href='/date/2004-12_0.html'>2004/12</a>
+</div>
+<div class='sort' id='year_2005'>
+<a href='/date/2005-01_0.html'>2005/01</a>
+<a href='/date/2005-03_0.html'>2005/03</a>
+<a href='/date/2005-04_0.html'>2005/04</a>
+<a href='/date/2005-05_0.html'>2005/05</a>
+<a href='/date/2005-06_0.html'>2005/06</a>
+<a href='/date/2005-07_0.html'>2005/07</a>
+<a href='/date/2005-08_0.html'>2005/08</a>
+<a href='/date/2005-10_0.html'>2005/10</a>
+<a href='/date/2005-11_0.html'>2005/11</a>
+<a href='/date/2005-12_0.html'>2005/12</a>
+</div>
+<div class='sort' id='year_2006'>
+<a href='/date/2006-01_0.html'>2006/01</a>
+<a href='/date/2006-02_0.html'>2006/02</a>
+<a href='/date/2006-03_0.html'>2006/03</a>
+<a href='/date/2006-04_0.html'>2006/04</a>
+<a href='/date/2006-05_0.html'>2006/05</a>
+<a href='/date/2006-06_0.html'>2006/06</a>
+<a href='/date/2006-07_0.html'>2006/07</a>
+<a href='/date/2006-08_0.html'>2006/08</a>
+<a href='/date/2006-09_0.html'>2006/09</a>
+<a href='/date/2006-10_0.html'>2006/10</a>
+<a href='/date/2006-11_0.html'>2006/11</a>
+<a href='/date/2006-12_0.html'>2006/12</a>
+</div>
+<div class='sort' id='year_2007'>
+<a href='/date/2007-01_0.html'>2007/01</a>
+<a href='/date/2007-02_0.html'>2007/02</a>
+<a href='/date/2007-03_0.html'>2007/03</a>
+<a href='/date/2007-04_0.html'>2007/04</a>
+<a href='/date/2007-05_0.html'>2007/05</a>
+<a href='/date/2007-06_0.html'>2007/06</a>
+<a href='/date/2007-07_0.html'>2007/07</a>
+<a href='/date/2007-08_0.html'>2007/08</a>
+<a href='/date/2007-09_0.html'>2007/09</a>
+<a href='/date/2007-10_0.html'>2007/10</a>
+<a href='/date/2007-11_0.html'>2007/11</a>
+<a href='/date/2007-12_0.html'>2007/12</a>
+</div>
+<div class='sort' id='year_2008'>
+<a href='/date/2008-01_0.html'>2008/01</a>
+<a href='/date/2008-02_0.html'>2008/02</a>
+<a href='/date/2008-03_0.html'>2008/03</a>
+<a href='/date/2008-04_0.html'>2008/04</a>
+<a href='/date/2008-05_0.html'>2008/05</a>
+<a href='/date/2008-07_0.html'>2008/07</a>
+<a href='/date/2008-08_0.html'>2008/08</a>
+<a href='/date/2008-09_0.html'>2008/09</a>
+<a href='/date/2008-10_0.html'>2008/10</a>
+<a href='/date/2008-11_0.html'>2008/11</a>
+<a href='/date/2008-12_0.html'>2008/12</a>
+</div>
+<div class='sort' id='year_2009'>
+<a href='/date/2009-01_0.html'>2009/01</a>
+<a href='/date/2009-02_0.html'>2009/02</a>
+<a href='/date/2009-03_0.html'>2009/03</a>
+<a href='/date/2009-04_0.html'>2009/04</a>
+<a href='/date/2009-05_0.html'>2009/05</a>
+<a href='/date/2009-06_0.html'>2009/06</a>
+<a href='/date/2009-07_0.html'>2009/07</a>
+<a href='/date/2009-08_0.html'>2009/08</a>
+<a href='/date/2009-09_0.html'>2009/09</a>
+<a href='/date/2009-10_0.html'>2009/10</a>
+<a href='/date/2009-11_0.html'>2009/11</a>
+<a href='/date/2009-12_0.html'>2009/12</a>
+</div>
+<div class='sort' id='year_2010'>
+<a href='/date/2010-01_0.html'>2010/01</a>
+<a href='/date/2010-02_0.html'>2010/02</a>
+</div>
+<h3>Browse by <a href='#by_A' onclick='return sha(1);'>origin</a></h3>
+<div class='pick'>
+<a class='sort' href='#by_A' onclick="return swap('by_A');">A</a>
+<a class='sort' href='#by_B' onclick="return swap('by_B');">B</a>
+<a class='sort' href='#by_C' onclick="return swap('by_C');">C</a>
+<a class='sort' href='#by_D' onclick="return swap('by_D');">D</a>
+<a class='sort' href='#by_H' onclick="return swap('by_H');">H</a>
+<a class='sort' href='#by_I' onclick="return swap('by_I');">I</a>
+<a class='sort' href='#by_J' onclick="return swap('by_J');">J</a>
+<a class='sort' href='#by_K' onclick="return swap('by_K');">K</a>
+<a class='sort' href='#by_L' onclick="return swap('by_L');">L</a>
+<a class='sort' href='#by_M' onclick="return swap('by_M');">M</a>
+<a class='sort' href='#by_N' onclick="return swap('by_N');">N</a>
+<a class='sort' href='#by_O' onclick="return swap('by_O');">O</a>
+<a class='sort' href='#by_P' onclick="return swap('by_P');">P</a>
+<a class='sort' href='#by_R' onclick="return swap('by_R');">R</a>
+<a class='sort' href='#by_S' onclick="return swap('by_S');">S</a>
+<a class='sort' href='#by_T' onclick="return swap('by_T');">T</a>
+<a class='sort' href='#by_U' onclick="return swap('by_U');">U</a>
+<a class='sort' href='#by_V' onclick="return swap('by_V');">V</a>
+</div>
+<div class='sort' id='by_A'>
+<a href='/origin/65_0.html'>Embassy Asuncion</a>
+<a href='/origin/66_0.html'>Embassy Astana</a>
+<a href='/origin/67_0.html'>Embassy Ashgabat</a>
+<a href='/origin/68_0.html'>Embassy Ankara</a>
+<a href='/origin/69_0.html'>Embassy Amman</a>
+<a href='/origin/70_0.html'>Embassy Algiers</a>
+<a href='/origin/71_0.html'>Embassy Abu Dhabi</a>
+</div>
+<div class='sort' id='by_B'>
+<a href='/origin/53_0.html'>Embassy Buenos Aires</a>
+<a href='/origin/54_0.html'>Embassy Bucharest</a>
+<a href='/origin/55_0.html'>Embassy Brussels</a>
+<a href='/origin/56_0.html'>Embassy Bridgetown</a>
+<a href='/origin/57_0.html'>Embassy Brasilia</a>
+<a href='/origin/58_0.html'>Embassy Bishkek</a>
+<a href='/origin/59_0.html'>Embassy Berlin</a>
+<a href='/origin/60_0.html'>Embassy Beirut</a>
+<a href='/origin/61_0.html'>Embassy Beijing</a>
+<a href='/origin/62_0.html'>Embassy Bangkok</a>
+<a href='/origin/63_0.html'>Embassy Baku</a>
+<a href='/origin/64_0.html'>Embassy Baghdad</a>
+</div>
+<div class='sort' id='by_C'>
+<a href='/origin/49_0.html'>Embassy Colombo</a>
+<a href='/origin/50_0.html'>Embassy Chisinau</a>
+<a href='/origin/51_0.html'>Embassy Caracas</a>
+<a href='/origin/52_0.html'>Embassy Cairo</a>
+<a href='/origin/82_0.html'>Consulate Cape Town</a>
+</div>
+<div class='sort' id='by_D'>
+<a href='/origin/44_0.html'>Embassy Dushanbe</a>
+<a href='/origin/45_0.html'>Embassy Dublin</a>
+<a href='/origin/46_0.html'>Embassy Doha</a>
+<a href='/origin/47_0.html'>Embassy Djibouti</a>
+<a href='/origin/48_0.html'>Embassy Damascus</a>
+<a href='/origin/81_0.html'>Consulate Dubai</a>
+</div>
+<div class='sort' id='by_H'>
+<a href='/origin/43_0.html'>Embassy Harare</a>
+<a href='/origin/80_0.html'>Consulate Hamburg</a>
+</div>
+<div class='sort' id='by_I'>
+<a href='/origin/5_0.html'>Iran RPO Dubai</a>
+<a href='/origin/42_0.html'>Embassy Islamabad</a>
+<a href='/origin/79_0.html'>Consulate Istanbul</a>
+</div>
+<div class='sort' id='by_J'>
+<a href='/origin/78_0.html'>Consulate Jeddah</a>
+</div>
+<div class='sort' id='by_K'>
+<a href='/origin/38_0.html'>Embassy Kyiv</a>
+<a href='/origin/39_0.html'>Embassy Kuwait</a>
+<a href='/origin/40_0.html'>Embassy Kuala Lumpur</a>
+<a href='/origin/41_0.html'>Embassy Kabul</a>
+</div>
+<div class='sort' id='by_L'>
+<a href='/origin/33_0.html'>Embassy Luxembourg</a>
+<a href='/origin/34_0.html'>Embassy London</a>
+<a href='/origin/35_0.html'>Embassy Lisbon</a>
+<a href='/origin/36_0.html'>Embassy Lima</a>
+<a href='/origin/37_0.html'>Embassy La Paz</a>
+</div>
+<div class='sort' id='by_M'>
+<a href='/origin/4_0.html'>Mission USNATO</a>
+<a href='/origin/28_0.html'>Embassy Muscat</a>
+<a href='/origin/29_0.html'>Embassy Moscow</a>
+<a href='/origin/30_0.html'>Embassy Mexico</a>
+<a href='/origin/31_0.html'>Embassy Manama</a>
+<a href='/origin/32_0.html'>Embassy Madrid</a>
+<a href='/origin/77_0.html'>Consulate Munich</a>
+</div>
+<div class='sort' id='by_N'>
+<a href='/origin/27_0.html'>Embassy New Delhi</a>
+</div>
+<div class='sort' id='by_O'>
+<a href='/origin/26_0.html'>Embassy Ottawa</a>
+</div>
+<div class='sort' id='by_P'>
+<a href='/origin/22_0.html'>Embassy Prague</a>
+<a href='/origin/23_0.html'>Embassy Port Au Prince</a>
+<a href='/origin/24_0.html'>Embassy Paris</a>
+<a href='/origin/25_0.html'>Embassy Panama</a>
+<a href='/origin/76_0.html'>Consulate Peshawar</a>
+</div>
+<div class='sort' id='by_R'>
+<a href='/origin/19_0.html'>Embassy Rome</a>
+<a href='/origin/20_0.html'>Embassy Riyadh</a>
+<a href='/origin/21_0.html'>Embassy Rabat</a>
+</div>
+<div class='sort' id='by_S'>
+<a href='/origin/3_0.html'>Secretary of State</a>
+<a href='/origin/14_0.html'>Embassy Stockholm</a>
+<a href='/origin/15_0.html'>Embassy Singapore</a>
+<a href='/origin/16_0.html'>Embassy Seoul</a>
+<a href='/origin/17_0.html'>Embassy Santiago</a>
+<a href='/origin/18_0.html'>Embassy Sanaa</a>
+<a href='/origin/73_0.html'>Consulate Shenyang</a>
+<a href='/origin/74_0.html'>Consulate Shanghai</a>
+<a href='/origin/75_0.html'>Consulate Sao Paulo</a>
+</div>
+<div class='sort' id='by_T'>
+<a href='/origin/8_0.html'>Embassy Tunis</a>
+<a href='/origin/9_0.html'>Embassy Tripoli</a>
+<a href='/origin/10_0.html'>Embassy Tel Aviv</a>
+<a href='/origin/11_0.html'>Embassy Tehran</a>
+<a href='/origin/12_0.html'>Embassy Tegucigalpa</a>
+<a href='/origin/13_0.html'>Embassy Tbilisi</a>
+</div>
+<div class='sort' id='by_U'>
+<a href='/origin/1_0.html'>USEU Brussels</a>
+<a href='/origin/2_0.html'>UNVIE</a>
+<a href='/origin/7_0.html'>Embassy Ulaanbaatar</a>
+</div>
+<div class='sort' id='by_V'>
+<a href='/origin/6_0.html'>Embassy Vienna</a>
+<a href='/origin/72_0.html'>Consulate Vladivostok</a>
+</div>
+<h3>Browse by <a href='#tag_A' onclick='return sha(2);'>tag</a></h3>
+<div class='pick'>
+<a class='sort' href='#tag_A' onclick="return swap('tag_A');">A</a>
+<a class='sort' href='#tag_B' onclick="return swap('tag_B');">B</a>
+<a class='sort' href='#tag_C' onclick="return swap('tag_C');">C</a>
+<a class='sort' href='#tag_D' onclick="return swap('tag_D');">D</a>
+<a class='sort' href='#tag_E' onclick="return swap('tag_E');">E</a>
+<a class='sort' href='#tag_F' onclick="return swap('tag_F');">F</a>
+<a class='sort' href='#tag_G' onclick="return swap('tag_G');">G</a>
+<a class='sort' href='#tag_H' onclick="return swap('tag_H');">H</a>
+<a class='sort' href='#tag_I' onclick="return swap('tag_I');">I</a>
+<a class='sort' href='#tag_J' onclick="return swap('tag_J');">J</a>
+<a class='sort' href='#tag_K' onclick="return swap('tag_K');">K</a>
+<a class='sort' href='#tag_L' onclick="return swap('tag_L');">L</a>
+<a class='sort' href='#tag_M' onclick="return swap('tag_M');">M</a>
+<a class='sort' href='#tag_N' onclick="return swap('tag_N');">N</a>
+<a class='sort' href='#tag_O' onclick="return swap('tag_O');">O</a>
+<a class='sort' href='#tag_P' onclick="return swap('tag_P');">P</a>
+<a class='sort' href='#tag_Q' onclick="return swap('tag_Q');">Q</a>
+<a class='sort' href='#tag_R' onclick="return swap('tag_R');">R</a>
+<a class='sort' href='#tag_S' onclick="return swap('tag_S');">S</a>
+<a class='sort' href='#tag_T' onclick="return swap('tag_T');">T</a>
+<a class='sort' href='#tag_U' onclick="return swap('tag_U');">U</a>
+<a class='sort' href='#tag_V' onclick="return swap('tag_V');">V</a>
+<a class='sort' href='#tag_W' onclick="return swap('tag_W');">W</a>
+<a class='sort' href='#tag_X' onclick="return swap('tag_X');">X</a>
+<a class='sort' href='#tag_Y' onclick="return swap('tag_Y');">Y</a>
+<a class='sort' href='#tag_Z' onclick="return swap('tag_Z');">Z</a>
+</div>
+<div class='sort' id='tag_A'>
+<a href='/tag/AU_0.html'>AU</a>
+<a href='/tag/AG_0.html'>AG</a>
+<a href='/tag/AF_0.html'>AF</a>
+<a href='/tag/AR_0.html'>AR</a>
+<a href='/tag/AE_0.html'>AE</a>
+<a href='/tag/AM_0.html'>AM</a>
+<a href='/tag/ASEC_0.html'>ASEC</a>
+<a href='/tag/AORC_0.html'>AORC</a>
+<a href='/tag/AMGT_0.html'>AMGT</a>
+<a href='/tag/APER_0.html'>APER</a>
+<a href='/tag/AJ_0.html'>AJ</a>
+<a href='/tag/AL_0.html'>AL</a>
+<a href='/tag/AGMT_0.html'>AGMT</a>
+<a href='/tag/AEMR_0.html'>AEMR</a>
+</div>
+<div class='sort' id='tag_B'>
+<a href='/tag/BA_0.html'>BA</a>
+<a href='/tag/BR_0.html'>BR</a>
+<a href='/tag/BE_0.html'>BE</a>
+<a href='/tag/BRUSSELS_0.html'>BRUSSELS</a>
+<a href='/tag/BIDEN_0.html'>BIDEN</a>
+<a href='/tag/BH_0.html'>BH</a>
+<a href='/tag/BL_0.html'>BL</a>
+<a href='/tag/BTIO_0.html'>BTIO</a>
+<a href='/tag/BEXP_0.html'>BEXP</a>
+<a href='/tag/BU_0.html'>BU</a>
+<a href='/tag/BY_0.html'>BY</a>
+<a href='/tag/BO_0.html'>BO</a>
+</div>
+<div class='sort' id='tag_C'>
+<a href='/tag/CA_0.html'>CA</a>
+<a href='/tag/CVIS_0.html'>CVIS</a>
+<a href='/tag/CMGT_0.html'>CMGT</a>
+<a href='/tag/CH_0.html'>CH</a>
+<a href='/tag/CASC_0.html'>CASC</a>
+<a href='/tag/CJAN_0.html'>CJAN</a>
+<a href='/tag/CLINTON_0.html'>CLINTON</a>
+<a href='/tag/CU_0.html'>CU</a>
+<a href='/tag/CD_0.html'>CD</a>
+<a href='/tag/CV_0.html'>CV</a>
+<a href='/tag/CO_0.html'>CO</a>
+<a href='/tag/CI_0.html'>CI</a>
+<a href='/tag/CS_0.html'>CS</a>
+<a href='/tag/CE_0.html'>CE</a>
+<a href='/tag/CY_0.html'>CY</a>
+<a href='/tag/CM_0.html'>CM</a>
+<a href='/tag/CF_0.html'>CF</a>
+<a href='/tag/CIA_0.html'>CIA</a>
+</div>
+<div class='sort' id='tag_D'>
+<a href='/tag/DJ_0.html'>DJ</a>
+</div>
+<div class='sort' id='tag_E'>
+<a href='/tag/EFIN_0.html'>EFIN</a>
+<a href='/tag/EPET_0.html'>EPET</a>
+<a href='/tag/ECON_0.html'>ECON</a>
+<a href='/tag/ENRG_0.html'>ENRG</a>
+<a href='/tag/EAID_0.html'>EAID</a>
+<a href='/tag/EINV_0.html'>EINV</a>
+<a href='/tag/EAIR_0.html'>EAIR</a>
+<a href='/tag/EUN_0.html'>EUN</a>
+<a href='/tag/ELAB_0.html'>ELAB</a>
+<a href='/tag/EU_0.html'>EU</a>
+<a href='/tag/ETTC_0.html'>ETTC</a>
+<a href='/tag/EG_0.html'>EG</a>
+<a href='/tag/ETRD_0.html'>ETRD</a>
+<a href='/tag/ELTN_0.html'>ELTN</a>
+<a href='/tag/EREL_0.html'>EREL</a>
+<a href='/tag/EAGR_0.html'>EAGR</a>
+<a href='/tag/EFIS_0.html'>EFIS</a>
+<a href='/tag/EWWT_0.html'>EWWT</a>
+<a href='/tag/EI_0.html'>EI</a>
+<a href='/tag/EIND_0.html'>EIND</a>
+<a href='/tag/EMIN_0.html'>EMIN</a>
+<a href='/tag/EZ_0.html'>EZ</a>
+<a href='/tag/EXTERNAL_0.html'>EXTERNAL</a>
+<a href='/tag/ECIP_0.html'>ECIP</a>
+<a href='/tag/ECPS_0.html'>ECPS</a>
+<a href='/tag/ECUN_0.html'>ECUN</a>
+<a href='/tag/ENVR_0.html'>ENVR</a>
+</div>
+<div class='sort' id='tag_F'>
+<a href='/tag/FR_0.html'>FR</a>
+<a href='/tag/FJ_0.html'>FJ</a>
+<a href='/tag/FINR_0.html'>FINR</a>
+</div>
+<div class='sort' id='tag_G'>
+<a href='/tag/GG_0.html'>GG</a>
+<a href='/tag/GM_0.html'>GM</a>
+<a href='/tag/GA_0.html'>GA</a>
+<a href='/tag/GOI_0.html'>GOI</a>
+<a href='/tag/GE_0.html'>GE</a>
+<a href='/tag/GR_0.html'>GR</a>
+<a href='/tag/GTMO_0.html'>GTMO</a>
+</div>
+<div class='sort' id='tag_H'>
+<a href='/tag/HO_0.html'>HO</a>
+<a href='/tag/HA_0.html'>HA</a>
+<a href='/tag/HILLARY_0.html'>HILLARY</a>
+<a href='/tag/HURI_0.html'>HURI</a>
+</div>
+<div class='sort' id='tag_I'>
+<a href='/tag/IS_0.html'>IS</a>
+<a href='/tag/IZ_0.html'>IZ</a>
+<a href='/tag/IR_0.html'>IR</a>
+<a href='/tag/IN_0.html'>IN</a>
+<a href='/tag/IQ_0.html'>IQ</a>
+<a href='/tag/IT_0.html'>IT</a>
+<a href='/tag/ICAO_0.html'>ICAO</a>
+<a href='/tag/IO_0.html'>IO</a>
+<a href='/tag/INRB_0.html'>INRB</a>
+<a href='/tag/IAEA_0.html'>IAEA</a>
+<a href='/tag/IRAJ_0.html'>IRAJ</a>
+<a href='/tag/INTERPOL_0.html'>INTERPOL</a>
+<a href='/tag/IMO_0.html'>IMO</a>
+<a href='/tag/ID_0.html'>ID</a>
+</div>
+<div class='sort' id='tag_J'>
+<a href='/tag/JA_0.html'>JA</a>
+<a href='/tag/JO_0.html'>JO</a>
+<a href='/tag/JOSEPH_0.html'>JOSEPH</a>
+<a href='/tag/JAMES_0.html'>JAMES</a>
+</div>
+<div class='sort' id='tag_K'>
+<a href='/tag/KPAO_0.html'>KPAO</a>
+<a href='/tag/KCRM_0.html'>KCRM</a>
+<a href='/tag/KTFN_0.html'>KTFN</a>
+<a href='/tag/KNNP_0.html'>KNNP</a>
+<a href='/tag/KFRD_0.html'>KFRD</a>
+<a href='/tag/KCOR_0.html'>KCOR</a>
+<a href='/tag/KTIP_0.html'>KTIP</a>
+<a href='/tag/KISL_0.html'>KISL</a>
+<a href='/tag/KU_0.html'>KU</a>
+<a href='/tag/KIRF_0.html'>KIRF</a>
+<a href='/tag/KJUS_0.html'>KJUS</a>
+<a href='/tag/KHLS_0.html'>KHLS</a>
+<a href='/tag/KAWK_0.html'>KAWK</a>
+<a href='/tag/KN_0.html'>KN</a>
+<a href='/tag/KZ_0.html'>KZ</a>
+<a href='/tag/KUNR_0.html'>KUNR</a>
+<a href='/tag/KS_0.html'>KS</a>
+<a href='/tag/KDEM_0.html'>KDEM</a>
+<a href='/tag/KACT_0.html'>KACT</a>
+<a href='/tag/KPRP_0.html'>KPRP</a>
+<a href='/tag/KWBG_0.html'>KWBG</a>
+<a href='/tag/KSCA_0.html'>KSCA</a>
+<a href='/tag/KG_0.html'>KG</a>
+<a href='/tag/KPAL_0.html'>KPAL</a>
+<a href='/tag/KMDR_0.html'>KMDR</a>
+<a href='/tag/KGHG_0.html'>KGHG</a>
+<a href='/tag/KDRG_0.html'>KDRG</a>
+<a href='/tag/KSPR_0.html'>KSPR</a>
+<a href='/tag/KWMN_0.html'>KWMN</a>
+<a href='/tag/KOLY_0.html'>KOLY</a>
+<a href='/tag/KPKO_0.html'>KPKO</a>
+<a href='/tag/KSEC_0.html'>KSEC</a>
+<a href='/tag/KTIA_0.html'>KTIA</a>
+<a href='/tag/KHIV_0.html'>KHIV</a>
+<a href='/tag/KGCC_0.html'>KGCC</a>
+<a href='/tag/KCIP_0.html'>KCIP</a>
+<a href='/tag/KBIO_0.html'>KBIO</a>
+<a href='/tag/KR_0.html'>KR</a>
+</div>
+<div class='sort' id='tag_L'>
+<a href='/tag/LY_0.html'>LY</a>
+<a href='/tag/LE_0.html'>LE</a>
+<a href='/tag/LU_0.html'>LU</a>
+<a href='/tag/LG_0.html'>LG</a>
+</div>
+<div class='sort' id='tag_M'>
+<a href='/tag/MNUC_0.html'>MNUC</a>
+<a href='/tag/MO_0.html'>MO</a>
+<a href='/tag/MARR_0.html'>MARR</a>
+<a href='/tag/MOPS_0.html'>MOPS</a>
+<a href='/tag/MASS_0.html'>MASS</a>
+<a href='/tag/MX_0.html'>MX</a>
+<a href='/tag/MTCRE_0.html'>MTCRE</a>
+<a href='/tag/MY_0.html'>MY</a>
+<a href='/tag/MCAP_0.html'>MCAP</a>
+<a href='/tag/MU_0.html'>MU</a>
+<a href='/tag/MP_0.html'>MP</a>
+<a href='/tag/ML_0.html'>ML</a>
+<a href='/tag/MR_0.html'>MR</a>
+<a href='/tag/MG_0.html'>MG</a>
+<a href='/tag/MAR_0.html'>MAR</a>
+<a href='/tag/MASC_0.html'>MASC</a>
+<a href='/tag/MPOS_0.html'>MPOS</a>
+<a href='/tag/MD_0.html'>MD</a>
+<a href='/tag/MOPPS_0.html'>MOPPS</a>
+<a href='/tag/MK_0.html'>MK</a>
+</div>
+<div class='sort' id='tag_N'>
+<a href='/tag/NATO_0.html'>NATO</a>
+<a href='/tag/NG_0.html'>NG</a>
+<a href='/tag/NI_0.html'>NI</a>
+<a href='/tag/NZ_0.html'>NZ</a>
+</div>
+<div class='sort' id='tag_O'>
+<a href='/tag/OVIP_0.html'>OVIP</a>
+<a href='/tag/OTRA_0.html'>OTRA</a>
+<a href='/tag/OPRC_0.html'>OPRC</a>
+<a href='/tag/OSCE_0.html'>OSCE</a>
+<a href='/tag/OEXC_0.html'>OEXC</a>
+<a href='/tag/OIIP_0.html'>OIIP</a>
+<a href='/tag/OTR_0.html'>OTR</a>
+</div>
+<div class='sort' id='tag_P'>
+<a href='/tag/PGOV_0.html'>PGOV</a>
+<a href='/tag/PARM_0.html'>PARM</a>
+<a href='/tag/PREL_0.html'>PREL</a>
+<a href='/tag/PINR_0.html'>PINR</a>
+<a href='/tag/PTER_0.html'>PTER</a>
+<a href='/tag/PK_0.html'>PK</a>
+<a href='/tag/PINS_0.html'>PINS</a>
+<a href='/tag/PREF_0.html'>PREF</a>
+<a href='/tag/PHUM_0.html'>PHUM</a>
+<a href='/tag/PE_0.html'>PE</a>
+<a href='/tag/PBTS_0.html'>PBTS</a>
+<a href='/tag/PA_0.html'>PA</a>
+<a href='/tag/PINT_0.html'>PINT</a>
+<a href='/tag/PL_0.html'>PL</a>
+<a href='/tag/PEPR_0.html'>PEPR</a>
+<a href='/tag/PM_0.html'>PM</a>
+<a href='/tag/PAK_0.html'>PAK</a>
+<a href='/tag/POL_0.html'>POL</a>
+<a href='/tag/PO_0.html'>PO</a>
+<a href='/tag/POLITICAL_0.html'>POLITICAL</a>
+<a href='/tag/PARTIES_0.html'>PARTIES</a>
+<a href='/tag/PGOF_0.html'>PGOF</a>
+<a href='/tag/PROP_0.html'>PROP</a>
+<a href='/tag/PBIO_0.html'>PBIO</a>
+<a href='/tag/PHSA_0.html'>PHSA</a>
+<a href='/tag/PSI_0.html'>PSI</a>
+</div>
+<div class='sort' id='tag_Q'>
+<a href='/tag/QA_0.html'>QA</a>
+</div>
+<div class='sort' id='tag_R'>
+<a href='/tag/RS_0.html'>RS</a>
+<a href='/tag/RU_0.html'>RU</a>
+<a href='/tag/RO_0.html'>RO</a>
+<a href='/tag/RW_0.html'>RW</a>
+</div>
+<div class='sort' id='tag_S'>
+<a href='/tag/SNAR_0.html'>SNAR</a>
+<a href='/tag/SA_0.html'>SA</a>
+<a href='/tag/SP_0.html'>SP</a>
+<a href='/tag/SHUM_0.html'>SHUM</a>
+<a href='/tag/SENV_0.html'>SENV</a>
+<a href='/tag/SOCI_0.html'>SOCI</a>
+<a href='/tag/SY_0.html'>SY</a>
+<a href='/tag/SW_0.html'>SW</a>
+<a href='/tag/SF_0.html'>SF</a>
+<a href='/tag/SG_0.html'>SG</a>
+<a href='/tag/SMIG_0.html'>SMIG</a>
+<a href='/tag/SR_0.html'>SR</a>
+<a href='/tag/SCUL_0.html'>SCUL</a>
+<a href='/tag/SYR_0.html'>SYR</a>
+<a href='/tag/SO_0.html'>SO</a>
+<a href='/tag/SU_0.html'>SU</a>
+<a href='/tag/STEINBERG_0.html'>STEINBERG</a>
+<a href='/tag/SN_0.html'>SN</a>
+<a href='/tag/SM_0.html'>SM</a>
+</div>
+<div class='sort' id='tag_T'>
+<a href='/tag/TS_0.html'>TS</a>
+<a href='/tag/TU_0.html'>TU</a>
+<a href='/tag/TW_0.html'>TW</a>
+<a href='/tag/TD_0.html'>TD</a>
+<a href='/tag/TI_0.html'>TI</a>
+<a href='/tag/TX_0.html'>TX</a>
+<a href='/tag/TH_0.html'>TH</a>
+<a href='/tag/TRGY_0.html'>TRGY</a>
+<a href='/tag/TC_0.html'>TC</a>
+<a href='/tag/TFIN_0.html'>TFIN</a>
+</div>
+<div class='sort' id='tag_U'>
+<a href='/tag/UK_0.html'>UK</a>
+<a href='/tag/US_0.html'>US</a>
+<a href='/tag/UP_0.html'>UP</a>
+<a href='/tag/UNO_0.html'>UNO</a>
+<a href='/tag/UZ_0.html'>UZ</a>
+<a href='/tag/UNSC_0.html'>UNSC</a>
+<a href='/tag/UN_0.html'>UN</a>
+<a href='/tag/USEU_0.html'>USEU</a>
+<a href='/tag/UV_0.html'>UV</a>
+<a href='/tag/UNMIK_0.html'>UNMIK</a>
+<a href='/tag/UNESCO_0.html'>UNESCO</a>
+<a href='/tag/UNGA_0.html'>UNGA</a>
+<a href='/tag/UAE_0.html'>UAE</a>
+<a href='/tag/UE_0.html'>UE</a>
+</div>
+<div class='sort' id='tag_V'>
+<a href='/tag/VE_0.html'>VE</a>
+<a href='/tag/VZ_0.html'>VZ</a>
+</div>
+<div class='sort' id='tag_W'>
+<a href='/tag/WTO_0.html'>WTO</a>
+</div>
+<div class='sort' id='tag_X'>
+<a href='/tag/XA_0.html'>XA</a>
+<a href='/tag/XL_0.html'>XL</a>
+<a href='/tag/XF_0.html'>XF</a>
+<a href='/tag/XH_0.html'>XH</a>
+<a href='/tag/XG_0.html'>XG</a>
+</div>
+<div class='sort' id='tag_Y'>
+<a href='/tag/YM_0.html'>YM</a>
+<a href='/tag/YI_0.html'>YI</a>
+</div>
+<div class='sort' id='tag_Z'>
+<a href='/tag/ZK_0.html'>ZK</a>
+<a href='/tag/ZP_0.html'>ZP</a>
+<a href='/tag/ZR_0.html'>ZR</a>
+<a href='/tag/ZF_0.html'>ZF</a>
+<a href='/tag/ZI_0.html'>ZI</a>
+</div>
+<h3>Browse by classification</h3>
+<div class='sort'>
+<a href='/classification/1_0.html' title='unclassified'>CONFIDENTIAL</a>
+<a href='/classification/2_0.html' title='secret'>CONFIDENTIAL//NOFORN</a>
+<a href='/classification/3_0.html' title='confidential'>SECRET</a>
+<a href='/classification/4_0.html' title='secret//noforn'>SECRET//NOFORN</a>
+<a href='/classification/5_0.html' title='unclassified//fouo'>UNCLASSIFIED</a>
+<a href='/classification/6_0.html' title='confidential//noforn'>UNCLASSIFIED//FOR OFFICIAL USE ONLY</a>
+</div>
+</div>
+<h3>Community resources</h3>
+<div class='sort'>
+<a href='http://twitter.com/wikileaks'>Follow us on Twitter</a>
+<a href='http://en.reddit.com/domain/wikileaks.org'>Check our Reddit</a>
+<a href='http://twitter.com/home?status=Reading%20http%3A%2F%2Fcablegate.wikileaks.org%2Fcable%2F2006%2F02%2F06BRUSSELS524.html%20%2306BRUSSELS524'>Twitter this</a>
+<a href='http://digg.com/submit?url=http%3A%2F%2Fcablegate.wikileaks.org%2Fcable%2F2006%2F02%2F06BRUSSELS524.html'>Digg this page</a>
+</div>
+<p>
+<i>
+courage is contagious
+</i>
+</p>
+</div>
+<div class='pane big'>
+<h3>Viewing cable 06BRUSSELS524, SECSTATE LEGAL ADVISER ON WAR ON TERROR</h3>
+<div>
+If you are new to these pages, please read an introduction on the <a href="#help_1" onclick="return sh(1);">structure of a cable</a> as well as how to <a href="#help_2" onclick="return sh(2);">discuss them</a> with others. See also the <a href="/static/html/faq.html">FAQs</a>
+<br />
+</div>
+<div id='help_1'>
+<br />
+<b>Understanding cables</b>
+<br />
+Every cable message consists of three parts:
+<ul>
+<li>The top box shows each cables unique reference number, when and by whom it originally was sent, and what its initial classification was.</li>
+<li>The middle box contains the header information that is associated with the cable. It includes information about the receiver(s) as well as a general subject.</li>
+<li>The bottom box presents the body of the cable. The opening can contain a more specific subject, references to other cables (<a href="#by_A" onclick="swap('by_A'); setTimeout('document.location.href=(document.location.href + \'#by_A\').replace(/\#.*$/,\'#by_A\')', 100); return false;">browse by origin</a> to find them) or additional comment. This is followed by the main contents of the cable: a summary, a collection of specific topics and a comment section.</li>
+</ul>
+To understand the justification used for the classification of each cable, please use this <a href="http://en.wikisource.org/wiki/Executive_Order_13526#Part_1">WikiSource</a> article as reference.
+</div>
+<div id='help_2'>
+<br />
+<b>Discussing cables</b>
+<br />
+If you find meaningful or important information in a cable, please link directly to its unique reference number. Linking to a specific paragraph in the body of a cable is also possible by copying the appropriate link (to be found at theparagraph symbol).
+Please mark messages for social networking services like Twitter with the hash tags <b>#cablegate</b> and a hash containing the reference ID e.g. <b>#06BRUSSELS524</b>.
+</div>
+<div id='kus'>
+<a href='http://wikileaks.org/support.html' target='_blank'>KEEP US STRONG!</a>
+</div>
+<table class='cable'>
+<tr>
+<th>Reference ID</th>
+<th>Created</th>
+<th>Released</th>
+<th>Classification</th>
+<th>Origin</th>
+</tr>
+<tr>
+<td>
+<a href='/cable/2006/02/06BRUSSELS524.html'>06BRUSSELS524</a>
+</td>
+<td>
+<a href='/date/2006-02_0.html'>2006-02-15 17:05</a>
+</td>
+<td>
+<a href='/reldate/2010-11-30_0.html'>2010-11-30 16:04</a>
+</td>
+<td>
+<a href='/classification/1_0.html' title='unclassified'>CONFIDENTIAL</a>
+</td>
+<td>
+<a href='/origin/55_0.html'>Embassy Brussels</a>
+</td>
+</tr>
+</table>
+<code><pre>This record is a partial extract of the original cable. The full text of the original cable is not available.</pre></code>
+<code><pre>C O N F I D E N T I A L SECTION 01 OF 05 BRUSSELS 000524 &#x000A;&#x000A;SIPDIS &#x000A;&#x000A;DOD FOR HAYNES &#x000A;NSC FOR WIEGMANN &#x000A;&#x000A;E.O. 12958: DECL: 02/10/2016 &#x000A;TAGS: <a href='/tag/PGOV_0.html'>PGOV</a> <a href='/tag/PTER_0.html'>PTER</a> <a href='/tag/PHUM_0.html'>PHUM</a> <a href='/tag/EUN_0.html'>EUN</a> <a href='/tag/USEU_0.html'>USEU</a> <a href='/tag/BRUSSELS_0.html'>BRUSSELS</a>&#x000A;SUBJECT: SECSTATE LEGAL ADVISER ON WAR ON TERROR &#x000A;&#x000A;Classified By: USEU POLOFF TODD HUIZINGA, FOR REASONS 1.4 (B) AND (D) &#x000A;&#x000A;<a id='par1' href='#par1'>¶</a>1. (C) SUMMARY: Secstate Legal Adviser John Bellinger met &#x000A;with a comprehensive array of EU interlocutors in Brussels on &#x000A;February 7-8 to discuss U.S. views on the legal framework for &#x000A;the war on terrorism. He stressed that U.S. decisions on how &#x000A;to deal with an unprecedented global terrorist threat had &#x000A;been made after serious consideration of all legal and &#x000A;political options, and that European officials must publicly &#x000A;underline U.S.-EU solidarity in the fight against terror. On &#x000A;Guantanamo detainees and Al Qaeda, Bellinger argued that the &#x000A;U.S. was and is acting in the context of a new form of &#x000A;international armed conflict, and that therefore, while the &#x000A;Geneva Conventions do not fit this new situation well, the &#x000A;rules of war provide a more appropriate framework than &#x000A;domestic criminal law. He discussed European concerns about &#x000A;the treatment of detainees. Bellinger also argued that &#x000A;rendition is a vital tool against terror. Finally, he urged &#x000A;the EU not to support a Cuban resolution at the UN Human &#x000A;Rights Commission on Guantanamo. The EU response to the &#x000A;visit was for the most part extremely positive, with the &#x000A;Legal Adviser of the Austrian EU presidency underlining that &#x000A;"the fight against terror is our (shared) struggle." &#x000A;Europeans, however, remain concerned about protection issues. &#x000A;END SUMMARY. &#x000A;&#x000A;----------------------------- &#x000A;COMPREHENSIVE SET OF MEETINGS &#x000A;----------------------------- &#x000A;&#x000A;<a id='par2' href='#par2'>¶</a>2. (SBU) On February 7-8, Secretary of State Legal Adviser &#x000A;John Bellinger met with a wide range of EU and member-state &#x000A;officials, including Robert Cooper, Director-General for &#x000A;Common Foreign and Security Policy at the EU Council &#x000A;Secretariat; Jean-Claude Piris, the Director-General of the &#x000A;&#x000A;SIPDIS &#x000A;Legal Services of the EU Council Secretariat; Michel Petite, &#x000A;Director-General of the Legal Services of the European &#x000A;Commission; Jim Cloos, EU Council Secretariat Director for &#x000A;Transatlantic Relations, Human Rights and UN; and Gijs de &#x000A;Vries, EU Coordinator for the Fight Against Terrorism. The &#x000A;visit was capped by a two-and-a-half-hour discussion with the &#x000A;EU Legal Services Working Group (COJUR), comprising the MFA &#x000A;Legal Advisers of the 25 EU member states, plus Commission &#x000A;and Council Legal Services and Romanian and Bulgarian &#x000A;observers. &#x000A;&#x000A;-------------------------------------------- &#x000A;BASIC CONTEXT: UNPRECEDENTED GLOBAL CONFLICT &#x000A;-------------------------------------------- &#x000A;&#x000A;<a id='par3' href='#par3'>¶</a>3. (SBU) Bellinger stressed that the situation in which the &#x000A;U.S. and its allies find themselves is unprecedented -- faced &#x000A;with thousands of Al Qaeda and associated terrorists around &#x000A;the globe whose goal is to inflict mass casualties on &#x000A;innocent civilians by any means possible. The legal &#x000A;frameworks that are readily available, the Geneva Conventions &#x000A;or domestic criminal law, do not fit this unprecedented &#x000A;situation well. In this context, the USG has thought long &#x000A;and hard about how best to prosecute the conflict thrust upon &#x000A;it in a way that is politically and legally legitimate, and &#x000A;the answer to the question of what the rules should be that &#x000A;govern the war on terror is not an easy one. &#x000A;&#x000A;------------------------------------------ &#x000A;INTERNATIONAL ARMED CONFLICT WITH AL QAEDA &#x000A;------------------------------------------ &#x000A;&#x000A;<a id='par4' href='#par4'>¶</a>4. (SBU) It is clear, Bellinger said, that the military &#x000A;response against the Taliban and Al Qaeda in Afghanistan &#x000A;following the September 11 attacks, an action covered by UNSC &#x000A;Resolution 1373, is properly categorized as an international &#x000A;armed conflict. The U.S. believes that the continuing &#x000A;struggle against Al Qaeda remains a legal state of &#x000A;international armed conflict. Al Qaeda has attacked, and &#x000A;continues to attack, our ships, embassies, people, and &#x000A;territory. Its leaders have explicitly declared war on us. &#x000A;Therefore, the proper legal framework cannot be that of &#x000A;domestic criminal law. Al Qaeda is not the same as domestic &#x000A;European terrorist groups like the IRA or RAF because it is &#x000A;global and operates outside the U.S. and across borders. It &#x000A;is in effect a new manifestation on the battlefield, that of &#x000A;"armies of terrorists." Conceptually, this is a military &#x000A;conflict, not a police action to round up criminals. Most &#x000A;detainees have been picked up by our armed forces on foreign &#x000A;battlefields. Practically, these cases would be virtually &#x000A;impossible for domestic courts to handle, since there are &#x000A;rarely witnesses, statements, or forensic or documentary &#x000A;evidence that would meet domestic standards. Accordingly, &#x000A;the most appropriate framework would be the rules of &#x000A;international armed conflict. &#x000A;<a id='par5' href='#par5'>¶</a>5. (SBU) It is important to note, Bellinger emphasized, the &#x000A;distinction between the President's political statement that &#x000A;we are part of a "war on terror" and the legal status of the &#x000A;international armed conflict with Al Qaeda. When the &#x000A;President speaks of the War on Terror after 9/11, he is &#x000A;taking the position that we must all declare our opposition &#x000A;to terrorism of any kind. The U.S. also believes, however, &#x000A;that it has been and continues to be in a legal state of &#x000A;armed conflict specifically with Al Qaeda. &#x000A;&#x000A;---------------------------------------- &#x000A;DETAINEES COVERED BY GENEVA CONVENTIONS? &#x000A;---------------------------------------- &#x000A;&#x000A;<a id='par6' href='#par6'>¶</a>6. (SBU) Bellinger stressed that the current rules of &#x000A;international armed conflict do not fit this unprecedented &#x000A;situation very well. After 9/11, the U.S. carefully &#x000A;considered whether and to what extent the Geneva Conventions &#x000A;would apply. Article 2 of the Third Geneva Convention &#x000A;declares that these conventions apply only between High &#x000A;Contracting Parties. While Afghanistan was a High &#x000A;Contracting Party, Al Qaeda is certainly not. In addition, &#x000A;Article 4 dictates that a POW must be a soldier in a national &#x000A;army, wear a uniform with marked insignia, carry arms openly, &#x000A;and follow the laws and customs of war. Because the Taliban &#x000A;did not meet any of these conditions, they are not covered as &#x000A;POWs under the Geneva Conventions. Furthermore, Al Qaeda &#x000A;members could not be considered "protected persons" under the &#x000A;Fourth Geneva Convention. The Fourth Convention defines &#x000A;"protected persons" as civilians caught up in a conflict. Al &#x000A;Qaeda was not caught up in, but rather initiated, the &#x000A;conflict. Bellinger noted that privileges are given to POWs &#x000A;under the Geneva Conventions for following the laws of war, &#x000A;which are intended to protect civilians from harm. Al Qaeda &#x000A;and the Taliban completely disregard the rules of war and &#x000A;intentionally target civilians. &#x000A;&#x000A;<a id='par7' href='#par7'>¶</a>7. (SBU) If not covered as POWs or protected persons, what, &#x000A;then, is the status of Al Qaeda and Taliban combatants? &#x000A;Bellinger asserted that there is a clear gap between these &#x000A;terms, and that the gap is intentional. Article 5 of the &#x000A;Fourth Geneva Convention, he notes, specifies that "spies and &#x000A;saboteurs" are not granted rights and privileges under the &#x000A;Geneva Conventions. This designation, "spies and saboteurs," &#x000A;is the designation in the Geneva Conventions that most &#x000A;closely describes Al Qaeda terrorists. Thus, though they are &#x000A;combatants, they are best defined as unlawful combatants who &#x000A;do not have a right to any protections under the Geneva &#x000A;Conventions. Bellinger also explained that the term &#x000A;&unlawful combatant8 is not a new term but rather has been &#x000A;used for many years in treatises and military manuals to &#x000A;describe those who engage in combat, but in an unlawful &#x000A;manner. &#x000A;&#x000A;<a id='par8' href='#par8'>¶</a>8. (SBU) Bellinger added that the U.S. response to Al Qaeda &#x000A;attacks does not make members of Al Qaeda legitimate &#x000A;combatants under the Geneva Conventions. Al Qaeda does not &#x000A;follow the laws of war, and the fact that the U.S. is &#x000A;fighting back in no way renders unlawful combatants &#x000A;legitimate under the very laws they do not respect. &#x000A;&#x000A;------------------------------------ &#x000A;STANDARDS FOR TREATMENT OF DETAINEES &#x000A;------------------------------------ &#x000A;&#x000A;<a id='par9' href='#par9'>¶</a>9. (SBU) If the protections of the Geneva Conventions do not &#x000A;apply, Bellinger said, there is the question of what rules &#x000A;the U.S. is applying to detainees. Accordingly, to clarify &#x000A;U.S. policy towards detainees President Bush issued a public &#x000A;directive on February 7, 2002, titled "Humane Treatment of Al &#x000A;Qaeda and Taliban Detainees." This directive orders that all &#x000A;detainees under the control of the Armed Forces be treated &#x000A;humanely and, to the extent appropriate and consistent with &#x000A;military necessity, consistent with the Geneva Conventions. &#x000A;In addition, the U.S. remains bound by, and committed to, the &#x000A;United Nations Convention Against Torture and Other Cruel, &#x000A;Inhuman, or Degrading Treatment or Punishment. This includes &#x000A;Article 4, which prohibits torture, and Article 3, which &#x000A;prohibits transfers of persons to countries where there is &#x000A;substantial likelihood that they will be tortured. Article 3 &#x000A;is applied on a case-by-case basis. A country's poor record &#x000A;on human rights will raise a red flag, but not necessarily &#x000A;entail a prohibition against transferring a detainee to that &#x000A;country. Instead, in each individual case the U.S. seeks &#x000A;assurances that the person involved will not be tortured, and &#x000A;a transfer is only allowed if those assurances are deemed &#x000A;credible. Regarding Article 16 of the Convention Against &#x000A;Torture, which prohibits cruel, inhuman, and degrading &#x000A;treatment, the U.S. Senate expressed reservations during &#x000A;ratification in 1995 because there was no definition of &#x000A;"cruel, inhuman, and degrading treatment" in the Convention. &#x000A;The Senate's reservation dictated that the U.S. would tie &#x000A;this provision to the prohibitions of cruel and unusual &#x000A;treatment in the Fifth, Eighth and Fourteenth Amendments to &#x000A;the U.S. Constitution. Because these constitutional &#x000A;amendments apply only to U.S. citizens in territories under &#x000A;U.S. jurisdiction, the Department of Justice interpreted the &#x000A;Senate reservation to mean that Article 16 applies only &#x000A;inside the United States. Nonetheless, as Secretary Rice &#x000A;said in December, as a matter of policy the U.S will treat &#x000A;detainees in a manner consistent with these standards. &#x000A;&#x000A;<a id='par10' href='#par10'>¶</a>10. (SBU) Bellinger described recent U.S. legislation further &#x000A;codifying the standards applied towards detainees. The &#x000A;Detainee Treatment Act of 2005, he explained, allows the &#x000A;Armed Forces to use interrogation techniques listed in the &#x000A;U.S. Army Field Manual. In addition, the McCain Amendment &#x000A;codifies the prohibition of cruel, unusual and inhuman &#x000A;treatment, as interpreted by the Senate in its reservation &#x000A;concerning Article 16 of the Convention Against Torture, of &#x000A;any detainee regardless of nationality or of where he is &#x000A;being held. Also, the Graham-Levin Amendment allows &#x000A;detainees to appeal the results of military commissions or &#x000A;Combatant Status Review Tribunals (see para 12) to federal &#x000A;courts, while limiting detainees' ability to file frivolous &#x000A;habeas corpus suits in U.S. courts. Bellinger also explained &#x000A;the President's signing statement, issued with his signature &#x000A;of the McCain Amendment. Bellinger said the statement is in &#x000A;keeping with customary presidential practice and does not &#x000A;indicate any intention to ignore the law. Rather, the &#x000A;statement explains how the President intends to interpret the &#x000A;law consistent with the powers conferred upon him by the &#x000A;Constitution. Bellinger pointed further to the public &#x000A;statement released by the White House at the same time, which &#x000A;demonstrates the President's commitment to upholding the &#x000A;McCain Amendment. &#x000A;&#x000A;-------------------------------- &#x000A;REGULAR REVIEW OF DETAINEE CASES &#x000A;-------------------------------- &#x000A;&#x000A;<a id='par11' href='#par11'>¶</a>11. (SBU) Bellinger then raised some of the more troubling &#x000A;questions. For example, according to the rules of &#x000A;international armed conflict, a nation may hold detainees &#x000A;until the end of the conflict, when they no longer pose a &#x000A;threat. How long, however, will the war against Al Qaeda &#x000A;last? Can detainees be held indefinitely? What if some are &#x000A;innocent? The U.S. recognizes that these are troubling &#x000A;questions, but does not believe such questions could justify &#x000A;a decision not to detain people who represent a danger to &#x000A;American citizens. To deal with this problem at Guantanamo, &#x000A;the U.S. has created an annual Administrative Review Board &#x000A;process to determine, for each individual detainee, whether &#x000A;that detainee should still be considered as in a state of war &#x000A;with the U.S. This process has resulted in the release of &#x000A;180 detainees and the transfer to other countries of 76, &#x000A;leaving approximately 500 detainees left in Guantanamo. Of &#x000A;those released, at least a dozen people are known to have &#x000A;gone back to fighting against the United States. &#x000A;&#x000A;<a id='par12' href='#par12'>¶</a>12. (SBU) The question has also been raised as to the &#x000A;possible innocence of Guantanamo detainees. As the Geneva &#x000A;Conventions dictate, if there is any doubt about whether or &#x000A;not an individual is a POW, there must be an Article 5 &#x000A;tribunal. Since Taliban and Al Qaeda fighters clearly did &#x000A;not meet the conditions necessary to be granted POW status, &#x000A;the President decided that Article 5 tribunals were not &#x000A;necessary. In 2004, however, Combatant Status Review &#x000A;Tribunals (CSRTs) were mandated by the Supreme Court. The &#x000A;CSRT process goes beyond the brief tribunals required by &#x000A;Article 5, providing each individual detainee with a full &#x000A;review. These CSRTs have resulted in the determination that &#x000A;there was not enough information upon which to hold a further &#x000A;38 detainees. &#x000A;&#x000A;---------- &#x000A;RENDITIONS &#x000A;---------- &#x000A;&#x000A;<a id='par13' href='#par13'>¶</a>13. (SBU) Bellinger pointed out that renditions have been &#x000A;used for decades to detain terrorists and criminals who &#x000A;cannot be extradited or otherwise detained or brought to &#x000A;justice. He stressed that the United States does not conduct &#x000A;"extraordinary" renditions for the purpose of torturing &#x000A;suspects or transferring them to countries in which they will &#x000A;be tortured. There are many circumstances in which a &#x000A;rendition might be the best option. In all cases, renditions &#x000A;are conducted in a manner consistent with international &#x000A;obligations and the sovereignty of other states. The U.S. &#x000A;would expect that states cooperating in rendition activities &#x000A;would also do so in a manner consistent with their domestic &#x000A;law. &#x000A;&#x000A;<a id='par14' href='#par14'>¶</a>14. (SBU) Bellinger sought to dispel allegations that &#x000A;hundreds of people had been kidnapped from European streets. &#x000A;He pointed out that there is no evidence for such &#x000A;allegations, and that the United States respects the &#x000A;sovereignty of European governments. On renditions, CIA &#x000A;flights, and other intelligence operations, the U.S. will not &#x000A;confirm or deny specific allegations, in order not to &#x000A;compromise the confidentiality of intelligence operations as &#x000A;such. Bellinger noted that denying five out of six such &#x000A;allegations would in effect confirm the sixth. The U.S. &#x000A;trusts that European governments will continue to follow the &#x000A;same policy. &#x000A;&#x000A;---------------------------------------- &#x000A;GUANTANAMO AT UN HUMAN RIGHTS COMMISSION &#x000A;---------------------------------------- &#x000A;&#x000A;<a id='par15' href='#par15'>¶</a>15. (C) Some EU interlocutors expressed concern that some EU &#x000A;member states would support a Cuban resolution against U.S. &#x000A;actions in Guantanamo at the upcoming UN Human Rights &#x000A;Commission, that might be modeled after a European Parliament &#x000A;resolution on the subject. Bellinger warned that European &#x000A;support for a Guanatanamo resolution would be a serious &#x000A;setback to U.S.-EU cooperation against terrorism, and give &#x000A;the unacceptable impression that the EU was aligned with Cuba &#x000A;against the U.S. EU Council Director-General for Common &#x000A;Foreign and Security Policy, Robert Cooper, said some EU &#x000A;member states might feel obliged to support the resolution &#x000A;because they had agreed last year not to in return for U.S. &#x000A;commitment to allow the UN Special Rapporteur on Torture, &#x000A;Manfred Novak, to visit Guantanamo; now, the U.S. had gone &#x000A;back on that agreement. Bellinger explained that the U.S. &#x000A;had invited Novak to visit, but that Novak had chosen &#x000A;publicly to reject the U.S. offer (to visit under normal &#x000A;conditions, but not to able to interview individual &#x000A;detainees, as only the ICRC may do that). Cooper said the &#x000A;EU, having cooperated with the U.S. in resisting Chinese &#x000A;attempts to impose conditions on visits of Special &#x000A;Rapporteurs, was having difficulty justifying the U.S. &#x000A;attempts to impose conditions on Novak's Guantanamo visit. &#x000A;Both sides agreed that the U.S. and EU needed to consult &#x000A;further in order to avoid a train wreck at the Human Rights &#x000A;Commission on this. &#x000A;&#x000A;------------------------------------ &#x000A;EUROPEAN REACTIONS POSITIVE FOR U.S. &#x000A;------------------------------------ &#x000A;&#x000A;<a id='par16' href='#par16'>¶</a>16. (C) COMMENT: By and large, Bellinger's European &#x000A;interlocutors responded very positively to his visit. Their &#x000A;questions were many and varied, and all of the meetings were &#x000A;marked by vigorous but constructive discussion. It is clear &#x000A;that many Europeans continue to believe that Article 3 of the &#x000A;Geneva Conventions can be applied to enemy combatants, and &#x000A;still afford the United States the flexibility it seeks. It &#x000A;is also apparent that lingering concerns (fed by negative &#x000A;public perceptions) remain about the treatment of detainees, &#x000A;and protection against wrongful detentions. Some governments &#x000A;remain focused on renditions, and the possibility that there &#x000A;will be negative revelations that impact on them directly. &#x000A;&#x000A;<a id='par17' href='#par17'>¶</a>17. That said, the visit was very helpful in beginning to &#x000A;dispel European misunderstandings and misgivings about our &#x000A;pursuit of the war on terror. Continued engagement on these &#x000A;issues is critical in the coming months to persuade EU &#x000A;governments to stand more firmly and publicly in the face of &#x000A;their public's concerns and suspicion regarding Guantanamo, &#x000A;renditions, and the legality of U.S. actions against Al &#x000A;Qaeda. The Austrian Chair of the COJUR meeting, Ferdinand &#x000A;Trauttmansdorf, concluded the meeting with the following &#x000A;message: "We leave this discussion with the notion that &#x000A;America is carefully considering these difficult questions in &#x000A;good faith." He said also that the fight against terror was &#x000A;a burden shared by the EU, and that the U.S. has as much of a &#x000A;right to ask questions of the EU, as the EU does of the U.S. &#x000A;On the upcoming Human Rights Commission, urgent consultations &#x000A;with the EU will be necessary to avert the possibility of EU &#x000A;support for a Cuban Guantanamo resolution. &#x000A;&#x000A;<a id='par18' href='#par18'>¶</a>18. (U) This message has been cleared by Legal Adviser John &#x000A;Bellinger. &#x000A;&#x000A;Gray</pre></code>
+</div>
+</div>
+<script src='/static/js/js.js' type='text/javascript'></script>
+</body>
+</html>

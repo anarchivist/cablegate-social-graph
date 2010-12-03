@@ -1,0 +1,723 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+<title>Cable Viewer</title>
+<link href='/static/gfx/favicon.ico' rel='shortcut icon' />
+<link href='/static/css/reset-fonts-grids.css' rel='stylesheet' type='text/css' />
+<link href='/static/css/cables.css' rel='stylesheet' type='text/css' />
+</head>
+<body>
+<div class='main'>
+<div class='pane small'>
+<a href='/index.html'>
+<img alt='WikiLeaks logo' src='/static/gfx/WL_Hour_Glass_small.png' />
+<p>Currently released so far... 597 / 251,287</p>
+</a>
+<div id='browse'>
+<h3>Articles</h3>
+<div class='sort'>
+<a href="/articles/2010/De-olho-nas-Olimpiadas-US-faz.html">Brazil</a>
+<a href="/articles/2010/Sri-Lankan-President-s-alleged-war.html">Sri Lanka</a>
+<a href="/articles/2010/Iraq-Inquiry-told-to-protect-US.html">United Kingdom</a>
+<a href="/articles/2010/USA-bekraftar-svensk-Natokoppling.html">Sweden</a>
+</div>
+<h3>Browse latest releases</h3>
+<div class='sort'>
+<a href='/reldate/2010-12-02_0.html'>2010/12/02</a>
+<a href='/reldate/2010-12-01_0.html'>2010/12/01</a>
+<a href='/reldate/2010-11-30_0.html'>2010/11/30</a>
+<a href='/reldate/2010-11-29_0.html'>2010/11/29</a>
+<a href='/reldate/2010-11-28_0.html'>2010/11/28</a>
+</div>
+<h3>Browse by creation <a href='#year_1966' onclick='return sha(0);'>date</a></h3>
+<div class='pick'>
+<a class='sort' href='#year_1966' onclick="return swap('year_1966');">66</a>
+<a class='sort' href='#year_1972' onclick="return swap('year_1972');">72</a>
+<a class='sort' href='#year_1975' onclick="return swap('year_1975');">75</a>
+<a class='sort' href='#year_1979' onclick="return swap('year_1979');">79</a>
+<a class='sort' href='#year_1986' onclick="return swap('year_1986');">86</a>
+<a class='sort' href='#year_1989' onclick="return swap('year_1989');">89</a>
+<a class='sort' href='#year_1990' onclick="return swap('year_1990');">90</a>
+<a class='sort' href='#year_2003' onclick="return swap('year_2003');">03</a>
+<a class='sort' href='#year_2004' onclick="return swap('year_2004');">04</a>
+<a class='sort' href='#year_2005' onclick="return swap('year_2005');">05</a>
+<a class='sort' href='#year_2006' onclick="return swap('year_2006');">06</a>
+<a class='sort' href='#year_2007' onclick="return swap('year_2007');">07</a>
+<a class='sort' href='#year_2008' onclick="return swap('year_2008');">08</a>
+<a class='sort' href='#year_2009' onclick="return swap('year_2009');">09</a>
+<a class='sort' href='#year_2010' onclick="return swap('year_2010');">10</a>
+</div>
+<div class='sort' id='year_1966'>
+<a href='/date/1966-12_0.html'>1966/12</a>
+</div>
+<div class='sort' id='year_1972'>
+<a href='/date/1972-02_0.html'>1972/02</a>
+<a href='/date/1972-08_0.html'>1972/08</a>
+</div>
+<div class='sort' id='year_1975'>
+<a href='/date/1975-03_0.html'>1975/03</a>
+</div>
+<div class='sort' id='year_1979'>
+<a href='/date/1979-08_0.html'>1979/08</a>
+</div>
+<div class='sort' id='year_1986'>
+<a href='/date/1986-05_0.html'>1986/05</a>
+</div>
+<div class='sort' id='year_1989'>
+<a href='/date/1989-12_0.html'>1989/12</a>
+</div>
+<div class='sort' id='year_1990'>
+<a href='/date/1990-01_0.html'>1990/01</a>
+</div>
+<div class='sort' id='year_2003'>
+<a href='/date/2003-06_0.html'>2003/06</a>
+</div>
+<div class='sort' id='year_2004'>
+<a href='/date/2004-01_0.html'>2004/01</a>
+<a href='/date/2004-02_0.html'>2004/02</a>
+<a href='/date/2004-04_0.html'>2004/04</a>
+<a href='/date/2004-11_0.html'>2004/11</a>
+<a href='/date/2004-12_0.html'>2004/12</a>
+</div>
+<div class='sort' id='year_2005'>
+<a href='/date/2005-01_0.html'>2005/01</a>
+<a href='/date/2005-03_0.html'>2005/03</a>
+<a href='/date/2005-04_0.html'>2005/04</a>
+<a href='/date/2005-05_0.html'>2005/05</a>
+<a href='/date/2005-06_0.html'>2005/06</a>
+<a href='/date/2005-07_0.html'>2005/07</a>
+<a href='/date/2005-08_0.html'>2005/08</a>
+<a href='/date/2005-10_0.html'>2005/10</a>
+<a href='/date/2005-11_0.html'>2005/11</a>
+<a href='/date/2005-12_0.html'>2005/12</a>
+</div>
+<div class='sort' id='year_2006'>
+<a href='/date/2006-01_0.html'>2006/01</a>
+<a href='/date/2006-02_0.html'>2006/02</a>
+<a href='/date/2006-03_0.html'>2006/03</a>
+<a href='/date/2006-04_0.html'>2006/04</a>
+<a href='/date/2006-05_0.html'>2006/05</a>
+<a href='/date/2006-06_0.html'>2006/06</a>
+<a href='/date/2006-07_0.html'>2006/07</a>
+<a href='/date/2006-08_0.html'>2006/08</a>
+<a href='/date/2006-09_0.html'>2006/09</a>
+<a href='/date/2006-10_0.html'>2006/10</a>
+<a href='/date/2006-11_0.html'>2006/11</a>
+<a href='/date/2006-12_0.html'>2006/12</a>
+</div>
+<div class='sort' id='year_2007'>
+<a href='/date/2007-01_0.html'>2007/01</a>
+<a href='/date/2007-02_0.html'>2007/02</a>
+<a href='/date/2007-03_0.html'>2007/03</a>
+<a href='/date/2007-04_0.html'>2007/04</a>
+<a href='/date/2007-05_0.html'>2007/05</a>
+<a href='/date/2007-06_0.html'>2007/06</a>
+<a href='/date/2007-07_0.html'>2007/07</a>
+<a href='/date/2007-08_0.html'>2007/08</a>
+<a href='/date/2007-09_0.html'>2007/09</a>
+<a href='/date/2007-10_0.html'>2007/10</a>
+<a href='/date/2007-11_0.html'>2007/11</a>
+<a href='/date/2007-12_0.html'>2007/12</a>
+</div>
+<div class='sort' id='year_2008'>
+<a href='/date/2008-01_0.html'>2008/01</a>
+<a href='/date/2008-02_0.html'>2008/02</a>
+<a href='/date/2008-03_0.html'>2008/03</a>
+<a href='/date/2008-04_0.html'>2008/04</a>
+<a href='/date/2008-05_0.html'>2008/05</a>
+<a href='/date/2008-07_0.html'>2008/07</a>
+<a href='/date/2008-08_0.html'>2008/08</a>
+<a href='/date/2008-09_0.html'>2008/09</a>
+<a href='/date/2008-10_0.html'>2008/10</a>
+<a href='/date/2008-11_0.html'>2008/11</a>
+<a href='/date/2008-12_0.html'>2008/12</a>
+</div>
+<div class='sort' id='year_2009'>
+<a href='/date/2009-01_0.html'>2009/01</a>
+<a href='/date/2009-02_0.html'>2009/02</a>
+<a href='/date/2009-03_0.html'>2009/03</a>
+<a href='/date/2009-04_0.html'>2009/04</a>
+<a href='/date/2009-05_0.html'>2009/05</a>
+<a href='/date/2009-06_0.html'>2009/06</a>
+<a href='/date/2009-07_0.html'>2009/07</a>
+<a href='/date/2009-08_0.html'>2009/08</a>
+<a href='/date/2009-09_0.html'>2009/09</a>
+<a href='/date/2009-10_0.html'>2009/10</a>
+<a href='/date/2009-11_0.html'>2009/11</a>
+<a href='/date/2009-12_0.html'>2009/12</a>
+</div>
+<div class='sort' id='year_2010'>
+<a href='/date/2010-01_0.html'>2010/01</a>
+<a href='/date/2010-02_0.html'>2010/02</a>
+</div>
+<h3>Browse by <a href='#by_A' onclick='return sha(1);'>origin</a></h3>
+<div class='pick'>
+<a class='sort' href='#by_A' onclick="return swap('by_A');">A</a>
+<a class='sort' href='#by_B' onclick="return swap('by_B');">B</a>
+<a class='sort' href='#by_C' onclick="return swap('by_C');">C</a>
+<a class='sort' href='#by_D' onclick="return swap('by_D');">D</a>
+<a class='sort' href='#by_H' onclick="return swap('by_H');">H</a>
+<a class='sort' href='#by_I' onclick="return swap('by_I');">I</a>
+<a class='sort' href='#by_J' onclick="return swap('by_J');">J</a>
+<a class='sort' href='#by_K' onclick="return swap('by_K');">K</a>
+<a class='sort' href='#by_L' onclick="return swap('by_L');">L</a>
+<a class='sort' href='#by_M' onclick="return swap('by_M');">M</a>
+<a class='sort' href='#by_N' onclick="return swap('by_N');">N</a>
+<a class='sort' href='#by_O' onclick="return swap('by_O');">O</a>
+<a class='sort' href='#by_P' onclick="return swap('by_P');">P</a>
+<a class='sort' href='#by_R' onclick="return swap('by_R');">R</a>
+<a class='sort' href='#by_S' onclick="return swap('by_S');">S</a>
+<a class='sort' href='#by_T' onclick="return swap('by_T');">T</a>
+<a class='sort' href='#by_U' onclick="return swap('by_U');">U</a>
+<a class='sort' href='#by_V' onclick="return swap('by_V');">V</a>
+</div>
+<div class='sort' id='by_A'>
+<a href='/origin/65_0.html'>Embassy Asuncion</a>
+<a href='/origin/66_0.html'>Embassy Astana</a>
+<a href='/origin/67_0.html'>Embassy Ashgabat</a>
+<a href='/origin/68_0.html'>Embassy Ankara</a>
+<a href='/origin/69_0.html'>Embassy Amman</a>
+<a href='/origin/70_0.html'>Embassy Algiers</a>
+<a href='/origin/71_0.html'>Embassy Abu Dhabi</a>
+</div>
+<div class='sort' id='by_B'>
+<a href='/origin/53_0.html'>Embassy Buenos Aires</a>
+<a href='/origin/54_0.html'>Embassy Bucharest</a>
+<a href='/origin/55_0.html'>Embassy Brussels</a>
+<a href='/origin/56_0.html'>Embassy Bridgetown</a>
+<a href='/origin/57_0.html'>Embassy Brasilia</a>
+<a href='/origin/58_0.html'>Embassy Bishkek</a>
+<a href='/origin/59_0.html'>Embassy Berlin</a>
+<a href='/origin/60_0.html'>Embassy Beirut</a>
+<a href='/origin/61_0.html'>Embassy Beijing</a>
+<a href='/origin/62_0.html'>Embassy Bangkok</a>
+<a href='/origin/63_0.html'>Embassy Baku</a>
+<a href='/origin/64_0.html'>Embassy Baghdad</a>
+</div>
+<div class='sort' id='by_C'>
+<a href='/origin/49_0.html'>Embassy Colombo</a>
+<a href='/origin/50_0.html'>Embassy Chisinau</a>
+<a href='/origin/51_0.html'>Embassy Caracas</a>
+<a href='/origin/52_0.html'>Embassy Cairo</a>
+<a href='/origin/82_0.html'>Consulate Cape Town</a>
+</div>
+<div class='sort' id='by_D'>
+<a href='/origin/44_0.html'>Embassy Dushanbe</a>
+<a href='/origin/45_0.html'>Embassy Dublin</a>
+<a href='/origin/46_0.html'>Embassy Doha</a>
+<a href='/origin/47_0.html'>Embassy Djibouti</a>
+<a href='/origin/48_0.html'>Embassy Damascus</a>
+<a href='/origin/81_0.html'>Consulate Dubai</a>
+</div>
+<div class='sort' id='by_H'>
+<a href='/origin/43_0.html'>Embassy Harare</a>
+<a href='/origin/80_0.html'>Consulate Hamburg</a>
+</div>
+<div class='sort' id='by_I'>
+<a href='/origin/5_0.html'>Iran RPO Dubai</a>
+<a href='/origin/42_0.html'>Embassy Islamabad</a>
+<a href='/origin/79_0.html'>Consulate Istanbul</a>
+</div>
+<div class='sort' id='by_J'>
+<a href='/origin/78_0.html'>Consulate Jeddah</a>
+</div>
+<div class='sort' id='by_K'>
+<a href='/origin/38_0.html'>Embassy Kyiv</a>
+<a href='/origin/39_0.html'>Embassy Kuwait</a>
+<a href='/origin/40_0.html'>Embassy Kuala Lumpur</a>
+<a href='/origin/41_0.html'>Embassy Kabul</a>
+</div>
+<div class='sort' id='by_L'>
+<a href='/origin/33_0.html'>Embassy Luxembourg</a>
+<a href='/origin/34_0.html'>Embassy London</a>
+<a href='/origin/35_0.html'>Embassy Lisbon</a>
+<a href='/origin/36_0.html'>Embassy Lima</a>
+<a href='/origin/37_0.html'>Embassy La Paz</a>
+</div>
+<div class='sort' id='by_M'>
+<a href='/origin/4_0.html'>Mission USNATO</a>
+<a href='/origin/28_0.html'>Embassy Muscat</a>
+<a href='/origin/29_0.html'>Embassy Moscow</a>
+<a href='/origin/30_0.html'>Embassy Mexico</a>
+<a href='/origin/31_0.html'>Embassy Manama</a>
+<a href='/origin/32_0.html'>Embassy Madrid</a>
+<a href='/origin/77_0.html'>Consulate Munich</a>
+</div>
+<div class='sort' id='by_N'>
+<a href='/origin/27_0.html'>Embassy New Delhi</a>
+</div>
+<div class='sort' id='by_O'>
+<a href='/origin/26_0.html'>Embassy Ottawa</a>
+</div>
+<div class='sort' id='by_P'>
+<a href='/origin/22_0.html'>Embassy Prague</a>
+<a href='/origin/23_0.html'>Embassy Port Au Prince</a>
+<a href='/origin/24_0.html'>Embassy Paris</a>
+<a href='/origin/25_0.html'>Embassy Panama</a>
+<a href='/origin/76_0.html'>Consulate Peshawar</a>
+</div>
+<div class='sort' id='by_R'>
+<a href='/origin/19_0.html'>Embassy Rome</a>
+<a href='/origin/20_0.html'>Embassy Riyadh</a>
+<a href='/origin/21_0.html'>Embassy Rabat</a>
+</div>
+<div class='sort' id='by_S'>
+<a href='/origin/3_0.html'>Secretary of State</a>
+<a href='/origin/14_0.html'>Embassy Stockholm</a>
+<a href='/origin/15_0.html'>Embassy Singapore</a>
+<a href='/origin/16_0.html'>Embassy Seoul</a>
+<a href='/origin/17_0.html'>Embassy Santiago</a>
+<a href='/origin/18_0.html'>Embassy Sanaa</a>
+<a href='/origin/73_0.html'>Consulate Shenyang</a>
+<a href='/origin/74_0.html'>Consulate Shanghai</a>
+<a href='/origin/75_0.html'>Consulate Sao Paulo</a>
+</div>
+<div class='sort' id='by_T'>
+<a href='/origin/8_0.html'>Embassy Tunis</a>
+<a href='/origin/9_0.html'>Embassy Tripoli</a>
+<a href='/origin/10_0.html'>Embassy Tel Aviv</a>
+<a href='/origin/11_0.html'>Embassy Tehran</a>
+<a href='/origin/12_0.html'>Embassy Tegucigalpa</a>
+<a href='/origin/13_0.html'>Embassy Tbilisi</a>
+</div>
+<div class='sort' id='by_U'>
+<a href='/origin/1_0.html'>USEU Brussels</a>
+<a href='/origin/2_0.html'>UNVIE</a>
+<a href='/origin/7_0.html'>Embassy Ulaanbaatar</a>
+</div>
+<div class='sort' id='by_V'>
+<a href='/origin/6_0.html'>Embassy Vienna</a>
+<a href='/origin/72_0.html'>Consulate Vladivostok</a>
+</div>
+<h3>Browse by <a href='#tag_A' onclick='return sha(2);'>tag</a></h3>
+<div class='pick'>
+<a class='sort' href='#tag_A' onclick="return swap('tag_A');">A</a>
+<a class='sort' href='#tag_B' onclick="return swap('tag_B');">B</a>
+<a class='sort' href='#tag_C' onclick="return swap('tag_C');">C</a>
+<a class='sort' href='#tag_D' onclick="return swap('tag_D');">D</a>
+<a class='sort' href='#tag_E' onclick="return swap('tag_E');">E</a>
+<a class='sort' href='#tag_F' onclick="return swap('tag_F');">F</a>
+<a class='sort' href='#tag_G' onclick="return swap('tag_G');">G</a>
+<a class='sort' href='#tag_H' onclick="return swap('tag_H');">H</a>
+<a class='sort' href='#tag_I' onclick="return swap('tag_I');">I</a>
+<a class='sort' href='#tag_J' onclick="return swap('tag_J');">J</a>
+<a class='sort' href='#tag_K' onclick="return swap('tag_K');">K</a>
+<a class='sort' href='#tag_L' onclick="return swap('tag_L');">L</a>
+<a class='sort' href='#tag_M' onclick="return swap('tag_M');">M</a>
+<a class='sort' href='#tag_N' onclick="return swap('tag_N');">N</a>
+<a class='sort' href='#tag_O' onclick="return swap('tag_O');">O</a>
+<a class='sort' href='#tag_P' onclick="return swap('tag_P');">P</a>
+<a class='sort' href='#tag_Q' onclick="return swap('tag_Q');">Q</a>
+<a class='sort' href='#tag_R' onclick="return swap('tag_R');">R</a>
+<a class='sort' href='#tag_S' onclick="return swap('tag_S');">S</a>
+<a class='sort' href='#tag_T' onclick="return swap('tag_T');">T</a>
+<a class='sort' href='#tag_U' onclick="return swap('tag_U');">U</a>
+<a class='sort' href='#tag_V' onclick="return swap('tag_V');">V</a>
+<a class='sort' href='#tag_W' onclick="return swap('tag_W');">W</a>
+<a class='sort' href='#tag_X' onclick="return swap('tag_X');">X</a>
+<a class='sort' href='#tag_Y' onclick="return swap('tag_Y');">Y</a>
+<a class='sort' href='#tag_Z' onclick="return swap('tag_Z');">Z</a>
+</div>
+<div class='sort' id='tag_A'>
+<a href='/tag/AU_0.html'>AU</a>
+<a href='/tag/AG_0.html'>AG</a>
+<a href='/tag/AF_0.html'>AF</a>
+<a href='/tag/AR_0.html'>AR</a>
+<a href='/tag/AE_0.html'>AE</a>
+<a href='/tag/AM_0.html'>AM</a>
+<a href='/tag/ASEC_0.html'>ASEC</a>
+<a href='/tag/AORC_0.html'>AORC</a>
+<a href='/tag/AMGT_0.html'>AMGT</a>
+<a href='/tag/APER_0.html'>APER</a>
+<a href='/tag/AJ_0.html'>AJ</a>
+<a href='/tag/AL_0.html'>AL</a>
+<a href='/tag/AGMT_0.html'>AGMT</a>
+<a href='/tag/AEMR_0.html'>AEMR</a>
+</div>
+<div class='sort' id='tag_B'>
+<a href='/tag/BA_0.html'>BA</a>
+<a href='/tag/BR_0.html'>BR</a>
+<a href='/tag/BE_0.html'>BE</a>
+<a href='/tag/BRUSSELS_0.html'>BRUSSELS</a>
+<a href='/tag/BIDEN_0.html'>BIDEN</a>
+<a href='/tag/BH_0.html'>BH</a>
+<a href='/tag/BL_0.html'>BL</a>
+<a href='/tag/BTIO_0.html'>BTIO</a>
+<a href='/tag/BEXP_0.html'>BEXP</a>
+<a href='/tag/BU_0.html'>BU</a>
+<a href='/tag/BY_0.html'>BY</a>
+<a href='/tag/BO_0.html'>BO</a>
+</div>
+<div class='sort' id='tag_C'>
+<a href='/tag/CA_0.html'>CA</a>
+<a href='/tag/CVIS_0.html'>CVIS</a>
+<a href='/tag/CMGT_0.html'>CMGT</a>
+<a href='/tag/CH_0.html'>CH</a>
+<a href='/tag/CASC_0.html'>CASC</a>
+<a href='/tag/CJAN_0.html'>CJAN</a>
+<a href='/tag/CLINTON_0.html'>CLINTON</a>
+<a href='/tag/CU_0.html'>CU</a>
+<a href='/tag/CD_0.html'>CD</a>
+<a href='/tag/CV_0.html'>CV</a>
+<a href='/tag/CO_0.html'>CO</a>
+<a href='/tag/CI_0.html'>CI</a>
+<a href='/tag/CS_0.html'>CS</a>
+<a href='/tag/CE_0.html'>CE</a>
+<a href='/tag/CY_0.html'>CY</a>
+<a href='/tag/CM_0.html'>CM</a>
+<a href='/tag/CF_0.html'>CF</a>
+<a href='/tag/CIA_0.html'>CIA</a>
+</div>
+<div class='sort' id='tag_D'>
+<a href='/tag/DJ_0.html'>DJ</a>
+</div>
+<div class='sort' id='tag_E'>
+<a href='/tag/EFIN_0.html'>EFIN</a>
+<a href='/tag/EPET_0.html'>EPET</a>
+<a href='/tag/ECON_0.html'>ECON</a>
+<a href='/tag/ENRG_0.html'>ENRG</a>
+<a href='/tag/EAID_0.html'>EAID</a>
+<a href='/tag/EINV_0.html'>EINV</a>
+<a href='/tag/EAIR_0.html'>EAIR</a>
+<a href='/tag/EUN_0.html'>EUN</a>
+<a href='/tag/ELAB_0.html'>ELAB</a>
+<a href='/tag/EU_0.html'>EU</a>
+<a href='/tag/ETTC_0.html'>ETTC</a>
+<a href='/tag/EG_0.html'>EG</a>
+<a href='/tag/ETRD_0.html'>ETRD</a>
+<a href='/tag/ELTN_0.html'>ELTN</a>
+<a href='/tag/EREL_0.html'>EREL</a>
+<a href='/tag/EAGR_0.html'>EAGR</a>
+<a href='/tag/EFIS_0.html'>EFIS</a>
+<a href='/tag/EWWT_0.html'>EWWT</a>
+<a href='/tag/EI_0.html'>EI</a>
+<a href='/tag/EIND_0.html'>EIND</a>
+<a href='/tag/EMIN_0.html'>EMIN</a>
+<a href='/tag/EZ_0.html'>EZ</a>
+<a href='/tag/EXTERNAL_0.html'>EXTERNAL</a>
+<a href='/tag/ECIP_0.html'>ECIP</a>
+<a href='/tag/ECPS_0.html'>ECPS</a>
+<a href='/tag/ECUN_0.html'>ECUN</a>
+<a href='/tag/ENVR_0.html'>ENVR</a>
+</div>
+<div class='sort' id='tag_F'>
+<a href='/tag/FR_0.html'>FR</a>
+<a href='/tag/FJ_0.html'>FJ</a>
+<a href='/tag/FINR_0.html'>FINR</a>
+</div>
+<div class='sort' id='tag_G'>
+<a href='/tag/GG_0.html'>GG</a>
+<a href='/tag/GM_0.html'>GM</a>
+<a href='/tag/GA_0.html'>GA</a>
+<a href='/tag/GOI_0.html'>GOI</a>
+<a href='/tag/GE_0.html'>GE</a>
+<a href='/tag/GR_0.html'>GR</a>
+<a href='/tag/GTMO_0.html'>GTMO</a>
+</div>
+<div class='sort' id='tag_H'>
+<a href='/tag/HO_0.html'>HO</a>
+<a href='/tag/HA_0.html'>HA</a>
+<a href='/tag/HILLARY_0.html'>HILLARY</a>
+<a href='/tag/HURI_0.html'>HURI</a>
+</div>
+<div class='sort' id='tag_I'>
+<a href='/tag/IS_0.html'>IS</a>
+<a href='/tag/IZ_0.html'>IZ</a>
+<a href='/tag/IR_0.html'>IR</a>
+<a href='/tag/IN_0.html'>IN</a>
+<a href='/tag/IQ_0.html'>IQ</a>
+<a href='/tag/IT_0.html'>IT</a>
+<a href='/tag/ICAO_0.html'>ICAO</a>
+<a href='/tag/IO_0.html'>IO</a>
+<a href='/tag/INRB_0.html'>INRB</a>
+<a href='/tag/IAEA_0.html'>IAEA</a>
+<a href='/tag/IRAJ_0.html'>IRAJ</a>
+<a href='/tag/INTERPOL_0.html'>INTERPOL</a>
+<a href='/tag/IMO_0.html'>IMO</a>
+<a href='/tag/ID_0.html'>ID</a>
+</div>
+<div class='sort' id='tag_J'>
+<a href='/tag/JA_0.html'>JA</a>
+<a href='/tag/JO_0.html'>JO</a>
+<a href='/tag/JOSEPH_0.html'>JOSEPH</a>
+<a href='/tag/JAMES_0.html'>JAMES</a>
+</div>
+<div class='sort' id='tag_K'>
+<a href='/tag/KPAO_0.html'>KPAO</a>
+<a href='/tag/KCRM_0.html'>KCRM</a>
+<a href='/tag/KTFN_0.html'>KTFN</a>
+<a href='/tag/KNNP_0.html'>KNNP</a>
+<a href='/tag/KFRD_0.html'>KFRD</a>
+<a href='/tag/KCOR_0.html'>KCOR</a>
+<a href='/tag/KTIP_0.html'>KTIP</a>
+<a href='/tag/KISL_0.html'>KISL</a>
+<a href='/tag/KU_0.html'>KU</a>
+<a href='/tag/KIRF_0.html'>KIRF</a>
+<a href='/tag/KJUS_0.html'>KJUS</a>
+<a href='/tag/KHLS_0.html'>KHLS</a>
+<a href='/tag/KAWK_0.html'>KAWK</a>
+<a href='/tag/KN_0.html'>KN</a>
+<a href='/tag/KZ_0.html'>KZ</a>
+<a href='/tag/KUNR_0.html'>KUNR</a>
+<a href='/tag/KS_0.html'>KS</a>
+<a href='/tag/KDEM_0.html'>KDEM</a>
+<a href='/tag/KACT_0.html'>KACT</a>
+<a href='/tag/KPRP_0.html'>KPRP</a>
+<a href='/tag/KWBG_0.html'>KWBG</a>
+<a href='/tag/KSCA_0.html'>KSCA</a>
+<a href='/tag/KG_0.html'>KG</a>
+<a href='/tag/KPAL_0.html'>KPAL</a>
+<a href='/tag/KMDR_0.html'>KMDR</a>
+<a href='/tag/KGHG_0.html'>KGHG</a>
+<a href='/tag/KDRG_0.html'>KDRG</a>
+<a href='/tag/KSPR_0.html'>KSPR</a>
+<a href='/tag/KWMN_0.html'>KWMN</a>
+<a href='/tag/KOLY_0.html'>KOLY</a>
+<a href='/tag/KPKO_0.html'>KPKO</a>
+<a href='/tag/KSEC_0.html'>KSEC</a>
+<a href='/tag/KTIA_0.html'>KTIA</a>
+<a href='/tag/KHIV_0.html'>KHIV</a>
+<a href='/tag/KGCC_0.html'>KGCC</a>
+<a href='/tag/KCIP_0.html'>KCIP</a>
+<a href='/tag/KBIO_0.html'>KBIO</a>
+<a href='/tag/KR_0.html'>KR</a>
+</div>
+<div class='sort' id='tag_L'>
+<a href='/tag/LY_0.html'>LY</a>
+<a href='/tag/LE_0.html'>LE</a>
+<a href='/tag/LU_0.html'>LU</a>
+<a href='/tag/LG_0.html'>LG</a>
+</div>
+<div class='sort' id='tag_M'>
+<a href='/tag/MNUC_0.html'>MNUC</a>
+<a href='/tag/MO_0.html'>MO</a>
+<a href='/tag/MARR_0.html'>MARR</a>
+<a href='/tag/MOPS_0.html'>MOPS</a>
+<a href='/tag/MASS_0.html'>MASS</a>
+<a href='/tag/MX_0.html'>MX</a>
+<a href='/tag/MTCRE_0.html'>MTCRE</a>
+<a href='/tag/MY_0.html'>MY</a>
+<a href='/tag/MCAP_0.html'>MCAP</a>
+<a href='/tag/MU_0.html'>MU</a>
+<a href='/tag/MP_0.html'>MP</a>
+<a href='/tag/ML_0.html'>ML</a>
+<a href='/tag/MR_0.html'>MR</a>
+<a href='/tag/MG_0.html'>MG</a>
+<a href='/tag/MAR_0.html'>MAR</a>
+<a href='/tag/MASC_0.html'>MASC</a>
+<a href='/tag/MPOS_0.html'>MPOS</a>
+<a href='/tag/MD_0.html'>MD</a>
+<a href='/tag/MOPPS_0.html'>MOPPS</a>
+<a href='/tag/MK_0.html'>MK</a>
+</div>
+<div class='sort' id='tag_N'>
+<a href='/tag/NATO_0.html'>NATO</a>
+<a href='/tag/NG_0.html'>NG</a>
+<a href='/tag/NI_0.html'>NI</a>
+<a href='/tag/NZ_0.html'>NZ</a>
+</div>
+<div class='sort' id='tag_O'>
+<a href='/tag/OVIP_0.html'>OVIP</a>
+<a href='/tag/OTRA_0.html'>OTRA</a>
+<a href='/tag/OPRC_0.html'>OPRC</a>
+<a href='/tag/OSCE_0.html'>OSCE</a>
+<a href='/tag/OEXC_0.html'>OEXC</a>
+<a href='/tag/OIIP_0.html'>OIIP</a>
+<a href='/tag/OTR_0.html'>OTR</a>
+</div>
+<div class='sort' id='tag_P'>
+<a href='/tag/PGOV_0.html'>PGOV</a>
+<a href='/tag/PARM_0.html'>PARM</a>
+<a href='/tag/PREL_0.html'>PREL</a>
+<a href='/tag/PINR_0.html'>PINR</a>
+<a href='/tag/PTER_0.html'>PTER</a>
+<a href='/tag/PK_0.html'>PK</a>
+<a href='/tag/PINS_0.html'>PINS</a>
+<a href='/tag/PREF_0.html'>PREF</a>
+<a href='/tag/PHUM_0.html'>PHUM</a>
+<a href='/tag/PE_0.html'>PE</a>
+<a href='/tag/PBTS_0.html'>PBTS</a>
+<a href='/tag/PA_0.html'>PA</a>
+<a href='/tag/PINT_0.html'>PINT</a>
+<a href='/tag/PL_0.html'>PL</a>
+<a href='/tag/PEPR_0.html'>PEPR</a>
+<a href='/tag/PM_0.html'>PM</a>
+<a href='/tag/PAK_0.html'>PAK</a>
+<a href='/tag/POL_0.html'>POL</a>
+<a href='/tag/PO_0.html'>PO</a>
+<a href='/tag/POLITICAL_0.html'>POLITICAL</a>
+<a href='/tag/PARTIES_0.html'>PARTIES</a>
+<a href='/tag/PGOF_0.html'>PGOF</a>
+<a href='/tag/PROP_0.html'>PROP</a>
+<a href='/tag/PBIO_0.html'>PBIO</a>
+<a href='/tag/PHSA_0.html'>PHSA</a>
+<a href='/tag/PSI_0.html'>PSI</a>
+</div>
+<div class='sort' id='tag_Q'>
+<a href='/tag/QA_0.html'>QA</a>
+</div>
+<div class='sort' id='tag_R'>
+<a href='/tag/RS_0.html'>RS</a>
+<a href='/tag/RU_0.html'>RU</a>
+<a href='/tag/RO_0.html'>RO</a>
+<a href='/tag/RW_0.html'>RW</a>
+</div>
+<div class='sort' id='tag_S'>
+<a href='/tag/SNAR_0.html'>SNAR</a>
+<a href='/tag/SA_0.html'>SA</a>
+<a href='/tag/SP_0.html'>SP</a>
+<a href='/tag/SHUM_0.html'>SHUM</a>
+<a href='/tag/SENV_0.html'>SENV</a>
+<a href='/tag/SOCI_0.html'>SOCI</a>
+<a href='/tag/SY_0.html'>SY</a>
+<a href='/tag/SW_0.html'>SW</a>
+<a href='/tag/SF_0.html'>SF</a>
+<a href='/tag/SG_0.html'>SG</a>
+<a href='/tag/SMIG_0.html'>SMIG</a>
+<a href='/tag/SR_0.html'>SR</a>
+<a href='/tag/SCUL_0.html'>SCUL</a>
+<a href='/tag/SYR_0.html'>SYR</a>
+<a href='/tag/SO_0.html'>SO</a>
+<a href='/tag/SU_0.html'>SU</a>
+<a href='/tag/STEINBERG_0.html'>STEINBERG</a>
+<a href='/tag/SN_0.html'>SN</a>
+<a href='/tag/SM_0.html'>SM</a>
+</div>
+<div class='sort' id='tag_T'>
+<a href='/tag/TS_0.html'>TS</a>
+<a href='/tag/TU_0.html'>TU</a>
+<a href='/tag/TW_0.html'>TW</a>
+<a href='/tag/TD_0.html'>TD</a>
+<a href='/tag/TI_0.html'>TI</a>
+<a href='/tag/TX_0.html'>TX</a>
+<a href='/tag/TH_0.html'>TH</a>
+<a href='/tag/TRGY_0.html'>TRGY</a>
+<a href='/tag/TC_0.html'>TC</a>
+<a href='/tag/TFIN_0.html'>TFIN</a>
+</div>
+<div class='sort' id='tag_U'>
+<a href='/tag/UK_0.html'>UK</a>
+<a href='/tag/US_0.html'>US</a>
+<a href='/tag/UP_0.html'>UP</a>
+<a href='/tag/UNO_0.html'>UNO</a>
+<a href='/tag/UZ_0.html'>UZ</a>
+<a href='/tag/UNSC_0.html'>UNSC</a>
+<a href='/tag/UN_0.html'>UN</a>
+<a href='/tag/USEU_0.html'>USEU</a>
+<a href='/tag/UV_0.html'>UV</a>
+<a href='/tag/UNMIK_0.html'>UNMIK</a>
+<a href='/tag/UNESCO_0.html'>UNESCO</a>
+<a href='/tag/UNGA_0.html'>UNGA</a>
+<a href='/tag/UAE_0.html'>UAE</a>
+<a href='/tag/UE_0.html'>UE</a>
+</div>
+<div class='sort' id='tag_V'>
+<a href='/tag/VE_0.html'>VE</a>
+<a href='/tag/VZ_0.html'>VZ</a>
+</div>
+<div class='sort' id='tag_W'>
+<a href='/tag/WTO_0.html'>WTO</a>
+</div>
+<div class='sort' id='tag_X'>
+<a href='/tag/XA_0.html'>XA</a>
+<a href='/tag/XL_0.html'>XL</a>
+<a href='/tag/XF_0.html'>XF</a>
+<a href='/tag/XH_0.html'>XH</a>
+<a href='/tag/XG_0.html'>XG</a>
+</div>
+<div class='sort' id='tag_Y'>
+<a href='/tag/YM_0.html'>YM</a>
+<a href='/tag/YI_0.html'>YI</a>
+</div>
+<div class='sort' id='tag_Z'>
+<a href='/tag/ZK_0.html'>ZK</a>
+<a href='/tag/ZP_0.html'>ZP</a>
+<a href='/tag/ZR_0.html'>ZR</a>
+<a href='/tag/ZF_0.html'>ZF</a>
+<a href='/tag/ZI_0.html'>ZI</a>
+</div>
+<h3>Browse by classification</h3>
+<div class='sort'>
+<a href='/classification/1_0.html' title='unclassified'>CONFIDENTIAL</a>
+<a href='/classification/2_0.html' title='secret'>CONFIDENTIAL//NOFORN</a>
+<a href='/classification/3_0.html' title='confidential'>SECRET</a>
+<a href='/classification/4_0.html' title='secret//noforn'>SECRET//NOFORN</a>
+<a href='/classification/5_0.html' title='unclassified//fouo'>UNCLASSIFIED</a>
+<a href='/classification/6_0.html' title='confidential//noforn'>UNCLASSIFIED//FOR OFFICIAL USE ONLY</a>
+</div>
+</div>
+<h3>Community resources</h3>
+<div class='sort'>
+<a href='http://twitter.com/wikileaks'>Follow us on Twitter</a>
+<a href='http://en.reddit.com/domain/wikileaks.org'>Check our Reddit</a>
+<a href='http://twitter.com/home?status=Reading%20http%3A%2F%2Fcablegate.wikileaks.org%2Fcable%2F2006%2F05%2F06MOSCOW5645.html%20%2306MOSCOW5645'>Twitter this</a>
+<a href='http://digg.com/submit?url=http%3A%2F%2Fcablegate.wikileaks.org%2Fcable%2F2006%2F05%2F06MOSCOW5645.html'>Digg this page</a>
+</div>
+<p>
+<i>
+courage is contagious
+</i>
+</p>
+</div>
+<div class='pane big'>
+<h3>Viewing cable 06MOSCOW5645, CHECHNYA:  THE ONCE AND FUTURE WAR</h3>
+<div>
+If you are new to these pages, please read an introduction on the <a href="#help_1" onclick="return sh(1);">structure of a cable</a> as well as how to <a href="#help_2" onclick="return sh(2);">discuss them</a> with others. See also the <a href="/static/html/faq.html">FAQs</a>
+<br />
+</div>
+<div id='help_1'>
+<br />
+<b>Understanding cables</b>
+<br />
+Every cable message consists of three parts:
+<ul>
+<li>The top box shows each cables unique reference number, when and by whom it originally was sent, and what its initial classification was.</li>
+<li>The middle box contains the header information that is associated with the cable. It includes information about the receiver(s) as well as a general subject.</li>
+<li>The bottom box presents the body of the cable. The opening can contain a more specific subject, references to other cables (<a href="#by_A" onclick="swap('by_A'); setTimeout('document.location.href=(document.location.href + \'#by_A\').replace(/\#.*$/,\'#by_A\')', 100); return false;">browse by origin</a> to find them) or additional comment. This is followed by the main contents of the cable: a summary, a collection of specific topics and a comment section.</li>
+</ul>
+To understand the justification used for the classification of each cable, please use this <a href="http://en.wikisource.org/wiki/Executive_Order_13526#Part_1">WikiSource</a> article as reference.
+</div>
+<div id='help_2'>
+<br />
+<b>Discussing cables</b>
+<br />
+If you find meaningful or important information in a cable, please link directly to its unique reference number. Linking to a specific paragraph in the body of a cable is also possible by copying the appropriate link (to be found at theparagraph symbol).
+Please mark messages for social networking services like Twitter with the hash tags <b>#cablegate</b> and a hash containing the reference ID e.g. <b>#06MOSCOW5645</b>.
+</div>
+<div id='kus'>
+<a href='http://wikileaks.org/support.html' target='_blank'>KEEP US STRONG!</a>
+</div>
+<table class='cable'>
+<tr>
+<th>Reference ID</th>
+<th>Created</th>
+<th>Released</th>
+<th>Classification</th>
+<th>Origin</th>
+</tr>
+<tr>
+<td>
+<a href='/cable/2006/05/06MOSCOW5645.html'>06MOSCOW5645</a>
+</td>
+<td>
+<a href='/date/2006-05_0.html'>2006-05-30 09:09</a>
+</td>
+<td>
+<a href='/reldate/2010-12-01_0.html'>2010-12-01 23:11</a>
+</td>
+<td>
+<a href='/classification/1_0.html' title='unclassified'>CONFIDENTIAL</a>
+</td>
+<td>
+<a href='/origin/29_0.html'>Embassy Moscow</a>
+</td>
+</tr>
+</table>
+<code><pre>VZCZCXRO0843&#x000A;PP RUEHDBU&#x000A;DE RUEHMO #5645/01 1500927&#x000A;ZNY CCCCC ZZH&#x000A;P 300927Z MAY 06&#x000A;FM AMEMBASSY MOSCOW&#x000A;TO RUEHC/SECSTATE WASHDC PRIORITY 6600&#x000A;INFO RUCNCIS/CIS COLLECTIVE PRIORITY&#x000A;RUEHXD/MOSCOW POLITICAL COLLECTIVE PRIORITY</pre></code>
+<code><pre>C O N F I D E N T I A L SECTION 01 OF 10 MOSCOW 005645 &#x000A;&#x000A;SIPDIS &#x000A;&#x000A;SIPDIS &#x000A;&#x000A;EO 12958 DECL: 05/25/2016 &#x000A;TAGS PREL, PGOV, MARR, MOPS, RS &#x000A;SUBJECT: CHECHNYA:  THE ONCE AND FUTURE WAR &#x000A;REF: MOSCOW 5461 AND PREVIOUS&#x000A;&#x000A;Classified By: Ambassador William J. Burns. Reason 1.4 (b, d)&#x000A;&#x000A;<a id='par1' href='#par1'>¶</a>1. (C) Introduction: Chechnya has been less in the glare of constant international attention in recent years. However, the Chechnya conflict remains unresolved, and the suffering of the Chechen people and the threat of instability throughout the region remain. This message reinterprets the history of the Chechen wars as a means of better understanding the current dynamics, the challenges facing Russia, the way in which the Kremlin perceives those challenges, and the factors limiting the Kremlin’s ability to respond. It draws on close observation on the ground and conversations with many participants in and observers of the conflict from the moment of Chechnya’s declaration of independence in 1991. We intend this message to spur thinking on new approaches to a tragedy that persists as an issue within Russia and between Russia and the U.S., Europe and the Islamic world.&#x000A;&#x000A;Summary&#x000A;-------- &#x000A;&#x000A;<a id='par2' href='#par2'>¶</a>2. (C) President Putin has pursued a two-pronged strategy to extricate Russia from the war in Chechnya and establish a viable long-term modus vivendi preserving Moscow’s role as the ultimate arbiter of Chechen affairs. The first prong was to gain control of the Russian military deployed there, which had long operated without real central control and was intent on staying as long as its officers could profit from the war.  The second prong was “Chechenization,” which in effect means turning Chechnya over to former nationalist separatists willing to profess loyalty to Russia. There are two difficulties with Putin’s strategy. First, while Chechenization has been successful in suppressing nationalist separatists within Chechnya, it has not been as effective against the Jihadist militants, who have broadened their focus and are gaining strength throughout the North Caucasus.  Second, as long as former separatist warlords run Chechnya, Russian forces will have to stay in numbers sufficient to ensure that the ex-separatists remain “ex.” More broadly, the suffering of an abused and victimized population will continue, and with it the alienation that feeds the insurgency.&#x000A;&#x000A;<a id='par3' href='#par3'>¶</a>3. (C) To deal effectively with Chechnya in the long term, Putin needs to increase his control over the Russian Power Ministries and reduce opportunities for them to profit from war corruption. He needs to strengthen Russian civilian engagement, reinforcing the role of his Plenipotentiary Representative. He needs to take a broad approach to combat the spread of Jihadism, and not rely primarily on suppression by force. In this context there is only a limited role for the U.S., but we and our allies can help by expressing our concerns to Putin, directing assistance to areas where our programs can slow the spread of Jihadism, and working with Russia’s southern neighbors to minimize the effects of instability. End Summary.&#x000A;&#x000A;The Starting Point: Problems of the “Russianized” Conflict&#x000A;--------------------------------------------- -------------- &#x000A;&#x000A;<a id='par4' href='#par4'>¶</a>4. (C) Chechnya was only one of the conflicts that broke out in the former Soviet Union at the time of the country’s collapse. Territorial conflicts, most of them separatist, erupted in Nagorno-Karabakh, Transnistria, South Ossetia, North Ossetia/Ingushetia, Abkhazia and Tajikistan. Russian troops were involved in combat in all of those conflicts, sometimes clandestinely. In all except Nagorno-Karabakh, Russian troops remain today as peacekeepers. Russia doggedly insists on this presence and resists pulling its forces out. Its diplomatic efforts have served to keep the conflicts frozen, with Russian troops remaining in place.&#x000A;&#x000A;<a id='par5' href='#par5'>¶</a>5. (C) Why is this? The charge is often made that Russia’s motive for keeping the conflicts frozen is geostrategic, or “neo-imperialism,” or fear of NATO, or revenge against Georgia and Moldova, or a quest to preserve leverage. Indeed, the continued deployments may satisfy those Russians who think in such terms, and expand the domestic consensus for sending troops throughout the CIS. However, while one or another of those factors may have been the original impulse, each of the conflicts has gone through phases in which the conflict’s perceived uses for the Russian state have changed.  No one of these factors has been continuous over the life of any of the conflicts.&#x000A;&#x000A;<a id='par6' href='#par6'>¶</a>6. (C) We would propose an additional factor: the determination of Russia’s senior officer corps to remain deployed in those countries to engage in lucrative activity outside their official military tasks. Sometimes that&#x000A;MOSCOW 00005645 002 OF 010&#x000A;activity has been as mercenaries -- for instance, Russian active-duty soldiers fought on both sides in the Nagorno-Karabakh conflict from 1991-92. Sometimes it has involved narcotics smuggling, as in Tajikistan. Selling arms to all sides has been a long-standing tradition. And sometimes it has meant collaborating with the mafias of both sides in conflict to facilitate contraband trade across the lines, as in Abkhazia and South Ossetia. The officers and their generals formed a powerful bloc in favor of all the deployments, especially under Yeltsin.&#x000A;&#x000A;<a id='par7' href='#par7'>¶</a>7. (C) This “military-entrepreneurial” bloc soon formed an autonomous institution, in some respects outside the government’s control. There are many illustrations of its autonomy. For instance, in 1993 Yeltsin reached an agreement with Georgia on peacekeeping in Abkhazia. When the Georgian delegation arrived in Sochi in September of that year to hammer out the details with Russia’s generals, they found the deal had changed. When they protested that Yeltsin had agreed to other terms, a Russian general replied, “Let the President sit in Moscow, drink vodka, and chase women. That’s his business. We are here, and we have our work to do.”&#x000A;&#x000A;The Secret History of the Chechen War&#x000A;------------------------------------- &#x000A;&#x000A;<a id='par8' href='#par8'>¶</a>8. (C) The lack of central control over the military, as well as officers’ cupidity, may have been a prime cause of the first Chechnya War. Immediately after the collapse of the Soviet Union, energy prices in the “ruble zone” were 3 percent of world market prices. Government officials and their partners bought oil at ruble prices, diverted it abroad, and sold it on the world market. The military joined in this arbitrage. Pavel Grachev, then Defense Minister, reportedly diverted oil to Western Group of Forces commander Burlakov, who sold it in Germany.&#x000A;&#x000A;<a id='par9' href='#par9'>¶</a>9. (C) Chechnya was a major entrepot for laundering oil for this arbitrage. It appears to have been used both by the military (including Grachev) and the Khasbulatov-Rutskoy axis in the Duma. Dudayev had declared independence, but remained part of the Russian elite. Chechnya’s independence, oilfields, refineries and pipelines made Chechnya perfect for laundering oil. Planes, trains, buses and roads and pipelines to Chechnya were functioning, allowing anyone and anything to transit -- except auditors. In the early 1990’s millions of tons of “Russian” oil entered Chechnya and were magically transformed into “Chechen” oil to be sold on the world market at world prices. Some of the proceeds went to buy the Chechens weaponry, most of it from the Russian military, and another lucrative trade developed. Dudayev took much of his cut of the proceeds in weapons. The Groznyy Bazaar was notorious in the early 1990s for the quantity and variety of arms for sale, including heavy weaponry.&#x000A;&#x000A;<a id='par10' href='#par10'>¶</a>10. (C) Chechnya was the home of Ruslan Khasbulatov and served various purposes for his faction of the Russian elite.  He took advantage of the army’s independence from Yeltsin’s control. An informed source believes that it was Khasbulatov, not the “official” Russian government, who facilitated the transfer of Shamil Basayev and his heavily-armed fighters from Chechnya into Abkhazia in 1992, and who ordered the Russian air force to bomb Sukhumi when Shevardnadze went there to take personal command of the Georgians’ last stand in July 1993. The Yeltsin government always denied that it bombed Sukhumi, despite Western eyewitness accounts confirming the bombing and the insignia on the planes. Given the confusion of those years, it could well be that the order originated in the Duma, not the Kremlin.&#x000A;&#x000A;<a id='par11' href='#par11'>¶</a>11. (C) After Khasbulatov and Rutskoy were written out of the Russian equation in October 1993, so was Dudayev. Clandestine Russian support for the Chechen political and military opposition to Dudayev began in the spring of 1994, according to participants. When that proved ineffective, Russian bombing was deployed. (One Dudayev opponent recounted that in 1994 a Russian pilot was given a mission to fire a missile into one of the top-floor corners of Groznyy’s Presidency building at a time when Dudayev was scheduled to hold a cabinet meeting there. Not knowing Groznyy, the pilot asked which building to bomb, and was told “the tallest one.”  He bombed a residential apartment building.) When air power, too, proved ineffective, Russian troops were secretly sent in to reinforce the armed opposition. Dudayev’s forces captured about a dozen and put them on television -- and the Russian invasion began shortly thereafter.&#x000A;&#x000A;<a id='par12' href='#par12'>¶</a>12. (C) Given the gangsterish background of the war, it is no surprise that the military conducted the war itself as a profit-making enterprise, especially after the capture of&#x000A;MOSCOW 00005645 003 OF 010&#x000A;Groznyy. By May 1995 an anti-Dudayev Chechen could lament, “When we invited the Russian army in we expected an army -- not this band of marauders.” Contraband trade in oil, weapons (including direct sales from Russian military stores to the insurgents), drugs, and liquor, plus “protection” for legitimate trade made military service in Chechnya lucrative for those not on the front lines. This profitability ended only with the August 1996 defeat of Russian forces in Groznyy at the hands of the insurgents and the subsequent Russian withdrawal -- a defeat made possible because the Russian forces were hollowed out by their officers’ corruption and pursuit of economic profit.&#x000A;&#x000A;<a id='par13' href='#par13'>¶</a>13. (C) Before they lost this “cash-cow” to their enemies, Russian officers went to great lengths to keep their friends from interfering with their profits. On July 30, 1995, the Russians and the Chechen insurgents signed a cease-fire agreement mediated by the OSCE. It would have meant the gradual withdrawal of Russian forces. Enforcing the cease-fire was a Joint Observation Commission (“SNK”). The head of the SNK was General Anatoliy Romanov, a competent and upright officer -- very much a rarity in Chechnya. After two months at this assignment he was severely injured by a mine inside Groznyy, and has been hospitalized ever since. Informed observers believe Romanov’s own colleagues in the Russian forces carried out this murder attempt. The cease-fire, never enforced, broke down.&#x000A;&#x000A;<a id='par14' href='#par14'>¶</a>14. (C) When the second war began in September 1999, Russian forces again started profiteering from a trade in contraband oil. Western eyewitnesses reported convoys of Russian army trucks carrying oil leaving Groznyy under cover of night. Eventually the Russian forces reached an understanding with the insurgent fighters. Seeing one such convoy, a Western reporter asked his guerrilla hosts whether the fighters ever attacked such convoys. “No,” the leader replied. “They leave us alone and we leave them alone.”&#x000A;&#x000A;No Exit for Putin&#x000A;----------------- &#x000A;&#x000A;<a id='par15' href='#par15'>¶</a>15. (C) Sometime between one and two years after Russian forces were unleashed for a second time on Chechnya, Putin appears to have realized that they were not going to deliver a neat victory. That failure would make Putin look weak at home, the human rights violations would estrange the West, and the drain on the Russian treasury would be punishing (this was before the dramatic rise in energy prices). Putin could not negotiate a peace with Maskhadov: he had already rejected that course and could not back down without appearing weak. The Khasavyurt accords that ended the first war were the result of defeat; a new set of accords would be seen as a new defeat. In any case, the history of the war (and the fate of General Romanov) made clear that negotiations without the subordination of the military were a physical impossibility.&#x000A;&#x000A;<a id='par16' href='#par16'>¶</a>16. (C) Putin thus found himself without a winning strategy and had to develop one. He has taken a two-pronged approach.  One prong was subordinating the military. The appointment of Sergey Ivanov as Defense Minister appears to have been aimed at subjecting the military to the control of the security services. A series of reassignments and firings is the surface evidence of the struggle to subordinate the military in Chechnya. Southern Military District commander Troshev, who led the 1999 invasion, refused outright the first orders transferring him to Siberia in November 2002, and went on television to publicize his mutiny. He was finally removed in February 2003. Chief of the Defense Staff Kvashnin, who had held the Southern District command during the first Chechen war, hung on in a combative relationship with Ivanov for three years until he, too, was replaced in 2004 (and also sent to Siberia as the Presidential Representative in Novosibirsk). The spring 2005 dismissal of General Viktor Kazantsev, Putin’s Plenipotentiary Representative in the Southern Federal District, was reportedly the final link in the chain. Military corruption, and feeding at the trough of Chechnya, has not ended, but the corruption has reportedly been “institutionalized” and more closely regulated in Kremlin-controlled channels.&#x000A;&#x000A;Chechenization, Ahmad-Haji Kadyrov, and the Salafists&#x000A;--------------------------------------------- -------- &#x000A;&#x000A;<a id='par17' href='#par17'>¶</a>17. (C) The second prong of Putin’s strategy was to hand the fighting over to Chechens. “Chechenization” differs from Vietnamization or Iraqification. In those strategies, a loyalist force is strengthened to the point at which it can carry on the fight itself. Chechenization, in contrast, has meant handing Chechnya over to the guerrillas in exchange for their professions of loyalty, the formal retention of Chechnya within the Russian Federation, and an uneasy&#x000A;MOSCOW 00005645 004 OF 010&#x000A;cooperation with Federal authorities that in practice is constantly re-negotiated.&#x000A;&#x000A;<a id='par18' href='#par18'>¶</a>18. (C) Chechenization is associated with Ahmad-Haji Kadyrov, the insurgent commander and chief Mufti of separatist Chechnya. After he defected to the Russians, Putin put him in charge of the new Russian-installed Chechen administration. Chechenization was reportedly agreed between Kadyrov and Putin personally. But the seeds of the policy were sown by a split in the insurgent ranks dating to the first war. That split that took the form of a religious dispute, though it masked a power struggle among warlords. The split is the direct result of the introduction of a new element: Arab forces espousing a pan-Islamic Jihadist religious ideology.&#x000A;&#x000A;<a id='par19' href='#par19'>¶</a>19. (C) The traditional Islam of Dagestan, Chechnya and Ingushetia is based on Sufism, or Islamic mysticism. Though nominally the Sufi orders were the same as those predominant in Central Asia and Kurdistan -- Naqshbandi and Qadiri -- Sufism in the Northeast Caucasus took on a unique form in the 18th-19th century struggle against Russian encroachment. It is usually called “muridism.” Murids were armed acolytes of a hieratic commander, the murshid. Shaykh Shamil, the Naqshbandi murshid who led the mountaineers’ resistance to the Russians until his capture in 1859, was both a spiritual guide and a military commander. He also exercised government powers. The largest Sufi branch (“vird”) in Chechnya is the Kunta-Haji “vird” of the Qadiris, founded and led by the charismatic Chechen missionary Kunta-Haji Kishiyev until his exile by the Russians in 1864. Although the historical Kunta-Haji died two years later, his followers believe that Kunta-Haji lives on in occultation, like the Shi’a Twelfth Imam.&#x000A;&#x000A;<a id='par20' href='#par20'>¶</a>20. (C) When Arab fighters joined the Chechen conflict in 1995, they brought with them a “Salafist” doctrine that attempts to emulate the fundamental, “pure” Islam of the Prophet Muhammad and his immediate successors, especially ‘Umar, the second Caliph. It holds that mysticism is one of the “impurities” that crept into Islam after the first four Caliphs, and considers Sufis to be heretics and idolaters. The idea that Kunta-Haji adepts could believe their founder is still alive -- and that they worship the grave of his mother -- is an abomination to Salafis, who believe that marked graves are a form of pagan ancestor worship (Muhammad’s grave in Arabia is not marked).&#x000A;&#x000A;<a id='par21' href='#par21'>¶</a>21. (C) Wahhabism-based forms of Islam started appearing in Chechnya by 1991, as Chechens were able to travel and some went to Saudi Arabia for religious study. But the true influx of Salafis (usually lumped together with Wahhabis in Russia) came during the first Chechen war. In February 1995 Fathi ‘Ali al-Shishani, a Jordanian of Chechen descent, arrived in Chechnya. A veteran of the war in Afghanistan, he was now too old to be a combatant, but was a missionary for Salafism. He recruited another Afghan veteran, the Saudi al-Khattab, to come to Chechnya and lead a group of Arab fighters.&#x000A;&#x000A;<a id='par22' href='#par22'>¶</a>22. (C) Al-Khattab’s fighters were never a major military factor during the war, but they were the key to Gulf money, which financed power struggles in the inter-war years. Al-Khattab forged close links with Shamil Basayev, the most famous Chechen field commander. Basayev himself was from a Qadiri family, but he was too Sovietized to view Islam as anything more than part of the Chechen and Caucasus identity.  In his early interviews, Basayev showed himself to be motivated by Chechen nationalism, not religion, though he paid lip-service -- e.g., proclaiming Sharia law in Vedeno in early 1995 -- to attract Gulf donors. Basayev’s initial interest in al-Khattab, as indeed with other jihadists starting even before the first war, was purely financial.&#x000A;&#x000A;<a id='par23' href='#par23'>¶</a>23. (C) After the first war, al-Khattab set up a camp in Serzhen-Yurt (“Baza Kavkaz”) for military and religious indoctrination. It provided one of the few employment opportunities for demobilized Chechen fighters between the wars. Young Chechens had traditionally engaged in seasonal migrant construction work throughout the Soviet Union, but after the first war that was no longer open to them. The closed international borders also precluded smuggling -- another pre-war source of employment and income. The fighters had no money, no jobs, no education, no skills save with their guns, and no prospects. Al-Khattab’s offer of food, shelter and work was inviting. As a result, between the wars Salafism spread quickly in Chechnya. (Al-Khattab also invited missionaries and facilitators who set up shop in Chechnya, Dagestan and Georgia’s Pankisi Gorge, whose Kist residents are close relatives of the Chechens.)&#x000A;&#x000A;Battle Lines in Peacetime&#x000A;MOSCOW 00005645 005 OF 010&#x000A;------------------------- &#x000A;&#x000A;<a id='par24' href='#par24'>¶</a>24. (C) Chechen society is distinguished by its propensity to unite in war and fragment in peace. It is based on opposing dichotomies: the Vaynakh peoples are divided into Chechens and Ingush; the Chechens are divided into highlanders (“Lameroi”) and lowlanders (“Nokhchi”); and these are further divided into tribal confederations and exogamous tribes (“teyp”) and their subdivisions. Each unit will unite with its opposite to combat a threat from outside. Two lowland teyps, for example, will drop quarrels and unite against an intruding highland teyp. But left to themselves, they will quarrel and split. After the Khasavyurt accords, when Russia left the Chechens alone, the wartime alliance between Maskhadov and Basayev split and the two became enemies. Other warlords lined up on one side or the other -- the Yamadayev brothers of Gudermes, for example, fighting a pitched battle against Basayev in 1999. But the rise of Basayev and al-Khattab undermined Maskhadov’s authority and prevented him from exercising any real power.&#x000A;&#x000A;<a id='par25' href='#par25'>¶</a>25. (C) This power struggle took on a religious expression. Since Basayev was associated with al-Khattab and Salafism, Maskhadov positioned himself as champion of traditional Sufism. He surrounded himself with Sufi shaykhs and appointed Ahmad-Haji Kadyrov, a strong adherent of Kunta-Haji Sufism, as Chechnya’s Mufti. Kadyrov had spent six years in Uzbekistan, allegedly at religious seminaries in Tashkent and Bukhara, and seems to have developed links to other enemies of Basayev, including the Yamadayevs.&#x000A;&#x000A;<a id='par26' href='#par26'>¶</a>26. (C) The religious division dictated certain policies to each side. The Sufi tradition of Maskhadov and Kadyrov had been associated for over two centuries with nationalist resistance. Basayev, with his new-found commitment to al-Khattab’s Salafism, adopted the Salafi stress on a pan-Islamic community (“umma”) fighting a worldwide jihad, notionally without regard for ethnic or national boundaries. Al-Khattab and Basayev invaded Dagestan in August 1999, avowedly in pursuit of a Caucasus-wide revolt against the Russians. They brought on a Russian invasion that threw Maskhadov out of Groznyy.&#x000A;&#x000A;Chechenization Begins&#x000A;--------------------- &#x000A;&#x000A;<a id='par27' href='#par27'>¶</a>27. (C) The second Russian invasion did not unite the Chechens, as previous pressure had. Perhaps the influence of al-Khattab and his Salafists, as well as the devastation of the first war, had rent the fabric of Chechen society too much to restore traditional unity in the face of the outside threat. (We should also remember that unity is relative. Only a small percentage of the Chechens actually fought in the first war, and many supported the Russians out of disgust with Dudayev.) Kadyrov and the Yamadayevs separately broke with Maskhadov and defected to the Russians. Kadyrov began to recruit from the insurgency non-Salafist nationalist fighters who were highly demoralized and disoriented by the disastrous retreat from Groznyy in late 1999. Kadyrov began to preach what Kunta-Haji had preached after the Russian victory over Imam Shamil in 1859: to survive, the Chechens needed tactically to accept Russian rule. His message struck a chord, and fighters began to defect to his side.&#x000A;&#x000A;<a id='par28' href='#par28'>¶</a>28. (C) Putin appears to have stumbled upon Kadyrov, and their alliance seems to have grown out of chance as much as design. But they were able to forge a deal along the following lines: Kadyrov would declare loyalty to Russia and deliver loyalty to Putin; he would take over Maskhadov’s place at the head of the Russian-blessed government of Chechnya; he would try to win over Maskhadov’s fighters, to whom he could promise immunity; he would govern Chechnya with full autonomy, without interference from Russian officials below Putin’s level; and he would try to exterminate Basayev and Al-Khattab.&#x000A;&#x000A;<a id='par29' href='#par29'>¶</a>29. (C) If the objective of Chechenization was to win over fighters who would carry on the fight against Basayev and the Arab successors to Khattab (who was poisoned in April 2002), it has to be judged a success. The real fighting has for several years been carried out by Chechen forces who fight the war they want to fight -- not the one the Russian military wants them to -- and who appear happy to kill Russians when they get in the way. The Russian military is “just trying to survive,” as one officer put it. Not all the pro-Moscow Chechen units are composed of former guerrillas. Said-Magomed Kakiyev, commander of the GRU-controlled “West” battalion, has been fighting Dudayev and his successors since 1993. But at the heart of the pro-Moscow effort are fighters who defected from the anti-Moscow insurgency.&#x000A;&#x000A;The Military Overstays Its Welcome&#x000A;MOSCOW 00005645 006 OF 010&#x000A;---------------------------------- &#x000A;&#x000A;<a id='par30' href='#par30'>¶</a>30. (C) The development of Kadyrov’s fighting force, along with that of the Yamadayev brothers, left the stage clear for a drawdown of Russian troops, certainly by early 2004 (leaving aside a permanent garrison presence). But those troops, still not fully responsive to FSB control, did not want to leave. Especially now that Chechens had taken over increasing parts of the security portfolio, the Russian officers were free to concentrate on their economic activities, and in particular oil smuggling.&#x000A;&#x000A;<a id='par31' href='#par31'>¶</a>31. (C) Kadyrov could not be fully autonomous until he -- not the Russians -- controlled Chechnya’s oil. He therefore demanded the creation of a Chechen oil company under his jurisdiction. That would have severely limited the ability of federal forces to divert and smuggle oil. On May 9, 2004, Kadyrov was assassinated by an enormous bomb planted under his seat at the annual VE Day celebration. The killing was officially ascribed to Chechen rebels, but many believe it was the Russian Army’s way of rejecting Kadyrov’s demand. Under the circumstances, one cannot exclude that both versions are true.&#x000A;&#x000A;In the Reign of Ramzan&#x000A;---------------------- &#x000A;&#x000A;<a id='par32' href='#par32'>¶</a>32. (C) Kadyrov’s passing left power in the hands of his son Ramzan, who was officially made Deputy Prime Minister. The President, Alu Alkhanov, was a figurehead put in place because Ramzan was underage. The Prime Minister, Sergey Abramov, was tasked with interfacing between Kadyrov and Moscow below the level of Putin.&#x000A;&#x000A;<a id='par33' href='#par33'>¶</a>33. (C) Ramzan Kadyrov has none of the religious or personal prestige that his father had. He is a warlord pure and simple -- one of several, like the Yamadayev family of warlords. He is lucky, however, in that his father left him a sufficient fighting force of ex-rebels. Though they may have been lured away from the insurgency for a variety of reasons, it is money that keeps them. Kadyrov feels little need for ideological or religious prestige, though he makes an occasional statement designed to appeal to Muslims, and makes a point of supporting the pilgrimage to the tomb of Kunta-Haji’s mother in Gunoy, near Vedeno (though that is in part to show he is stronger than Basayev, whose home and power base are in the Vedeno region). Kadyrov must only satisfy his troops, who on occasion have shown that, if offended or not given enough, they are willing to desert along with their kinsmen and return to the mountains to fight against him. He must also guard against the possibility, as some charge, that some of the fighters who went over to Federal forces did so under orders from guerrilla commanders for whom they are still working.&#x000A;&#x000A;<a id='par34' href='#par34'>¶</a>34. (C) Kadyrov is also fortunate in that the FSB, with whom he has close ties, has by this time emasculated the military as “prong one” of Putin’s strategy. Kadyrov has slowly but surely also taken over most of the spigots of money that once fed the army, and like his father he has started agitating for overt control over Chechnya’s oil (while prudently ensuring that others take the lead on that in public). Kadyrov is at least as corrupt as the military, but the money he expropriates for himself from Moscow’s subsidies is accepted as his pay-off for keeping things quiet. And indeed Kadyrov and the other warlords are capable of maintaining a certain degree of security in Chechnya. The showy “reconstruction” developments they have built in Groznyy and their home towns demonstrate that the guerrillas cannot or at least do not halt construction and economic activity. Moreover, there is enough security to end Putin’s worries about a secessionist victory. That has allowed Putin to demonstrate a new willingness to be increasingly overt in support of separatism in other conflicts (e.g., Abkhazia, Transnistria) when that advances Russian interests.&#x000A;&#x000A;<a id='par35' href='#par35'>¶</a>35. (C) Despite its successes to date, however, Putin’s strategy is far from completed. He still needs to keep forces in the region as a constant reminder to Kadyrov not to backtrack on his professed loyalty to the Kremlin. Ideally, that force would be small but capable of intervening effectively in Chechen internal affairs. That is unrealistic at present. The current forces, reportedly over 25,000, are bunkered and corrupt. When they venture on patrol they are routinely attacked. One attempt to redress this is to position Russian forces close but “over the horizon” in Dagestan, where a major military base is under construction at Botlikh. However, that may only add to the instability of Dagestan. A Duma Deputy from the region told us that locals are vehemently opposed to the new military base, despite the economic opportunities it represents, on grounds that the soldiers will “corrupt the morals of their children.”&#x000A;MOSCOW 00005645 007 OF 010&#x000A;&#x000A;<a id='par36' href='#par36'>¶</a>36. (C) Another approach is the Chechenization of the Federal forces themselves. Recently “North” and “South” battalions of ethnically Chechen special forces -- drawn from Kadyrov’s militia -- were created to supplement the “East” and “West” battalions of Sulim Yamadayev and Said-Magomed Kakiyev. Those formations are officially part of the Russian army. The Kremlin strategy appears to be to check Kadyrov by promoting warlords he cannot control, and to check the FSB from becoming too clientized by allowing the MOD to retain a sphere of influence. In Chechnya, that is a recipe for open fighting. We saw one small instance of that on April 25, when bodyguards of Kadyrov and Chechen President Alkhanov got into a firefight. According to one insider, the clash originated in Kadyrov’s desire to get rid of Alkhanov, who now has close ties with Yamadayev.&#x000A;&#x000A;What Can We Expect in the Future?&#x000A;--------------------------------- &#x000A;&#x000A;<a id='par37' href='#par37'>¶</a>37. (C) The Chechen population is the great loser in this game. It bears an ever heavier burden in shake-downs, opportunity costs from misappropriation of reconstruction funds, and the constant trauma of victimization and abuse -- including abduction, torture, and murder -- by the armed thugs who run Chechnya (reftels). Security under those circumstances is a fragile veneer, and stability an illusion.  The insurgency can continue indefinitely, at a low level and without prospects of success, but significant enough to serve as a pretext for the continued rule of thuggery.&#x000A;&#x000A;<a id='par38' href='#par38'>¶</a>38. (C) The insurgency will remain split between those who want to carry on Maskhadov’s non-Salafist struggle for national independence and those who follow the Salafi-influenced Basayev in his pursuit of a Caucasus-wide Caliphate. But the nationalists have been undercut by Kadyrov. Despite Sadullayev’s efforts, the insurgency inside Chechnya is not likely to meet with success and will continue to become more Salafist in tone.&#x000A;&#x000A;<a id='par39' href='#par39'>¶</a>39. (C) Prospects would be poor for the nationalists even if Kadyrov and/or Yamadayev were assassinated (and there is much speculation that one will succeed in killing the other, goaded on by the FSB which supports Kadyrov and the GRU which supports Yamadayev). The thousands of guerrillas who have joined those two militias have by now lost all ideological incentive. Since they already run the country, they feel themselves, not the Russians, to be the masters, and are not responsive to Sadullayev’s nationalist calls; Basayev’s Salafist message has even less appeal to them. Even if their current leaders are eliminated, all they will need is a new warlord, easily generated from within their organizations, and they can continue on their current paths.&#x000A;&#x000A;<a id='par40' href='#par40'>¶</a>40. (C) We expect that Salafism will continue to grow. The insurgents even inside Chechnya are reportedly becoming predominantly Salafist, as opposition on a narrowly nationalist basis offers less hope of success. Salafis will come both from inside Chechnya, where militia excesses outrage the population, and from elsewhere in the Caucasus, where radicalization is proceeding rapidly as a result of the repressive policies of Russia’s regional satraps. There are numerous eyewitness accounts from both Dagestan and Kabardino-Balkaria that elite young adults and university students are joining Salafist groups. In one case, a terrorist killed in Dagestan was found recently to have defended his doctoral dissertation at Moscow State University -- on Wahhabism in the North Caucasus. These young adults, denied economic opportunities, turn to religion as an outlet.  They find, however, that representatives of the traditional religious establishments in these republics, long isolated under the thumb of Soviet restrictions, are ill-educated and ill-prepared to deal with the sophisticated theological arguments developed by generations of Salafists in the Middle East. Most of those who join fundamentalist jamaats do not, of course, become terrorists. But a percentage do, and with that steady source of recruits the major battlefield could shift to outside Chechnya, with armed clashes in other parts of the North Caucasus and a continuation of sporadic but spectacular terrorist acts in Moscow and other parts of Russia.&#x000A;&#x000A;<a id='par41' href='#par41'>¶</a>41. (C) Outside Chechnya, the most likely venue for clashes with authorities is Dagestan. Putin’s imposition of a “power vertical” there has upset the delicate clan and ethnic balance that offered a shaky stability since the collapse of Soviet power. He installed a president (the weak Mukhu Aliyev) in place of a 14-member multi-ethnic presidential council. Aliyev will be unable to prevent a ruthless struggle among the elite -- the local way of elaborating a new balance of power. This is already happening, with assassinations of provincial chiefs since Aliyev took over.&#x000A;MOSCOW 00005645 008 OF 010&#x000A;In one province in the south of the republic, an uprising against the chief appointed by Aliyev’s predecessor was suppressed by gunfire. Four demonstrators were shot dead, initiating a cycle of blood revenge. In May, in two Dagestani cities security force operations against “terrorists” resulted in major shootouts, with victims among the bystanders and whole apartment houses rendered uninhabitable after hits from the security forces’ heavy weaponry. It is not clear whether the “terrorists” were really religious activists (“Whenever they want to eliminate someone, they call him a Wahhabi,” the MP from Makhachkala told us). But the populace, seeing the deadly over-reaction of the security forces, is feeling sympathy for their victims -- so much so that Aliyev has had to make public condemnations of the actions of the security forces. If this chaos deepens, as appears likely, the Jihadist groups (“jamaats”) may grow, drift further in Basayev’s direction, and feel the need to respond to attacks from the local government.&#x000A;&#x000A;<a id='par42' href='#par42'>¶</a>42. (C) Local forces are unreliable in such cases, for clan and blood-feud reasons. Wahhabist jamaats flourished in the strategic ethnically Dargin districts of Karamakhi and Chabanmakhi in the mid-1990s, but Dagestan’s rulers left them alone because moving against them meant altering the delicate ethnic balance between Dargins and Avars. Only when the jamaats themselves became expansive during the Basayev/Khattab invasion from Chechnya in the summer of 1999 did the Makhachkala authorities take action, and then only with the assistance of Federal forces. Ultimately, if clashes break out on a wide scale in Dagestan, Moscow would have to send in the Federal army. Deploying the army to combat destabilization in Dagestan, however, could jeopardize Putin’s hard-won control over it. Unleashing the army against a “terrorist” threat is just that: allowing the army off its new leash. Large-scale army deployments to Dagestan would be especially attractive to the officers, since the border with Azerbaijan offers lucrative opportunities for contraband trade. The army’s presence, in turn, would further destabilize Dagestan and all but guarantee chaos.&#x000A;&#x000A;<a id='par43' href='#par43'>¶</a>43. (C) Indeed, destabilization is the most likely prospect we see when we look further down the road to the next decade.  Chechenization allows bellicose Chechen leaders to throw their weight around in the North Caucasus even more than an independent Chechnya would. A case in point is the call on April 24 by Chechen Parliament Speaker Dukvakha Abdurakhmanov for unification of Chechnya, Ingushetia and Dagestan, implicitly under Chechen domination (the one million Chechens would constitute a plurality in the new republic of 4.5 million). The call soured slowly normalizing relations between Chechnya and Ingushetia, according to a Chechen official in Moscow, though the Dagestanis treated the proposal as a joke.&#x000A;&#x000A;What Should Putin Be Doing?&#x000A;--------------------------- &#x000A;&#x000A;<a id='par44' href='#par44'>¶</a>44. (C) Right now Putin’s policy towards Chechnya is channeled through Kadyrov and Yamadayev. Putin’s Plenipotentiary Representative (PolPred) for the Southern Federal District, Dmitriy Kozak, appears to have little influence. He was not even invited when Putin addressed the new Parliament in Groznyy last December. Putin needs to stop taking Kadyrov’s phone calls and start working more through his PolPred and the government’s special services. He also needs to increase Moscow’s civilian engagement with Chechnya.&#x000A;&#x000A;<a id='par45' href='#par45'>¶</a>45. (C) Putin should continue to reform the military and the other Power Ministries. Having asserted control through Sergey Ivanov, Putin has denied the military certain limited areas in which it had pursued criminal activity -- but left most of its criminal enterprises untouched. He has done little if anything to form the discipline of a modern army deployable to impose order in unstable regions such as the North Caucasus. Recent hazing incidents show that discipline is still equated with sadism and brutality. The Ministry of Internal Affairs (MVD) has undergone even less reform. The Chechenization of the security services, despite its obvious drawbacks, has shown that locals can carry out security tasks more effectively than Russian troops.&#x000A;&#x000A;<a id='par46' href='#par46'>¶</a>46. (C) Lastly, Putin should realize that his current policy course is not preventing the growth of militant, armed Jihadism. Rather, every time his subordinates try to douse the flames, the fire grows hotter and spreads farther. Putin needs to check the firehose; he may find they are spraying the fire with gasoline. He needs to work out a credible strategy, employing economic and cultural levers, to deal with the issue of armed Jihadism. Some Russians do “get it.”  An advisor to Kozak gave a lecture recently that showed he understands in great detail the issues surrounding the growth&#x000A;MOSCOW 00005645 009 OF 010&#x000A;of militant jihadism. Kozak himself made clear in a recent conversation with the Ambassador that he appreciates clearly the deep social and economic roots of Russia’s problems in the North Caucasus -- and the need to employ more than just security measures to solve them. We have not, however, seen evidence that consciousness of the true problem has yet made its way to Moscow from Kozak’s office in Rostov-on-Don.&#x000A;&#x000A;<a id='par47' href='#par47'>¶</a>47. (C) We need also to be aware that Putin’s strategy is generating a backlash in Moscow. Ramzan Kadyrov’s excesses, his Putin-given immunity from federal influence, and the special laws that apply to Chechnya alone (such as the exemption of Chechens from military service elsewhere in Russia) are leading to charges by some Moscow observers that Putin has allowed Chechnya de facto to secede. Putin is strong enough to weather such criticism, but the ability of a successor to do so is less clear.&#x000A;&#x000A;Is There a Role for the U.S.?&#x000A;----------------------------- &#x000A;&#x000A;<a id='par48' href='#par48'>¶</a>48. (C) Russia does not consider the U.S. a friend in the Caucasus, and our capacity to influence Russia, whether by pressure, persuasion or assistance, is small. What we can do is continue to try to push the senior tier of Russian officials towards the realization that current policies are conducive to Jihadism, which threatens broader stability as well; and that shifting the responsibility for victimizing and looting the people from a corrupt, brutal military to corrupt, brutal locals is not a long-term solution.&#x000A;&#x000A;<a id='par49' href='#par49'>¶</a>49. (C) Making headway with Putin or his successor will require close cooperation with our European allies. They, like the Russians, tend to view the issue through a strictly counter-terrorism lens. The British, for example, link their “dialogue with Islam” closely with their counter-terrorist effort (on which they liaise with the Russians), reinforcing the conception of a monolithic Muslim identity predisposed to terrorism. That reinforces the Russian view that the problem of the North Caucasus can be consigned to the terrorism basket, and that finding a solution means in the first instance finding a better way to kill terrorists.&#x000A;&#x000A;<a id='par50' href='#par50'>¶</a>50. (C) We and the Europeans need to put our proposals of assistance to the North Caucasus in a different context: one that recognizes the role of religion in North Caucasus cultures, but also emphasizes our interest in and support for the non-religious aspects of North Caucasus society, including civil society. This last will need exceptional delicacy, as the Russians and the local authorities are convinced that the U.S. uses civil society to foment “color revolutions” and anti-Russian regimes. There is a danger that our civil society partners could become what Churchill called “the inopportune missionary” who, despite impeccable intentions, sets back the larger effort. That need not be the case.&#x000A;&#x000A;<a id='par51' href='#par51'>¶</a>51. (C) Our interests call for an understanding of the context and a positive emphasis. We cannot expect the Russians to react well if we limit our statements to condemnations of Kadyrov, butcher though he may be. We need to find targeted areas in which we can work with the Russians to get effective aid into Chechnya. At the same time, we need to be on our guard that our efforts do not appear to constitute U.S. support for Kremlin or local policies that abuse human rights. We must also avoid a shift that endorses the Kremlin assertion that there is no longer a humanitarian crisis in Chechnya, which goes hand-in-hand with the Russian request that the UN and its donors end humanitarian assistance to the region and increase technical and “recovery” assistance. We and other donors need to maintain a balance between humanitarian and recovery assistance.&#x000A;&#x000A;<a id='par52' href='#par52'>¶</a>52. (C) Aside from the political optic, a rush to cut humanitarian assistance before recovery programs are fully up and running would leave a vacuum into which jihadist influences would leap. The European Commission Humanitarian Organization, the largest provider of aid, shows signs of rushing to stress recovery over humanitarian assistance; we should not follow suit. Humanitarian assistance has been effective in relieving the plight of Chechen IDPs in Ingushetia. It has been less effective inside Chechnya, where the GOR and Kadyrov regime built temporary accommodation centers for returning IDPs, but have not passed on enough resources to secure a reasonable standard of living. International organizations are hampered by limited access to Chechnya out of security concerns, but where they are able to operate freely they have made a great difference, e.g., WHO’s immunization program.&#x000A;&#x000A;<a id='par53' href='#par53'>¶</a>53. (C) Resources aimed at Chechnya often wind up in private pockets. Though international assistance has a better record&#x000A;MOSCOW 00005645 010 OF 010&#x000A;than Russian assistance and is more closely monitored, we must also be wary of assistance that lends itself to massive corruption and state-sponsored banditry in Chechnya: too much of the money loaned in a microfinance program there, for example, would be expropriated by militias. Presidential Advisor Aslakhanov told us last December that Kadyrov expropriates for himself one third off the top of all assistance. Therefore, while we continue well-monitored humanitarian assistance inside Chechnya, we should broaden our efforts for “recovery” to other parts of the region that are threatened by jihadism: Dagestan, Kabardino-Balkaria, Ingushetia, and possibly Karachayevo-Cherkessia. Among these, we need to try to steer our assistance ($11.5 million for FY 2006) to regional officials, such as President Kanokov of Kabardino-Balkaria, who have shown that they are willing to introduce local reforms and get rid of the brutal security officials whose repressive acts feed the Jihadist movement.&#x000A;&#x000A;<a id='par54' href='#par54'>¶</a>54. (C) We also need to coordinate closely with Kozak (or his successor), both to strengthen his position vis--vis the warlords and to ensure that everything we do is perceived by the Russians as transparent and not aimed at challenging the GOR’s hold on a troubled region. The present opposite perception by the GOR may be behind its reluctance to cooperate with donors, the UN and IFIs on long-term strategic engagement in the region. For example, the GOR has delayed for months a 20-million-Euro TACIS program designed with GOR input.&#x000A;&#x000A;<a id='par55' href='#par55'>¶</a>55. (C) The interagency paper “U.S. Policy in the North Caucasus -- The Way Forward” provides a number of important principles for positive engagement. We need to emphasize programs in accordance with those principles which are most practical under current and likely future conditions, and which can be most effective in targeting the most vulnerable, where federal and local governments lack the will and capacity to assist, and in combating the spread of jihadism both inside Chechnya and throughout the North Caucasus region. There are areas -- for example, health care and child welfare -- in which assistance fits neatly with Russian priorities, containing both humanitarian and recovery components.&#x000A;&#x000A;<a id='par56' href='#par56'>¶</a>56. (C) We can also emphasize programs that help create jobs and job opportunities: microfinance (where feasible), credit cooperatives and small business development, and educational exchanges. U.S. sponsored training programs for credit cooperatives and government budgeting functions have been very popular. Exchanges, through the IVP program and Community Connections, are an especially effective way of exposing future leaders to the world beyond the narrow propaganda they have received, and to generate a multiplier effect in enterprise. In addition to the effects the programs themselves can have in providing alternatives to religious extremism, such assistance can also have a demonstration effect: showing the Russians that improved governance and delivery of services can be more effective in stabilizing the region than attempts to impose order by force.&#x000A;&#x000A;<a id='par57' href='#par57'>¶</a>57. (C) Lastly, we need to look ahead in our relations with Azerbaijan and Georgia to ensure that they become more active and effective players in helping to contain instability in the North Caucasus. That will serve their own security interests as well. Salafis need connections to their worldwide network. Strengthening border forces is more important than ever. Azerbaijan, especially, is well placed to trade with Dagestan and Chechnya. The ethnic Azeris, Lezghis and Avars living on both sides of the Azerbaijan-Dagestan border and friendly relations between Russia and Azerbaijan are tools for promoting stability.&#x000A;&#x000A;Conclusion&#x000A;-------- &#x000A;&#x000A;<a id='par58' href='#par58'>¶</a>58. (C) The situation in the North Caucasus is trending towards destabilization, despite the increase in security inside Chechnya. The steps we believe Putin must take are those needed to reverse that trend, and the efforts we have outlined for ourselves are premised on a desire to promote a lasting stabilization built on improved governance, a more active civil society, and steps towards democratization. But we must be realistic about Russia’s willingness and ability to take the necessary steps, with or without our assistance. Real stabilization remains a low probability. Sound policy on Chechnya is likely to continue to founder in the swamp of corruption, Kremlin infighting and succession politics. Much more probable is a new phase of instability that will be felt throughout the North Caucasus and have effects beyond. BURNS</pre></code>
+</div>
+</div>
+<script src='/static/js/js.js' type='text/javascript'></script>
+</body>
+</html>

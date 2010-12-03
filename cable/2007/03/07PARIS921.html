@@ -1,0 +1,723 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+<title>Cable Viewer</title>
+<link href='/static/gfx/favicon.ico' rel='shortcut icon' />
+<link href='/static/css/reset-fonts-grids.css' rel='stylesheet' type='text/css' />
+<link href='/static/css/cables.css' rel='stylesheet' type='text/css' />
+</head>
+<body>
+<div class='main'>
+<div class='pane small'>
+<a href='/index.html'>
+<img alt='WikiLeaks logo' src='/static/gfx/WL_Hour_Glass_small.png' />
+<p>Currently released so far... 597 / 251,287</p>
+</a>
+<div id='browse'>
+<h3>Articles</h3>
+<div class='sort'>
+<a href="/articles/2010/De-olho-nas-Olimpiadas-US-faz.html">Brazil</a>
+<a href="/articles/2010/Sri-Lankan-President-s-alleged-war.html">Sri Lanka</a>
+<a href="/articles/2010/Iraq-Inquiry-told-to-protect-US.html">United Kingdom</a>
+<a href="/articles/2010/USA-bekraftar-svensk-Natokoppling.html">Sweden</a>
+</div>
+<h3>Browse latest releases</h3>
+<div class='sort'>
+<a href='/reldate/2010-12-02_0.html'>2010/12/02</a>
+<a href='/reldate/2010-12-01_0.html'>2010/12/01</a>
+<a href='/reldate/2010-11-30_0.html'>2010/11/30</a>
+<a href='/reldate/2010-11-29_0.html'>2010/11/29</a>
+<a href='/reldate/2010-11-28_0.html'>2010/11/28</a>
+</div>
+<h3>Browse by creation <a href='#year_1966' onclick='return sha(0);'>date</a></h3>
+<div class='pick'>
+<a class='sort' href='#year_1966' onclick="return swap('year_1966');">66</a>
+<a class='sort' href='#year_1972' onclick="return swap('year_1972');">72</a>
+<a class='sort' href='#year_1975' onclick="return swap('year_1975');">75</a>
+<a class='sort' href='#year_1979' onclick="return swap('year_1979');">79</a>
+<a class='sort' href='#year_1986' onclick="return swap('year_1986');">86</a>
+<a class='sort' href='#year_1989' onclick="return swap('year_1989');">89</a>
+<a class='sort' href='#year_1990' onclick="return swap('year_1990');">90</a>
+<a class='sort' href='#year_2003' onclick="return swap('year_2003');">03</a>
+<a class='sort' href='#year_2004' onclick="return swap('year_2004');">04</a>
+<a class='sort' href='#year_2005' onclick="return swap('year_2005');">05</a>
+<a class='sort' href='#year_2006' onclick="return swap('year_2006');">06</a>
+<a class='sort' href='#year_2007' onclick="return swap('year_2007');">07</a>
+<a class='sort' href='#year_2008' onclick="return swap('year_2008');">08</a>
+<a class='sort' href='#year_2009' onclick="return swap('year_2009');">09</a>
+<a class='sort' href='#year_2010' onclick="return swap('year_2010');">10</a>
+</div>
+<div class='sort' id='year_1966'>
+<a href='/date/1966-12_0.html'>1966/12</a>
+</div>
+<div class='sort' id='year_1972'>
+<a href='/date/1972-02_0.html'>1972/02</a>
+<a href='/date/1972-08_0.html'>1972/08</a>
+</div>
+<div class='sort' id='year_1975'>
+<a href='/date/1975-03_0.html'>1975/03</a>
+</div>
+<div class='sort' id='year_1979'>
+<a href='/date/1979-08_0.html'>1979/08</a>
+</div>
+<div class='sort' id='year_1986'>
+<a href='/date/1986-05_0.html'>1986/05</a>
+</div>
+<div class='sort' id='year_1989'>
+<a href='/date/1989-12_0.html'>1989/12</a>
+</div>
+<div class='sort' id='year_1990'>
+<a href='/date/1990-01_0.html'>1990/01</a>
+</div>
+<div class='sort' id='year_2003'>
+<a href='/date/2003-06_0.html'>2003/06</a>
+</div>
+<div class='sort' id='year_2004'>
+<a href='/date/2004-01_0.html'>2004/01</a>
+<a href='/date/2004-02_0.html'>2004/02</a>
+<a href='/date/2004-04_0.html'>2004/04</a>
+<a href='/date/2004-11_0.html'>2004/11</a>
+<a href='/date/2004-12_0.html'>2004/12</a>
+</div>
+<div class='sort' id='year_2005'>
+<a href='/date/2005-01_0.html'>2005/01</a>
+<a href='/date/2005-03_0.html'>2005/03</a>
+<a href='/date/2005-04_0.html'>2005/04</a>
+<a href='/date/2005-05_0.html'>2005/05</a>
+<a href='/date/2005-06_0.html'>2005/06</a>
+<a href='/date/2005-07_0.html'>2005/07</a>
+<a href='/date/2005-08_0.html'>2005/08</a>
+<a href='/date/2005-10_0.html'>2005/10</a>
+<a href='/date/2005-11_0.html'>2005/11</a>
+<a href='/date/2005-12_0.html'>2005/12</a>
+</div>
+<div class='sort' id='year_2006'>
+<a href='/date/2006-01_0.html'>2006/01</a>
+<a href='/date/2006-02_0.html'>2006/02</a>
+<a href='/date/2006-03_0.html'>2006/03</a>
+<a href='/date/2006-04_0.html'>2006/04</a>
+<a href='/date/2006-05_0.html'>2006/05</a>
+<a href='/date/2006-06_0.html'>2006/06</a>
+<a href='/date/2006-07_0.html'>2006/07</a>
+<a href='/date/2006-08_0.html'>2006/08</a>
+<a href='/date/2006-09_0.html'>2006/09</a>
+<a href='/date/2006-10_0.html'>2006/10</a>
+<a href='/date/2006-11_0.html'>2006/11</a>
+<a href='/date/2006-12_0.html'>2006/12</a>
+</div>
+<div class='sort' id='year_2007'>
+<a href='/date/2007-01_0.html'>2007/01</a>
+<a href='/date/2007-02_0.html'>2007/02</a>
+<a href='/date/2007-03_0.html'>2007/03</a>
+<a href='/date/2007-04_0.html'>2007/04</a>
+<a href='/date/2007-05_0.html'>2007/05</a>
+<a href='/date/2007-06_0.html'>2007/06</a>
+<a href='/date/2007-07_0.html'>2007/07</a>
+<a href='/date/2007-08_0.html'>2007/08</a>
+<a href='/date/2007-09_0.html'>2007/09</a>
+<a href='/date/2007-10_0.html'>2007/10</a>
+<a href='/date/2007-11_0.html'>2007/11</a>
+<a href='/date/2007-12_0.html'>2007/12</a>
+</div>
+<div class='sort' id='year_2008'>
+<a href='/date/2008-01_0.html'>2008/01</a>
+<a href='/date/2008-02_0.html'>2008/02</a>
+<a href='/date/2008-03_0.html'>2008/03</a>
+<a href='/date/2008-04_0.html'>2008/04</a>
+<a href='/date/2008-05_0.html'>2008/05</a>
+<a href='/date/2008-07_0.html'>2008/07</a>
+<a href='/date/2008-08_0.html'>2008/08</a>
+<a href='/date/2008-09_0.html'>2008/09</a>
+<a href='/date/2008-10_0.html'>2008/10</a>
+<a href='/date/2008-11_0.html'>2008/11</a>
+<a href='/date/2008-12_0.html'>2008/12</a>
+</div>
+<div class='sort' id='year_2009'>
+<a href='/date/2009-01_0.html'>2009/01</a>
+<a href='/date/2009-02_0.html'>2009/02</a>
+<a href='/date/2009-03_0.html'>2009/03</a>
+<a href='/date/2009-04_0.html'>2009/04</a>
+<a href='/date/2009-05_0.html'>2009/05</a>
+<a href='/date/2009-06_0.html'>2009/06</a>
+<a href='/date/2009-07_0.html'>2009/07</a>
+<a href='/date/2009-08_0.html'>2009/08</a>
+<a href='/date/2009-09_0.html'>2009/09</a>
+<a href='/date/2009-10_0.html'>2009/10</a>
+<a href='/date/2009-11_0.html'>2009/11</a>
+<a href='/date/2009-12_0.html'>2009/12</a>
+</div>
+<div class='sort' id='year_2010'>
+<a href='/date/2010-01_0.html'>2010/01</a>
+<a href='/date/2010-02_0.html'>2010/02</a>
+</div>
+<h3>Browse by <a href='#by_A' onclick='return sha(1);'>origin</a></h3>
+<div class='pick'>
+<a class='sort' href='#by_A' onclick="return swap('by_A');">A</a>
+<a class='sort' href='#by_B' onclick="return swap('by_B');">B</a>
+<a class='sort' href='#by_C' onclick="return swap('by_C');">C</a>
+<a class='sort' href='#by_D' onclick="return swap('by_D');">D</a>
+<a class='sort' href='#by_H' onclick="return swap('by_H');">H</a>
+<a class='sort' href='#by_I' onclick="return swap('by_I');">I</a>
+<a class='sort' href='#by_J' onclick="return swap('by_J');">J</a>
+<a class='sort' href='#by_K' onclick="return swap('by_K');">K</a>
+<a class='sort' href='#by_L' onclick="return swap('by_L');">L</a>
+<a class='sort' href='#by_M' onclick="return swap('by_M');">M</a>
+<a class='sort' href='#by_N' onclick="return swap('by_N');">N</a>
+<a class='sort' href='#by_O' onclick="return swap('by_O');">O</a>
+<a class='sort' href='#by_P' onclick="return swap('by_P');">P</a>
+<a class='sort' href='#by_R' onclick="return swap('by_R');">R</a>
+<a class='sort' href='#by_S' onclick="return swap('by_S');">S</a>
+<a class='sort' href='#by_T' onclick="return swap('by_T');">T</a>
+<a class='sort' href='#by_U' onclick="return swap('by_U');">U</a>
+<a class='sort' href='#by_V' onclick="return swap('by_V');">V</a>
+</div>
+<div class='sort' id='by_A'>
+<a href='/origin/65_0.html'>Embassy Asuncion</a>
+<a href='/origin/66_0.html'>Embassy Astana</a>
+<a href='/origin/67_0.html'>Embassy Ashgabat</a>
+<a href='/origin/68_0.html'>Embassy Ankara</a>
+<a href='/origin/69_0.html'>Embassy Amman</a>
+<a href='/origin/70_0.html'>Embassy Algiers</a>
+<a href='/origin/71_0.html'>Embassy Abu Dhabi</a>
+</div>
+<div class='sort' id='by_B'>
+<a href='/origin/53_0.html'>Embassy Buenos Aires</a>
+<a href='/origin/54_0.html'>Embassy Bucharest</a>
+<a href='/origin/55_0.html'>Embassy Brussels</a>
+<a href='/origin/56_0.html'>Embassy Bridgetown</a>
+<a href='/origin/57_0.html'>Embassy Brasilia</a>
+<a href='/origin/58_0.html'>Embassy Bishkek</a>
+<a href='/origin/59_0.html'>Embassy Berlin</a>
+<a href='/origin/60_0.html'>Embassy Beirut</a>
+<a href='/origin/61_0.html'>Embassy Beijing</a>
+<a href='/origin/62_0.html'>Embassy Bangkok</a>
+<a href='/origin/63_0.html'>Embassy Baku</a>
+<a href='/origin/64_0.html'>Embassy Baghdad</a>
+</div>
+<div class='sort' id='by_C'>
+<a href='/origin/49_0.html'>Embassy Colombo</a>
+<a href='/origin/50_0.html'>Embassy Chisinau</a>
+<a href='/origin/51_0.html'>Embassy Caracas</a>
+<a href='/origin/52_0.html'>Embassy Cairo</a>
+<a href='/origin/82_0.html'>Consulate Cape Town</a>
+</div>
+<div class='sort' id='by_D'>
+<a href='/origin/44_0.html'>Embassy Dushanbe</a>
+<a href='/origin/45_0.html'>Embassy Dublin</a>
+<a href='/origin/46_0.html'>Embassy Doha</a>
+<a href='/origin/47_0.html'>Embassy Djibouti</a>
+<a href='/origin/48_0.html'>Embassy Damascus</a>
+<a href='/origin/81_0.html'>Consulate Dubai</a>
+</div>
+<div class='sort' id='by_H'>
+<a href='/origin/43_0.html'>Embassy Harare</a>
+<a href='/origin/80_0.html'>Consulate Hamburg</a>
+</div>
+<div class='sort' id='by_I'>
+<a href='/origin/5_0.html'>Iran RPO Dubai</a>
+<a href='/origin/42_0.html'>Embassy Islamabad</a>
+<a href='/origin/79_0.html'>Consulate Istanbul</a>
+</div>
+<div class='sort' id='by_J'>
+<a href='/origin/78_0.html'>Consulate Jeddah</a>
+</div>
+<div class='sort' id='by_K'>
+<a href='/origin/38_0.html'>Embassy Kyiv</a>
+<a href='/origin/39_0.html'>Embassy Kuwait</a>
+<a href='/origin/40_0.html'>Embassy Kuala Lumpur</a>
+<a href='/origin/41_0.html'>Embassy Kabul</a>
+</div>
+<div class='sort' id='by_L'>
+<a href='/origin/33_0.html'>Embassy Luxembourg</a>
+<a href='/origin/34_0.html'>Embassy London</a>
+<a href='/origin/35_0.html'>Embassy Lisbon</a>
+<a href='/origin/36_0.html'>Embassy Lima</a>
+<a href='/origin/37_0.html'>Embassy La Paz</a>
+</div>
+<div class='sort' id='by_M'>
+<a href='/origin/4_0.html'>Mission USNATO</a>
+<a href='/origin/28_0.html'>Embassy Muscat</a>
+<a href='/origin/29_0.html'>Embassy Moscow</a>
+<a href='/origin/30_0.html'>Embassy Mexico</a>
+<a href='/origin/31_0.html'>Embassy Manama</a>
+<a href='/origin/32_0.html'>Embassy Madrid</a>
+<a href='/origin/77_0.html'>Consulate Munich</a>
+</div>
+<div class='sort' id='by_N'>
+<a href='/origin/27_0.html'>Embassy New Delhi</a>
+</div>
+<div class='sort' id='by_O'>
+<a href='/origin/26_0.html'>Embassy Ottawa</a>
+</div>
+<div class='sort' id='by_P'>
+<a href='/origin/22_0.html'>Embassy Prague</a>
+<a href='/origin/23_0.html'>Embassy Port Au Prince</a>
+<a href='/origin/24_0.html'>Embassy Paris</a>
+<a href='/origin/25_0.html'>Embassy Panama</a>
+<a href='/origin/76_0.html'>Consulate Peshawar</a>
+</div>
+<div class='sort' id='by_R'>
+<a href='/origin/19_0.html'>Embassy Rome</a>
+<a href='/origin/20_0.html'>Embassy Riyadh</a>
+<a href='/origin/21_0.html'>Embassy Rabat</a>
+</div>
+<div class='sort' id='by_S'>
+<a href='/origin/3_0.html'>Secretary of State</a>
+<a href='/origin/14_0.html'>Embassy Stockholm</a>
+<a href='/origin/15_0.html'>Embassy Singapore</a>
+<a href='/origin/16_0.html'>Embassy Seoul</a>
+<a href='/origin/17_0.html'>Embassy Santiago</a>
+<a href='/origin/18_0.html'>Embassy Sanaa</a>
+<a href='/origin/73_0.html'>Consulate Shenyang</a>
+<a href='/origin/74_0.html'>Consulate Shanghai</a>
+<a href='/origin/75_0.html'>Consulate Sao Paulo</a>
+</div>
+<div class='sort' id='by_T'>
+<a href='/origin/8_0.html'>Embassy Tunis</a>
+<a href='/origin/9_0.html'>Embassy Tripoli</a>
+<a href='/origin/10_0.html'>Embassy Tel Aviv</a>
+<a href='/origin/11_0.html'>Embassy Tehran</a>
+<a href='/origin/12_0.html'>Embassy Tegucigalpa</a>
+<a href='/origin/13_0.html'>Embassy Tbilisi</a>
+</div>
+<div class='sort' id='by_U'>
+<a href='/origin/1_0.html'>USEU Brussels</a>
+<a href='/origin/2_0.html'>UNVIE</a>
+<a href='/origin/7_0.html'>Embassy Ulaanbaatar</a>
+</div>
+<div class='sort' id='by_V'>
+<a href='/origin/6_0.html'>Embassy Vienna</a>
+<a href='/origin/72_0.html'>Consulate Vladivostok</a>
+</div>
+<h3>Browse by <a href='#tag_A' onclick='return sha(2);'>tag</a></h3>
+<div class='pick'>
+<a class='sort' href='#tag_A' onclick="return swap('tag_A');">A</a>
+<a class='sort' href='#tag_B' onclick="return swap('tag_B');">B</a>
+<a class='sort' href='#tag_C' onclick="return swap('tag_C');">C</a>
+<a class='sort' href='#tag_D' onclick="return swap('tag_D');">D</a>
+<a class='sort' href='#tag_E' onclick="return swap('tag_E');">E</a>
+<a class='sort' href='#tag_F' onclick="return swap('tag_F');">F</a>
+<a class='sort' href='#tag_G' onclick="return swap('tag_G');">G</a>
+<a class='sort' href='#tag_H' onclick="return swap('tag_H');">H</a>
+<a class='sort' href='#tag_I' onclick="return swap('tag_I');">I</a>
+<a class='sort' href='#tag_J' onclick="return swap('tag_J');">J</a>
+<a class='sort' href='#tag_K' onclick="return swap('tag_K');">K</a>
+<a class='sort' href='#tag_L' onclick="return swap('tag_L');">L</a>
+<a class='sort' href='#tag_M' onclick="return swap('tag_M');">M</a>
+<a class='sort' href='#tag_N' onclick="return swap('tag_N');">N</a>
+<a class='sort' href='#tag_O' onclick="return swap('tag_O');">O</a>
+<a class='sort' href='#tag_P' onclick="return swap('tag_P');">P</a>
+<a class='sort' href='#tag_Q' onclick="return swap('tag_Q');">Q</a>
+<a class='sort' href='#tag_R' onclick="return swap('tag_R');">R</a>
+<a class='sort' href='#tag_S' onclick="return swap('tag_S');">S</a>
+<a class='sort' href='#tag_T' onclick="return swap('tag_T');">T</a>
+<a class='sort' href='#tag_U' onclick="return swap('tag_U');">U</a>
+<a class='sort' href='#tag_V' onclick="return swap('tag_V');">V</a>
+<a class='sort' href='#tag_W' onclick="return swap('tag_W');">W</a>
+<a class='sort' href='#tag_X' onclick="return swap('tag_X');">X</a>
+<a class='sort' href='#tag_Y' onclick="return swap('tag_Y');">Y</a>
+<a class='sort' href='#tag_Z' onclick="return swap('tag_Z');">Z</a>
+</div>
+<div class='sort' id='tag_A'>
+<a href='/tag/AU_0.html'>AU</a>
+<a href='/tag/AG_0.html'>AG</a>
+<a href='/tag/AF_0.html'>AF</a>
+<a href='/tag/AR_0.html'>AR</a>
+<a href='/tag/AE_0.html'>AE</a>
+<a href='/tag/AM_0.html'>AM</a>
+<a href='/tag/ASEC_0.html'>ASEC</a>
+<a href='/tag/AORC_0.html'>AORC</a>
+<a href='/tag/AMGT_0.html'>AMGT</a>
+<a href='/tag/APER_0.html'>APER</a>
+<a href='/tag/AJ_0.html'>AJ</a>
+<a href='/tag/AL_0.html'>AL</a>
+<a href='/tag/AGMT_0.html'>AGMT</a>
+<a href='/tag/AEMR_0.html'>AEMR</a>
+</div>
+<div class='sort' id='tag_B'>
+<a href='/tag/BA_0.html'>BA</a>
+<a href='/tag/BR_0.html'>BR</a>
+<a href='/tag/BE_0.html'>BE</a>
+<a href='/tag/BRUSSELS_0.html'>BRUSSELS</a>
+<a href='/tag/BIDEN_0.html'>BIDEN</a>
+<a href='/tag/BH_0.html'>BH</a>
+<a href='/tag/BL_0.html'>BL</a>
+<a href='/tag/BTIO_0.html'>BTIO</a>
+<a href='/tag/BEXP_0.html'>BEXP</a>
+<a href='/tag/BU_0.html'>BU</a>
+<a href='/tag/BY_0.html'>BY</a>
+<a href='/tag/BO_0.html'>BO</a>
+</div>
+<div class='sort' id='tag_C'>
+<a href='/tag/CA_0.html'>CA</a>
+<a href='/tag/CVIS_0.html'>CVIS</a>
+<a href='/tag/CMGT_0.html'>CMGT</a>
+<a href='/tag/CH_0.html'>CH</a>
+<a href='/tag/CASC_0.html'>CASC</a>
+<a href='/tag/CJAN_0.html'>CJAN</a>
+<a href='/tag/CLINTON_0.html'>CLINTON</a>
+<a href='/tag/CU_0.html'>CU</a>
+<a href='/tag/CD_0.html'>CD</a>
+<a href='/tag/CV_0.html'>CV</a>
+<a href='/tag/CO_0.html'>CO</a>
+<a href='/tag/CI_0.html'>CI</a>
+<a href='/tag/CS_0.html'>CS</a>
+<a href='/tag/CE_0.html'>CE</a>
+<a href='/tag/CY_0.html'>CY</a>
+<a href='/tag/CM_0.html'>CM</a>
+<a href='/tag/CF_0.html'>CF</a>
+<a href='/tag/CIA_0.html'>CIA</a>
+</div>
+<div class='sort' id='tag_D'>
+<a href='/tag/DJ_0.html'>DJ</a>
+</div>
+<div class='sort' id='tag_E'>
+<a href='/tag/EFIN_0.html'>EFIN</a>
+<a href='/tag/EPET_0.html'>EPET</a>
+<a href='/tag/ECON_0.html'>ECON</a>
+<a href='/tag/ENRG_0.html'>ENRG</a>
+<a href='/tag/EAID_0.html'>EAID</a>
+<a href='/tag/EINV_0.html'>EINV</a>
+<a href='/tag/EAIR_0.html'>EAIR</a>
+<a href='/tag/EUN_0.html'>EUN</a>
+<a href='/tag/ELAB_0.html'>ELAB</a>
+<a href='/tag/EU_0.html'>EU</a>
+<a href='/tag/ETTC_0.html'>ETTC</a>
+<a href='/tag/EG_0.html'>EG</a>
+<a href='/tag/ETRD_0.html'>ETRD</a>
+<a href='/tag/ELTN_0.html'>ELTN</a>
+<a href='/tag/EREL_0.html'>EREL</a>
+<a href='/tag/EAGR_0.html'>EAGR</a>
+<a href='/tag/EFIS_0.html'>EFIS</a>
+<a href='/tag/EWWT_0.html'>EWWT</a>
+<a href='/tag/EI_0.html'>EI</a>
+<a href='/tag/EIND_0.html'>EIND</a>
+<a href='/tag/EMIN_0.html'>EMIN</a>
+<a href='/tag/EZ_0.html'>EZ</a>
+<a href='/tag/EXTERNAL_0.html'>EXTERNAL</a>
+<a href='/tag/ECIP_0.html'>ECIP</a>
+<a href='/tag/ECPS_0.html'>ECPS</a>
+<a href='/tag/ECUN_0.html'>ECUN</a>
+<a href='/tag/ENVR_0.html'>ENVR</a>
+</div>
+<div class='sort' id='tag_F'>
+<a href='/tag/FR_0.html'>FR</a>
+<a href='/tag/FJ_0.html'>FJ</a>
+<a href='/tag/FINR_0.html'>FINR</a>
+</div>
+<div class='sort' id='tag_G'>
+<a href='/tag/GG_0.html'>GG</a>
+<a href='/tag/GM_0.html'>GM</a>
+<a href='/tag/GA_0.html'>GA</a>
+<a href='/tag/GOI_0.html'>GOI</a>
+<a href='/tag/GE_0.html'>GE</a>
+<a href='/tag/GR_0.html'>GR</a>
+<a href='/tag/GTMO_0.html'>GTMO</a>
+</div>
+<div class='sort' id='tag_H'>
+<a href='/tag/HO_0.html'>HO</a>
+<a href='/tag/HA_0.html'>HA</a>
+<a href='/tag/HILLARY_0.html'>HILLARY</a>
+<a href='/tag/HURI_0.html'>HURI</a>
+</div>
+<div class='sort' id='tag_I'>
+<a href='/tag/IS_0.html'>IS</a>
+<a href='/tag/IZ_0.html'>IZ</a>
+<a href='/tag/IR_0.html'>IR</a>
+<a href='/tag/IN_0.html'>IN</a>
+<a href='/tag/IQ_0.html'>IQ</a>
+<a href='/tag/IT_0.html'>IT</a>
+<a href='/tag/ICAO_0.html'>ICAO</a>
+<a href='/tag/IO_0.html'>IO</a>
+<a href='/tag/INRB_0.html'>INRB</a>
+<a href='/tag/IAEA_0.html'>IAEA</a>
+<a href='/tag/IRAJ_0.html'>IRAJ</a>
+<a href='/tag/INTERPOL_0.html'>INTERPOL</a>
+<a href='/tag/IMO_0.html'>IMO</a>
+<a href='/tag/ID_0.html'>ID</a>
+</div>
+<div class='sort' id='tag_J'>
+<a href='/tag/JA_0.html'>JA</a>
+<a href='/tag/JO_0.html'>JO</a>
+<a href='/tag/JOSEPH_0.html'>JOSEPH</a>
+<a href='/tag/JAMES_0.html'>JAMES</a>
+</div>
+<div class='sort' id='tag_K'>
+<a href='/tag/KPAO_0.html'>KPAO</a>
+<a href='/tag/KCRM_0.html'>KCRM</a>
+<a href='/tag/KTFN_0.html'>KTFN</a>
+<a href='/tag/KNNP_0.html'>KNNP</a>
+<a href='/tag/KFRD_0.html'>KFRD</a>
+<a href='/tag/KCOR_0.html'>KCOR</a>
+<a href='/tag/KTIP_0.html'>KTIP</a>
+<a href='/tag/KISL_0.html'>KISL</a>
+<a href='/tag/KU_0.html'>KU</a>
+<a href='/tag/KIRF_0.html'>KIRF</a>
+<a href='/tag/KJUS_0.html'>KJUS</a>
+<a href='/tag/KHLS_0.html'>KHLS</a>
+<a href='/tag/KAWK_0.html'>KAWK</a>
+<a href='/tag/KN_0.html'>KN</a>
+<a href='/tag/KZ_0.html'>KZ</a>
+<a href='/tag/KUNR_0.html'>KUNR</a>
+<a href='/tag/KS_0.html'>KS</a>
+<a href='/tag/KDEM_0.html'>KDEM</a>
+<a href='/tag/KACT_0.html'>KACT</a>
+<a href='/tag/KPRP_0.html'>KPRP</a>
+<a href='/tag/KWBG_0.html'>KWBG</a>
+<a href='/tag/KSCA_0.html'>KSCA</a>
+<a href='/tag/KG_0.html'>KG</a>
+<a href='/tag/KPAL_0.html'>KPAL</a>
+<a href='/tag/KMDR_0.html'>KMDR</a>
+<a href='/tag/KGHG_0.html'>KGHG</a>
+<a href='/tag/KDRG_0.html'>KDRG</a>
+<a href='/tag/KSPR_0.html'>KSPR</a>
+<a href='/tag/KWMN_0.html'>KWMN</a>
+<a href='/tag/KOLY_0.html'>KOLY</a>
+<a href='/tag/KPKO_0.html'>KPKO</a>
+<a href='/tag/KSEC_0.html'>KSEC</a>
+<a href='/tag/KTIA_0.html'>KTIA</a>
+<a href='/tag/KHIV_0.html'>KHIV</a>
+<a href='/tag/KGCC_0.html'>KGCC</a>
+<a href='/tag/KCIP_0.html'>KCIP</a>
+<a href='/tag/KBIO_0.html'>KBIO</a>
+<a href='/tag/KR_0.html'>KR</a>
+</div>
+<div class='sort' id='tag_L'>
+<a href='/tag/LY_0.html'>LY</a>
+<a href='/tag/LE_0.html'>LE</a>
+<a href='/tag/LU_0.html'>LU</a>
+<a href='/tag/LG_0.html'>LG</a>
+</div>
+<div class='sort' id='tag_M'>
+<a href='/tag/MNUC_0.html'>MNUC</a>
+<a href='/tag/MO_0.html'>MO</a>
+<a href='/tag/MARR_0.html'>MARR</a>
+<a href='/tag/MOPS_0.html'>MOPS</a>
+<a href='/tag/MASS_0.html'>MASS</a>
+<a href='/tag/MX_0.html'>MX</a>
+<a href='/tag/MTCRE_0.html'>MTCRE</a>
+<a href='/tag/MY_0.html'>MY</a>
+<a href='/tag/MCAP_0.html'>MCAP</a>
+<a href='/tag/MU_0.html'>MU</a>
+<a href='/tag/MP_0.html'>MP</a>
+<a href='/tag/ML_0.html'>ML</a>
+<a href='/tag/MR_0.html'>MR</a>
+<a href='/tag/MG_0.html'>MG</a>
+<a href='/tag/MAR_0.html'>MAR</a>
+<a href='/tag/MASC_0.html'>MASC</a>
+<a href='/tag/MPOS_0.html'>MPOS</a>
+<a href='/tag/MD_0.html'>MD</a>
+<a href='/tag/MOPPS_0.html'>MOPPS</a>
+<a href='/tag/MK_0.html'>MK</a>
+</div>
+<div class='sort' id='tag_N'>
+<a href='/tag/NATO_0.html'>NATO</a>
+<a href='/tag/NG_0.html'>NG</a>
+<a href='/tag/NI_0.html'>NI</a>
+<a href='/tag/NZ_0.html'>NZ</a>
+</div>
+<div class='sort' id='tag_O'>
+<a href='/tag/OVIP_0.html'>OVIP</a>
+<a href='/tag/OTRA_0.html'>OTRA</a>
+<a href='/tag/OPRC_0.html'>OPRC</a>
+<a href='/tag/OSCE_0.html'>OSCE</a>
+<a href='/tag/OEXC_0.html'>OEXC</a>
+<a href='/tag/OIIP_0.html'>OIIP</a>
+<a href='/tag/OTR_0.html'>OTR</a>
+</div>
+<div class='sort' id='tag_P'>
+<a href='/tag/PGOV_0.html'>PGOV</a>
+<a href='/tag/PARM_0.html'>PARM</a>
+<a href='/tag/PREL_0.html'>PREL</a>
+<a href='/tag/PINR_0.html'>PINR</a>
+<a href='/tag/PTER_0.html'>PTER</a>
+<a href='/tag/PK_0.html'>PK</a>
+<a href='/tag/PINS_0.html'>PINS</a>
+<a href='/tag/PREF_0.html'>PREF</a>
+<a href='/tag/PHUM_0.html'>PHUM</a>
+<a href='/tag/PE_0.html'>PE</a>
+<a href='/tag/PBTS_0.html'>PBTS</a>
+<a href='/tag/PA_0.html'>PA</a>
+<a href='/tag/PINT_0.html'>PINT</a>
+<a href='/tag/PL_0.html'>PL</a>
+<a href='/tag/PEPR_0.html'>PEPR</a>
+<a href='/tag/PM_0.html'>PM</a>
+<a href='/tag/PAK_0.html'>PAK</a>
+<a href='/tag/POL_0.html'>POL</a>
+<a href='/tag/PO_0.html'>PO</a>
+<a href='/tag/POLITICAL_0.html'>POLITICAL</a>
+<a href='/tag/PARTIES_0.html'>PARTIES</a>
+<a href='/tag/PGOF_0.html'>PGOF</a>
+<a href='/tag/PROP_0.html'>PROP</a>
+<a href='/tag/PBIO_0.html'>PBIO</a>
+<a href='/tag/PHSA_0.html'>PHSA</a>
+<a href='/tag/PSI_0.html'>PSI</a>
+</div>
+<div class='sort' id='tag_Q'>
+<a href='/tag/QA_0.html'>QA</a>
+</div>
+<div class='sort' id='tag_R'>
+<a href='/tag/RS_0.html'>RS</a>
+<a href='/tag/RU_0.html'>RU</a>
+<a href='/tag/RO_0.html'>RO</a>
+<a href='/tag/RW_0.html'>RW</a>
+</div>
+<div class='sort' id='tag_S'>
+<a href='/tag/SNAR_0.html'>SNAR</a>
+<a href='/tag/SA_0.html'>SA</a>
+<a href='/tag/SP_0.html'>SP</a>
+<a href='/tag/SHUM_0.html'>SHUM</a>
+<a href='/tag/SENV_0.html'>SENV</a>
+<a href='/tag/SOCI_0.html'>SOCI</a>
+<a href='/tag/SY_0.html'>SY</a>
+<a href='/tag/SW_0.html'>SW</a>
+<a href='/tag/SF_0.html'>SF</a>
+<a href='/tag/SG_0.html'>SG</a>
+<a href='/tag/SMIG_0.html'>SMIG</a>
+<a href='/tag/SR_0.html'>SR</a>
+<a href='/tag/SCUL_0.html'>SCUL</a>
+<a href='/tag/SYR_0.html'>SYR</a>
+<a href='/tag/SO_0.html'>SO</a>
+<a href='/tag/SU_0.html'>SU</a>
+<a href='/tag/STEINBERG_0.html'>STEINBERG</a>
+<a href='/tag/SN_0.html'>SN</a>
+<a href='/tag/SM_0.html'>SM</a>
+</div>
+<div class='sort' id='tag_T'>
+<a href='/tag/TS_0.html'>TS</a>
+<a href='/tag/TU_0.html'>TU</a>
+<a href='/tag/TW_0.html'>TW</a>
+<a href='/tag/TD_0.html'>TD</a>
+<a href='/tag/TI_0.html'>TI</a>
+<a href='/tag/TX_0.html'>TX</a>
+<a href='/tag/TH_0.html'>TH</a>
+<a href='/tag/TRGY_0.html'>TRGY</a>
+<a href='/tag/TC_0.html'>TC</a>
+<a href='/tag/TFIN_0.html'>TFIN</a>
+</div>
+<div class='sort' id='tag_U'>
+<a href='/tag/UK_0.html'>UK</a>
+<a href='/tag/US_0.html'>US</a>
+<a href='/tag/UP_0.html'>UP</a>
+<a href='/tag/UNO_0.html'>UNO</a>
+<a href='/tag/UZ_0.html'>UZ</a>
+<a href='/tag/UNSC_0.html'>UNSC</a>
+<a href='/tag/UN_0.html'>UN</a>
+<a href='/tag/USEU_0.html'>USEU</a>
+<a href='/tag/UV_0.html'>UV</a>
+<a href='/tag/UNMIK_0.html'>UNMIK</a>
+<a href='/tag/UNESCO_0.html'>UNESCO</a>
+<a href='/tag/UNGA_0.html'>UNGA</a>
+<a href='/tag/UAE_0.html'>UAE</a>
+<a href='/tag/UE_0.html'>UE</a>
+</div>
+<div class='sort' id='tag_V'>
+<a href='/tag/VE_0.html'>VE</a>
+<a href='/tag/VZ_0.html'>VZ</a>
+</div>
+<div class='sort' id='tag_W'>
+<a href='/tag/WTO_0.html'>WTO</a>
+</div>
+<div class='sort' id='tag_X'>
+<a href='/tag/XA_0.html'>XA</a>
+<a href='/tag/XL_0.html'>XL</a>
+<a href='/tag/XF_0.html'>XF</a>
+<a href='/tag/XH_0.html'>XH</a>
+<a href='/tag/XG_0.html'>XG</a>
+</div>
+<div class='sort' id='tag_Y'>
+<a href='/tag/YM_0.html'>YM</a>
+<a href='/tag/YI_0.html'>YI</a>
+</div>
+<div class='sort' id='tag_Z'>
+<a href='/tag/ZK_0.html'>ZK</a>
+<a href='/tag/ZP_0.html'>ZP</a>
+<a href='/tag/ZR_0.html'>ZR</a>
+<a href='/tag/ZF_0.html'>ZF</a>
+<a href='/tag/ZI_0.html'>ZI</a>
+</div>
+<h3>Browse by classification</h3>
+<div class='sort'>
+<a href='/classification/1_0.html' title='unclassified'>CONFIDENTIAL</a>
+<a href='/classification/2_0.html' title='secret'>CONFIDENTIAL//NOFORN</a>
+<a href='/classification/3_0.html' title='confidential'>SECRET</a>
+<a href='/classification/4_0.html' title='secret//noforn'>SECRET//NOFORN</a>
+<a href='/classification/5_0.html' title='unclassified//fouo'>UNCLASSIFIED</a>
+<a href='/classification/6_0.html' title='confidential//noforn'>UNCLASSIFIED//FOR OFFICIAL USE ONLY</a>
+</div>
+</div>
+<h3>Community resources</h3>
+<div class='sort'>
+<a href='http://twitter.com/wikileaks'>Follow us on Twitter</a>
+<a href='http://en.reddit.com/domain/wikileaks.org'>Check our Reddit</a>
+<a href='http://twitter.com/home?status=Reading%20http%3A%2F%2Fcablegate.wikileaks.org%2Fcable%2F2007%2F03%2F07PARIS921.html%20%2307PARIS921'>Twitter this</a>
+<a href='http://digg.com/submit?url=http%3A%2F%2Fcablegate.wikileaks.org%2Fcable%2F2007%2F03%2F07PARIS921.html'>Digg this page</a>
+</div>
+<p>
+<i>
+courage is contagious
+</i>
+</p>
+</div>
+<div class='pane big'>
+<h3>Viewing cable 07PARIS921, FRENCH FOREIGN POLICY UNDER NICOLAS SARKOZY OR</h3>
+<div>
+If you are new to these pages, please read an introduction on the <a href="#help_1" onclick="return sh(1);">structure of a cable</a> as well as how to <a href="#help_2" onclick="return sh(2);">discuss them</a> with others. See also the <a href="/static/html/faq.html">FAQs</a>
+<br />
+</div>
+<div id='help_1'>
+<br />
+<b>Understanding cables</b>
+<br />
+Every cable message consists of three parts:
+<ul>
+<li>The top box shows each cables unique reference number, when and by whom it originally was sent, and what its initial classification was.</li>
+<li>The middle box contains the header information that is associated with the cable. It includes information about the receiver(s) as well as a general subject.</li>
+<li>The bottom box presents the body of the cable. The opening can contain a more specific subject, references to other cables (<a href="#by_A" onclick="swap('by_A'); setTimeout('document.location.href=(document.location.href + \'#by_A\').replace(/\#.*$/,\'#by_A\')', 100); return false;">browse by origin</a> to find them) or additional comment. This is followed by the main contents of the cable: a summary, a collection of specific topics and a comment section.</li>
+</ul>
+To understand the justification used for the classification of each cable, please use this <a href="http://en.wikisource.org/wiki/Executive_Order_13526#Part_1">WikiSource</a> article as reference.
+</div>
+<div id='help_2'>
+<br />
+<b>Discussing cables</b>
+<br />
+If you find meaningful or important information in a cable, please link directly to its unique reference number. Linking to a specific paragraph in the body of a cable is also possible by copying the appropriate link (to be found at theparagraph symbol).
+Please mark messages for social networking services like Twitter with the hash tags <b>#cablegate</b> and a hash containing the reference ID e.g. <b>#07PARIS921</b>.
+</div>
+<div id='kus'>
+<a href='http://wikileaks.org/support.html' target='_blank'>KEEP US STRONG!</a>
+</div>
+<table class='cable'>
+<tr>
+<th>Reference ID</th>
+<th>Created</th>
+<th>Released</th>
+<th>Classification</th>
+<th>Origin</th>
+</tr>
+<tr>
+<td>
+<a href='/cable/2007/03/07PARIS921.html'>07PARIS921</a>
+</td>
+<td>
+<a href='/date/2007-03_0.html'>2007-03-09 16:04</a>
+</td>
+<td>
+<a href='/reldate/2010-12-01_0.html'>2010-12-01 12:12</a>
+</td>
+<td>
+<a href='/classification/1_0.html' title='unclassified'>CONFIDENTIAL</a>
+</td>
+<td>
+<a href='/origin/24_0.html'>Embassy Paris</a>
+</td>
+</tr>
+</table>
+<code><pre>VZCZCXRO1396&#x000A;OO RUEHDBU RUEHFL RUEHKW RUEHLA RUEHMR RUEHPA RUEHRN RUEHROV RUEHSR&#x000A;DE RUEHFR #0921/01 0681619&#x000A;ZNY CCCCC ZZH&#x000A;O 091619Z MAR 07&#x000A;FM AMEMBASSY PARIS&#x000A;TO RUEHC/SECSTATE WASHDC IMMEDIATE 5500&#x000A;INFO RUEHZO/AFRICAN UNION COLLECTIVE PRIORITY&#x000A;RUEHXK/ARAB ISRAELI COLLECTIVE PRIORITY&#x000A;RUEHZL/EUROPEAN POLITICAL COLLECTIVE PRIORITY</pre></code>
+<code><pre>C O N F I D E N T I A L SECTION 01 OF 05 PARIS 000921 &#x000A;&#x000A;SIPDIS &#x000A;&#x000A;SIPDIS &#x000A;&#x000A;E.O. 12958: DECL: 01/01/2016 &#x000A;TAGS: <a href='/tag/PREL_0.html'>PREL</a> <a href='/tag/PGOV_0.html'>PGOV</a> <a href='/tag/FR_0.html'>FR</a> <a href='/tag/EUN_0.html'>EUN</a> <a href='/tag/NATO_0.html'>NATO</a> <a href='/tag/ETRD_0.html'>ETRD</a> <a href='/tag/ECON_0.html'>ECON</a> <a href='/tag/UNO_0.html'>UNO</a> <a href='/tag/IR_0.html'>IR</a> <a href='/tag/PHUM_0.html'>PHUM</a>&#x000A;KDEM &#x000A;SUBJECT: FRENCH FOREIGN POLICY UNDER NICOLAS SARKOZY OR &#x000A;SEGOLENE ROYAL &#x000A;&#x000A;REF: A. PARIS 777 &#x000A;<a id='parB' href='#parB'>¶</a>B. PARIS POINTS OF 3/6 &#x000A;&#x000A;Classified By: PolMC Josiah Rosenblatt for reasons 1.4 (B & D). &#x000A;&#x000A;<a id='par1' href='#par1'>¶</a>1. (C) SUMMARY: Foreign policy has not and probably will not &#x000A;play a prominent role in the French presidential election &#x000A;campaign, and neither Nicolas Sarkozy nor Segolene Royal has &#x000A;enunciated a fleshed out foreign policy vision. (This &#x000A;message does not discuss emerging "third man" centrist &#x000A;Francois Bayrou, whose views fall somewhere between those of &#x000A;Sarkozy and Royal.) While it is likely that French policy &#x000A;overall under a Sarkozy or Royal presidency would be largely &#x000A;marked by continuity, signs are already emerging that the two &#x000A;candidates would -- initially at least -- adopt somewhat &#x000A;different approaches to the U.S., the Transatlantic &#x000A;relationship, and Europe. Sarkozy favors a relationship of &#x000A;confidence with the U.S. based on trust and with each side &#x000A;free to disagree (a position which is hurting him with &#x000A;voters), whereas Royal's natural reflex is to adopt a more &#x000A;distant and critical approach. If both worry that a NATO &#x000A;built on global partnerships risks undermining the UN, &#x000A;Sarkozy at least explicitly endorses a transatlantic alliance &#x000A;built on shared values and emphasizes the complementarity of &#x000A;NATO and the EU. If not inherently more pro-European than &#x000A;his counterpart, Sarkozy's prescription for moving Europe &#x000A;forward on the basis of a simplified treaty is generally &#x000A;considered as more realistic (i.e., attuned to European &#x000A;realities) than Royal's for a new treaty with an enhanced &#x000A;"social(ist)" dimension. &#x000A;&#x000A;<a id='par2' href='#par2'>¶</a>2. (C) SUMMARY CONT'D: Both candidates favor restoring the &#x000A;place of human rights and democratization as a foreign policy &#x000A;standard, although it is not clear to what extent this would &#x000A;mean increased criticism of Russia or China in practice. &#x000A;Sarkozy is more openly supportive of Israel than Royal (which &#x000A;could make a difference with respect to current GOF &#x000A;consideration of contacts with a Palestinian NUG), but both &#x000A;see resolution of the Israeli-Palestinian conflict as the key &#x000A;to increased stability across the Middle East. Both &#x000A;candidates are committed to France's current policy on &#x000A;Lebanon, although without the intensive personal engagement &#x000A;of Chirac. Sarkozy is tough on Iran, and Royal was initially &#x000A;tougher -- but she has moderated her tone of late, perhaps &#x000A;under the influence of new advisors. Chirac's departure &#x000A;might open the way for either Sarkozy or Royal to engage more &#x000A;positively on Iraq reconstruction. We would expect both to &#x000A;remain serious about NATO's engagement in Afghanistan. On &#x000A;Africa, while Sarkozy and Royal alike would put an end to the &#x000A;Chirac model of personal diplomacy with his counterparts, it &#x000A;is not clear what this would mean in practice. Chirac's &#x000A;departure will offer a welcome opportunity to reevaluate &#x000A;French policy in Africa in particular, including current &#x000A;troop deployments. END SUMMARY. &#x000A;&#x000A;INTRODUCTION -- IT'S ABOUT THE DOMESTIC AGENDA &#x000A;--------------------------------------------- - &#x000A;&#x000A;<a id='par3' href='#par3'>¶</a>3. (C) Foreign policy issues so far have not played a &#x000A;prominent role in the French presidential election campaign, &#x000A;and there is little chance this will change substantially in &#x000A;coming weeks. French voters are focused primarily on whether &#x000A;and to what extent France needs to reform in order better to &#x000A;adapt to globalization, particularly with respect to the &#x000A;price to be paid in lost jobs and social protections. From a &#x000A;U.S. perspective, of course, what counts most will be the &#x000A;foreign policy orientation of the new president. Both the &#x000A;leading candidates -- Nicolas Sarkozy of the Union for a &#x000A;Popular Movement (UMP) and Segolene Royal of the Socialist &#x000A;Party (PS) -- have in recent weeks outlined views on foreign &#x000A;policy and defense issues (refs A and B) and offer some clear &#x000A;indications of what can be expected. (This message does not &#x000A;discuss centrist Francois Bayrou, the "third man" &#x000A;neither-Sarkozy nor-Royal candidate whose views fall &#x000A;somewhere between those of Sarkozy and Royal, although he is &#x000A;widely regarded as the most pro-European of the three.) &#x000A;&#x000A;<a id='par4' href='#par4'>¶</a>4. (C) Sarkozy is above all a pragmatist (witness his recent &#x000A;reversal on Airbus, where he originally favored a business &#x000A;approach to the issue that he quickly dropped for more state &#x000A;intervention in response to popular pressures). In contrast, &#x000A;Royal leaves an impression of greater rigidity and &#x000A;ideological orthodoxy. This said, neither Sarkozy (although &#x000A;he came close in his recent press conference, ref A) nor &#x000A;Royal (despite her remarks on defense, ref B) has delivered a &#x000A;formal address on foreign and security policy, and it also &#x000A;bears repeating that what the candidates say in the heat of &#x000A;an election campaign may differ substantially from what they &#x000A;might actually do or not do once elected. It is likely that &#x000A;&#x000A;PARIS 00000921 002 OF 005 &#x000A;&#x000A;&#x000A;French policy under a Sarkozy or Royal administration would &#x000A;largely be marked by continuity. We believe nonetheless that &#x000A;it is possible to draw a few preliminary conclusions about &#x000A;each candidate's leanings or "reflexes," particularly with &#x000A;respect to the U.S. and the transatlantic relationship; &#x000A;market liberalization; Europe, human rights and &#x000A;democratization; and Africa. &#x000A;&#x000A;FRENCH-U.S. AND TRANSATLANTIC RELATIONS &#x000A;--------------------------------------- &#x000A;&#x000A;<a id='par5' href='#par5'>¶</a>5. (C) As their public positioning makes clear, Sarkozy and &#x000A;Royal differ perhaps most in their approaches to the United &#x000A;States, primarily in tone if not substance, although the one &#x000A;invariably bleeds into the other. Beginning with his &#x000A;September 2006 visit to the U.S., Sarkozy has deliberately &#x000A;and systematically spoken in favor of putting the U.S.-France &#x000A;relationship on a new footing based on mutual confidence and &#x000A;trust. Not only in response to (demagogic) accusations from &#x000A;the left that this shift risked turning him into an American &#x000A;"poodle," Sarkozy at the same time has made clear that the &#x000A;relationship would have to be based on equality, with France &#x000A;also free to differ with the U.S. -- he cited his opposition &#x000A;to Turkey's EU accession as one salient example. Significant &#x000A;is not that Sarkozy has abandoned Gaullism -- he has not -- &#x000A;but that he has attempted to define it in a way that is more &#x000A;explicitly America-friendly or at least America-compatible. &#x000A;Above all, he has spelled out the need for active engagement &#x000A;with the U.S. at all times; the assumption is that France &#x000A;should be able to work together with the U.S. unless, in a &#x000A;given situation, our views are fundamentally incompatible. &#x000A;In cases of disagreement (e.g., Iraq), the clear implication &#x000A;is that France would stand aside rather than actively seek, &#x000A;as Chirac did in 2003, to marshal a coalition against the &#x000A;United States. Sarkozy's pro-Americanism is an electoral &#x000A;liability for him, and his opponents, Royal foremost among &#x000A;them, are using it as a campaign issue against him. &#x000A;&#x000A;<a id='par6' href='#par6'>¶</a>6. (C) Royal has yet to enunciate with anything approaching &#x000A;the same degree of clarity the kind of relationship she would &#x000A;seek with the U.S., owing at least partly to her relative &#x000A;inexperience. But she leaves the lingering impression of &#x000A;someone who reflexively wants to keep her distance from the &#x000A;U.S. In part this is the product of a lack of direct and &#x000A;personal experience with the United States. It also reflects &#x000A;the accumulated weight of traditional leftist preconceptions &#x000A;-- not to say prejudices -- of the U.S. as a hegemonic and &#x000A;unilateral power (leaving aside hot-button and publicly &#x000A;popular issues such as environmentalism, climate warming, &#x000A;globalization, and our more limited social safety net). &#x000A;Emblematic of this distancing has been the relatively greater &#x000A;difficulty we have had in setting up meetings with her and &#x000A;her staff, or her initial inclination -- before she abandoned &#x000A;the idea altogether -- to travel to the U.S. and meet only &#x000A;with certain members from the Democratic Party and none from &#x000A;the Administration. Moreover, in her public utterances, &#x000A;Royal has explicitly accused the U.S. for contributing to &#x000A;global instability. The clear implication is that the French &#x000A;role in international affairs, more than working with the &#x000A;U.S., should consist of presenting alternatives to our vision. &#x000A;&#x000A;NATO AND THE EU &#x000A;--------------- &#x000A;&#x000A;<a id='par7' href='#par7'>¶</a>7. (C) These differences of approach are well illustrated in &#x000A;the candidates' attitudes toward the NATO Alliance and &#x000A;European Security (ESDP). As Chirac before them, Sarkozy and &#x000A;Royal alike object to NATO's evolving global role, and both &#x000A;cite the argument that the U.S. vision for NATO, through &#x000A;global partnerships and assuming out-of-theatre missions that &#x000A;go beyond its traditional military role, could lead NATO to &#x000A;become a competitor for the UN. Both candidates also insist &#x000A;on the importance of increased EU autonomy and cooperation on &#x000A;defense (ESDP), as well as on the capability of taking &#x000A;independent action outside NATO. But they appear to differ &#x000A;significantly in their basic attitudes toward the Alliance. &#x000A;Sarkozy explicitly referred to the transatlantic relationship &#x000A;as indispensable for being based on common values; he also &#x000A;called for retiring old arguments over the pre-eminence of &#x000A;the one the other, calling them mutually complementary and &#x000A;noting that not all EU member states are NATO Allies and vice &#x000A;versa (which may also be convenient in the case of Turkey). &#x000A;Although committed to the idea of a political Europe as &#x000A;independent actor, Sarkozy's envisions Europe acting jointly &#x000A;with or in parallel with the U.S., but not as an alternative &#x000A;or counterweight to the U.S. Royal's departure point is that &#x000A;Europe needs to evolve and to reinforce its security &#x000A;capabilities in order to present an potential alternative to &#x000A;the U.S., although beyond her distaste for the use of &#x000A;&#x000A;PARIS 00000921 003 OF 005 &#x000A;&#x000A;&#x000A;military force, she has offered few prescriptions as to how &#x000A;that would occur. &#x000A;&#x000A;<a id='par8' href='#par8'>¶</a>8. (C) The two candidates also differ with respect to the &#x000A;importance of defense. While Royal and Sarkozy have voiced &#x000A;support for maintaining defense expenditures at two percent &#x000A;of GDP, Sarkozy insisted that it should be "at least" two &#x000A;percent. In public debates and discussions, Royal has &#x000A;moreover indicated a willingness to reassess France's defense &#x000A;budget and programs, most notably questioning the need for &#x000A;the construction of a second aircraft carrier. Sarkozy, for &#x000A;his part, has made it clear he supports a strong defense and &#x000A;that the planned construction of a second carrier must go &#x000A;forward. &#x000A;&#x000A;FRANCE AND EUROPE &#x000A;----------------- &#x000A;&#x000A;<a id='par9' href='#par9'>¶</a>9. (C) Sarkozy does not have a reputation as an avid &#x000A;pro-Europeanist, and he has not hesitated on occasion, like &#x000A;Chirac, to blame the EU for some of France's problems, mainly &#x000A;in connection with trying to prevent the migration of money &#x000A;and jobs to the newer member states with fewer social &#x000A;protections, or promoting a level of political control over &#x000A;European monetary policy. He has criticized "fiscal dumping" &#x000A;by newer member states with lower cost and other barriers to &#x000A;investment. Sarkozy has also advocated EU-wide coordination &#x000A;on domestically sensitive issues such as immigration. Royal &#x000A;represents a party that traditionally is viewed as more &#x000A;pro-European, although many of her positions do not differ &#x000A;dramatically from Sarkozy's on the surface (although Sarkozy &#x000A;has been much more strident in calling for a coordinated EU &#x000A;immigration policy). However, mainly to satisfy that part of &#x000A;her electorate which voted against the EU constitutional &#x000A;treaty despite its pro-European tradition, Royal has put more &#x000A;stress on promoting a more "social" Europe that would adopt &#x000A;EU-wide standards for social protections and labor rights. &#x000A;&#x000A;<a id='par10' href='#par10'>¶</a>10. (C) Indeed, where the candidates diverge most is in the &#x000A;remedies they would prescribe for overcoming the current &#x000A;impasse on the EU constitutional treaty. There is already &#x000A;evidence that Sarkozy's pragmatic proposal for a "simplified &#x000A;treaty" (formerly referred to as a mini-Treaty) that would &#x000A;focus on institutional reforms and not require ratification &#x000A;through popular referendum has made inroads even with the &#x000A;Germans, notwithstanding the official German position on &#x000A;retaining the existing draft constitutional treaty. By &#x000A;contrast, the Germans have privately expressed to us, and &#x000A;French press reports corroborate this view, considerable &#x000A;concern over Royal's calls for a new referendum on an &#x000A;improved treaty, which they see as a recipe for another &#x000A;French rejection. Royal has argued that a referendum could &#x000A;be successful if a revised treaty were to include additional &#x000A;social protections, but it seems likely that this would make &#x000A;the treaty unacceptable to a number of other European &#x000A;partners (in particular the UK), and would lengthen the &#x000A;negotiating process in any case. In sum, although Royal may &#x000A;be more pro-European in theory, in practice Sarkozy seems &#x000A;more likely to move the European project forward over the &#x000A;short term. &#x000A;&#x000A;FREE MARKET LIBERALISM &#x000A;---------------------- &#x000A;&#x000A;<a id='par11' href='#par11'>¶</a>11. (C) Although Sarkozy is viewed by many French voters as &#x000A;a radical free-market "liberal," in fact his differences with &#x000A;Royal may be less significant than labels would indicate. As &#x000A;the Airbus controversy has shown, Sarkozy does not hesitate &#x000A;to shed his free-market rhetoric when he believes the market &#x000A;is not looking after France's interests. Both Sarkozy and &#x000A;Royal support "economic patriotism," even if Sarkozy &#x000A;rhetorically speaks more of European than strictly French &#x000A;champions. That said, partly out of necessity in order to &#x000A;help reduce France's high debt, Sarkozy would remain more &#x000A;interested than his Socialist counterpart in privatization of &#x000A;state-owned enterprises. Unlike Royal, he also supports &#x000A;cutting corporate tax rates, cutting all payroll taxes on &#x000A;overtime beyond the statutory limit of 35 hours, and ending &#x000A;France's two-tiered labor market as a means of tackling &#x000A;France's chronic unemployment. As noted earlier, however, &#x000A;Sarkozy's "liberalism" has often in the past been trumped by &#x000A;political expediency -- which would likely be the hallmark of &#x000A;a Sarkozy presidency. His demand for more European-wide &#x000A;coordination on fiscal policy as a means of reducing &#x000A;relocation of French jobs to other EU member countries is &#x000A;emblematic of bending liberal principle to accommodate French &#x000A;interests. &#x000A;&#x000A;HUMAN RIGHTS AND DEMOCRATIZATION &#x000A;&#x000A;PARIS 00000921 004 OF 005 &#x000A;&#x000A;&#x000A;-------------------------------- &#x000A;&#x000A;<a id='par12' href='#par12'>¶</a>12. (C) Both Sarkozy and Royal have called for restoring &#x000A;more prominence to human rights and democratization as a &#x000A;means of remaining true to France's heritage and its &#x000A;universal mission. How far either candidate would be &#x000A;prepared to make transformational diplomacy a cornerstone of &#x000A;his or her foreign policy in reality remains an open &#x000A;question, however. It is likely that Royal would take a more &#x000A;principled approach to human rights questions than her &#x000A;counterpart, and it is telling that Sarkozy justified his &#x000A;criticism of Russia's human rights record in Chechnya &#x000A;primarily by arguing that, in the modern media age, it is no &#x000A;longer possible to hide human rights violations as before, &#x000A;which in turns creates public pressures that cannot be &#x000A;ignored. At this stage of the campaign, the jury is still &#x000A;out on whether human rights considerations would become a &#x000A;main driver of French foreign policy. What seems certain is &#x000A;that neither Sarkozy nor Royal will be driven by the &#x000A;sometimes sentimental approach of Chirac, whose admiration &#x000A;for countries with their own long histories and traditions &#x000A;(e.g., Russia and China) with a skepticism of the &#x000A;applicability of Western notions of democracy and human &#x000A;rights to other countries and civilizations. &#x000A;&#x000A;THE MIDDLE EAST AND AFGHANISTAN &#x000A;------------------------------- &#x000A;&#x000A;<a id='par13' href='#par13'>¶</a>13. (C) Similar considerations also apply toward both &#x000A;candidates' likely approaches to the Middle East and Africa. &#x000A;Sarkozy differs dramatically from Royal in his insistent &#x000A;emphasis on the need to take Israeli security interests into &#x000A;account. This might eventually affect Sarkozy's policy on &#x000A;dealing with a Palestinian national unity government, where &#x000A;the GOF of late has argued that it would be a mistake to &#x000A;isolate Hamas completely if it fails to explicitly accept the &#x000A;Quartet conditions. Sarkozy has indirectly criticized Chirac &#x000A;for his overriding attachment to maintaining stability for &#x000A;its own sake, which encourages authoritarian rule. That &#x000A;said, both candidates accept the conventional wisdom that the &#x000A;key to resolving the range of conflicts and tensions in the &#x000A;Middle East is to find a solution to the Israeli-Palestinian &#x000A;conflict. &#x000A;&#x000A;<a id='par14' href='#par14'>¶</a>14. (C) Both candidates are also committed to maintaining &#x000A;current French policy toward Lebanon, although neither will &#x000A;be driven by Chirac's loyalty to the memory of former PM &#x000A;Rafic Hariri -- both in terms of personal involvement, and &#x000A;Lebanon's centrality to French policy on the Middle East. &#x000A;Sarkozy and his foreign policy advisors are tough-minded on &#x000A;Iran. Royal initially was tougher, demanding that Iran be &#x000A;prevented from developing a civilian nuclear capacity, as &#x000A;permitted under the NPT. This demand was notably absent from &#x000A;her most recent foreign policy remarks. (This may reflect &#x000A;increasing influence of former Foreign Minister Hubert &#x000A;Vedrine, who is far more dovish with regard to an Iranian &#x000A;nuclear capability, including military.) We would expect &#x000A;Sarkozy or Royal to maintain France's commitment to NATO's &#x000A;engagement in Afghanistan. Finally, Chirac's departure from &#x000A;the scene should result in greater openness to opportunities &#x000A;to assist in Iraq's reconstruction. &#x000A;&#x000A;AFRICA &#x000A;------ &#x000A;&#x000A;<a id='par15' href='#par15'>¶</a>15. (C) On Africa, both candidates have indicated that they &#x000A;would like above all to change the manner in which France &#x000A;does business in Africa, with Sarkozy going so far as to &#x000A;stress France's desire to reduce its military footprint &#x000A;(except in coordination with the AU or under the authority of &#x000A;the UN). But this does not mean withdrawal, and France will &#x000A;continue to want to leverage its influence to the greatest &#x000A;extent possible -- perhaps through an increased EU role -- &#x000A;even as it competes with the growing influence of the U.S. &#x000A;and China. But both candidates understand they will no &#x000A;longer be able to rely (nor do they appear to want to) on the &#x000A;kinds of personal relationships that Chirac developed over &#x000A;many years with a number of African leaders. The departure &#x000A;of Chirac will allow the French foreign policy establishment &#x000A;a welcome opportunity to reevaluate French policy toward Cote &#x000A;d'Ivoire, Chad, and the Central African Republic. &#x000A;Inevitably, troop redeployments across Africa will come under &#x000A;consideration. &#x000A;&#x000A;NEITHER QUITE WHAT HE/SHE SEEMS &#x000A;------------------------------- &#x000A;&#x000A;<a id='par16' href='#par16'>¶</a>16. (C) Whoever is finally elected, we believe that the &#x000A;bilateral U.S.-France relationship will eventually settle &#x000A;&#x000A;PARIS 00000921 005 OF 005 &#x000A;&#x000A;&#x000A;into a kind of normal balance based on our enduring shared &#x000A;interests and values and the intertwined nature of our &#x000A;economies on the one hand, and the requirement of a distinct &#x000A;French voice and authentically independent positions in the &#x000A;international arena, on the other. In the case of Sarkozy, &#x000A;we believe it will be important not to set our expectations &#x000A;too high, since even his pragmatism will always be tempered &#x000A;by the Gaullist imperative of a French "difference," in &#x000A;particular vis-a-vis the U.S. As for Royal, although we &#x000A;would expect her, at least initially, to maintain more of a &#x000A;distanced approach to the U.S., there is no reason to believe &#x000A;that she would be anything but pragmatic over the longer &#x000A;term. In all likelihood, her personal comfort level would &#x000A;rise with increased contact and experience, and foreign &#x000A;policy under a Royal presidency would be characterized by the &#x000A;signature French mix of strategic convergence with the U.S., &#x000A;heavily marked by strategic differences and tactical &#x000A;disagreements. &#x000A;&#x000A;Please visit Paris' Classified Website at: &#x000A;http://www.state.sgov.gov/p/eur/paris/index.c fm &#x000A;&#x000A;STAPLETON</pre></code>
+</div>
+</div>
+<script src='/static/js/js.js' type='text/javascript'></script>
+</body>
+</html>

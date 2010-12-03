@@ -1,0 +1,723 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+<title>Cable Viewer</title>
+<link href='/static/gfx/favicon.ico' rel='shortcut icon' />
+<link href='/static/css/reset-fonts-grids.css' rel='stylesheet' type='text/css' />
+<link href='/static/css/cables.css' rel='stylesheet' type='text/css' />
+</head>
+<body>
+<div class='main'>
+<div class='pane small'>
+<a href='/index.html'>
+<img alt='WikiLeaks logo' src='/static/gfx/WL_Hour_Glass_small.png' />
+<p>Currently released so far... 597 / 251,287</p>
+</a>
+<div id='browse'>
+<h3>Articles</h3>
+<div class='sort'>
+<a href="/articles/2010/De-olho-nas-Olimpiadas-US-faz.html">Brazil</a>
+<a href="/articles/2010/Sri-Lankan-President-s-alleged-war.html">Sri Lanka</a>
+<a href="/articles/2010/Iraq-Inquiry-told-to-protect-US.html">United Kingdom</a>
+<a href="/articles/2010/USA-bekraftar-svensk-Natokoppling.html">Sweden</a>
+</div>
+<h3>Browse latest releases</h3>
+<div class='sort'>
+<a href='/reldate/2010-12-02_0.html'>2010/12/02</a>
+<a href='/reldate/2010-12-01_0.html'>2010/12/01</a>
+<a href='/reldate/2010-11-30_0.html'>2010/11/30</a>
+<a href='/reldate/2010-11-29_0.html'>2010/11/29</a>
+<a href='/reldate/2010-11-28_0.html'>2010/11/28</a>
+</div>
+<h3>Browse by creation <a href='#year_1966' onclick='return sha(0);'>date</a></h3>
+<div class='pick'>
+<a class='sort' href='#year_1966' onclick="return swap('year_1966');">66</a>
+<a class='sort' href='#year_1972' onclick="return swap('year_1972');">72</a>
+<a class='sort' href='#year_1975' onclick="return swap('year_1975');">75</a>
+<a class='sort' href='#year_1979' onclick="return swap('year_1979');">79</a>
+<a class='sort' href='#year_1986' onclick="return swap('year_1986');">86</a>
+<a class='sort' href='#year_1989' onclick="return swap('year_1989');">89</a>
+<a class='sort' href='#year_1990' onclick="return swap('year_1990');">90</a>
+<a class='sort' href='#year_2003' onclick="return swap('year_2003');">03</a>
+<a class='sort' href='#year_2004' onclick="return swap('year_2004');">04</a>
+<a class='sort' href='#year_2005' onclick="return swap('year_2005');">05</a>
+<a class='sort' href='#year_2006' onclick="return swap('year_2006');">06</a>
+<a class='sort' href='#year_2007' onclick="return swap('year_2007');">07</a>
+<a class='sort' href='#year_2008' onclick="return swap('year_2008');">08</a>
+<a class='sort' href='#year_2009' onclick="return swap('year_2009');">09</a>
+<a class='sort' href='#year_2010' onclick="return swap('year_2010');">10</a>
+</div>
+<div class='sort' id='year_1966'>
+<a href='/date/1966-12_0.html'>1966/12</a>
+</div>
+<div class='sort' id='year_1972'>
+<a href='/date/1972-02_0.html'>1972/02</a>
+<a href='/date/1972-08_0.html'>1972/08</a>
+</div>
+<div class='sort' id='year_1975'>
+<a href='/date/1975-03_0.html'>1975/03</a>
+</div>
+<div class='sort' id='year_1979'>
+<a href='/date/1979-08_0.html'>1979/08</a>
+</div>
+<div class='sort' id='year_1986'>
+<a href='/date/1986-05_0.html'>1986/05</a>
+</div>
+<div class='sort' id='year_1989'>
+<a href='/date/1989-12_0.html'>1989/12</a>
+</div>
+<div class='sort' id='year_1990'>
+<a href='/date/1990-01_0.html'>1990/01</a>
+</div>
+<div class='sort' id='year_2003'>
+<a href='/date/2003-06_0.html'>2003/06</a>
+</div>
+<div class='sort' id='year_2004'>
+<a href='/date/2004-01_0.html'>2004/01</a>
+<a href='/date/2004-02_0.html'>2004/02</a>
+<a href='/date/2004-04_0.html'>2004/04</a>
+<a href='/date/2004-11_0.html'>2004/11</a>
+<a href='/date/2004-12_0.html'>2004/12</a>
+</div>
+<div class='sort' id='year_2005'>
+<a href='/date/2005-01_0.html'>2005/01</a>
+<a href='/date/2005-03_0.html'>2005/03</a>
+<a href='/date/2005-04_0.html'>2005/04</a>
+<a href='/date/2005-05_0.html'>2005/05</a>
+<a href='/date/2005-06_0.html'>2005/06</a>
+<a href='/date/2005-07_0.html'>2005/07</a>
+<a href='/date/2005-08_0.html'>2005/08</a>
+<a href='/date/2005-10_0.html'>2005/10</a>
+<a href='/date/2005-11_0.html'>2005/11</a>
+<a href='/date/2005-12_0.html'>2005/12</a>
+</div>
+<div class='sort' id='year_2006'>
+<a href='/date/2006-01_0.html'>2006/01</a>
+<a href='/date/2006-02_0.html'>2006/02</a>
+<a href='/date/2006-03_0.html'>2006/03</a>
+<a href='/date/2006-04_0.html'>2006/04</a>
+<a href='/date/2006-05_0.html'>2006/05</a>
+<a href='/date/2006-06_0.html'>2006/06</a>
+<a href='/date/2006-07_0.html'>2006/07</a>
+<a href='/date/2006-08_0.html'>2006/08</a>
+<a href='/date/2006-09_0.html'>2006/09</a>
+<a href='/date/2006-10_0.html'>2006/10</a>
+<a href='/date/2006-11_0.html'>2006/11</a>
+<a href='/date/2006-12_0.html'>2006/12</a>
+</div>
+<div class='sort' id='year_2007'>
+<a href='/date/2007-01_0.html'>2007/01</a>
+<a href='/date/2007-02_0.html'>2007/02</a>
+<a href='/date/2007-03_0.html'>2007/03</a>
+<a href='/date/2007-04_0.html'>2007/04</a>
+<a href='/date/2007-05_0.html'>2007/05</a>
+<a href='/date/2007-06_0.html'>2007/06</a>
+<a href='/date/2007-07_0.html'>2007/07</a>
+<a href='/date/2007-08_0.html'>2007/08</a>
+<a href='/date/2007-09_0.html'>2007/09</a>
+<a href='/date/2007-10_0.html'>2007/10</a>
+<a href='/date/2007-11_0.html'>2007/11</a>
+<a href='/date/2007-12_0.html'>2007/12</a>
+</div>
+<div class='sort' id='year_2008'>
+<a href='/date/2008-01_0.html'>2008/01</a>
+<a href='/date/2008-02_0.html'>2008/02</a>
+<a href='/date/2008-03_0.html'>2008/03</a>
+<a href='/date/2008-04_0.html'>2008/04</a>
+<a href='/date/2008-05_0.html'>2008/05</a>
+<a href='/date/2008-07_0.html'>2008/07</a>
+<a href='/date/2008-08_0.html'>2008/08</a>
+<a href='/date/2008-09_0.html'>2008/09</a>
+<a href='/date/2008-10_0.html'>2008/10</a>
+<a href='/date/2008-11_0.html'>2008/11</a>
+<a href='/date/2008-12_0.html'>2008/12</a>
+</div>
+<div class='sort' id='year_2009'>
+<a href='/date/2009-01_0.html'>2009/01</a>
+<a href='/date/2009-02_0.html'>2009/02</a>
+<a href='/date/2009-03_0.html'>2009/03</a>
+<a href='/date/2009-04_0.html'>2009/04</a>
+<a href='/date/2009-05_0.html'>2009/05</a>
+<a href='/date/2009-06_0.html'>2009/06</a>
+<a href='/date/2009-07_0.html'>2009/07</a>
+<a href='/date/2009-08_0.html'>2009/08</a>
+<a href='/date/2009-09_0.html'>2009/09</a>
+<a href='/date/2009-10_0.html'>2009/10</a>
+<a href='/date/2009-11_0.html'>2009/11</a>
+<a href='/date/2009-12_0.html'>2009/12</a>
+</div>
+<div class='sort' id='year_2010'>
+<a href='/date/2010-01_0.html'>2010/01</a>
+<a href='/date/2010-02_0.html'>2010/02</a>
+</div>
+<h3>Browse by <a href='#by_A' onclick='return sha(1);'>origin</a></h3>
+<div class='pick'>
+<a class='sort' href='#by_A' onclick="return swap('by_A');">A</a>
+<a class='sort' href='#by_B' onclick="return swap('by_B');">B</a>
+<a class='sort' href='#by_C' onclick="return swap('by_C');">C</a>
+<a class='sort' href='#by_D' onclick="return swap('by_D');">D</a>
+<a class='sort' href='#by_H' onclick="return swap('by_H');">H</a>
+<a class='sort' href='#by_I' onclick="return swap('by_I');">I</a>
+<a class='sort' href='#by_J' onclick="return swap('by_J');">J</a>
+<a class='sort' href='#by_K' onclick="return swap('by_K');">K</a>
+<a class='sort' href='#by_L' onclick="return swap('by_L');">L</a>
+<a class='sort' href='#by_M' onclick="return swap('by_M');">M</a>
+<a class='sort' href='#by_N' onclick="return swap('by_N');">N</a>
+<a class='sort' href='#by_O' onclick="return swap('by_O');">O</a>
+<a class='sort' href='#by_P' onclick="return swap('by_P');">P</a>
+<a class='sort' href='#by_R' onclick="return swap('by_R');">R</a>
+<a class='sort' href='#by_S' onclick="return swap('by_S');">S</a>
+<a class='sort' href='#by_T' onclick="return swap('by_T');">T</a>
+<a class='sort' href='#by_U' onclick="return swap('by_U');">U</a>
+<a class='sort' href='#by_V' onclick="return swap('by_V');">V</a>
+</div>
+<div class='sort' id='by_A'>
+<a href='/origin/65_0.html'>Embassy Asuncion</a>
+<a href='/origin/66_0.html'>Embassy Astana</a>
+<a href='/origin/67_0.html'>Embassy Ashgabat</a>
+<a href='/origin/68_0.html'>Embassy Ankara</a>
+<a href='/origin/69_0.html'>Embassy Amman</a>
+<a href='/origin/70_0.html'>Embassy Algiers</a>
+<a href='/origin/71_0.html'>Embassy Abu Dhabi</a>
+</div>
+<div class='sort' id='by_B'>
+<a href='/origin/53_0.html'>Embassy Buenos Aires</a>
+<a href='/origin/54_0.html'>Embassy Bucharest</a>
+<a href='/origin/55_0.html'>Embassy Brussels</a>
+<a href='/origin/56_0.html'>Embassy Bridgetown</a>
+<a href='/origin/57_0.html'>Embassy Brasilia</a>
+<a href='/origin/58_0.html'>Embassy Bishkek</a>
+<a href='/origin/59_0.html'>Embassy Berlin</a>
+<a href='/origin/60_0.html'>Embassy Beirut</a>
+<a href='/origin/61_0.html'>Embassy Beijing</a>
+<a href='/origin/62_0.html'>Embassy Bangkok</a>
+<a href='/origin/63_0.html'>Embassy Baku</a>
+<a href='/origin/64_0.html'>Embassy Baghdad</a>
+</div>
+<div class='sort' id='by_C'>
+<a href='/origin/49_0.html'>Embassy Colombo</a>
+<a href='/origin/50_0.html'>Embassy Chisinau</a>
+<a href='/origin/51_0.html'>Embassy Caracas</a>
+<a href='/origin/52_0.html'>Embassy Cairo</a>
+<a href='/origin/82_0.html'>Consulate Cape Town</a>
+</div>
+<div class='sort' id='by_D'>
+<a href='/origin/44_0.html'>Embassy Dushanbe</a>
+<a href='/origin/45_0.html'>Embassy Dublin</a>
+<a href='/origin/46_0.html'>Embassy Doha</a>
+<a href='/origin/47_0.html'>Embassy Djibouti</a>
+<a href='/origin/48_0.html'>Embassy Damascus</a>
+<a href='/origin/81_0.html'>Consulate Dubai</a>
+</div>
+<div class='sort' id='by_H'>
+<a href='/origin/43_0.html'>Embassy Harare</a>
+<a href='/origin/80_0.html'>Consulate Hamburg</a>
+</div>
+<div class='sort' id='by_I'>
+<a href='/origin/5_0.html'>Iran RPO Dubai</a>
+<a href='/origin/42_0.html'>Embassy Islamabad</a>
+<a href='/origin/79_0.html'>Consulate Istanbul</a>
+</div>
+<div class='sort' id='by_J'>
+<a href='/origin/78_0.html'>Consulate Jeddah</a>
+</div>
+<div class='sort' id='by_K'>
+<a href='/origin/38_0.html'>Embassy Kyiv</a>
+<a href='/origin/39_0.html'>Embassy Kuwait</a>
+<a href='/origin/40_0.html'>Embassy Kuala Lumpur</a>
+<a href='/origin/41_0.html'>Embassy Kabul</a>
+</div>
+<div class='sort' id='by_L'>
+<a href='/origin/33_0.html'>Embassy Luxembourg</a>
+<a href='/origin/34_0.html'>Embassy London</a>
+<a href='/origin/35_0.html'>Embassy Lisbon</a>
+<a href='/origin/36_0.html'>Embassy Lima</a>
+<a href='/origin/37_0.html'>Embassy La Paz</a>
+</div>
+<div class='sort' id='by_M'>
+<a href='/origin/4_0.html'>Mission USNATO</a>
+<a href='/origin/28_0.html'>Embassy Muscat</a>
+<a href='/origin/29_0.html'>Embassy Moscow</a>
+<a href='/origin/30_0.html'>Embassy Mexico</a>
+<a href='/origin/31_0.html'>Embassy Manama</a>
+<a href='/origin/32_0.html'>Embassy Madrid</a>
+<a href='/origin/77_0.html'>Consulate Munich</a>
+</div>
+<div class='sort' id='by_N'>
+<a href='/origin/27_0.html'>Embassy New Delhi</a>
+</div>
+<div class='sort' id='by_O'>
+<a href='/origin/26_0.html'>Embassy Ottawa</a>
+</div>
+<div class='sort' id='by_P'>
+<a href='/origin/22_0.html'>Embassy Prague</a>
+<a href='/origin/23_0.html'>Embassy Port Au Prince</a>
+<a href='/origin/24_0.html'>Embassy Paris</a>
+<a href='/origin/25_0.html'>Embassy Panama</a>
+<a href='/origin/76_0.html'>Consulate Peshawar</a>
+</div>
+<div class='sort' id='by_R'>
+<a href='/origin/19_0.html'>Embassy Rome</a>
+<a href='/origin/20_0.html'>Embassy Riyadh</a>
+<a href='/origin/21_0.html'>Embassy Rabat</a>
+</div>
+<div class='sort' id='by_S'>
+<a href='/origin/3_0.html'>Secretary of State</a>
+<a href='/origin/14_0.html'>Embassy Stockholm</a>
+<a href='/origin/15_0.html'>Embassy Singapore</a>
+<a href='/origin/16_0.html'>Embassy Seoul</a>
+<a href='/origin/17_0.html'>Embassy Santiago</a>
+<a href='/origin/18_0.html'>Embassy Sanaa</a>
+<a href='/origin/73_0.html'>Consulate Shenyang</a>
+<a href='/origin/74_0.html'>Consulate Shanghai</a>
+<a href='/origin/75_0.html'>Consulate Sao Paulo</a>
+</div>
+<div class='sort' id='by_T'>
+<a href='/origin/8_0.html'>Embassy Tunis</a>
+<a href='/origin/9_0.html'>Embassy Tripoli</a>
+<a href='/origin/10_0.html'>Embassy Tel Aviv</a>
+<a href='/origin/11_0.html'>Embassy Tehran</a>
+<a href='/origin/12_0.html'>Embassy Tegucigalpa</a>
+<a href='/origin/13_0.html'>Embassy Tbilisi</a>
+</div>
+<div class='sort' id='by_U'>
+<a href='/origin/1_0.html'>USEU Brussels</a>
+<a href='/origin/2_0.html'>UNVIE</a>
+<a href='/origin/7_0.html'>Embassy Ulaanbaatar</a>
+</div>
+<div class='sort' id='by_V'>
+<a href='/origin/6_0.html'>Embassy Vienna</a>
+<a href='/origin/72_0.html'>Consulate Vladivostok</a>
+</div>
+<h3>Browse by <a href='#tag_A' onclick='return sha(2);'>tag</a></h3>
+<div class='pick'>
+<a class='sort' href='#tag_A' onclick="return swap('tag_A');">A</a>
+<a class='sort' href='#tag_B' onclick="return swap('tag_B');">B</a>
+<a class='sort' href='#tag_C' onclick="return swap('tag_C');">C</a>
+<a class='sort' href='#tag_D' onclick="return swap('tag_D');">D</a>
+<a class='sort' href='#tag_E' onclick="return swap('tag_E');">E</a>
+<a class='sort' href='#tag_F' onclick="return swap('tag_F');">F</a>
+<a class='sort' href='#tag_G' onclick="return swap('tag_G');">G</a>
+<a class='sort' href='#tag_H' onclick="return swap('tag_H');">H</a>
+<a class='sort' href='#tag_I' onclick="return swap('tag_I');">I</a>
+<a class='sort' href='#tag_J' onclick="return swap('tag_J');">J</a>
+<a class='sort' href='#tag_K' onclick="return swap('tag_K');">K</a>
+<a class='sort' href='#tag_L' onclick="return swap('tag_L');">L</a>
+<a class='sort' href='#tag_M' onclick="return swap('tag_M');">M</a>
+<a class='sort' href='#tag_N' onclick="return swap('tag_N');">N</a>
+<a class='sort' href='#tag_O' onclick="return swap('tag_O');">O</a>
+<a class='sort' href='#tag_P' onclick="return swap('tag_P');">P</a>
+<a class='sort' href='#tag_Q' onclick="return swap('tag_Q');">Q</a>
+<a class='sort' href='#tag_R' onclick="return swap('tag_R');">R</a>
+<a class='sort' href='#tag_S' onclick="return swap('tag_S');">S</a>
+<a class='sort' href='#tag_T' onclick="return swap('tag_T');">T</a>
+<a class='sort' href='#tag_U' onclick="return swap('tag_U');">U</a>
+<a class='sort' href='#tag_V' onclick="return swap('tag_V');">V</a>
+<a class='sort' href='#tag_W' onclick="return swap('tag_W');">W</a>
+<a class='sort' href='#tag_X' onclick="return swap('tag_X');">X</a>
+<a class='sort' href='#tag_Y' onclick="return swap('tag_Y');">Y</a>
+<a class='sort' href='#tag_Z' onclick="return swap('tag_Z');">Z</a>
+</div>
+<div class='sort' id='tag_A'>
+<a href='/tag/AU_0.html'>AU</a>
+<a href='/tag/AG_0.html'>AG</a>
+<a href='/tag/AF_0.html'>AF</a>
+<a href='/tag/AR_0.html'>AR</a>
+<a href='/tag/AE_0.html'>AE</a>
+<a href='/tag/AM_0.html'>AM</a>
+<a href='/tag/ASEC_0.html'>ASEC</a>
+<a href='/tag/AORC_0.html'>AORC</a>
+<a href='/tag/AMGT_0.html'>AMGT</a>
+<a href='/tag/APER_0.html'>APER</a>
+<a href='/tag/AJ_0.html'>AJ</a>
+<a href='/tag/AL_0.html'>AL</a>
+<a href='/tag/AGMT_0.html'>AGMT</a>
+<a href='/tag/AEMR_0.html'>AEMR</a>
+</div>
+<div class='sort' id='tag_B'>
+<a href='/tag/BA_0.html'>BA</a>
+<a href='/tag/BR_0.html'>BR</a>
+<a href='/tag/BE_0.html'>BE</a>
+<a href='/tag/BRUSSELS_0.html'>BRUSSELS</a>
+<a href='/tag/BIDEN_0.html'>BIDEN</a>
+<a href='/tag/BH_0.html'>BH</a>
+<a href='/tag/BL_0.html'>BL</a>
+<a href='/tag/BTIO_0.html'>BTIO</a>
+<a href='/tag/BEXP_0.html'>BEXP</a>
+<a href='/tag/BU_0.html'>BU</a>
+<a href='/tag/BY_0.html'>BY</a>
+<a href='/tag/BO_0.html'>BO</a>
+</div>
+<div class='sort' id='tag_C'>
+<a href='/tag/CA_0.html'>CA</a>
+<a href='/tag/CVIS_0.html'>CVIS</a>
+<a href='/tag/CMGT_0.html'>CMGT</a>
+<a href='/tag/CH_0.html'>CH</a>
+<a href='/tag/CASC_0.html'>CASC</a>
+<a href='/tag/CJAN_0.html'>CJAN</a>
+<a href='/tag/CLINTON_0.html'>CLINTON</a>
+<a href='/tag/CU_0.html'>CU</a>
+<a href='/tag/CD_0.html'>CD</a>
+<a href='/tag/CV_0.html'>CV</a>
+<a href='/tag/CO_0.html'>CO</a>
+<a href='/tag/CI_0.html'>CI</a>
+<a href='/tag/CS_0.html'>CS</a>
+<a href='/tag/CE_0.html'>CE</a>
+<a href='/tag/CY_0.html'>CY</a>
+<a href='/tag/CM_0.html'>CM</a>
+<a href='/tag/CF_0.html'>CF</a>
+<a href='/tag/CIA_0.html'>CIA</a>
+</div>
+<div class='sort' id='tag_D'>
+<a href='/tag/DJ_0.html'>DJ</a>
+</div>
+<div class='sort' id='tag_E'>
+<a href='/tag/EFIN_0.html'>EFIN</a>
+<a href='/tag/EPET_0.html'>EPET</a>
+<a href='/tag/ECON_0.html'>ECON</a>
+<a href='/tag/ENRG_0.html'>ENRG</a>
+<a href='/tag/EAID_0.html'>EAID</a>
+<a href='/tag/EINV_0.html'>EINV</a>
+<a href='/tag/EAIR_0.html'>EAIR</a>
+<a href='/tag/EUN_0.html'>EUN</a>
+<a href='/tag/ELAB_0.html'>ELAB</a>
+<a href='/tag/EU_0.html'>EU</a>
+<a href='/tag/ETTC_0.html'>ETTC</a>
+<a href='/tag/EG_0.html'>EG</a>
+<a href='/tag/ETRD_0.html'>ETRD</a>
+<a href='/tag/ELTN_0.html'>ELTN</a>
+<a href='/tag/EREL_0.html'>EREL</a>
+<a href='/tag/EAGR_0.html'>EAGR</a>
+<a href='/tag/EFIS_0.html'>EFIS</a>
+<a href='/tag/EWWT_0.html'>EWWT</a>
+<a href='/tag/EI_0.html'>EI</a>
+<a href='/tag/EIND_0.html'>EIND</a>
+<a href='/tag/EMIN_0.html'>EMIN</a>
+<a href='/tag/EZ_0.html'>EZ</a>
+<a href='/tag/EXTERNAL_0.html'>EXTERNAL</a>
+<a href='/tag/ECIP_0.html'>ECIP</a>
+<a href='/tag/ECPS_0.html'>ECPS</a>
+<a href='/tag/ECUN_0.html'>ECUN</a>
+<a href='/tag/ENVR_0.html'>ENVR</a>
+</div>
+<div class='sort' id='tag_F'>
+<a href='/tag/FR_0.html'>FR</a>
+<a href='/tag/FJ_0.html'>FJ</a>
+<a href='/tag/FINR_0.html'>FINR</a>
+</div>
+<div class='sort' id='tag_G'>
+<a href='/tag/GG_0.html'>GG</a>
+<a href='/tag/GM_0.html'>GM</a>
+<a href='/tag/GA_0.html'>GA</a>
+<a href='/tag/GOI_0.html'>GOI</a>
+<a href='/tag/GE_0.html'>GE</a>
+<a href='/tag/GR_0.html'>GR</a>
+<a href='/tag/GTMO_0.html'>GTMO</a>
+</div>
+<div class='sort' id='tag_H'>
+<a href='/tag/HO_0.html'>HO</a>
+<a href='/tag/HA_0.html'>HA</a>
+<a href='/tag/HILLARY_0.html'>HILLARY</a>
+<a href='/tag/HURI_0.html'>HURI</a>
+</div>
+<div class='sort' id='tag_I'>
+<a href='/tag/IS_0.html'>IS</a>
+<a href='/tag/IZ_0.html'>IZ</a>
+<a href='/tag/IR_0.html'>IR</a>
+<a href='/tag/IN_0.html'>IN</a>
+<a href='/tag/IQ_0.html'>IQ</a>
+<a href='/tag/IT_0.html'>IT</a>
+<a href='/tag/ICAO_0.html'>ICAO</a>
+<a href='/tag/IO_0.html'>IO</a>
+<a href='/tag/INRB_0.html'>INRB</a>
+<a href='/tag/IAEA_0.html'>IAEA</a>
+<a href='/tag/IRAJ_0.html'>IRAJ</a>
+<a href='/tag/INTERPOL_0.html'>INTERPOL</a>
+<a href='/tag/IMO_0.html'>IMO</a>
+<a href='/tag/ID_0.html'>ID</a>
+</div>
+<div class='sort' id='tag_J'>
+<a href='/tag/JA_0.html'>JA</a>
+<a href='/tag/JO_0.html'>JO</a>
+<a href='/tag/JOSEPH_0.html'>JOSEPH</a>
+<a href='/tag/JAMES_0.html'>JAMES</a>
+</div>
+<div class='sort' id='tag_K'>
+<a href='/tag/KPAO_0.html'>KPAO</a>
+<a href='/tag/KCRM_0.html'>KCRM</a>
+<a href='/tag/KTFN_0.html'>KTFN</a>
+<a href='/tag/KNNP_0.html'>KNNP</a>
+<a href='/tag/KFRD_0.html'>KFRD</a>
+<a href='/tag/KCOR_0.html'>KCOR</a>
+<a href='/tag/KTIP_0.html'>KTIP</a>
+<a href='/tag/KISL_0.html'>KISL</a>
+<a href='/tag/KU_0.html'>KU</a>
+<a href='/tag/KIRF_0.html'>KIRF</a>
+<a href='/tag/KJUS_0.html'>KJUS</a>
+<a href='/tag/KHLS_0.html'>KHLS</a>
+<a href='/tag/KAWK_0.html'>KAWK</a>
+<a href='/tag/KN_0.html'>KN</a>
+<a href='/tag/KZ_0.html'>KZ</a>
+<a href='/tag/KUNR_0.html'>KUNR</a>
+<a href='/tag/KS_0.html'>KS</a>
+<a href='/tag/KDEM_0.html'>KDEM</a>
+<a href='/tag/KACT_0.html'>KACT</a>
+<a href='/tag/KPRP_0.html'>KPRP</a>
+<a href='/tag/KWBG_0.html'>KWBG</a>
+<a href='/tag/KSCA_0.html'>KSCA</a>
+<a href='/tag/KG_0.html'>KG</a>
+<a href='/tag/KPAL_0.html'>KPAL</a>
+<a href='/tag/KMDR_0.html'>KMDR</a>
+<a href='/tag/KGHG_0.html'>KGHG</a>
+<a href='/tag/KDRG_0.html'>KDRG</a>
+<a href='/tag/KSPR_0.html'>KSPR</a>
+<a href='/tag/KWMN_0.html'>KWMN</a>
+<a href='/tag/KOLY_0.html'>KOLY</a>
+<a href='/tag/KPKO_0.html'>KPKO</a>
+<a href='/tag/KSEC_0.html'>KSEC</a>
+<a href='/tag/KTIA_0.html'>KTIA</a>
+<a href='/tag/KHIV_0.html'>KHIV</a>
+<a href='/tag/KGCC_0.html'>KGCC</a>
+<a href='/tag/KCIP_0.html'>KCIP</a>
+<a href='/tag/KBIO_0.html'>KBIO</a>
+<a href='/tag/KR_0.html'>KR</a>
+</div>
+<div class='sort' id='tag_L'>
+<a href='/tag/LY_0.html'>LY</a>
+<a href='/tag/LE_0.html'>LE</a>
+<a href='/tag/LU_0.html'>LU</a>
+<a href='/tag/LG_0.html'>LG</a>
+</div>
+<div class='sort' id='tag_M'>
+<a href='/tag/MNUC_0.html'>MNUC</a>
+<a href='/tag/MO_0.html'>MO</a>
+<a href='/tag/MARR_0.html'>MARR</a>
+<a href='/tag/MOPS_0.html'>MOPS</a>
+<a href='/tag/MASS_0.html'>MASS</a>
+<a href='/tag/MX_0.html'>MX</a>
+<a href='/tag/MTCRE_0.html'>MTCRE</a>
+<a href='/tag/MY_0.html'>MY</a>
+<a href='/tag/MCAP_0.html'>MCAP</a>
+<a href='/tag/MU_0.html'>MU</a>
+<a href='/tag/MP_0.html'>MP</a>
+<a href='/tag/ML_0.html'>ML</a>
+<a href='/tag/MR_0.html'>MR</a>
+<a href='/tag/MG_0.html'>MG</a>
+<a href='/tag/MAR_0.html'>MAR</a>
+<a href='/tag/MASC_0.html'>MASC</a>
+<a href='/tag/MPOS_0.html'>MPOS</a>
+<a href='/tag/MD_0.html'>MD</a>
+<a href='/tag/MOPPS_0.html'>MOPPS</a>
+<a href='/tag/MK_0.html'>MK</a>
+</div>
+<div class='sort' id='tag_N'>
+<a href='/tag/NATO_0.html'>NATO</a>
+<a href='/tag/NG_0.html'>NG</a>
+<a href='/tag/NI_0.html'>NI</a>
+<a href='/tag/NZ_0.html'>NZ</a>
+</div>
+<div class='sort' id='tag_O'>
+<a href='/tag/OVIP_0.html'>OVIP</a>
+<a href='/tag/OTRA_0.html'>OTRA</a>
+<a href='/tag/OPRC_0.html'>OPRC</a>
+<a href='/tag/OSCE_0.html'>OSCE</a>
+<a href='/tag/OEXC_0.html'>OEXC</a>
+<a href='/tag/OIIP_0.html'>OIIP</a>
+<a href='/tag/OTR_0.html'>OTR</a>
+</div>
+<div class='sort' id='tag_P'>
+<a href='/tag/PGOV_0.html'>PGOV</a>
+<a href='/tag/PARM_0.html'>PARM</a>
+<a href='/tag/PREL_0.html'>PREL</a>
+<a href='/tag/PINR_0.html'>PINR</a>
+<a href='/tag/PTER_0.html'>PTER</a>
+<a href='/tag/PK_0.html'>PK</a>
+<a href='/tag/PINS_0.html'>PINS</a>
+<a href='/tag/PREF_0.html'>PREF</a>
+<a href='/tag/PHUM_0.html'>PHUM</a>
+<a href='/tag/PE_0.html'>PE</a>
+<a href='/tag/PBTS_0.html'>PBTS</a>
+<a href='/tag/PA_0.html'>PA</a>
+<a href='/tag/PINT_0.html'>PINT</a>
+<a href='/tag/PL_0.html'>PL</a>
+<a href='/tag/PEPR_0.html'>PEPR</a>
+<a href='/tag/PM_0.html'>PM</a>
+<a href='/tag/PAK_0.html'>PAK</a>
+<a href='/tag/POL_0.html'>POL</a>
+<a href='/tag/PO_0.html'>PO</a>
+<a href='/tag/POLITICAL_0.html'>POLITICAL</a>
+<a href='/tag/PARTIES_0.html'>PARTIES</a>
+<a href='/tag/PGOF_0.html'>PGOF</a>
+<a href='/tag/PROP_0.html'>PROP</a>
+<a href='/tag/PBIO_0.html'>PBIO</a>
+<a href='/tag/PHSA_0.html'>PHSA</a>
+<a href='/tag/PSI_0.html'>PSI</a>
+</div>
+<div class='sort' id='tag_Q'>
+<a href='/tag/QA_0.html'>QA</a>
+</div>
+<div class='sort' id='tag_R'>
+<a href='/tag/RS_0.html'>RS</a>
+<a href='/tag/RU_0.html'>RU</a>
+<a href='/tag/RO_0.html'>RO</a>
+<a href='/tag/RW_0.html'>RW</a>
+</div>
+<div class='sort' id='tag_S'>
+<a href='/tag/SNAR_0.html'>SNAR</a>
+<a href='/tag/SA_0.html'>SA</a>
+<a href='/tag/SP_0.html'>SP</a>
+<a href='/tag/SHUM_0.html'>SHUM</a>
+<a href='/tag/SENV_0.html'>SENV</a>
+<a href='/tag/SOCI_0.html'>SOCI</a>
+<a href='/tag/SY_0.html'>SY</a>
+<a href='/tag/SW_0.html'>SW</a>
+<a href='/tag/SF_0.html'>SF</a>
+<a href='/tag/SG_0.html'>SG</a>
+<a href='/tag/SMIG_0.html'>SMIG</a>
+<a href='/tag/SR_0.html'>SR</a>
+<a href='/tag/SCUL_0.html'>SCUL</a>
+<a href='/tag/SYR_0.html'>SYR</a>
+<a href='/tag/SO_0.html'>SO</a>
+<a href='/tag/SU_0.html'>SU</a>
+<a href='/tag/STEINBERG_0.html'>STEINBERG</a>
+<a href='/tag/SN_0.html'>SN</a>
+<a href='/tag/SM_0.html'>SM</a>
+</div>
+<div class='sort' id='tag_T'>
+<a href='/tag/TS_0.html'>TS</a>
+<a href='/tag/TU_0.html'>TU</a>
+<a href='/tag/TW_0.html'>TW</a>
+<a href='/tag/TD_0.html'>TD</a>
+<a href='/tag/TI_0.html'>TI</a>
+<a href='/tag/TX_0.html'>TX</a>
+<a href='/tag/TH_0.html'>TH</a>
+<a href='/tag/TRGY_0.html'>TRGY</a>
+<a href='/tag/TC_0.html'>TC</a>
+<a href='/tag/TFIN_0.html'>TFIN</a>
+</div>
+<div class='sort' id='tag_U'>
+<a href='/tag/UK_0.html'>UK</a>
+<a href='/tag/US_0.html'>US</a>
+<a href='/tag/UP_0.html'>UP</a>
+<a href='/tag/UNO_0.html'>UNO</a>
+<a href='/tag/UZ_0.html'>UZ</a>
+<a href='/tag/UNSC_0.html'>UNSC</a>
+<a href='/tag/UN_0.html'>UN</a>
+<a href='/tag/USEU_0.html'>USEU</a>
+<a href='/tag/UV_0.html'>UV</a>
+<a href='/tag/UNMIK_0.html'>UNMIK</a>
+<a href='/tag/UNESCO_0.html'>UNESCO</a>
+<a href='/tag/UNGA_0.html'>UNGA</a>
+<a href='/tag/UAE_0.html'>UAE</a>
+<a href='/tag/UE_0.html'>UE</a>
+</div>
+<div class='sort' id='tag_V'>
+<a href='/tag/VE_0.html'>VE</a>
+<a href='/tag/VZ_0.html'>VZ</a>
+</div>
+<div class='sort' id='tag_W'>
+<a href='/tag/WTO_0.html'>WTO</a>
+</div>
+<div class='sort' id='tag_X'>
+<a href='/tag/XA_0.html'>XA</a>
+<a href='/tag/XL_0.html'>XL</a>
+<a href='/tag/XF_0.html'>XF</a>
+<a href='/tag/XH_0.html'>XH</a>
+<a href='/tag/XG_0.html'>XG</a>
+</div>
+<div class='sort' id='tag_Y'>
+<a href='/tag/YM_0.html'>YM</a>
+<a href='/tag/YI_0.html'>YI</a>
+</div>
+<div class='sort' id='tag_Z'>
+<a href='/tag/ZK_0.html'>ZK</a>
+<a href='/tag/ZP_0.html'>ZP</a>
+<a href='/tag/ZR_0.html'>ZR</a>
+<a href='/tag/ZF_0.html'>ZF</a>
+<a href='/tag/ZI_0.html'>ZI</a>
+</div>
+<h3>Browse by classification</h3>
+<div class='sort'>
+<a href='/classification/1_0.html' title='unclassified'>CONFIDENTIAL</a>
+<a href='/classification/2_0.html' title='secret'>CONFIDENTIAL//NOFORN</a>
+<a href='/classification/3_0.html' title='confidential'>SECRET</a>
+<a href='/classification/4_0.html' title='secret//noforn'>SECRET//NOFORN</a>
+<a href='/classification/5_0.html' title='unclassified//fouo'>UNCLASSIFIED</a>
+<a href='/classification/6_0.html' title='confidential//noforn'>UNCLASSIFIED//FOR OFFICIAL USE ONLY</a>
+</div>
+</div>
+<h3>Community resources</h3>
+<div class='sort'>
+<a href='http://twitter.com/wikileaks'>Follow us on Twitter</a>
+<a href='http://en.reddit.com/domain/wikileaks.org'>Check our Reddit</a>
+<a href='http://twitter.com/home?status=Reading%20http%3A%2F%2Fcablegate.wikileaks.org%2Fcable%2F2009%2F07%2F09BUENOSAIRES853.html%20%2309BUENOSAIRES853'>Twitter this</a>
+<a href='http://digg.com/submit?url=http%3A%2F%2Fcablegate.wikileaks.org%2Fcable%2F2009%2F07%2F09BUENOSAIRES853.html'>Digg this page</a>
+</div>
+<p>
+<i>
+courage is contagious
+</i>
+</p>
+</div>
+<div class='pane big'>
+<h3>Viewing cable 09BUENOSAIRES853, S/NF) ARGENTINA: WILL CRISTINA FINISH HER TERM?</h3>
+<div>
+If you are new to these pages, please read an introduction on the <a href="#help_1" onclick="return sh(1);">structure of a cable</a> as well as how to <a href="#help_2" onclick="return sh(2);">discuss them</a> with others. See also the <a href="/static/html/faq.html">FAQs</a>
+<br />
+</div>
+<div id='help_1'>
+<br />
+<b>Understanding cables</b>
+<br />
+Every cable message consists of three parts:
+<ul>
+<li>The top box shows each cables unique reference number, when and by whom it originally was sent, and what its initial classification was.</li>
+<li>The middle box contains the header information that is associated with the cable. It includes information about the receiver(s) as well as a general subject.</li>
+<li>The bottom box presents the body of the cable. The opening can contain a more specific subject, references to other cables (<a href="#by_A" onclick="swap('by_A'); setTimeout('document.location.href=(document.location.href + \'#by_A\').replace(/\#.*$/,\'#by_A\')', 100); return false;">browse by origin</a> to find them) or additional comment. This is followed by the main contents of the cable: a summary, a collection of specific topics and a comment section.</li>
+</ul>
+To understand the justification used for the classification of each cable, please use this <a href="http://en.wikisource.org/wiki/Executive_Order_13526#Part_1">WikiSource</a> article as reference.
+</div>
+<div id='help_2'>
+<br />
+<b>Discussing cables</b>
+<br />
+If you find meaningful or important information in a cable, please link directly to its unique reference number. Linking to a specific paragraph in the body of a cable is also possible by copying the appropriate link (to be found at theparagraph symbol).
+Please mark messages for social networking services like Twitter with the hash tags <b>#cablegate</b> and a hash containing the reference ID e.g. <b>#09BUENOSAIRES853</b>.
+</div>
+<div id='kus'>
+<a href='http://wikileaks.org/support.html' target='_blank'>KEEP US STRONG!</a>
+</div>
+<table class='cable'>
+<tr>
+<th>Reference ID</th>
+<th>Created</th>
+<th>Released</th>
+<th>Classification</th>
+<th>Origin</th>
+</tr>
+<tr>
+<td>
+<a href='/cable/2009/07/09BUENOSAIRES853.html'>09BUENOSAIRES853</a>
+</td>
+<td>
+<a href='/date/2009-07_0.html'>2009-07-22 16:04</a>
+</td>
+<td>
+<a href='/reldate/2010-11-30_0.html'>2010-11-30 16:04</a>
+</td>
+<td>
+<a href='/classification/3_0.html' title='confidential'>SECRET</a>
+</td>
+<td>
+<a href='/origin/53_0.html'>Embassy Buenos Aires</a>
+</td>
+</tr>
+</table>
+<code><pre>VZCZCXRO3809&#x000A;PP RUEHAO RUEHCD RUEHGA RUEHGD RUEHHA RUEHHO RUEHMC RUEHMT RUEHNG&#x000A;RUEHNL RUEHQU RUEHRD RUEHRG RUEHRS RUEHTM RUEHVC&#x000A;DE RUEHBU #0853/01 2031647&#x000A;ZNY SSSSS ZZH&#x000A;P 221647Z JUL 09&#x000A;FM AMEMBASSY BUENOS AIRES&#x000A;TO RUEHC/SECSTATE WASHDC PRIORITY 4112&#x000A;INFO RUEHWH/WESTERN HEMISPHERIC AFFAIRS DIPL POSTS&#x000A;RUEAIIA/CIA WASHINGTON DC&#x000A;RHEHAAA/NATIONAL SECURITY COUNCIL WASHINGTON DC&#x000A;RUEATRS/DEPT OF TREASURY WASHINGTON DC</pre></code>
+<code><pre>S E C R E T SECTION 01 OF 05 BUENOS AIRES 000853&#x000A;&#x000A;SIPDIS&#x000A;&#x000A;E.O. 12958: DECL: 07/22/2039&#x000A;TAGS: <a href='/tag/PGOV_0.html'>PGOV</a> <a href='/tag/ECON_0.html'>ECON</a> <a href='/tag/AR_0.html'>AR</a>&#x000A;SUBJECT: (S/NF) ARGENTINA: WILL CRISTINA FINISH HER TERM?&#x000A;&#x000A;REF: BUENOS AIRES 0827&#x000A;&#x000A;Classified By: CDA Tom Kelly for reasons b, d.&#x000A;&#x000A;<a id='par1' href='#par1'>¶</a>1. (S/NF) Summary/Introduction. The devastating setback&#x000A;dealt by Argentine voters to the government in the June 28&#x000A;mid-term elections has restored to respectability last year's&#x000A;fashionable political forecast -- that Cristina Fernandez de&#x000A;Kirchner (CFK) will not reach the end of her term as&#x000A;President in 2011. Like last year, some of this conjecture&#x000A;is little more than wishful thinking by the government's&#x000A;opponents, but not all of it. The ruling couple's political&#x000A;weakness, erratic behavior, looming economic challenges, and&#x000A;Argentina's history of truncated presidential terms lead some&#x000A;serious observers to worry about the government's staying&#x000A;power. A larger group of observers, this Mission included,&#x000A;believe that CFK will probably make it to the end of her&#x000A;term, if only by muddling through (reftel). In this report,&#x000A;we evaluate the main arguments behind the proposition that&#x000A;the Fernandez de Kirchner government will fall and explain&#x000A;why we and others think that, at present, that scenario&#x000A;remains unlikely. End Summary/Introduction.&#x000A;&#x000A;Kirchner Vulnerability: A New Phenomenon&#x000A;-----------------------------------------&#x000A;&#x000A;<a id='par2' href='#par2'>¶</a>2. (C) The Kirchners' political weakness is still a&#x000A;relatively new phenomenon, dating back to their mishandling&#x000A;of last year's farm protests. In the run-up to the October&#x000A;2007 presidential elections, public approval ratings for&#x000A;outgoing President Nestor Kirchner (NK) went as high as 77%,&#x000A;as Argentines credited him for the country's remarkable&#x000A;economic recovery after its 2001-02 economic meltdown.&#x000A;Buoyed by her husband's popularity, Cristina Fernandez de&#x000A;Kirchner (CFK) easily won the presidency in the first round&#x000A;of the 2007 election. With 45% of the vote, she outdistanced&#x000A;her nearest opponent by more than twenty percentage points&#x000A;and doubled the vote received in 2003 by NK, who was then the&#x000A;little-known governor of remote Santa Cruz. The ruling&#x000A;couple's considerable political capital dissipated last year&#x000A;as a consequence of their confrontation with the farm sector.&#x000A;CFK and NK's plummeting poll numbers, their sudden inability&#x000A;to stay ahead of the curve, and their abandonment by many of&#x000A;their allies set the stage for a humiliating Senate defeat of&#x000A;government legislation that would have ratified the export&#x000A;tax increase at the heart of the controversy one year ago.&#x000A;&#x000A;<a id='par3' href='#par3'>¶</a>3. (S/NF) This political rout led to speculation in 2008&#x000A;that CFK might fail to reach the end of her term -- which&#x000A;would make her the first elected Peronist president since the&#x000A;restoration of democracy in 1983 to meet that ignominious&#x000A;fate. We even spotted the graffitied question "Se Kae?"&#x000A;(roughly translated, "Kollapsing?") on a few Buenos Aires&#x000A;walls last year. Much of the speculation was fed by the&#x000A;government's most bitter opponents. Diego Guelar, a foreign&#x000A;policy advisor to Buenos Aires Mayor Mauricio Macri, told a&#x000A;visiting congressional staffer last August that "this&#x000A;government won't last 60 days" -- just minutes after his boss&#x000A;had said that it would. But there was concern within&#x000A;government circles. A former aide to Buenos Aires Province&#x000A;Governor Daniel Scioli confided to us recently that he and&#x000A;other colleagues had urged Scioli to break ranks with the&#x000A;Kirchners last year over the farm controversy. Scioli said&#x000A;he wouldn't because "If I do, they'll fall, and I'm no coup&#x000A;monger." During the farm crisis, the MFA even took the&#x000A;unusual step of registering its concern with the Embassy.&#x000A;Foreign Minister Taiana's Chief of Staff Alberto D'Alotto&#x000A;(protect) told a Mission contact in May 2008 that the MFA was&#x000A;"very concerned" about the government's staying power.&#x000A;&#x000A;The Prophets of Doom&#x000A;--------------------&#x000A;&#x000A;<a id='par4' href='#par4'>¶</a>4. (S/NF) In the end, the Kirchner government survived the&#x000A;farm crisis and made it into 2009. With its defeat in the&#x000A;June 28 mid-term election, the speculation has returned,&#x000A;though it has not reached last year's fever pitch. (A large&#x000A;majority of analysts do not/not feel that it is the most&#x000A;likely scenario.) Those who predict an early exit for the&#x000A;Kirchners tend to stress to varying degrees the following&#x000A;factors that, in their view, make a Kirchner collapse more&#x000A;likely:&#x000A;&#x000A;-- Political: The Kirchners' opponents smell blood after the&#x000A;June 28 election and are waiting for the right moment to&#x000A;remove them, abetted by a public that abhors weak leaders;&#x000A;&#x000A;-- Psychological: The Kirchner psychodrama is contributing to&#x000A;a series of bad decisions that will lead to the first&#x000A;couple's political demise; and&#x000A;&#x000A;BUENOS AIR 00000853 002 OF 005&#x000A;&#x000A;&#x000A;&#x000A;-- Economic: The ruling couple's post-election turn to the&#x000A;left dooms them to botch an increasingly difficult economic&#x000A;situation, sweeping CFK from office.&#x000A;&#x000A;Se Kae: Political Arguments and Scenarios&#x000A;-----------------------------------------&#x000A;&#x000A;<a id='par5' href='#par5'>¶</a>5. (C) There are some influential political analysts&#x000A;(Rosendo Fraga, and with less certainty, Manuel Mora y&#x000A;Araujo) who believe that this country's political volatility&#x000A;will cause CFK's fall from power. Mora y Araujo argues that&#x000A;Argentine society abhors weak political leadership. If&#x000A;Argentines sense that their ruler is enfeebled, he argues,&#x000A;they tend to collectively say "that's enough." The&#x000A;consequent withdrawal of support makes the damaged ruler&#x000A;vulnerable to overthrow by the scheming political class. The&#x000A;governor of Tierra del Fuego told the CDA that Argentines&#x000A;were "absolutists" in how they viewed politicians as either&#x000A;winners or losers, with no gray areas in between.&#x000A;&#x000A;<a id='par6' href='#par6'>¶</a>6. (C) Echoing a commonly heard refrain, pollster Doris&#x000A;Capurro adds that the Argentine press, particularly the&#x000A;dominant Clarin media group, often serves as "Coup Central."&#x000A;Clarin, she said, fomented Fernando de la Rua's departure&#x000A;from power in 2001, and its owners are fierce critics of the&#x000A;Kirchners. For their part, most politicians have focused on&#x000A;jockeying for future position, but a few important ones&#x000A;sometimes seem to be circling prey. Civic Coalition leader&#x000A;Elisa Carrio said soon after the GOA's mid-term loss that "if&#x000A;Cristina doesn't react within a week, she's going to have&#x000A;problems governing." Along the same lines, Radical leader&#x000A;Gerardo Morales said a few days ago that "if the (current)&#x000A;dialogue falls apart, the Government will have so little&#x000A;margin for error that anything could happen." Over the&#x000A;weekend, dissident labor leader Luis Barrionuevo said plainly&#x000A;that "I see Julio Cobos finishing Cristina's term."&#x000A;&#x000A;<a id='par7' href='#par7'>¶</a>7. (SBU) Fraga argues that the history of Argentina's&#x000A;post-dictatorship democracy does not bode well for the&#x000A;Kirchners. Over that 25-year period, three elected&#x000A;governments lost mid-terms. The two that were led by&#x000A;Radicals (Alfonsin in 1987 and de la Rua in 2001) did not&#x000A;survive; the one headed by a Peronist (Menem in 1997) made it&#x000A;to the term's end. But Fraga thinks that the Kirchners&#x000A;should take little comfort from Menem's survival. Unlike the&#x000A;Kirchners, Menem never lost control of the Congress nor his&#x000A;hold over the Peronist party. Economist Carlos Melconian&#x000A;adds that in 1997 "the economy was doing fine, and economic&#x000A;policy remained on autopilot until the presidential elections&#x000A;two years later."&#x000A;&#x000A;<a id='par8' href='#par8'>¶</a>8. (C) Fraga thinks that the Kirchners will fail to change&#x000A;course, leading to the gradual deterioration of their already&#x000A;dire political situation. He pointed out that with Manuel&#x000A;Zelaya's overthrow in Honduras, CFK (with approval ratings&#x000A;around 28%) is now the elected Latin American president with&#x000A;the lowest popularity rating in her country. According to&#x000A;Fraga, the December 10 seating of the victors of the June 28&#x000A;election will create a Congress with the power to remove CFK&#x000A;from office. (Note: Impeachment and removal from&#x000A;presidential office would actually require two-thirds support&#x000A;in each chamber of Congress, which the opposition -- even&#x000A;after December 10 -- will not have.) Fraga believes that&#x000A;Peronists and forces close to Vice President Julio Cobos will&#x000A;conspire to remove CFK from office to replace her with Cobos.&#x000A;Fraga describes the scenario as perfect for Peronists -- it&#x000A;removes the Kirchners from the scene, follows the&#x000A;Constitutional line of succession, and saddles Radical Cobos&#x000A;with the burden of taking the tough political decisions&#x000A;needed to govern Argentina in an economic downturn. For the&#x000A;non-Peronist opposition, the scenario seems less attractive&#x000A;-- a senior Radical politician has described it to us as a&#x000A;trap -- but Fraga maintains that the ambitious Vice President&#x000A;has already decided to accept power in such a circumstance.&#x000A;&#x000A;<a id='par9' href='#par9'>¶</a>9. (C) As for the Kirchners, Fraga claims that they&#x000A;(especially Nestor) may see this scenario as their best&#x000A;long-term bet if their political situation deteriorates&#x000A;further. They would portray CFK's forced removal from&#x000A;office, in this view, as an illegitimate usurpation of the&#x000A;democratic order, enabling them to escape to a sympathetic&#x000A;foreign country as democratic martyrs. They would then hope&#x000A;that the situation under Cobos would degenerate into&#x000A;political and economic chaos, helping to set the stage for&#x000A;their eventual political comeback. For Fraga, this strategy&#x000A;explains CFK's deep interest in the coup against Manuel&#x000A;Zelaya, which took place on the same weekend as her electoral&#x000A;setback. It also, he says, means that she will not resign,&#x000A;regardless of how bad the political situation.&#x000A;&#x000A;BUENOS AIR 00000853 003 OF 005&#x000A;&#x000A;&#x000A;&#x000A;Psychodrama: Behavioral Arguments&#x000A;----------------------------------&#x000A;&#x000A;<a id='par10' href='#par10'>¶</a>10. (S/NF) Other observers stress psychological factors in&#x000A;their prediction of an impending democratic crisis. This&#x000A;school of thought has two variants: that strongman NK is too&#x000A;set in his uncompromising ways to adapt, or that he (or he&#x000A;and CFK) are becoming increasingly erratic and incapable of&#x000A;governing. As a well-connected banker told us, the Kirchners&#x000A;could recover by altering course and embracing a more&#x000A;moderate and consensus-driven course, but NK in particular is&#x000A;incapable of change. Instead, in this view, he will embark&#x000A;on a disastrous jeremiad against internal "traitors" whom he&#x000A;blames for the electoral defeat, leading the government off a&#x000A;cliff. In support of this view, Fraga argues that Nestor's&#x000A;personality "cannot change," but that Argentine public&#x000A;opinion has. It no longer wants an obdurate fighter as it&#x000A;did when NK took office in 2003; these days, Argentines want&#x000A;consensual leadership that the Kirchners cannot and will not&#x000A;provide.&#x000A;&#x000A;<a id='par11' href='#par11'>¶</a>11. (S/NF) According to the second variant, Nestor has&#x000A;indeed changed. In fact, he's gone crazy. Jorge Brito, once&#x000A;known as "Nestor's banker," seems to believe this theory,&#x000A;confiding to the CDA that NK appears increasingly obsessive&#x000A;and disinclined to listen to advice. "He used to listen to&#x000A;me," Brito recalled, "but now he doesn't bother." Another&#x000A;banker told us that "Nestor has basically had a nervous&#x000A;breakdown."&#x000A;&#x000A;Economic Arguments: Surf's Up&#x000A;-----------------------------&#x000A;&#x000A;<a id='par12' href='#par12'>¶</a>12. (SBU) Some economists and financial market participants&#x000A;stress that economic factors are most likely to lead to the&#x000A;Kirchners' downfall. In the words of economist Carlos&#x000A;Melconian (a Macri ally), "whenever Argentine governments&#x000A;that came out weakened from mid-term elections faced a&#x000A;deteriorating economic situation, the result was an economic&#x000A;policy that aimed at 'surfing' the economic waves. However,&#x000A;the surfing strategy may have to be aborted halfway: the&#x000A;economy may collapse before the date of the presidential&#x000A;elections, as was the case in the Alfonsin-Menem transition&#x000A;between 1987 and 1989." In other words, unless CFK's&#x000A;government raises its economic policy game, it may face the&#x000A;same bleak fate as the Alfonsin and de la Rua governments.&#x000A;&#x000A;<a id='par13' href='#par13'>¶</a>13. (C/NF) But the prospects for more sensible economic&#x000A;policies seem slim, prompting some to suggest that the GOA&#x000A;will be overwhelmed by the economy's many problems. The&#x000A;GOA's economic policy team is an object of derision among&#x000A;serious economists here. Miguel Broda complains that&#x000A;"there's not a single serious macroeconomist on the whole&#x000A;Economy Ministry staff." Banker Brito described the GOA to&#x000A;us as "made up of people who can't even add or subtract." He&#x000A;was particularly scathing about Guillermo Moreno, the&#x000A;Internal Commerce Secretary who serves as NK's&#x000A;Interventionist in Chief, whom he called a "psychopath" who&#x000A;"thinks he's a genius" but "is as dumb as the rest of them."&#x000A;Mario Blejer, a former Central Bank chief and IMF Officer who&#x000A;reportedly turned down an offer to take over the Economy&#x000A;Ministry a few weeks ago, told the CDA that the problem is&#x000A;Nestor's control over GOA economic policy. According to&#x000A;Blejer, "Nestor knows nothing about economics, and to make&#x000A;matters worse, he thinks he does, so he doesn't listen to&#x000A;advice." This leads to an economic policy framework&#x000A;described by another former Central Bank president as&#x000A;"autistic."&#x000A;&#x000A;<a id='par14' href='#par14'>¶</a>14. (C/NF) These economy-focused pessimists disagree on what&#x000A;the precipitating cause of a government collapse might be.&#x000A;The financial community's leading bear, Deutsche Bank&#x000A;Argentina's president Marcelo Blanco, focuses on the&#x000A;possibility of another sovereign default, noting that the GOA&#x000A;faces several challenging payments in the near-term future,&#x000A;starting with more than US$ two billion in "Boden 2012"&#x000A;payments that come due in August. (According to Blejer,&#x000A;another US$10.5 billion in debt payments awaits the GOA in&#x000A;2010.) Blanco told econoff that he thought there was a "high&#x000A;probability" that the economy will spin out of control&#x000A;post-election and the Kirchners will ultimately be unable to&#x000A;govern.&#x000A;&#x000A;<a id='par15' href='#par15'>¶</a>15. (C/NF) Political analyst Jorge Castro stresses the&#x000A;government's fiscal situation as the Kirchners' Achilles&#x000A;heel. The GOA, he argues, is ungovernable without a fiscal&#x000A;surplus. If the central government's fiscal accounts fall&#x000A;into deficit, he said, the government could collapse. The&#x000A;Kirchners, in particular, have relied on their discretionary&#x000A;&#x000A;BUENOS AIR 00000853 004 OF 005&#x000A;&#x000A;&#x000A;control of federal revenue sharing to keep governors and&#x000A;mayors in line. If the GOA starts suffering cash flow&#x000A;problems, it could encounter political turbulence and have to&#x000A;contend with rebellious governors. Brito worries that&#x000A;radicalization of the regime's economic agenda could be the&#x000A;straw that breaks the camel's back. If NK pursues more&#x000A;radical economic measures, such as pursuing new&#x000A;nationalizations, he told us, the GOA's core of support would&#x000A;shrink from 30 to 15% percent of the population, setting the&#x000A;stage for its abrupt demise. Another economist, Orlando&#x000A;Ferreres, suggests that in such a scenario the Peronists&#x000A;would be the ones who depose CFK, reasoning that "no one is&#x000A;more conservative than a frightened Peronist."&#x000A;&#x000A;Why We Think CFK Will Make It to 2011&#x000A;-------------------------------------&#x000A;&#x000A;<a id='par16' href='#par16'>¶</a>16. (C/NF) This recompilation of many arguments making the&#x000A;rounds about the durability of CFK's regime is not intended&#x000A;to create the impression that the government is doomed. At&#x000A;the Mission, we believe that CFK will remain president until&#x000A;December 2011, and that remains the opinion of most of our&#x000A;interlocutors here -- a motley crew that includes&#x000A;anti-Kirchneristas like Eduardo Duhalde and Mauricio Macri,&#x000A;press moguls like Clarin managing director Jose Aranda, and&#x000A;former Kirchner Cabinet chief Alberto Fernandez. We recently&#x000A;wrote a cable (reftel) on the reasons why we thought that a&#x000A;muddling-through scenario was most likely. Rather than&#x000A;recapitulating all of those arguments here, we outline the&#x000A;main political and economic factors supporting the contention&#x000A;that CFK will remain president until 2011.&#x000A;&#x000A;<a id='par17' href='#par17'>¶</a>17. (C/NF) Our best-connected contacts in the political&#x000A;establishment tell us that the focus is on the 2011&#x000A;presidential election, not coup plotting. A key Macri aide&#x000A;tells us that the main contenders for the 2011 election --&#x000A;his boss, Carlos Reutemann, and Hermes Binner, to name a few&#x000A;-- have predicated their planning on CFK making it to the end&#x000A;of her term. None find taking the reins at a time of&#x000A;economic crisis particularly appealing, and CFK's premature&#x000A;departure could undermine their respective strategies for&#x000A;making it to the Casa Rosada in 2011, when the economy should&#x000A;be stronger. The preferences of these frontrunners are&#x000A;critical, because in the wake of the June 28 elections, they&#x000A;influence other political actors.&#x000A;&#x000A;<a id='par18' href='#par18'>¶</a>18. (C/NF) To further complicate the lives of would-be coup&#x000A;plotters, CFK is a Peronist. The fractious Peronist&#x000A;establishment, though undoubtedly disgruntled with the&#x000A;Kirchners, is unlikely to end CFK's term if those efforts&#x000A;could redound to the benefit of non-Peronist politicians.&#x000A;Political analyst Mora y Araujo notes that, since 1983,&#x000A;Peronist presidents have proven far harder to dislodge from&#x000A;office before the end of their term than non-Peronists. We&#x000A;would also point out that the Kirchners' forte is tactical --&#x000A;they are generally more nimble and adroit than their rivals&#x000A;and opponents. That said, NK is also a high-stakes gambler,&#x000A;often betting heavily on the element of surprise in dealing&#x000A;with his adversaries. Given his penchant for&#x000A;unpredictability, he could easily over-play his hand one of&#x000A;these days, and one of his "surprise" moves may backfire on&#x000A;him.&#x000A;&#x000A;<a id='par19' href='#par19'>¶</a>19. (C/NF) The fear factor also plays in CFK's favor.&#x000A;Opposition politicians from both the right (Mauricio Macri)&#x000A;and center-left (Radical leader Oscar Aguad) tell us that&#x000A;Argentines remember the chaos that followed Fernando de la&#x000A;Rua's departure from office in December 2001, and are not&#x000A;anxious to repeat the experience. Macri told a visiting U.S.&#x000A;Senate staffer last year that Argentines would be "happy" for&#x000A;the Kirchners to fall ("if this glass of water was the&#x000A;Kirchners, everyone would fight to push it over") except for&#x000A;one thing -- they fear that the government's collapse would&#x000A;risk a return to bedlam. Argentines also seem impassive or&#x000A;unmoved by outrageous cases of corruption or other&#x000A;developments that elsewhere would have caused major scandals&#x000A;("valijagate" comes to mind), making us wonder what it would&#x000A;take to get people into the streets.&#x000A;&#x000A;Most Think that the Economy Won't Push CFK from Office&#x000A;--------------------------------------------- ---------&#x000A;&#x000A;<a id='par20' href='#par20'>¶</a>20. (C) Most of Argentina's best economists think that the&#x000A;economic situation will not force the Kirchners from office.&#x000A;Many post contacts believe that the peso exchange rate is a&#x000A;barometer for popular confidence in the government. The fact&#x000A;that the GOA has been able to manage a deliberate, controlled&#x000A;devaluation of the peso for over eight months without a major&#x000A;run on the dollar, even after the June 28 electoral setback,&#x000A;argues for a stable outlook. The notion that the economy&#x000A;&#x000A;BUENOS AIR 00000853 005 OF 005&#x000A;&#x000A;&#x000A;will bring the Kirchners down ultimately rests on the premise&#x000A;that the government will lack the funds to meet its internal&#x000A;and external obligations. For over two years we have been&#x000A;hearing dire forecasts of an impending, overwhelming fiscal&#x000A;crunch just around the corner. However, two of our best&#x000A;contacts -- Javier Alvaredo, General Manager of BICE Bank,&#x000A;and Juan Carlos Barboza, the Central Bank's foreign exchange&#x000A;chief -- tell us with some confidence that the GOA will be&#x000A;able to meet its obligations. On the external debt payments&#x000A;front, both of them said independently that the GOA will have&#x000A;enough funds to meet debt payments in 2009 and 2010. They&#x000A;argue that 2010 will be easier than 2009 because no GDP&#x000A;warrant payment will come due (there is a big one in December&#x000A;2009). The market, as measured by country risk ratings and&#x000A;bond indices, does not seem spooked.&#x000A;&#x000A;<a id='par21' href='#par21'>¶</a>21. (SBU) Our contacts also tell us that the GOA is unlikely&#x000A;to run out of money before CFK's term ends. A contact in the&#x000A;Economy Ministry's Finance Secretariat insists that the GOA&#x000A;will meet its 2009 financing needs from public sector&#x000A;resources (e.g., the recent nationalization of private&#x000A;pension funds, which gives the GOA a huge pile of money to&#x000A;work with); inflows from International Financial Institutions&#x000A;like the World Bank and IDB; and liability management&#x000A;(buybacks, exchanges, etc.).&#x000A;&#x000A;<a id='par22' href='#par22'>¶</a>22. (SBU) There is also room for adjustment on the&#x000A;expenditure side. Economist Daniel Marx notes that the&#x000A;government's decision to move the mid-term election to June&#x000A;28 means that its pre-electoral spending spree was relatively&#x000A;brief this year, which will make it easier for the new&#x000A;Economy Minister Amado Boudou to reduce outlays for the&#x000A;balance of this year and next. Marx thinks that social&#x000A;spending and subsidies will plummet now that the election is&#x000A;over, easing fiscal pressure on the government (though he&#x000A;admits that other pressures, such as transfer payments to the&#x000A;provinces demanded by increasingly assertive and desperate&#x000A;governors, will increase).&#x000A;&#x000A;<a id='par23' href='#par23'>¶</a>23. (C/NF) Ultimately, popular support for, or tolerance of,&#x000A;the Kirchners rides on Argentines' relative sense of&#x000A;well-being. Barring another bout of hyper-inflation or&#x000A;government confiscation of savings or sudden uptick in&#x000A;unemployment, many Argentines are disinclined to rock the&#x000A;boat for now. Argentina is no stranger to nationwide general&#x000A;strikes that have paralyzed the country; it is a huge boon&#x000A;for the Kirchners that, for now, the bulk of organized labor&#x000A;(historically co-dependent on the Peronists) remains in their&#x000A;pockets.&#x000A;&#x000A;<a id='par24' href='#par24'>¶</a>24. (C/NF) Finally, time is probably on the Kirchners' side.&#x000A;Though the economy is currently in bad shape, Argentina's&#x000A;impressive human capital and natural resources will drive an&#x000A;eventual rebound. Argentina's debt levels are manageable,&#x000A;its return on capital high, and it enjoys several strong&#x000A;sectors (agriculture, mining, high tech) as well as a&#x000A;relatively competitive industrial sector and decent market&#x000A;size. This means that if the Kirchners make it to the middle&#x000A;of next year, with the external environment improving and&#x000A;some attractive presidential candidates in the mix for the&#x000A;2011 race, the proximity of the post-Kirchner era may by&#x000A;itself reverse capital inflows and jump-start a robust&#x000A;recovery -- which paradoxically could significantly reduce&#x000A;the chances that CFK will be removed from office prematurely.&#x000A;&#x000A;&#x000A;A Word on the Psychological Theory&#x000A;----------------------------------&#x000A;&#x000A;<a id='par25' href='#par25'>¶</a>25. (C/NF) As for the argument that the ruling couple's&#x000A;precarious psyches will lead to their fall from power,&#x000A;suffice it to say that this argument is highly speculative&#x000A;and anecdotal. Few people maintain that the president and&#x000A;her husband, both well into their fifties, have changed much&#x000A;over the past two years. As Fraga notes, it is Argentina&#x000A;that has changed, not them. That seems like a good (partial)&#x000A;explanation for why the Kirchners fared poorly and misplayed&#x000A;their hand in the mid-terms, but it does not necessarily mean&#x000A;that it will prevent CFK from reaching the end of her term.&#x000A;After all, the Kirchners have been abrasive, impervious to&#x000A;outside advice, and even paranoid through more than six years&#x000A;of presidential power, and they're still in the Casa Rosada.&#x000A;As long as the political establishment remains focused on the&#x000A;next presidential race and the economy doesn't suffer a&#x000A;meltdown, we expect that's where the Kirchners will stay&#x000A;until December 2011.&#x000A;KELLY</pre></code>
+</div>
+</div>
+<script src='/static/js/js.js' type='text/javascript'></script>
+</body>
+</html>

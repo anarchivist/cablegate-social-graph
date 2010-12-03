@@ -1,0 +1,729 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+<title>Cable Viewer</title>
+<link href='/static/gfx/favicon.ico' rel='shortcut icon' />
+<link href='/static/css/reset-fonts-grids.css' rel='stylesheet' type='text/css' />
+<link href='/static/css/cables.css' rel='stylesheet' type='text/css' />
+</head>
+<body>
+<div class='main'>
+<div class='pane small'>
+<a href='/index.html'>
+<img alt='WikiLeaks logo' src='/static/gfx/WL_Hour_Glass_small.png' />
+<p>Currently released so far... 597 / 251,287</p>
+</a>
+<div id='browse'>
+<h3>Articles</h3>
+<div class='sort'>
+<a href="/articles/2010/De-olho-nas-Olimpiadas-US-faz.html">Brazil</a>
+<a href="/articles/2010/Sri-Lankan-President-s-alleged-war.html">Sri Lanka</a>
+<a href="/articles/2010/Iraq-Inquiry-told-to-protect-US.html">United Kingdom</a>
+<a href="/articles/2010/USA-bekraftar-svensk-Natokoppling.html">Sweden</a>
+</div>
+<h3>Browse latest releases</h3>
+<div class='sort'>
+<a href='/reldate/2010-12-02_0.html'>2010/12/02</a>
+<a href='/reldate/2010-12-01_0.html'>2010/12/01</a>
+<a href='/reldate/2010-11-30_0.html'>2010/11/30</a>
+<a href='/reldate/2010-11-29_0.html'>2010/11/29</a>
+<a href='/reldate/2010-11-28_0.html'>2010/11/28</a>
+</div>
+<h3>Browse by creation <a href='#year_1966' onclick='return sha(0);'>date</a></h3>
+<div class='pick'>
+<a class='sort' href='#year_1966' onclick="return swap('year_1966');">66</a>
+<a class='sort' href='#year_1972' onclick="return swap('year_1972');">72</a>
+<a class='sort' href='#year_1975' onclick="return swap('year_1975');">75</a>
+<a class='sort' href='#year_1979' onclick="return swap('year_1979');">79</a>
+<a class='sort' href='#year_1986' onclick="return swap('year_1986');">86</a>
+<a class='sort' href='#year_1989' onclick="return swap('year_1989');">89</a>
+<a class='sort' href='#year_1990' onclick="return swap('year_1990');">90</a>
+<a class='sort' href='#year_2003' onclick="return swap('year_2003');">03</a>
+<a class='sort' href='#year_2004' onclick="return swap('year_2004');">04</a>
+<a class='sort' href='#year_2005' onclick="return swap('year_2005');">05</a>
+<a class='sort' href='#year_2006' onclick="return swap('year_2006');">06</a>
+<a class='sort' href='#year_2007' onclick="return swap('year_2007');">07</a>
+<a class='sort' href='#year_2008' onclick="return swap('year_2008');">08</a>
+<a class='sort' href='#year_2009' onclick="return swap('year_2009');">09</a>
+<a class='sort' href='#year_2010' onclick="return swap('year_2010');">10</a>
+</div>
+<div class='sort' id='year_1966'>
+<a href='/date/1966-12_0.html'>1966/12</a>
+</div>
+<div class='sort' id='year_1972'>
+<a href='/date/1972-02_0.html'>1972/02</a>
+<a href='/date/1972-08_0.html'>1972/08</a>
+</div>
+<div class='sort' id='year_1975'>
+<a href='/date/1975-03_0.html'>1975/03</a>
+</div>
+<div class='sort' id='year_1979'>
+<a href='/date/1979-08_0.html'>1979/08</a>
+</div>
+<div class='sort' id='year_1986'>
+<a href='/date/1986-05_0.html'>1986/05</a>
+</div>
+<div class='sort' id='year_1989'>
+<a href='/date/1989-12_0.html'>1989/12</a>
+</div>
+<div class='sort' id='year_1990'>
+<a href='/date/1990-01_0.html'>1990/01</a>
+</div>
+<div class='sort' id='year_2003'>
+<a href='/date/2003-06_0.html'>2003/06</a>
+</div>
+<div class='sort' id='year_2004'>
+<a href='/date/2004-01_0.html'>2004/01</a>
+<a href='/date/2004-02_0.html'>2004/02</a>
+<a href='/date/2004-04_0.html'>2004/04</a>
+<a href='/date/2004-11_0.html'>2004/11</a>
+<a href='/date/2004-12_0.html'>2004/12</a>
+</div>
+<div class='sort' id='year_2005'>
+<a href='/date/2005-01_0.html'>2005/01</a>
+<a href='/date/2005-03_0.html'>2005/03</a>
+<a href='/date/2005-04_0.html'>2005/04</a>
+<a href='/date/2005-05_0.html'>2005/05</a>
+<a href='/date/2005-06_0.html'>2005/06</a>
+<a href='/date/2005-07_0.html'>2005/07</a>
+<a href='/date/2005-08_0.html'>2005/08</a>
+<a href='/date/2005-10_0.html'>2005/10</a>
+<a href='/date/2005-11_0.html'>2005/11</a>
+<a href='/date/2005-12_0.html'>2005/12</a>
+</div>
+<div class='sort' id='year_2006'>
+<a href='/date/2006-01_0.html'>2006/01</a>
+<a href='/date/2006-02_0.html'>2006/02</a>
+<a href='/date/2006-03_0.html'>2006/03</a>
+<a href='/date/2006-04_0.html'>2006/04</a>
+<a href='/date/2006-05_0.html'>2006/05</a>
+<a href='/date/2006-06_0.html'>2006/06</a>
+<a href='/date/2006-07_0.html'>2006/07</a>
+<a href='/date/2006-08_0.html'>2006/08</a>
+<a href='/date/2006-09_0.html'>2006/09</a>
+<a href='/date/2006-10_0.html'>2006/10</a>
+<a href='/date/2006-11_0.html'>2006/11</a>
+<a href='/date/2006-12_0.html'>2006/12</a>
+</div>
+<div class='sort' id='year_2007'>
+<a href='/date/2007-01_0.html'>2007/01</a>
+<a href='/date/2007-02_0.html'>2007/02</a>
+<a href='/date/2007-03_0.html'>2007/03</a>
+<a href='/date/2007-04_0.html'>2007/04</a>
+<a href='/date/2007-05_0.html'>2007/05</a>
+<a href='/date/2007-06_0.html'>2007/06</a>
+<a href='/date/2007-07_0.html'>2007/07</a>
+<a href='/date/2007-08_0.html'>2007/08</a>
+<a href='/date/2007-09_0.html'>2007/09</a>
+<a href='/date/2007-10_0.html'>2007/10</a>
+<a href='/date/2007-11_0.html'>2007/11</a>
+<a href='/date/2007-12_0.html'>2007/12</a>
+</div>
+<div class='sort' id='year_2008'>
+<a href='/date/2008-01_0.html'>2008/01</a>
+<a href='/date/2008-02_0.html'>2008/02</a>
+<a href='/date/2008-03_0.html'>2008/03</a>
+<a href='/date/2008-04_0.html'>2008/04</a>
+<a href='/date/2008-05_0.html'>2008/05</a>
+<a href='/date/2008-07_0.html'>2008/07</a>
+<a href='/date/2008-08_0.html'>2008/08</a>
+<a href='/date/2008-09_0.html'>2008/09</a>
+<a href='/date/2008-10_0.html'>2008/10</a>
+<a href='/date/2008-11_0.html'>2008/11</a>
+<a href='/date/2008-12_0.html'>2008/12</a>
+</div>
+<div class='sort' id='year_2009'>
+<a href='/date/2009-01_0.html'>2009/01</a>
+<a href='/date/2009-02_0.html'>2009/02</a>
+<a href='/date/2009-03_0.html'>2009/03</a>
+<a href='/date/2009-04_0.html'>2009/04</a>
+<a href='/date/2009-05_0.html'>2009/05</a>
+<a href='/date/2009-06_0.html'>2009/06</a>
+<a href='/date/2009-07_0.html'>2009/07</a>
+<a href='/date/2009-08_0.html'>2009/08</a>
+<a href='/date/2009-09_0.html'>2009/09</a>
+<a href='/date/2009-10_0.html'>2009/10</a>
+<a href='/date/2009-11_0.html'>2009/11</a>
+<a href='/date/2009-12_0.html'>2009/12</a>
+</div>
+<div class='sort' id='year_2010'>
+<a href='/date/2010-01_0.html'>2010/01</a>
+<a href='/date/2010-02_0.html'>2010/02</a>
+</div>
+<h3>Browse by <a href='#by_A' onclick='return sha(1);'>origin</a></h3>
+<div class='pick'>
+<a class='sort' href='#by_A' onclick="return swap('by_A');">A</a>
+<a class='sort' href='#by_B' onclick="return swap('by_B');">B</a>
+<a class='sort' href='#by_C' onclick="return swap('by_C');">C</a>
+<a class='sort' href='#by_D' onclick="return swap('by_D');">D</a>
+<a class='sort' href='#by_H' onclick="return swap('by_H');">H</a>
+<a class='sort' href='#by_I' onclick="return swap('by_I');">I</a>
+<a class='sort' href='#by_J' onclick="return swap('by_J');">J</a>
+<a class='sort' href='#by_K' onclick="return swap('by_K');">K</a>
+<a class='sort' href='#by_L' onclick="return swap('by_L');">L</a>
+<a class='sort' href='#by_M' onclick="return swap('by_M');">M</a>
+<a class='sort' href='#by_N' onclick="return swap('by_N');">N</a>
+<a class='sort' href='#by_O' onclick="return swap('by_O');">O</a>
+<a class='sort' href='#by_P' onclick="return swap('by_P');">P</a>
+<a class='sort' href='#by_R' onclick="return swap('by_R');">R</a>
+<a class='sort' href='#by_S' onclick="return swap('by_S');">S</a>
+<a class='sort' href='#by_T' onclick="return swap('by_T');">T</a>
+<a class='sort' href='#by_U' onclick="return swap('by_U');">U</a>
+<a class='sort' href='#by_V' onclick="return swap('by_V');">V</a>
+</div>
+<div class='sort' id='by_A'>
+<a href='/origin/65_0.html'>Embassy Asuncion</a>
+<a href='/origin/66_0.html'>Embassy Astana</a>
+<a href='/origin/67_0.html'>Embassy Ashgabat</a>
+<a href='/origin/68_0.html'>Embassy Ankara</a>
+<a href='/origin/69_0.html'>Embassy Amman</a>
+<a href='/origin/70_0.html'>Embassy Algiers</a>
+<a href='/origin/71_0.html'>Embassy Abu Dhabi</a>
+</div>
+<div class='sort' id='by_B'>
+<a href='/origin/53_0.html'>Embassy Buenos Aires</a>
+<a href='/origin/54_0.html'>Embassy Bucharest</a>
+<a href='/origin/55_0.html'>Embassy Brussels</a>
+<a href='/origin/56_0.html'>Embassy Bridgetown</a>
+<a href='/origin/57_0.html'>Embassy Brasilia</a>
+<a href='/origin/58_0.html'>Embassy Bishkek</a>
+<a href='/origin/59_0.html'>Embassy Berlin</a>
+<a href='/origin/60_0.html'>Embassy Beirut</a>
+<a href='/origin/61_0.html'>Embassy Beijing</a>
+<a href='/origin/62_0.html'>Embassy Bangkok</a>
+<a href='/origin/63_0.html'>Embassy Baku</a>
+<a href='/origin/64_0.html'>Embassy Baghdad</a>
+</div>
+<div class='sort' id='by_C'>
+<a href='/origin/49_0.html'>Embassy Colombo</a>
+<a href='/origin/50_0.html'>Embassy Chisinau</a>
+<a href='/origin/51_0.html'>Embassy Caracas</a>
+<a href='/origin/52_0.html'>Embassy Cairo</a>
+<a href='/origin/82_0.html'>Consulate Cape Town</a>
+</div>
+<div class='sort' id='by_D'>
+<a href='/origin/44_0.html'>Embassy Dushanbe</a>
+<a href='/origin/45_0.html'>Embassy Dublin</a>
+<a href='/origin/46_0.html'>Embassy Doha</a>
+<a href='/origin/47_0.html'>Embassy Djibouti</a>
+<a href='/origin/48_0.html'>Embassy Damascus</a>
+<a href='/origin/81_0.html'>Consulate Dubai</a>
+</div>
+<div class='sort' id='by_H'>
+<a href='/origin/43_0.html'>Embassy Harare</a>
+<a href='/origin/80_0.html'>Consulate Hamburg</a>
+</div>
+<div class='sort' id='by_I'>
+<a href='/origin/5_0.html'>Iran RPO Dubai</a>
+<a href='/origin/42_0.html'>Embassy Islamabad</a>
+<a href='/origin/79_0.html'>Consulate Istanbul</a>
+</div>
+<div class='sort' id='by_J'>
+<a href='/origin/78_0.html'>Consulate Jeddah</a>
+</div>
+<div class='sort' id='by_K'>
+<a href='/origin/38_0.html'>Embassy Kyiv</a>
+<a href='/origin/39_0.html'>Embassy Kuwait</a>
+<a href='/origin/40_0.html'>Embassy Kuala Lumpur</a>
+<a href='/origin/41_0.html'>Embassy Kabul</a>
+</div>
+<div class='sort' id='by_L'>
+<a href='/origin/33_0.html'>Embassy Luxembourg</a>
+<a href='/origin/34_0.html'>Embassy London</a>
+<a href='/origin/35_0.html'>Embassy Lisbon</a>
+<a href='/origin/36_0.html'>Embassy Lima</a>
+<a href='/origin/37_0.html'>Embassy La Paz</a>
+</div>
+<div class='sort' id='by_M'>
+<a href='/origin/4_0.html'>Mission USNATO</a>
+<a href='/origin/28_0.html'>Embassy Muscat</a>
+<a href='/origin/29_0.html'>Embassy Moscow</a>
+<a href='/origin/30_0.html'>Embassy Mexico</a>
+<a href='/origin/31_0.html'>Embassy Manama</a>
+<a href='/origin/32_0.html'>Embassy Madrid</a>
+<a href='/origin/77_0.html'>Consulate Munich</a>
+</div>
+<div class='sort' id='by_N'>
+<a href='/origin/27_0.html'>Embassy New Delhi</a>
+</div>
+<div class='sort' id='by_O'>
+<a href='/origin/26_0.html'>Embassy Ottawa</a>
+</div>
+<div class='sort' id='by_P'>
+<a href='/origin/22_0.html'>Embassy Prague</a>
+<a href='/origin/23_0.html'>Embassy Port Au Prince</a>
+<a href='/origin/24_0.html'>Embassy Paris</a>
+<a href='/origin/25_0.html'>Embassy Panama</a>
+<a href='/origin/76_0.html'>Consulate Peshawar</a>
+</div>
+<div class='sort' id='by_R'>
+<a href='/origin/19_0.html'>Embassy Rome</a>
+<a href='/origin/20_0.html'>Embassy Riyadh</a>
+<a href='/origin/21_0.html'>Embassy Rabat</a>
+</div>
+<div class='sort' id='by_S'>
+<a href='/origin/3_0.html'>Secretary of State</a>
+<a href='/origin/14_0.html'>Embassy Stockholm</a>
+<a href='/origin/15_0.html'>Embassy Singapore</a>
+<a href='/origin/16_0.html'>Embassy Seoul</a>
+<a href='/origin/17_0.html'>Embassy Santiago</a>
+<a href='/origin/18_0.html'>Embassy Sanaa</a>
+<a href='/origin/73_0.html'>Consulate Shenyang</a>
+<a href='/origin/74_0.html'>Consulate Shanghai</a>
+<a href='/origin/75_0.html'>Consulate Sao Paulo</a>
+</div>
+<div class='sort' id='by_T'>
+<a href='/origin/8_0.html'>Embassy Tunis</a>
+<a href='/origin/9_0.html'>Embassy Tripoli</a>
+<a href='/origin/10_0.html'>Embassy Tel Aviv</a>
+<a href='/origin/11_0.html'>Embassy Tehran</a>
+<a href='/origin/12_0.html'>Embassy Tegucigalpa</a>
+<a href='/origin/13_0.html'>Embassy Tbilisi</a>
+</div>
+<div class='sort' id='by_U'>
+<a href='/origin/1_0.html'>USEU Brussels</a>
+<a href='/origin/2_0.html'>UNVIE</a>
+<a href='/origin/7_0.html'>Embassy Ulaanbaatar</a>
+</div>
+<div class='sort' id='by_V'>
+<a href='/origin/6_0.html'>Embassy Vienna</a>
+<a href='/origin/72_0.html'>Consulate Vladivostok</a>
+</div>
+<h3>Browse by <a href='#tag_A' onclick='return sha(2);'>tag</a></h3>
+<div class='pick'>
+<a class='sort' href='#tag_A' onclick="return swap('tag_A');">A</a>
+<a class='sort' href='#tag_B' onclick="return swap('tag_B');">B</a>
+<a class='sort' href='#tag_C' onclick="return swap('tag_C');">C</a>
+<a class='sort' href='#tag_D' onclick="return swap('tag_D');">D</a>
+<a class='sort' href='#tag_E' onclick="return swap('tag_E');">E</a>
+<a class='sort' href='#tag_F' onclick="return swap('tag_F');">F</a>
+<a class='sort' href='#tag_G' onclick="return swap('tag_G');">G</a>
+<a class='sort' href='#tag_H' onclick="return swap('tag_H');">H</a>
+<a class='sort' href='#tag_I' onclick="return swap('tag_I');">I</a>
+<a class='sort' href='#tag_J' onclick="return swap('tag_J');">J</a>
+<a class='sort' href='#tag_K' onclick="return swap('tag_K');">K</a>
+<a class='sort' href='#tag_L' onclick="return swap('tag_L');">L</a>
+<a class='sort' href='#tag_M' onclick="return swap('tag_M');">M</a>
+<a class='sort' href='#tag_N' onclick="return swap('tag_N');">N</a>
+<a class='sort' href='#tag_O' onclick="return swap('tag_O');">O</a>
+<a class='sort' href='#tag_P' onclick="return swap('tag_P');">P</a>
+<a class='sort' href='#tag_Q' onclick="return swap('tag_Q');">Q</a>
+<a class='sort' href='#tag_R' onclick="return swap('tag_R');">R</a>
+<a class='sort' href='#tag_S' onclick="return swap('tag_S');">S</a>
+<a class='sort' href='#tag_T' onclick="return swap('tag_T');">T</a>
+<a class='sort' href='#tag_U' onclick="return swap('tag_U');">U</a>
+<a class='sort' href='#tag_V' onclick="return swap('tag_V');">V</a>
+<a class='sort' href='#tag_W' onclick="return swap('tag_W');">W</a>
+<a class='sort' href='#tag_X' onclick="return swap('tag_X');">X</a>
+<a class='sort' href='#tag_Y' onclick="return swap('tag_Y');">Y</a>
+<a class='sort' href='#tag_Z' onclick="return swap('tag_Z');">Z</a>
+</div>
+<div class='sort' id='tag_A'>
+<a href='/tag/AU_0.html'>AU</a>
+<a href='/tag/AG_0.html'>AG</a>
+<a href='/tag/AF_0.html'>AF</a>
+<a href='/tag/AR_0.html'>AR</a>
+<a href='/tag/AE_0.html'>AE</a>
+<a href='/tag/AM_0.html'>AM</a>
+<a href='/tag/ASEC_0.html'>ASEC</a>
+<a href='/tag/AORC_0.html'>AORC</a>
+<a href='/tag/AMGT_0.html'>AMGT</a>
+<a href='/tag/APER_0.html'>APER</a>
+<a href='/tag/AJ_0.html'>AJ</a>
+<a href='/tag/AL_0.html'>AL</a>
+<a href='/tag/AGMT_0.html'>AGMT</a>
+<a href='/tag/AEMR_0.html'>AEMR</a>
+</div>
+<div class='sort' id='tag_B'>
+<a href='/tag/BA_0.html'>BA</a>
+<a href='/tag/BR_0.html'>BR</a>
+<a href='/tag/BE_0.html'>BE</a>
+<a href='/tag/BRUSSELS_0.html'>BRUSSELS</a>
+<a href='/tag/BIDEN_0.html'>BIDEN</a>
+<a href='/tag/BH_0.html'>BH</a>
+<a href='/tag/BL_0.html'>BL</a>
+<a href='/tag/BTIO_0.html'>BTIO</a>
+<a href='/tag/BEXP_0.html'>BEXP</a>
+<a href='/tag/BU_0.html'>BU</a>
+<a href='/tag/BY_0.html'>BY</a>
+<a href='/tag/BO_0.html'>BO</a>
+</div>
+<div class='sort' id='tag_C'>
+<a href='/tag/CA_0.html'>CA</a>
+<a href='/tag/CVIS_0.html'>CVIS</a>
+<a href='/tag/CMGT_0.html'>CMGT</a>
+<a href='/tag/CH_0.html'>CH</a>
+<a href='/tag/CASC_0.html'>CASC</a>
+<a href='/tag/CJAN_0.html'>CJAN</a>
+<a href='/tag/CLINTON_0.html'>CLINTON</a>
+<a href='/tag/CU_0.html'>CU</a>
+<a href='/tag/CD_0.html'>CD</a>
+<a href='/tag/CV_0.html'>CV</a>
+<a href='/tag/CO_0.html'>CO</a>
+<a href='/tag/CI_0.html'>CI</a>
+<a href='/tag/CS_0.html'>CS</a>
+<a href='/tag/CE_0.html'>CE</a>
+<a href='/tag/CY_0.html'>CY</a>
+<a href='/tag/CM_0.html'>CM</a>
+<a href='/tag/CF_0.html'>CF</a>
+<a href='/tag/CIA_0.html'>CIA</a>
+</div>
+<div class='sort' id='tag_D'>
+<a href='/tag/DJ_0.html'>DJ</a>
+</div>
+<div class='sort' id='tag_E'>
+<a href='/tag/EFIN_0.html'>EFIN</a>
+<a href='/tag/EPET_0.html'>EPET</a>
+<a href='/tag/ECON_0.html'>ECON</a>
+<a href='/tag/ENRG_0.html'>ENRG</a>
+<a href='/tag/EAID_0.html'>EAID</a>
+<a href='/tag/EINV_0.html'>EINV</a>
+<a href='/tag/EAIR_0.html'>EAIR</a>
+<a href='/tag/EUN_0.html'>EUN</a>
+<a href='/tag/ELAB_0.html'>ELAB</a>
+<a href='/tag/EU_0.html'>EU</a>
+<a href='/tag/ETTC_0.html'>ETTC</a>
+<a href='/tag/EG_0.html'>EG</a>
+<a href='/tag/ETRD_0.html'>ETRD</a>
+<a href='/tag/ELTN_0.html'>ELTN</a>
+<a href='/tag/EREL_0.html'>EREL</a>
+<a href='/tag/EAGR_0.html'>EAGR</a>
+<a href='/tag/EFIS_0.html'>EFIS</a>
+<a href='/tag/EWWT_0.html'>EWWT</a>
+<a href='/tag/EI_0.html'>EI</a>
+<a href='/tag/EIND_0.html'>EIND</a>
+<a href='/tag/EMIN_0.html'>EMIN</a>
+<a href='/tag/EZ_0.html'>EZ</a>
+<a href='/tag/EXTERNAL_0.html'>EXTERNAL</a>
+<a href='/tag/ECIP_0.html'>ECIP</a>
+<a href='/tag/ECPS_0.html'>ECPS</a>
+<a href='/tag/ECUN_0.html'>ECUN</a>
+<a href='/tag/ENVR_0.html'>ENVR</a>
+</div>
+<div class='sort' id='tag_F'>
+<a href='/tag/FR_0.html'>FR</a>
+<a href='/tag/FJ_0.html'>FJ</a>
+<a href='/tag/FINR_0.html'>FINR</a>
+</div>
+<div class='sort' id='tag_G'>
+<a href='/tag/GG_0.html'>GG</a>
+<a href='/tag/GM_0.html'>GM</a>
+<a href='/tag/GA_0.html'>GA</a>
+<a href='/tag/GOI_0.html'>GOI</a>
+<a href='/tag/GE_0.html'>GE</a>
+<a href='/tag/GR_0.html'>GR</a>
+<a href='/tag/GTMO_0.html'>GTMO</a>
+</div>
+<div class='sort' id='tag_H'>
+<a href='/tag/HO_0.html'>HO</a>
+<a href='/tag/HA_0.html'>HA</a>
+<a href='/tag/HILLARY_0.html'>HILLARY</a>
+<a href='/tag/HURI_0.html'>HURI</a>
+</div>
+<div class='sort' id='tag_I'>
+<a href='/tag/IS_0.html'>IS</a>
+<a href='/tag/IZ_0.html'>IZ</a>
+<a href='/tag/IR_0.html'>IR</a>
+<a href='/tag/IN_0.html'>IN</a>
+<a href='/tag/IQ_0.html'>IQ</a>
+<a href='/tag/IT_0.html'>IT</a>
+<a href='/tag/ICAO_0.html'>ICAO</a>
+<a href='/tag/IO_0.html'>IO</a>
+<a href='/tag/INRB_0.html'>INRB</a>
+<a href='/tag/IAEA_0.html'>IAEA</a>
+<a href='/tag/IRAJ_0.html'>IRAJ</a>
+<a href='/tag/INTERPOL_0.html'>INTERPOL</a>
+<a href='/tag/IMO_0.html'>IMO</a>
+<a href='/tag/ID_0.html'>ID</a>
+</div>
+<div class='sort' id='tag_J'>
+<a href='/tag/JA_0.html'>JA</a>
+<a href='/tag/JO_0.html'>JO</a>
+<a href='/tag/JOSEPH_0.html'>JOSEPH</a>
+<a href='/tag/JAMES_0.html'>JAMES</a>
+</div>
+<div class='sort' id='tag_K'>
+<a href='/tag/KPAO_0.html'>KPAO</a>
+<a href='/tag/KCRM_0.html'>KCRM</a>
+<a href='/tag/KTFN_0.html'>KTFN</a>
+<a href='/tag/KNNP_0.html'>KNNP</a>
+<a href='/tag/KFRD_0.html'>KFRD</a>
+<a href='/tag/KCOR_0.html'>KCOR</a>
+<a href='/tag/KTIP_0.html'>KTIP</a>
+<a href='/tag/KISL_0.html'>KISL</a>
+<a href='/tag/KU_0.html'>KU</a>
+<a href='/tag/KIRF_0.html'>KIRF</a>
+<a href='/tag/KJUS_0.html'>KJUS</a>
+<a href='/tag/KHLS_0.html'>KHLS</a>
+<a href='/tag/KAWK_0.html'>KAWK</a>
+<a href='/tag/KN_0.html'>KN</a>
+<a href='/tag/KZ_0.html'>KZ</a>
+<a href='/tag/KUNR_0.html'>KUNR</a>
+<a href='/tag/KS_0.html'>KS</a>
+<a href='/tag/KDEM_0.html'>KDEM</a>
+<a href='/tag/KACT_0.html'>KACT</a>
+<a href='/tag/KPRP_0.html'>KPRP</a>
+<a href='/tag/KWBG_0.html'>KWBG</a>
+<a href='/tag/KSCA_0.html'>KSCA</a>
+<a href='/tag/KG_0.html'>KG</a>
+<a href='/tag/KPAL_0.html'>KPAL</a>
+<a href='/tag/KMDR_0.html'>KMDR</a>
+<a href='/tag/KGHG_0.html'>KGHG</a>
+<a href='/tag/KDRG_0.html'>KDRG</a>
+<a href='/tag/KSPR_0.html'>KSPR</a>
+<a href='/tag/KWMN_0.html'>KWMN</a>
+<a href='/tag/KOLY_0.html'>KOLY</a>
+<a href='/tag/KPKO_0.html'>KPKO</a>
+<a href='/tag/KSEC_0.html'>KSEC</a>
+<a href='/tag/KTIA_0.html'>KTIA</a>
+<a href='/tag/KHIV_0.html'>KHIV</a>
+<a href='/tag/KGCC_0.html'>KGCC</a>
+<a href='/tag/KCIP_0.html'>KCIP</a>
+<a href='/tag/KBIO_0.html'>KBIO</a>
+<a href='/tag/KR_0.html'>KR</a>
+</div>
+<div class='sort' id='tag_L'>
+<a href='/tag/LY_0.html'>LY</a>
+<a href='/tag/LE_0.html'>LE</a>
+<a href='/tag/LU_0.html'>LU</a>
+<a href='/tag/LG_0.html'>LG</a>
+</div>
+<div class='sort' id='tag_M'>
+<a href='/tag/MNUC_0.html'>MNUC</a>
+<a href='/tag/MO_0.html'>MO</a>
+<a href='/tag/MARR_0.html'>MARR</a>
+<a href='/tag/MOPS_0.html'>MOPS</a>
+<a href='/tag/MASS_0.html'>MASS</a>
+<a href='/tag/MX_0.html'>MX</a>
+<a href='/tag/MTCRE_0.html'>MTCRE</a>
+<a href='/tag/MY_0.html'>MY</a>
+<a href='/tag/MCAP_0.html'>MCAP</a>
+<a href='/tag/MU_0.html'>MU</a>
+<a href='/tag/MP_0.html'>MP</a>
+<a href='/tag/ML_0.html'>ML</a>
+<a href='/tag/MR_0.html'>MR</a>
+<a href='/tag/MG_0.html'>MG</a>
+<a href='/tag/MAR_0.html'>MAR</a>
+<a href='/tag/MASC_0.html'>MASC</a>
+<a href='/tag/MPOS_0.html'>MPOS</a>
+<a href='/tag/MD_0.html'>MD</a>
+<a href='/tag/MOPPS_0.html'>MOPPS</a>
+<a href='/tag/MK_0.html'>MK</a>
+</div>
+<div class='sort' id='tag_N'>
+<a href='/tag/NATO_0.html'>NATO</a>
+<a href='/tag/NG_0.html'>NG</a>
+<a href='/tag/NI_0.html'>NI</a>
+<a href='/tag/NZ_0.html'>NZ</a>
+</div>
+<div class='sort' id='tag_O'>
+<a href='/tag/OVIP_0.html'>OVIP</a>
+<a href='/tag/OTRA_0.html'>OTRA</a>
+<a href='/tag/OPRC_0.html'>OPRC</a>
+<a href='/tag/OSCE_0.html'>OSCE</a>
+<a href='/tag/OEXC_0.html'>OEXC</a>
+<a href='/tag/OIIP_0.html'>OIIP</a>
+<a href='/tag/OTR_0.html'>OTR</a>
+</div>
+<div class='sort' id='tag_P'>
+<a href='/tag/PGOV_0.html'>PGOV</a>
+<a href='/tag/PARM_0.html'>PARM</a>
+<a href='/tag/PREL_0.html'>PREL</a>
+<a href='/tag/PINR_0.html'>PINR</a>
+<a href='/tag/PTER_0.html'>PTER</a>
+<a href='/tag/PK_0.html'>PK</a>
+<a href='/tag/PINS_0.html'>PINS</a>
+<a href='/tag/PREF_0.html'>PREF</a>
+<a href='/tag/PHUM_0.html'>PHUM</a>
+<a href='/tag/PE_0.html'>PE</a>
+<a href='/tag/PBTS_0.html'>PBTS</a>
+<a href='/tag/PA_0.html'>PA</a>
+<a href='/tag/PINT_0.html'>PINT</a>
+<a href='/tag/PL_0.html'>PL</a>
+<a href='/tag/PEPR_0.html'>PEPR</a>
+<a href='/tag/PM_0.html'>PM</a>
+<a href='/tag/PAK_0.html'>PAK</a>
+<a href='/tag/POL_0.html'>POL</a>
+<a href='/tag/PO_0.html'>PO</a>
+<a href='/tag/POLITICAL_0.html'>POLITICAL</a>
+<a href='/tag/PARTIES_0.html'>PARTIES</a>
+<a href='/tag/PGOF_0.html'>PGOF</a>
+<a href='/tag/PROP_0.html'>PROP</a>
+<a href='/tag/PBIO_0.html'>PBIO</a>
+<a href='/tag/PHSA_0.html'>PHSA</a>
+<a href='/tag/PSI_0.html'>PSI</a>
+</div>
+<div class='sort' id='tag_Q'>
+<a href='/tag/QA_0.html'>QA</a>
+</div>
+<div class='sort' id='tag_R'>
+<a href='/tag/RS_0.html'>RS</a>
+<a href='/tag/RU_0.html'>RU</a>
+<a href='/tag/RO_0.html'>RO</a>
+<a href='/tag/RW_0.html'>RW</a>
+</div>
+<div class='sort' id='tag_S'>
+<a href='/tag/SNAR_0.html'>SNAR</a>
+<a href='/tag/SA_0.html'>SA</a>
+<a href='/tag/SP_0.html'>SP</a>
+<a href='/tag/SHUM_0.html'>SHUM</a>
+<a href='/tag/SENV_0.html'>SENV</a>
+<a href='/tag/SOCI_0.html'>SOCI</a>
+<a href='/tag/SY_0.html'>SY</a>
+<a href='/tag/SW_0.html'>SW</a>
+<a href='/tag/SF_0.html'>SF</a>
+<a href='/tag/SG_0.html'>SG</a>
+<a href='/tag/SMIG_0.html'>SMIG</a>
+<a href='/tag/SR_0.html'>SR</a>
+<a href='/tag/SCUL_0.html'>SCUL</a>
+<a href='/tag/SYR_0.html'>SYR</a>
+<a href='/tag/SO_0.html'>SO</a>
+<a href='/tag/SU_0.html'>SU</a>
+<a href='/tag/STEINBERG_0.html'>STEINBERG</a>
+<a href='/tag/SN_0.html'>SN</a>
+<a href='/tag/SM_0.html'>SM</a>
+</div>
+<div class='sort' id='tag_T'>
+<a href='/tag/TS_0.html'>TS</a>
+<a href='/tag/TU_0.html'>TU</a>
+<a href='/tag/TW_0.html'>TW</a>
+<a href='/tag/TD_0.html'>TD</a>
+<a href='/tag/TI_0.html'>TI</a>
+<a href='/tag/TX_0.html'>TX</a>
+<a href='/tag/TH_0.html'>TH</a>
+<a href='/tag/TRGY_0.html'>TRGY</a>
+<a href='/tag/TC_0.html'>TC</a>
+<a href='/tag/TFIN_0.html'>TFIN</a>
+</div>
+<div class='sort' id='tag_U'>
+<a href='/tag/UK_0.html'>UK</a>
+<a href='/tag/US_0.html'>US</a>
+<a href='/tag/UP_0.html'>UP</a>
+<a href='/tag/UNO_0.html'>UNO</a>
+<a href='/tag/UZ_0.html'>UZ</a>
+<a href='/tag/UNSC_0.html'>UNSC</a>
+<a href='/tag/UN_0.html'>UN</a>
+<a href='/tag/USEU_0.html'>USEU</a>
+<a href='/tag/UV_0.html'>UV</a>
+<a href='/tag/UNMIK_0.html'>UNMIK</a>
+<a href='/tag/UNESCO_0.html'>UNESCO</a>
+<a href='/tag/UNGA_0.html'>UNGA</a>
+<a href='/tag/UAE_0.html'>UAE</a>
+<a href='/tag/UE_0.html'>UE</a>
+</div>
+<div class='sort' id='tag_V'>
+<a href='/tag/VE_0.html'>VE</a>
+<a href='/tag/VZ_0.html'>VZ</a>
+</div>
+<div class='sort' id='tag_W'>
+<a href='/tag/WTO_0.html'>WTO</a>
+</div>
+<div class='sort' id='tag_X'>
+<a href='/tag/XA_0.html'>XA</a>
+<a href='/tag/XL_0.html'>XL</a>
+<a href='/tag/XF_0.html'>XF</a>
+<a href='/tag/XH_0.html'>XH</a>
+<a href='/tag/XG_0.html'>XG</a>
+</div>
+<div class='sort' id='tag_Y'>
+<a href='/tag/YM_0.html'>YM</a>
+<a href='/tag/YI_0.html'>YI</a>
+</div>
+<div class='sort' id='tag_Z'>
+<a href='/tag/ZK_0.html'>ZK</a>
+<a href='/tag/ZP_0.html'>ZP</a>
+<a href='/tag/ZR_0.html'>ZR</a>
+<a href='/tag/ZF_0.html'>ZF</a>
+<a href='/tag/ZI_0.html'>ZI</a>
+</div>
+<h3>Browse by classification</h3>
+<div class='sort'>
+<a href='/classification/1_0.html' title='unclassified'>CONFIDENTIAL</a>
+<a href='/classification/2_0.html' title='secret'>CONFIDENTIAL//NOFORN</a>
+<a href='/classification/3_0.html' title='confidential'>SECRET</a>
+<a href='/classification/4_0.html' title='secret//noforn'>SECRET//NOFORN</a>
+<a href='/classification/5_0.html' title='unclassified//fouo'>UNCLASSIFIED</a>
+<a href='/classification/6_0.html' title='confidential//noforn'>UNCLASSIFIED//FOR OFFICIAL USE ONLY</a>
+</div>
+</div>
+<h3>Community resources</h3>
+<div class='sort'>
+<a href='http://twitter.com/wikileaks'>Follow us on Twitter</a>
+<a href='http://en.reddit.com/domain/wikileaks.org'>Check our Reddit</a>
+<a href='http://twitter.com/home?status=Reading%20http%3A%2F%2Fcablegate.wikileaks.org%2Fcable%2F2004%2F11%2F04OTTAWA3115.html%20%2304OTTAWA3115'>Twitter this</a>
+<a href='http://digg.com/submit?url=http%3A%2F%2Fcablegate.wikileaks.org%2Fcable%2F2004%2F11%2F04OTTAWA3115.html'>Digg this page</a>
+</div>
+<p>
+<i>
+courage is contagious
+</i>
+</p>
+</div>
+<div class='pane big'>
+<h3>Viewing cable 04OTTAWA3115, SCENESETTER FOR PRESIDENT BUSH,S VISIT TO CANADA,</h3>
+<div>
+If you are new to these pages, please read an introduction on the <a href="#help_1" onclick="return sh(1);">structure of a cable</a> as well as how to <a href="#help_2" onclick="return sh(2);">discuss them</a> with others. See also the <a href="/static/html/faq.html">FAQs</a>
+<br />
+</div>
+<div id='help_1'>
+<br />
+<b>Understanding cables</b>
+<br />
+Every cable message consists of three parts:
+<ul>
+<li>The top box shows each cables unique reference number, when and by whom it originally was sent, and what its initial classification was.</li>
+<li>The middle box contains the header information that is associated with the cable. It includes information about the receiver(s) as well as a general subject.</li>
+<li>The bottom box presents the body of the cable. The opening can contain a more specific subject, references to other cables (<a href="#by_A" onclick="swap('by_A'); setTimeout('document.location.href=(document.location.href + \'#by_A\').replace(/\#.*$/,\'#by_A\')', 100); return false;">browse by origin</a> to find them) or additional comment. This is followed by the main contents of the cable: a summary, a collection of specific topics and a comment section.</li>
+</ul>
+To understand the justification used for the classification of each cable, please use this <a href="http://en.wikisource.org/wiki/Executive_Order_13526#Part_1">WikiSource</a> article as reference.
+</div>
+<div id='help_2'>
+<br />
+<b>Discussing cables</b>
+<br />
+If you find meaningful or important information in a cable, please link directly to its unique reference number. Linking to a specific paragraph in the body of a cable is also possible by copying the appropriate link (to be found at theparagraph symbol).
+Please mark messages for social networking services like Twitter with the hash tags <b>#cablegate</b> and a hash containing the reference ID e.g. <b>#04OTTAWA3115</b>.
+</div>
+<div id='kus'>
+<a href='http://wikileaks.org/support.html' target='_blank'>KEEP US STRONG!</a>
+</div>
+<table class='cable'>
+<tr>
+<th>Reference ID</th>
+<th>Created</th>
+<th>Released</th>
+<th>Classification</th>
+<th>Origin</th>
+</tr>
+<tr>
+<td>
+<a href='/cable/2004/11/04OTTAWA3115.html'>04OTTAWA3115</a>
+</td>
+<td>
+<a href='/date/2004-11_0.html'>2004-11-18 19:07</a>
+</td>
+<td>
+<a href='/reldate/2010-12-01_0.html'>2010-12-01 18:06</a>
+</td>
+<td>
+<a href='/classification/4_0.html' title='secret//noforn'>SECRET//NOFORN</a>
+</td>
+<td>
+<a href='/origin/26_0.html'>Embassy Ottawa</a>
+</td>
+</tr>
+<tr>
+<td colspan='5'>
+Appears in these articles:<br />
+<a href='http://nytimes.com'>nytimes.com</a><br />
+</td>
+</tr>
+</table>
+<code><pre>This record is a partial extract of the original cable. The full text of the original cable is not available.</pre></code>
+<code><pre>S E C R E T SECTION 01 OF 04 OTTAWA 003115&#x000A;&#x000A;SIPDIS&#x000A;&#x000A;NOFORN&#x000A;&#x000A;NSC FOR NSA RICE&#x000A;&#x000A;E.O. 12958: DECL: 11/17/2009&#x000A;TAGS: <a href='/tag/CA_0.html'>CA</a> <a href='/tag/PGOV_0.html'>PGOV</a> <a href='/tag/PREL_0.html'>PREL</a>&#x000A;SUBJECT: SCENESETTER FOR PRESIDENT BUSH,S VISIT TO CANADA,&#x000A;NOVEMBER 30 - DECEMBER 1, 2004&#x000A;&#x000A;Classified By: Ambassador Cellucci, reasons 1.4 (b) (d)&#x000A;&#x000A;Summary and Key Themes&#x000A;----------------------&#x000A;&#x000A;<a id='par1' href='#par1'>¶</a>1. (C/NF) The Canadian Government and the Embassy strongly&#x000A;welcome your visit and the opportunities it will afford to&#x000A;advance our broad bilateral relationship.  The two key themes&#x000A;I would stress for your visit are partnership and&#x000A;reassurance.  The Canadians need to be reassured that at the&#x000A;end of the day, whatever tactical disagreements we may have&#x000A;over Iraq and individual trade cases, we are firmly united&#x000A;across the world,s longest undefended border by common&#x000A;values, shared political heritage, and the largest bilateral&#x000A;trading relationship in the planet,s history.  We need to&#x000A;send the message that we value Canada with no strings&#x000A;attached.  The early timing of this visit will help make this&#x000A;point.&#x000A;&#x000A;<a id='par2' href='#par2'>¶</a>2. (C/NF) Specifically, it would be very helpful if you came&#x000A;to Ottawa with three key public messages.  First, a positive&#x000A;signal demonstrating movement on BSE, short of resolution but&#x000A;beyond &we,re working on it.8  A firm date for completion&#x000A;of the regulation would give PM Martin a huge political boost&#x000A;and help beleaguered Canadian ranchers get through the&#x000A;winter.  Second, appreciation for the positive role Canadians&#x000A;play in the world as peacekeepers and in transmitting our&#x000A;shared political and cultural values to failed and failing&#x000A;states.  And third, personal thanks for our close cooperation&#x000A;in defending the continent against terrorism, both in border&#x000A;security, and in the larger fight to roll back the&#x000A;availability of weapons of mass destruction, contain the&#x000A;activities of terrorist groups, and support development that&#x000A;will provide alternatives to terrorism.&#x000A;&#x000A;<a id='par3' href='#par3'>¶</a>3. (C/NF) Several themes about the future would also be&#x000A;helpful for your private meetings.  You should note the&#x000A;substantial Canadian support to date for Iraq reconstruction&#x000A;and encourage Canada to play a larger role in the development&#x000A;of political and security institutions there.  You should&#x000A;promise continued close cooperation in places such as Sudan,&#x000A;Afghanistan, and Haiti, and solicit PM Martin,s views on how&#x000A;to best synergize our efforts.  And finally, you should&#x000A;commit to focus on settling our trade and environmental&#x000A;disputes.  End Summary&#x000A;&#x000A;Martin,s Minority Government Stable, but Weak&#x000A;---------------------------------------------&#x000A;&#x000A;<a id='par4' href='#par4'>¶</a>4. (C) After governing in majority for ten years, the Liberal&#x000A;Party called elections June 28 to gain a mandate for PM&#x000A;Martin, who succeeded Jean Chretien in December 2003.  The&#x000A;Liberals were hurt by a scandal involving the disbursement of&#x000A;public monies in Quebec, and the Martin government was&#x000A;reduced to minority status, the first in Canada since 1979.&#x000A;In the first week of Parliament, Martin was able to loosely&#x000A;win over the New Democratic Party, putting him neck-and-neck&#x000A;with the Conservatives and the separatist Bloc Quebecois.&#x000A;Both the Liberal-NDP and the Conservative-Bloc alignments are&#x000A;very tentative, however, and different issue-driven&#x000A;coalitions are likely to emerge on an ad hoc basis.&#x000A;&#x000A;<a id='par5' href='#par5'>¶</a>5. (SBU) Predictions on how long the government will last&#x000A;range from six months to two years.  Canadians do not want to&#x000A;go to the polls soon and the Government and Opposition know&#x000A;it.  But given the nature of Canada,s political system, the&#x000A;Government,s fall is never more than one bad decision away.&#x000A;&#x000A;<a id='par6' href='#par6'>¶</a>6. (C/NF) The Liberal's thin margin leads Martin to exercise&#x000A;extreme caution, which some observers are now touting as weak&#x000A;leadership.  The PM has made it clear that he will not try to&#x000A;carry out an aggressive agenda, and on issues such as missile&#x000A;defense, would just as soon wait rather than try to tackle it&#x000A;now and risk a negative vote.&#x000A;&#x000A;Seeking Canada,s Place in the World&#x000A;-----------------------------------&#x000A;&#x000A;<a id='par7' href='#par7'>¶</a>7. (SBU) All of this is taking place in the context of a&#x000A;certain amount of soul-searching here on Canada,s decline&#x000A;from &middle power8 status to that of an &active&#x000A;observer8 of global affairs, a trend which some Canadians&#x000A;believe should be reversed.  In the short term the country,s&#x000A;priorities are improving the quality of life for Canadian&#x000A;citizens and there is little support for increasing defense&#x000A;spending (currently among the lowest per capita in NATO) or&#x000A;the foreign affairs budget.  PM Martin has promised to focus&#x000A;his government on policies to perpetuate the &Canadian&#x000A;economic miracle,8 help cities, improve health care, and&#x000A;provide easier access to child-care.  However, he has also&#x000A;made modest increases in the defense budget and has announced&#x000A;plans to add 5,000 troops to the armed forces.&#x000A;&#x000A;Engagement on Homeland Security&#x000A;-------------------------------&#x000A;&#x000A;<a id='par8' href='#par8'>¶</a>8. (SBU) Within the constraints of weak public support and&#x000A;low funding, PM Martin has made his foreign affairs and&#x000A;homeland security bureaucracies more capable and has kept&#x000A;Canada selectively active in global issues.  In the wake of&#x000A;the September 11 attacks, Canada has implemented a range of&#x000A;practical measures that improve Canada,s homeland security&#x000A;while facilitating the flow of people and commerce across our&#x000A;common border.  Starting with the December 2001 Smart Border&#x000A;Action Plan with the U.S., changes include enhancements to&#x000A;aviation security, full compliance with UN and other&#x000A;multilateral conventions, and strengthening of financial&#x000A;controls.  In the fall of 2003 Canada undertook an aggressive&#x000A;reorganization of its security and border agencies,&#x000A;consolidating them into a structure similar to that of DHS,&#x000A;and in April 2004 rolled out its first-ever national security&#x000A;strategy.  Bilateral efforts have resulted in better&#x000A;information sharing, joint targeting, and smoother flow of&#x000A;low-risk traffic.&#x000A;&#x000A;<a id='par9' href='#par9'>¶</a>9. (S/NF) A potential irritant on the Canadian side that may&#x000A;be raised has to do with sharing of intelligence regarding&#x000A;Iraq operations.  The government is aware that we are&#x000A;creating a separate US-UK-Australia channel for sharing&#x000A;sensitive intelligence, including information that&#x000A;trationally has been U.S. eyes only.  The GOC has expressed&#x000A;concern at multiple levels that their exclusion from a&#x000A;traditional "four-eyes" construct is "punishment" for&#x000A;Canada,s non-participation in Iraq and they fear that the&#x000A;Iraq-related channel may evolve into a more permanent&#x000A;"three-eyes" only structure.  PM Martin may raise this with&#x000A;you privately.&#x000A;&#x000A;A Modest but Effective Agenda on Global Affairs&#x000A;--------------------------------------------- --&#x000A;&#x000A;<a id='par10' href='#par10'>¶</a>10. (C) PM Martin has also kept Canada in the game&#x000A;internationally.  In 2002 Ottawa sent 750 soldiers to&#x000A;Afghanistan where they served with distinction in Khandahar,&#x000A;and Canada led the maritime task force monitoring movement in&#x000A;the Persian Gulf, a service that began with an eye on&#x000A;Afghanistan but later was useful in the lead-up to Operation&#x000A;Iraqi Freedom.  Ottawa continued to support democratization&#x000A;in Afghanistan, leading the ISAF mission from February to&#x000A;August 2004, and contributing 2,300 of 7,100 troops.  Canada&#x000A;has been active in development and elections support for&#x000A;Afghanistan, committing USD 500 million to a wide-variety of&#x000A;programs through 2009.  Finally, Canada has pledged to deploy&#x000A;a Provincial Reconstruction Team, possibly to Khandahar, in&#x000A;the fall of 2005.&#x000A;&#x000A;<a id='par11' href='#par11'>¶</a>11. (C) In Haiti, Canada has provided civilian police&#x000A;officers, a sizable aid budget, and positive involvement in&#x000A;diplomatic efforts on the ground.  Canada has been largely in&#x000A;synch with our efforts to seek a durable solution to Sudan,s&#x000A;current and chronic crisis.  PM Martin, who met with&#x000A;President al-Bashir in Sudan last week, supports the&#x000A;&responsibility to protect8 as an obligation of each&#x000A;government and a core function of the international community&#x000A;through the United Nations.  Canada has allocated US$16&#x000A;million to support the African Union in Sudan.&#x000A;<a id='par12' href='#par12'>¶</a>12. (SBU) Despite opposition to our invasion of Iraq, Canada&#x000A;has offered strong support for Iraqi reconstruction, saying&#x000A;"we can't afford to fail."  The GOC quickly committed funds,&#x000A;pledging about US$ 240 million in Madrid, and made active&#x000A;efforts to leverage contributions from countries that were&#x000A;initially hesitant.  Over two-thirds of Canada's aid has been&#x000A;allocated and over half has been disbursed on projects such&#x000A;as police trainers in Jordan. Canada also supports Paris Club&#x000A;efforts on debt reduction.&#x000A;&#x000A;Trade and the Border: Vital Links for Canada&#x000A;--------------------------------------------&#x000A;&#x000A;<a id='par13' href='#par13'>¶</a>13. (SBU) The U.S. and Canada have the largest bilateral&#x000A;trade relationship in the history of the world and over 95%&#x000A;of that trade is trouble-free.  The billion dollars a day in&#x000A;trade with the U.S. generates about a third of Canada,s GDP,&#x000A;with energy exports and the integrated North American auto&#x000A;industry dominating the picture.&#x000A;<a id='par14' href='#par14'>¶</a>14. (SBU) Since implementation of NAFTA ten years ago,&#x000A;US-Canada trade has doubled.  Most Canadians see NAFTA as a&#x000A;success but are frustrated by its limits, thrown into relief&#x000A;by U.S. trade remedy actions on softwood lumber and pork.&#x000A;Expectations that NAFTA would give Canadians greater control&#x000A;over US actions have largely been disappointed.  The softwood&#x000A;case remains a long-running and intractable irritant; even&#x000A;so, Canadian lumber exports boomed last year in response to&#x000A;US housing demand.&#x000A;&#x000A;<a id='par15' href='#par15'>¶</a>15. (SBU) There are trade disputes and then there is beef.&#x000A;Reopening the border to trade in live cattle is Canada's most&#x000A;pressing bilateral concern and our top priority for this&#x000A;visit.  Cut out of our highly integrated North American&#x000A;market since 2003, Canadian ranchers have lost over $2&#x000A;billion to date.  Canada has spent $400 million on relief for&#x000A;the cattle industry, but many farmers and their suppliers may&#x000A;not survive another winter. Indefinite delays and the&#x000A;perceived unpredictability of the U.S. regulatory process&#x000A;have soured views of the U.S. in some of the most&#x000A;traditionally pro-American regions of Canada.  Issuance of&#x000A;the new rule, or at least a firm commitment to a date for&#x000A;completion, would help restore public confidence and give the&#x000A;GoC some political room to respond to other U.S. priorities.&#x000A;In the long term, failure to resolve the problem will result&#x000A;in two North American beef industries, reducing efficiencies&#x000A;and stiffening competition in traditional US export markets.&#x000A;Significantly, movement on beef will give Martin political&#x000A;space to cooperate more on security.&#x000A;&#x000A;<a id='par16' href='#par16'>¶</a>16. (U) Canada enjoys an enviable economic situation, with&#x000A;steady budget surpluses and the most sharply-reduced debt&#x000A;burden in the G-7.  Although the economic outlook is rosy,&#x000A;the currency's rapid appreciation against the U.S dollar,&#x000A;driven partly by rising commodity prices, could put a damper&#x000A;on exports, and there are concerns here about global&#x000A;imbalances and the sustainability of the U.S. economic&#x000A;recovery.  Even with strong economic fundamentals, Canadian&#x000A;GDP growth is projected to lag that of the U.S. in 2004.&#x000A;&#x000A;<a id='par17' href='#par17'>¶</a>17. (U) In addition to worries about exchange rate risk and&#x000A;perennial trade disputes, Canadians feel increasingly&#x000A;vulnerable to &border risk8.  Exporters worry about&#x000A;lengthening border delays due to infrastructure overload and&#x000A;to tighter security measures such as prior notice&#x000A;requirements.  Application of USVISIT fingerprint and photo&#x000A;requirements to Canadian non-citizen residents, and the&#x000A;possibility that eventually Canadians will require passports&#x000A;to enter the U.S., have sparked public anxiety among&#x000A;Canadians.  Businesses fear that future terrorist incidents&#x000A;could lead to catastrophic border closings and strongly&#x000A;support the GoC,s efforts to strengthen bilateral security&#x000A;cooperation.  Continued DHS engagement with Canada via the&#x000A;Smart Border Action Plan, the Ridge-McLellan dialogue, and&#x000A;regular working-level meetings, is a key element in managing&#x000A;this anxiety and addressing underlying problems.  The GoC is&#x000A;pushing to accelerate progress and add to the &Smart&#x000A;Border8 agenda in its version of the North American&#x000A;Initiative, &Beyond Smart Borders8.&#x000A;&#x000A;Energy Inter-Dependency&#x000A;-----------------------&#x000A;&#x000A;<a id='par18' href='#par18'>¶</a>18. (U) Canada is by far the United States' largest foreign&#x000A;source of energy.  It is our largest supplier of petroleum,&#x000A;as well as our leading external source of natural gas,&#x000A;uranium, and electric power.  With Alberta,s oil sands now&#x000A;classified as &proven reserves,8 Canada,s petroleum&#x000A;resources of 180 billion barrels are second only to Saudi&#x000A;Arabia,s.&#x000A;&#x000A;<a id='par19' href='#par19'>¶</a>19. (U) Canada,s northern territories contain large energy&#x000A;resources, notably natural gas deposits in the delta of the&#x000A;Mackenzie River, several hundred miles east of Alaska,s&#x000A;Prudhoe Bay.  The energy industry expects that two gas&#x000A;pipelines will be built, one from the Mackenzie Delta and the&#x000A;other from Alaska,s North Slope.  As the regulatory&#x000A;framework for the Alaska line develops, industry will have to&#x000A;determine the pipeline,s exact route both in Alaska and as&#x000A;it passes through Canada.&#x000A;&#x000A;<a id='par20' href='#par20'>¶</a>20. (U) Canada's electric power sector is interconnected at&#x000A;numerous points with the U.S. grid and has for decades been a&#x000A;large supplier of power to the U.S. market.  The U.S./Canada&#x000A;Joint Task Force that investigated the August 2003 power&#x000A;outage recommended the creation of a North American Electric&#x000A;Reliability Organization, which would implement mandatory&#x000A;standards for electricity transmission in both countries.&#x000A;Canadian players in this industry are intensely interested in&#x000A;the shape of proposed U.S. energy legislation, as it affects&#x000A;their future strategies.&#x000A;&#x000A;Environmental Issues&#x000A;--------------------&#x000A;&#x000A;<a id='par21' href='#par21'>¶</a>21. (U) The U.S. and Canada cooperate closely on a broad&#x000A;range of environmental issues. Together we have made&#x000A;significant progress on key issues, including trans-boundary&#x000A;air and water pollution, regulation of pesticides and&#x000A;chemicals and protection of the Great Lakes.&#x000A;&#x000A;<a id='par22' href='#par22'>¶</a>22. (C) There are, however, a number of thorny cross-border&#x000A;water issues still unresolved, including Canadian demands&#x000A;that the U.S. move a derelict fishing vessel (Victoria M)&#x000A;mistakenly scuttled in Canadian waters, controversy over the&#x000A;proposed clean-up of pollution of the Columbia River from a&#x000A;Canadian smelter in British Columbia and North Dakota,s&#x000A;plans to mitigate flooding at Devils Lake by pumping water&#x000A;through a canal system to the Red River.&#x000A;&#x000A;<a id='par23' href='#par23'>¶</a>23. (C) The Canadians have raised these issues before at&#x000A;senior levels and are likely to do so again.  The most&#x000A;pressing of these problems is Devils Lake, where Canada&#x000A;believes that the state outlet from the lake to the Red River&#x000A;would violate the Boundary Waters Treaty.  North Dakota has&#x000A;almost completed its canal system and plans to start pumping&#x000A;water in the spring of 2005.  Canada has asked for U.S.&#x000A;agreement to &refer8 this issue to the International Joint&#x000A;Commission for study and recommendations, but we have not yet&#x000A;responded to that request.  The Embassy believes it would be&#x000A;in our interest to agree to a &reference,8 tightly limited&#x000A;in scope and time-frame.&#x000A;&#x000A;<a id='par24' href='#par24'>¶</a>24. (U) Canada formally ratified the Kyoto Accord at the end&#x000A;of 2002, despite vocal opposition from some provincial&#x000A;governments and industries.  While political approaches to&#x000A;the climate change issue have differed between the U.S. and&#x000A;Canada, practical cooperation has been close.  In 2002, we&#x000A;signed agreements on Renewable Energy and Climate Science,&#x000A;and formed a bilateral Working Group on Climate Change.  Few&#x000A;Canadians understand just how much we do on climate change,&#x000A;reducing U.S. efforts only to Kyoto.  Canada participates in&#x000A;several U.S.-led multilateral initiatives, such as the Carbon&#x000A;Sequestration Leadership Forum and the International&#x000A;Partnership for the Hydrogen Economy.  We expect that they&#x000A;will soon join the Methane to Markets Partnership.&#x000A;&#x000A;Visit Canada's Classified Web Site at&#x000A;http://www.state.sgov.gov/p/wha/ottawa&#x000A;&#x000A;CELLUCCI</pre></code>
+</div>
+</div>
+<script src='/static/js/js.js' type='text/javascript'></script>
+</body>
+</html>
