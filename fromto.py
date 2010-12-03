@@ -32,18 +32,21 @@ def process_html(cable_dir):
         for f in filenames:
             if f.endswith('.html'):
                 html_file = os.path.join(dirpath, f)
+                
+                last = None
+                stations = hops(html_file)
 
                 # for every from/to edge add the nodes and edges to the graph
-                for fr, fr_region, to, to_region in fromto(html_file):
-                    sizes[fr] = sizes.get(fr, 0) + 1
-                    sizes[to] = sizes.get(to, 0) + 1
-                    if not g.has_node(fr):
-                        g.add_node(fr, {'region': fr_region}),
-                    if not g.has_node(to):
-                        g.add_node(to, {'region': to_region})
-                    if not g.has_edge((fr, to)):
-                        g.add_edge((fr, to))
-                    print "%s %s -> %s" % (html_file, fr, to)
+                for country, region in stations:
+                    sizes[country] = sizes.get(country, 0) + 1
+
+                    if not g.has_node(country):
+                        g.add_node(country, {'region': region})
+
+                    if last and not g.has_edge((last, country)):
+                        g.add_edge((last, country))
+
+                    last = country
 
     nodes = g.nodes()
     nodes.sort()
@@ -71,33 +74,68 @@ def process_html(cable_dir):
     open("cablegate.js", "w").write("var cablegate = %s" % json.dumps(data, indent=2))
 
 
-def fromto(html_file):
-    """the gnarly part
+def hops(html_file):
+    """the gnarly part that returns a list of hops from the originating
+    station through any intermediary stations to the final destination
+    Each hop in the list is a (country_name, region_name) tuple
     """
+    hops = []
     html = codecs.open(html_file, 'r', 'utf-8').read()
 
-    # for every from/to pair (cables can be sent to multiple people)
-    # yeild the from, to tuple
-    m = re.search('&#x000A;...? ([A-Z ]+?)(?:&#x000A;)+DE ([A-Z]+?) #\d+', html)
-    if m:
-        t, f = m.groups()
-        # can be sent to multiple places
-        for p in t.split(" "):
-            if not p: 
-                continue
-            yield country(f), region(f), country(p), region(p)
+    # extract from station
+    m1 = re.search('&#x000A;...? [A-Z ]+?(?:&#x000A;)+DE ([A-Z]+?) #\d+', html)
+    # extract intermediary stations
+    m2 = re.search('&#x000A;...? ([A-Z ]+?)(?:&#x000A;)+DE [A-Z]+? #\d+', html)
+    # extract destination station
+    m3 = re.search('&#x000A;TO ([A-Z]+)/[A-Z]+', html)
+
+    # need to at least have matches for the from and destination stations
+    if m1 and m3:
+        try: 
+            from_station = m1.group(1)
+            hops.append((country(from_station), region(from_station)))
+
+            # if we have any intermediary stations add them in
+            if m2:
+                intermediary_stations = m2.group(1)
+                for s in intermediary_stations.split(" "):
+                    # ignore empty strings
+                    if not s: 
+                        continue
+                    hops.append((country(s), region(s)))
+        
+            # final destination
+            dest_station = m3.group(1)
+            hops.append((country(dest_station), region(dest_station)))
+
+        except UnknownStation, e:
+            print "uhoh: %s" % e
+            return []
+
     else:
         print "didn't recognize: %s" % html_file
 
+    return hops
+
 
 def country(station):
-    station = station.strip()
-    return stations[station]['country_name']
+    try:
+        station = station.strip()
+        return stations[station]['country_name']
+    except KeyError:
+        raise UnknownStation("unknown station %s" % station)
 
 
 def region(station):
-    station = station.strip()
-    return stations[station]['region']
+    try: 
+        station = station.strip()
+        return stations[station]['region']
+    except KeyError:
+        raise UnknownStation(station)
+
+
+class UnknownStation(Exception):
+    pass
 
 
 if __name__ == "__main__":

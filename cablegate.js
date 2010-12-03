@@ -2,13 +2,13 @@ var cablegate = {
   "nodes": [
     {
       "region": null, 
-      "size": 77, 
+      "size": 50, 
       "nodeName": null, 
       "nodeTitle": null
     }, 
     {
       "region": "Asia", 
-      "size": 11, 
+      "size": 5, 
       "nodeName": "Afghanistan", 
       "nodeTitle": "Afghanistan"
     }, 
@@ -20,25 +20,25 @@ var cablegate = {
     }, 
     {
       "region": "South America", 
-      "size": 38, 
+      "size": 15, 
       "nodeName": "Argentina", 
       "nodeTitle": "Argentina"
     }, 
     {
       "region": "Europe", 
-      "size": 10, 
+      "size": 3, 
       "nodeName": "Austria", 
       "nodeTitle": "Austria"
     }, 
     {
       "region": "Asia", 
-      "size": 19, 
+      "size": 6, 
       "nodeName": "Azerbaijan", 
       "nodeTitle": "Azerbaijan"
     }, 
     {
       "region": "Asia", 
-      "size": 8, 
+      "size": 2, 
       "nodeName": "Bahrain", 
       "nodeTitle": "Bahrain"
     }, 
@@ -50,7 +50,7 @@ var cablegate = {
     }, 
     {
       "region": "Europe", 
-      "size": 18, 
+      "size": 4, 
       "nodeName": "Belgium", 
       "nodeTitle": "Belgium"
     }, 
@@ -68,31 +68,31 @@ var cablegate = {
     }, 
     {
       "region": "North America", 
-      "size": 55, 
+      "size": 43, 
       "nodeName": "Canada", 
       "nodeTitle": "Canada"
     }, 
     {
       "region": "South America", 
-      "size": 2, 
+      "size": 1, 
       "nodeName": "Chile", 
       "nodeTitle": "Chile"
     }, 
     {
       "region": "Asia", 
-      "size": 96, 
+      "size": 48, 
       "nodeName": "China", 
       "nodeTitle": "China"
     }, 
     {
       "region": "Europe", 
-      "size": 8, 
+      "size": 1, 
       "nodeName": "Czech Republic", 
       "nodeTitle": "Czech Republic"
     }, 
     {
       "region": "Africa", 
-      "size": 3, 
+      "size": 1, 
       "nodeName": "Djibouti", 
       "nodeTitle": "Djibouti"
     }, 
@@ -104,25 +104,25 @@ var cablegate = {
     }, 
     {
       "region": "Africa", 
-      "size": 12, 
+      "size": 7, 
       "nodeName": "Egypt", 
       "nodeTitle": "Egypt"
     }, 
     {
       "region": "Europe", 
-      "size": 73, 
+      "size": 25, 
       "nodeName": "England", 
       "nodeTitle": "England"
     }, 
     {
       "region": "Europe", 
-      "size": 332, 
+      "size": 135, 
       "nodeName": "France", 
       "nodeTitle": "France"
     }, 
     {
       "region": "Europe", 
-      "size": 189, 
+      "size": 83, 
       "nodeName": "Germany", 
       "nodeTitle": "Germany"
     }, 
@@ -146,13 +146,13 @@ var cablegate = {
     }, 
     {
       "region": "Asia", 
-      "size": 26, 
+      "size": 19, 
       "nodeName": "India", 
       "nodeTitle": "India"
     }, 
     {
       "region": "Asia", 
-      "size": 114, 
+      "size": 120, 
       "nodeName": "Iraq", 
       "nodeTitle": "Iraq"
     }, 
@@ -164,31 +164,25 @@ var cablegate = {
     }, 
     {
       "region": "Asia", 
-      "size": 26, 
+      "size": 18, 
       "nodeName": "Israel", 
       "nodeTitle": "Israel"
     }, 
     {
       "region": "Europe", 
-      "size": 286, 
+      "size": 280, 
       "nodeName": "Italy", 
       "nodeTitle": "Italy"
     }, 
     {
       "region": "Asia", 
-      "size": 73, 
+      "size": 66, 
       "nodeName": "Japan", 
       "nodeTitle": "Japan"
     }, 
     {
       "region": "Asia", 
-      "size": 1, 
-      "nodeName": "Jordan", 
-      "nodeTitle": "Jordan"
-    }, 
-    {
-      "region": "Asia", 
-      "size": 6, 
+      "size": 3, 
       "nodeName": "Kazakhstan", 
       "nodeTitle": "Kazakhstan"
     }, 
@@ -200,7 +194,7 @@ var cablegate = {
     }, 
     {
       "region": "Asia", 
-      "size": 9, 
+      "size": 2, 
       "nodeName": "Kyrgyzstan", 
       "nodeTitle": "Kyrgyzstan"
     }, 
@@ -212,7 +206,7 @@ var cablegate = {
     }, 
     {
       "region": "Africa", 
-      "size": 3, 
+      "size": 2, 
       "nodeName": "Lesotho", 
       "nodeTitle": "Lesotho"
     }, 
@@ -224,13 +218,13 @@ var cablegate = {
     }, 
     {
       "region": "Europe", 
-      "size": 9, 
+      "size": 1, 
       "nodeName": "Luxembourg", 
       "nodeTitle": "Luxembourg"
     }, 
     {
       "region": "Asia", 
-      "size": 4, 
+      "size": 1, 
       "nodeName": "Malaysia", 
       "nodeTitle": "Malaysia"
     }, 
@@ -248,7 +242,7 @@ var cablegate = {
     }, 
     {
       "region": "Africa", 
-      "size": 4, 
+      "size": 1, 
       "nodeName": "Morocco", 
       "nodeTitle": "Morocco"
     }, 
@@ -266,13 +260,13 @@ var cablegate = {
     }, 
     {
       "region": "Asia", 
-      "size": 5, 
+      "size": 3, 
       "nodeName": "Oman", 
       "nodeTitle": "Oman"
     }, 
     {
       "region": "Asia", 
-      "size": 221, 
+      "size": 166, 
       "nodeName": "Pakistan", 
       "nodeTitle": "Pakistan"
     }, 
@@ -290,25 +284,25 @@ var cablegate = {
     }, 
     {
       "region": "Europe", 
-      "size": 85, 
+      "size": 84, 
       "nodeName": "Poland", 
       "nodeTitle": "Poland"
     }, 
     {
       "region": "Asia", 
-      "size": 14, 
+      "size": 4, 
       "nodeName": "Qatar", 
       "nodeTitle": "Qatar"
     }, 
     {
       "region": "Europe", 
-      "size": 5, 
+      "size": 1, 
       "nodeName": "Romania", 
       "nodeTitle": "Romania"
     }, 
     {
       "region": "Europe", 
-      "size": 130, 
+      "size": 51, 
       "nodeName": "Russia", 
       "nodeTitle": "Russia"
     }, 
@@ -320,7 +314,7 @@ var cablegate = {
     }, 
     {
       "region": "Asia", 
-      "size": 53, 
+      "size": 26, 
       "nodeName": "Saudi Arabia", 
       "nodeTitle": "Saudi Arabia"
     }, 
@@ -332,13 +326,13 @@ var cablegate = {
     }, 
     {
       "region": "Europe", 
-      "size": 65, 
+      "size": 62, 
       "nodeName": "Slovakia", 
       "nodeTitle": "Slovakia"
     }, 
     {
       "region": "Europe", 
-      "size": 149, 
+      "size": 99, 
       "nodeName": "Spain", 
       "nodeTitle": "Spain"
     }, 
@@ -350,7 +344,7 @@ var cablegate = {
     }, 
     {
       "region": "Asia", 
-      "size": 105, 
+      "size": 102, 
       "nodeName": "Tajikistan", 
       "nodeTitle": "Tajikistan"
     }, 
@@ -362,31 +356,31 @@ var cablegate = {
     }, 
     {
       "region": "Asia", 
-      "size": 83, 
+      "size": 25, 
       "nodeName": "Turkey", 
       "nodeTitle": "Turkey"
     }, 
     {
       "region": "Asia", 
-      "size": 7, 
+      "size": 2, 
       "nodeName": "Turkmenistan", 
       "nodeTitle": "Turkmenistan"
     }, 
     {
       "region": "Asia", 
-      "size": 83, 
+      "size": 72, 
       "nodeName": "United Arab Emirates", 
       "nodeTitle": "United Arab Emirates"
     }, 
     {
       "region": "North America", 
-      "size": 179, 
+      "size": 556, 
       "nodeName": "United States", 
       "nodeTitle": "United States"
     }, 
     {
       "region": "South America", 
-      "size": 23, 
+      "size": 8, 
       "nodeName": "Venezuela", 
       "nodeTitle": "Venezuela"
     }, 
@@ -398,43 +392,83 @@ var cablegate = {
     }, 
     {
       "region": "Africa", 
-      "size": 2, 
+      "size": 1, 
       "nodeName": "Zimbabwe", 
       "nodeTitle": "Zimbabwe"
     }
   ], 
   "links": [
     {
+      "source": 16, 
+      "target": 28
+    }, 
+    {
+      "source": 16, 
+      "target": 64
+    }, 
+    {
+      "source": 11, 
+      "target": 38
+    }, 
+    {
+      "source": 11, 
+      "target": 62
+    }, 
+    {
       "source": 11, 
       "target": 11
     }, 
     {
-      "source": 49, 
-      "target": 63
+      "source": 11, 
+      "target": 0
     }, 
     {
-      "source": 49, 
-      "target": 25
-    }, 
-    {
-      "source": 49, 
-      "target": 28
-    }, 
-    {
-      "source": 49, 
-      "target": 36
-    }, 
-    {
-      "source": 49, 
+      "source": 48, 
       "target": 62
     }, 
     {
-      "source": 49, 
-      "target": 29
+      "source": 48, 
+      "target": 25
     }, 
     {
-      "source": 49, 
-      "target": 53
+      "source": 48, 
+      "target": 61
+    }, 
+    {
+      "source": 28, 
+      "target": 44
+    }, 
+    {
+      "source": 28, 
+      "target": 62
+    }, 
+    {
+      "source": 28, 
+      "target": 0
+    }, 
+    {
+      "source": 28, 
+      "target": 28
+    }, 
+    {
+      "source": 28, 
+      "target": 19
+    }, 
+    {
+      "source": 28, 
+      "target": 47
+    }, 
+    {
+      "source": 28, 
+      "target": 54
+    }, 
+    {
+      "source": 28, 
+      "target": 35
+    }, 
+    {
+      "source": 28, 
+      "target": 38
     }, 
     {
       "source": 28, 
@@ -442,83 +476,27 @@ var cablegate = {
     }, 
     {
       "source": 28, 
-      "target": 28
+      "target": 25
     }, 
     {
-      "source": 28, 
-      "target": 55
-    }, 
-    {
-      "source": 28, 
-      "target": 19
-    }, 
-    {
-      "source": 61, 
+      "source": 60, 
       "target": 21
     }, 
     {
-      "source": 61, 
+      "source": 60, 
       "target": 20
     }, 
     {
-      "source": 61, 
-      "target": 24
-    }, 
-    {
-      "source": 61, 
-      "target": 45
-    }, 
-    {
-      "source": 61, 
-      "target": 28
-    }, 
-    {
       "source": 1, 
-      "target": 58
+      "target": 57
     }, 
     {
-      "source": 1, 
-      "target": 45
+      "source": 33, 
+      "target": 62
     }, 
     {
-      "source": 1, 
-      "target": 55
-    }, 
-    {
-      "source": 1, 
-      "target": 63
-    }, 
-    {
-      "source": 34, 
-      "target": 63
-    }, 
-    {
-      "source": 37, 
+      "source": 36, 
       "target": 20
-    }, 
-    {
-      "source": 37, 
-      "target": 58
-    }, 
-    {
-      "source": 37, 
-      "target": 28
-    }, 
-    {
-      "source": 37, 
-      "target": 48
-    }, 
-    {
-      "source": 37, 
-      "target": 56
-    }, 
-    {
-      "source": 37, 
-      "target": 55
-    }, 
-    {
-      "source": 37, 
-      "target": 19
     }, 
     {
       "source": 19, 
@@ -526,27 +504,7 @@ var cablegate = {
     }, 
     {
       "source": 19, 
-      "target": 62
-    }, 
-    {
-      "source": 19, 
-      "target": 29
-    }, 
-    {
-      "source": 19, 
-      "target": 28
-    }, 
-    {
-      "source": 19, 
-      "target": 45
-    }, 
-    {
-      "source": 19, 
-      "target": 48
-    }, 
-    {
-      "source": 19, 
-      "target": 56
+      "target": 50
     }, 
     {
       "source": 19, 
@@ -554,23 +512,19 @@ var cablegate = {
     }, 
     {
       "source": 19, 
-      "target": 58
+      "target": 57
     }, 
     {
       "source": 19, 
-      "target": 19
+      "target": 62
     }, 
     {
       "source": 19, 
-      "target": 63
+      "target": 54
     }, 
     {
       "source": 19, 
-      "target": 16
-    }, 
-    {
-      "source": 19, 
-      "target": 46
+      "target": 28
     }, 
     {
       "source": 19, 
@@ -581,148 +535,52 @@ var cablegate = {
       "target": 0
     }, 
     {
-      "source": 19, 
-      "target": 55
+      "source": 54, 
+      "target": 62
     }, 
     {
-      "source": 19, 
-      "target": 36
+      "source": 54, 
+      "target": 19
+    }, 
+    {
+      "source": 54, 
+      "target": 35
     }, 
     {
       "source": 26, 
       "target": 20
     }, 
     {
-      "source": 0, 
-      "target": 58
-    }, 
-    {
-      "source": 0, 
-      "target": 28
-    }, 
-    {
-      "source": 0, 
-      "target": 48
-    }, 
-    {
-      "source": 0, 
-      "target": 56
-    }, 
-    {
-      "source": 0, 
-      "target": 19
-    }, 
-    {
-      "source": 0, 
-      "target": 55
-    }, 
-    {
-      "source": 0, 
-      "target": 20
-    }, 
-    {
-      "source": 0, 
-      "target": 63
-    }, 
-    {
-      "source": 0, 
-      "target": 59
-    }, 
-    {
-      "source": 0, 
-      "target": 13
-    }, 
-    {
-      "source": 0, 
-      "target": 16
-    }, 
-    {
-      "source": 0, 
-      "target": 65
+      "source": 26, 
+      "target": 62
     }, 
     {
       "source": 3, 
-      "target": 63
+      "target": 62
     }, 
     {
       "source": 3, 
-      "target": 39
-    }, 
-    {
-      "source": 3, 
-      "target": 11
+      "target": 38
     }, 
     {
       "source": 9, 
-      "target": 63
+      "target": 62
     }, 
     {
-      "source": 64, 
+      "source": 63, 
       "target": 20
     }, 
     {
-      "source": 64, 
-      "target": 43
-    }, 
-    {
-      "source": 64, 
-      "target": 39
-    }, 
-    {
-      "source": 64, 
-      "target": 28
-    }, 
-    {
-      "source": 64, 
-      "target": 55
-    }, 
-    {
-      "source": 64, 
-      "target": 19
-    }, 
-    {
-      "source": 64, 
-      "target": 63
-    }, 
-    {
-      "source": 64, 
-      "target": 25
-    }, 
-    {
-      "source": 64, 
+      "source": 63, 
       "target": 62
     }, 
     {
-      "source": 64, 
-      "target": 29
-    }, 
-    {
-      "source": 64, 
-      "target": 36
+      "source": 63, 
+      "target": 42
     }, 
     {
       "source": 14, 
-      "target": 58
-    }, 
-    {
-      "source": 14, 
-      "target": 28
-    }, 
-    {
-      "source": 14, 
-      "target": 48
-    }, 
-    {
-      "source": 14, 
-      "target": 56
-    }, 
-    {
-      "source": 14, 
-      "target": 55
-    }, 
-    {
-      "source": 14, 
-      "target": 19
+      "target": 57
     }, 
     {
       "source": 6, 
@@ -730,19 +588,7 @@ var cablegate = {
     }, 
     {
       "source": 6, 
-      "target": 62
-    }, 
-    {
-      "source": 6, 
-      "target": 29
-    }, 
-    {
-      "source": 6, 
-      "target": 36
-    }, 
-    {
-      "source": 6, 
-      "target": 53
+      "target": 61
     }, 
     {
       "source": 27, 
@@ -750,103 +596,67 @@ var cablegate = {
     }, 
     {
       "source": 27, 
-      "target": 63
-    }, 
-    {
-      "source": 27, 
-      "target": 25
-    }, 
-    {
-      "source": 27, 
       "target": 62
     }, 
     {
       "source": 27, 
-      "target": 29
-    }, 
-    {
-      "source": 27, 
-      "target": 36
+      "target": 25
     }, 
     {
       "source": 2, 
-      "target": 63
+      "target": 62
     }, 
     {
-      "source": 38, 
+      "source": 37, 
+      "target": 58
+    }, 
+    {
+      "source": 59, 
+      "target": 62
+    }, 
+    {
+      "source": 59, 
+      "target": 57
+    }, 
+    {
+      "source": 59, 
+      "target": 54
+    }, 
+    {
+      "source": 59, 
+      "target": 25
+    }, 
+    {
+      "source": 59, 
       "target": 59
     }, 
     {
-      "source": 38, 
-      "target": 16
-    }, 
-    {
-      "source": 38, 
-      "target": 65
-    }, 
-    {
-      "source": 38, 
-      "target": 29
-    }, 
-    {
-      "source": 60, 
-      "target": 63
-    }, 
-    {
-      "source": 60, 
-      "target": 58
-    }, 
-    {
-      "source": 60, 
+      "source": 59, 
       "target": 28
     }, 
     {
-      "source": 60, 
-      "target": 48
-    }, 
-    {
-      "source": 60, 
-      "target": 56
-    }, 
-    {
-      "source": 60, 
-      "target": 19
-    }, 
-    {
-      "source": 60, 
-      "target": 55
-    }, 
-    {
-      "source": 60, 
-      "target": 25
-    }, 
-    {
-      "source": 60, 
+      "source": 31, 
       "target": 62
     }, 
     {
-      "source": 60, 
-      "target": 29
+      "source": 39, 
+      "target": 0
     }, 
     {
-      "source": 60, 
-      "target": 36
-    }, 
-    {
-      "source": 32, 
-      "target": 63
+      "source": 39, 
+      "target": 51
     }, 
     {
       "source": 15, 
+      "target": 61
+    }, 
+    {
+      "source": 45, 
+      "target": 44
+    }, 
+    {
+      "source": 45, 
       "target": 62
-    }, 
-    {
-      "source": 15, 
-      "target": 28
-    }, 
-    {
-      "source": 15, 
-      "target": 36
     }, 
     {
       "source": 8, 
@@ -854,111 +664,31 @@ var cablegate = {
     }, 
     {
       "source": 8, 
+      "target": 57
+    }, 
+    {
+      "source": 8, 
+      "target": 44
+    }, 
+    {
+      "source": 65, 
+      "target": 34
+    }, 
+    {
+      "source": 20, 
       "target": 28
     }, 
     {
-      "source": 8, 
-      "target": 19
-    }, 
-    {
-      "source": 8, 
+      "source": 20, 
       "target": 25
     }, 
     {
-      "source": 8, 
-      "target": 62
-    }, 
-    {
-      "source": 8, 
-      "target": 29
-    }, 
-    {
-      "source": 8, 
-      "target": 36
-    }, 
-    {
-      "source": 8, 
-      "target": 58
-    }, 
-    {
-      "source": 8, 
-      "target": 48
-    }, 
-    {
-      "source": 8, 
-      "target": 56
-    }, 
-    {
-      "source": 8, 
-      "target": 55
-    }, 
-    {
-      "source": 8, 
-      "target": 45
-    }, 
-    {
-      "source": 30, 
-      "target": 63
-    }, 
-    {
-      "source": 66, 
-      "target": 35
-    }, 
-    {
-      "source": 66, 
-      "target": 28
-    }, 
-    {
       "source": 20, 
-      "target": 63
-    }, 
-    {
-      "source": 20, 
-      "target": 58
-    }, 
-    {
-      "source": 20, 
-      "target": 28
-    }, 
-    {
-      "source": 20, 
-      "target": 48
-    }, 
-    {
-      "source": 20, 
-      "target": 56
-    }, 
-    {
-      "source": 20, 
-      "target": 19
+      "target": 57
     }, 
     {
       "source": 20, 
       "target": 20
-    }, 
-    {
-      "source": 20, 
-      "target": 55
-    }, 
-    {
-      "source": 20, 
-      "target": 45
-    }, 
-    {
-      "source": 20, 
-      "target": 21
-    }, 
-    {
-      "source": 20, 
-      "target": 25
-    }, 
-    {
-      "source": 20, 
-      "target": 62
-    }, 
-    {
-      "source": 20, 
-      "target": 29
     }, 
     {
       "source": 20, 
@@ -966,19 +696,47 @@ var cablegate = {
     }, 
     {
       "source": 20, 
-      "target": 40
+      "target": 62
     }, 
     {
       "source": 20, 
-      "target": 52
+      "target": 42
+    }, 
+    {
+      "source": 20, 
+      "target": 21
+    }, 
+    {
+      "source": 20, 
+      "target": 0
+    }, 
+    {
+      "source": 20, 
+      "target": 47
+    }, 
+    {
+      "source": 20, 
+      "target": 53
+    }, 
+    {
+      "source": 20, 
+      "target": 24
+    }, 
+    {
+      "source": 20, 
+      "target": 39
     }, 
     {
       "source": 12, 
       "target": 20
     }, 
     {
-      "source": 12, 
-      "target": 28
+      "source": 42, 
+      "target": 38
+    }, 
+    {
+      "source": 42, 
+      "target": 62
     }, 
     {
       "source": 13, 
@@ -986,7 +744,15 @@ var cablegate = {
     }, 
     {
       "source": 13, 
+      "target": 62
+    }, 
+    {
+      "source": 13, 
       "target": 11
+    }, 
+    {
+      "source": 13, 
+      "target": 16
     }, 
     {
       "source": 13, 
@@ -994,15 +760,7 @@ var cablegate = {
     }, 
     {
       "source": 13, 
-      "target": 62
-    }, 
-    {
-      "source": 13, 
-      "target": 29
-    }, 
-    {
-      "source": 13, 
-      "target": 36
+      "target": 61
     }, 
     {
       "source": 22, 
@@ -1010,19 +768,15 @@ var cablegate = {
     }, 
     {
       "source": 25, 
-      "target": 63
+      "target": 61
     }, 
     {
       "source": 25, 
-      "target": 25
+      "target": 47
     }, 
     {
       "source": 25, 
-      "target": 62
-    }, 
-    {
-      "source": 25, 
-      "target": 53
+      "target": 28
     }, 
     {
       "source": 25, 
@@ -1030,311 +784,319 @@ var cablegate = {
     }, 
     {
       "source": 25, 
-      "target": 45
-    }, 
-    {
-      "source": 31, 
-      "target": 63
-    }, 
-    {
-      "source": 31, 
-      "target": 24
-    }, 
-    {
-      "source": 31, 
-      "target": 45
-    }, 
-    {
-      "source": 56, 
-      "target": 20
-    }, 
-    {
-      "source": 56, 
-      "target": 28
-    }, 
-    {
-      "source": 56, 
-      "target": 56
-    }, 
-    {
-      "source": 56, 
-      "target": 58
-    }, 
-    {
-      "source": 56, 
-      "target": 48
-    }, 
-    {
-      "source": 56, 
-      "target": 19
-    }, 
-    {
-      "source": 56, 
-      "target": 55
-    }, 
-    {
-      "source": 56, 
-      "target": 21
-    }, 
-    {
-      "source": 56, 
-      "target": 63
-    }, 
-    {
-      "source": 23, 
-      "target": 63
-    }, 
-    {
-      "source": 33, 
-      "target": 24
-    }, 
-    {
-      "source": 33, 
-      "target": 58
-    }, 
-    {
-      "source": 33, 
-      "target": 45
-    }, 
-    {
-      "source": 36, 
-      "target": 36
-    }, 
-    {
-      "source": 44, 
-      "target": 63
-    }, 
-    {
-      "source": 44, 
-      "target": 25
-    }, 
-    {
-      "source": 44, 
       "target": 62
     }, 
     {
-      "source": 44, 
-      "target": 28
-    }, 
-    {
-      "source": 53, 
-      "target": 62
-    }, 
-    {
-      "source": 53, 
-      "target": 29
-    }, 
-    {
-      "source": 53, 
-      "target": 25
-    }, 
-    {
-      "source": 53, 
-      "target": 53
-    }, 
-    {
-      "source": 53, 
-      "target": 28
-    }, 
-    {
-      "source": 53, 
-      "target": 55
-    }, 
-    {
-      "source": 53, 
-      "target": 36
-    }, 
-    {
-      "source": 53, 
-      "target": 63
-    }, 
-    {
-      "source": 53, 
-      "target": 45
-    }, 
-    {
-      "source": 53, 
-      "target": 20
-    }, 
-    {
-      "source": 63, 
-      "target": 20
-    }, 
-    {
-      "source": 63, 
-      "target": 28
-    }, 
-    {
-      "source": 63, 
-      "target": 0
-    }, 
-    {
-      "source": 63, 
-      "target": 56
-    }, 
-    {
-      "source": 63, 
-      "target": 19
-    }, 
-    {
-      "source": 63, 
-      "target": 63
-    }, 
-    {
-      "source": 63, 
-      "target": 55
-    }, 
-    {
-      "source": 63, 
-      "target": 25
-    }, 
-    {
-      "source": 63, 
-      "target": 62
-    }, 
-    {
-      "source": 63, 
-      "target": 29
-    }, 
-    {
-      "source": 63, 
-      "target": 36
-    }, 
-    {
-      "source": 63, 
-      "target": 58
-    }, 
-    {
-      "source": 63, 
-      "target": 35
-    }, 
-    {
-      "source": 41, 
-      "target": 25
-    }, 
-    {
-      "source": 41, 
-      "target": 62
-    }, 
-    {
-      "source": 41, 
-      "target": 28
-    }, 
-    {
-      "source": 57, 
-      "target": 28
-    }, 
-    {
-      "source": 57, 
-      "target": 63
-    }, 
-    {
-      "source": 51, 
-      "target": 58
-    }, 
-    {
-      "source": 51, 
-      "target": 28
-    }, 
-    {
-      "source": 51, 
-      "target": 48
-    }, 
-    {
-      "source": 51, 
-      "target": 56
-    }, 
-    {
-      "source": 51, 
-      "target": 19
-    }, 
-    {
-      "source": 51, 
-      "target": 55
-    }, 
-    {
-      "source": 51, 
-      "target": 25
-    }, 
-    {
-      "source": 51, 
-      "target": 36
-    }, 
-    {
-      "source": 51, 
-      "target": 63
-    }, 
-    {
-      "source": 51, 
-      "target": 62
-    }, 
-    {
-      "source": 51, 
-      "target": 29
-    }, 
-    {
-      "source": 51, 
-      "target": 65
-    }, 
-    {
-      "source": 51, 
-      "target": 0
-    }, 
-    {
-      "source": 51, 
-      "target": 40
-    }, 
-    {
-      "source": 51, 
+      "source": 25, 
       "target": 52
     }, 
     {
-      "source": 51, 
+      "source": 25, 
+      "target": 25
+    }, 
+    {
+      "source": 25, 
+      "target": 57
+    }, 
+    {
+      "source": 25, 
+      "target": 35
+    }, 
+    {
+      "source": 25, 
+      "target": 13
+    }, 
+    {
+      "source": 25, 
+      "target": 11
+    }, 
+    {
+      "source": 25, 
       "target": 54
     }, 
     {
+      "source": 25, 
+      "target": 44
+    }, 
+    {
+      "source": 25, 
+      "target": 0
+    }, 
+    {
+      "source": 30, 
+      "target": 62
+    }, 
+    {
+      "source": 30, 
+      "target": 24
+    }, 
+    {
+      "source": 53, 
+      "target": 62
+    }, 
+    {
+      "source": 53, 
+      "target": 28
+    }, 
+    {
+      "source": 55, 
+      "target": 28
+    }, 
+    {
+      "source": 55, 
+      "target": 0
+    }, 
+    {
+      "source": 55, 
+      "target": 20
+    }, 
+    {
+      "source": 55, 
+      "target": 45
+    }, 
+    {
+      "source": 55, 
+      "target": 55
+    }, 
+    {
+      "source": 55, 
+      "target": 62
+    }, 
+    {
+      "source": 55, 
+      "target": 57
+    }, 
+    {
+      "source": 55, 
+      "target": 34
+    }, 
+    {
+      "source": 23, 
+      "target": 62
+    }, 
+    {
+      "source": 32, 
+      "target": 24
+    }, 
+    {
+      "source": 35, 
+      "target": 35
+    }, 
+    {
+      "source": 35, 
+      "target": 62
+    }, 
+    {
+      "source": 35, 
+      "target": 0
+    }, 
+    {
+      "source": 35, 
+      "target": 11
+    }, 
+    {
+      "source": 35, 
+      "target": 28
+    }, 
+    {
+      "source": 43, 
+      "target": 62
+    }, 
+    {
+      "source": 43, 
+      "target": 25
+    }, 
+    {
+      "source": 47, 
+      "target": 55
+    }, 
+    {
+      "source": 47, 
+      "target": 28
+    }, 
+    {
+      "source": 52, 
+      "target": 61
+    }, 
+    {
+      "source": 52, 
+      "target": 25
+    }, 
+    {
+      "source": 52, 
+      "target": 54
+    }, 
+    {
+      "source": 52, 
+      "target": 62
+    }, 
+    {
+      "source": 52, 
+      "target": 29
+    }, 
+    {
+      "source": 52, 
+      "target": 28
+    }, 
+    {
+      "source": 52, 
+      "target": 44
+    }, 
+    {
+      "source": 52, 
+      "target": 20
+    }, 
+    {
+      "source": 62, 
+      "target": 62
+    }, 
+    {
+      "source": 62, 
+      "target": 20
+    }, 
+    {
+      "source": 62, 
+      "target": 0
+    }, 
+    {
+      "source": 62, 
+      "target": 59
+    }, 
+    {
+      "source": 62, 
+      "target": 54
+    }, 
+    {
+      "source": 62, 
+      "target": 13
+    }, 
+    {
+      "source": 62, 
+      "target": 61
+    }, 
+    {
+      "source": 62, 
+      "target": 3
+    }, 
+    {
+      "source": 62, 
+      "target": 4
+    }, 
+    {
+      "source": 62, 
+      "target": 19
+    }, 
+    {
+      "source": 62, 
+      "target": 28
+    }, 
+    {
+      "source": 62, 
+      "target": 1
+    }, 
+    {
+      "source": 40, 
+      "target": 25
+    }, 
+    {
+      "source": 64, 
+      "target": 62
+    }, 
+    {
+      "source": 64, 
+      "target": 29
+    }, 
+    {
+      "source": 58, 
+      "target": 13
+    }, 
+    {
+      "source": 58, 
+      "target": 16
+    }, 
+    {
+      "source": 56, 
+      "target": 28
+    }, 
+    {
+      "source": 56, 
+      "target": 62
+    }, 
+    {
+      "source": 51, 
+      "target": 57
+    }, 
+    {
+      "source": 51, 
+      "target": 62
+    }, 
+    {
+      "source": 50, 
+      "target": 57
+    }, 
+    {
+      "source": 50, 
+      "target": 25
+    }, 
+    {
+      "source": 50, 
+      "target": 62
+    }, 
+    {
+      "source": 50, 
+      "target": 0
+    }, 
+    {
+      "source": 50, 
+      "target": 53
+    }, 
+    {
+      "source": 50, 
+      "target": 28
+    }, 
+    {
       "source": 10, 
-      "target": 63
+      "target": 62
     }, 
     {
       "source": 10, 
       "target": 10
     }, 
     {
-      "source": 45, 
-      "target": 45
+      "source": 10, 
+      "target": 0
     }, 
     {
-      "source": 45, 
+      "source": 44, 
+      "target": 25
+    }, 
+    {
+      "source": 44, 
+      "target": 44
+    }, 
+    {
+      "source": 44, 
+      "target": 62
+    }, 
+    {
+      "source": 44, 
       "target": 24
     }, 
     {
-      "source": 45, 
-      "target": 58
-    }, 
-    {
-      "source": 45, 
-      "target": 63
-    }, 
-    {
-      "source": 50, 
+      "source": 44, 
       "target": 28
     }, 
     {
-      "source": 50, 
-      "target": 48
+      "source": 44, 
+      "target": 57
     }, 
     {
-      "source": 50, 
-      "target": 56
+      "source": 44, 
+      "target": 54
     }, 
     {
-      "source": 50, 
-      "target": 19
-    }, 
-    {
-      "source": 18, 
-      "target": 63
+      "source": 49, 
+      "target": 28
     }, 
     {
       "source": 18, 
@@ -1342,27 +1104,15 @@ var cablegate = {
     }, 
     {
       "source": 18, 
+      "target": 62
+    }, 
+    {
+      "source": 18, 
       "target": 28
     }, 
     {
       "source": 18, 
-      "target": 55
-    }, 
-    {
-      "source": 18, 
-      "target": 19
-    }, 
-    {
-      "source": 18, 
-      "target": 48
-    }, 
-    {
-      "source": 18, 
-      "target": 56
-    }, 
-    {
-      "source": 18, 
-      "target": 46
+      "target": 45
     }, 
     {
       "source": 18, 
@@ -1370,35 +1120,39 @@ var cablegate = {
     }, 
     {
       "source": 18, 
-      "target": 62
-    }, 
-    {
-      "source": 18, 
-      "target": 29
-    }, 
-    {
-      "source": 18, 
-      "target": 36
-    }, 
-    {
-      "source": 18, 
       "target": 24
     }, 
     {
       "source": 18, 
-      "target": 58
+      "target": 57
     }, 
     {
       "source": 18, 
       "target": 26
     }, 
     {
-      "source": 39, 
-      "target": 63
+      "source": 38, 
+      "target": 11
+    }, 
+    {
+      "source": 38, 
+      "target": 38
+    }, 
+    {
+      "source": 38, 
+      "target": 62
+    }, 
+    {
+      "source": 38, 
+      "target": 28
+    }, 
+    {
+      "source": 38, 
+      "target": 54
     }, 
     {
       "source": 17, 
-      "target": 63
+      "target": 62
     }, 
     {
       "source": 17, 
@@ -1409,44 +1163,32 @@ var cablegate = {
       "target": 25
     }, 
     {
-      "source": 17, 
-      "target": 62
-    }, 
-    {
-      "source": 17, 
+      "source": 61, 
       "target": 29
     }, 
     {
-      "source": 17, 
-      "target": 45
+      "source": 61, 
+      "target": 61
     }, 
     {
-      "source": 62, 
-      "target": 62
+      "source": 61, 
+      "target": 44
     }, 
     {
-      "source": 62, 
-      "target": 29
-    }, 
-    {
-      "source": 62, 
+      "source": 61, 
       "target": 25
     }, 
     {
-      "source": 62, 
-      "target": 45
+      "source": 61, 
+      "target": 62
     }, 
     {
-      "source": 62, 
-      "target": 63
+      "source": 61, 
+      "target": 28
     }, 
     {
-      "source": 62, 
-      "target": 53
-    }, 
-    {
-      "source": 24, 
-      "target": 63
+      "source": 61, 
+      "target": 52
     }, 
     {
       "source": 24, 
@@ -1454,99 +1196,123 @@ var cablegate = {
     }, 
     {
       "source": 24, 
-      "target": 58
+      "target": 57
     }, 
     {
       "source": 24, 
-      "target": 45
+      "target": 62
+    }, 
+    {
+      "source": 24, 
+      "target": 44
+    }, 
+    {
+      "source": 5, 
+      "target": 57
     }, 
     {
       "source": 5, 
       "target": 25
-    }, 
-    {
-      "source": 5, 
-      "target": 58
-    }, 
-    {
-      "source": 5, 
-      "target": 62
-    }, 
-    {
-      "source": 5, 
-      "target": 29
-    }, 
-    {
-      "source": 5, 
-      "target": 36
     }, 
     {
       "source": 5, 
       "target": 20
     }, 
     {
-      "source": 5, 
-      "target": 28
-    }, 
-    {
-      "source": 5, 
-      "target": 55
-    }, 
-    {
-      "source": 4, 
-      "target": 25
-    }, 
-    {
-      "source": 4, 
-      "target": 62
-    }, 
-    {
-      "source": 4, 
-      "target": 29
-    }, 
-    {
-      "source": 4, 
-      "target": 36
-    }, 
-    {
-      "source": 42, 
-      "target": 63
-    }, 
-    {
-      "source": 47, 
-      "target": 63
-    }, 
-    {
-      "source": 29, 
-      "target": 63
-    }, 
-    {
-      "source": 29, 
-      "target": 25
-    }, 
-    {
-      "source": 29, 
-      "target": 36
-    }, 
-    {
-      "source": 29, 
-      "target": 62
-    }, 
-    {
-      "source": 29, 
-      "target": 29
-    }, 
-    {
-      "source": 58, 
+      "source": 34, 
       "target": 0
     }, 
     {
-      "source": 58, 
-      "target": 52
+      "source": 34, 
+      "target": 28
+    }, 
+    {
+      "source": 4, 
+      "target": 25
+    }, 
+    {
+      "source": 41, 
+      "target": 62
+    }, 
+    {
+      "source": 21, 
+      "target": 62
+    }, 
+    {
+      "source": 21, 
+      "target": 20
+    }, 
+    {
+      "source": 46, 
+      "target": 62
+    }, 
+    {
+      "source": 29, 
+      "target": 28
+    }, 
+    {
+      "source": 29, 
+      "target": 0
+    }, 
+    {
+      "source": 29, 
+      "target": 44
+    }, 
+    {
+      "source": 29, 
+      "target": 25
+    }, 
+    {
+      "source": 29, 
+      "target": 62
+    }, 
+    {
+      "source": 29, 
+      "target": 61
+    }, 
+    {
+      "source": 29, 
+      "target": 13
+    }, 
+    {
+      "source": 57, 
+      "target": 28
+    }, 
+    {
+      "source": 57, 
+      "target": 44
+    }, 
+    {
+      "source": 57, 
+      "target": 62
+    }, 
+    {
+      "source": 57, 
+      "target": 16
+    }, 
+    {
+      "source": 57, 
+      "target": 54
+    }, 
+    {
+      "source": 57, 
+      "target": 25
+    }, 
+    {
+      "source": 57, 
+      "target": 61
+    }, 
+    {
+      "source": 57, 
+      "target": 64
+    }, 
+    {
+      "source": 57, 
+      "target": 0
     }, 
     {
       "source": 7, 
-      "target": 63
+      "target": 62
     }
   ]
 }
