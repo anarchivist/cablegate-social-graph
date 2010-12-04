@@ -1,4 +1,10 @@
 {
+  "RHMFISS": {
+    "country_name": null, 
+    "region": null, 
+    "name": "[DMS Multi-Functional Interpreter - Secret]", 
+    "country_code": null
+  },
   "RUSFIOS": {
     "country_name": null, 
     "region": null, 
