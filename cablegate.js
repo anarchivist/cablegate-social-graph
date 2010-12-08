@@ -2,7 +2,7 @@ var cablegate = {
   "nodes": [
     {
       "region": null, 
-      "size": 196, 
+      "size": 208, 
       "nodeName": null, 
       "nodeTitle": null
     }, 
@@ -50,25 +50,25 @@ var cablegate = {
     }, 
     {
       "region": "Europe", 
-      "size": 15, 
+      "size": 16, 
       "nodeName": "Belgium", 
       "nodeTitle": "Belgium"
     }, 
     {
       "region": "South America", 
-      "size": 22, 
+      "size": 24, 
       "nodeName": "Bolivia", 
       "nodeTitle": "Bolivia"
     }, 
     {
       "region": "South America", 
-      "size": 65, 
+      "size": 73, 
       "nodeName": "Brazil", 
       "nodeTitle": "Brazil"
     }, 
     {
       "region": "North America", 
-      "size": 57, 
+      "size": 61, 
       "nodeName": "Canada", 
       "nodeTitle": "Canada"
     }, 
@@ -80,7 +80,7 @@ var cablegate = {
     }, 
     {
       "region": "Asia", 
-      "size": 96, 
+      "size": 120, 
       "nodeName": "China", 
       "nodeTitle": "China"
     }, 
@@ -92,7 +92,7 @@ var cablegate = {
     }, 
     {
       "region": "Africa", 
-      "size": 1, 
+      "size": 2, 
       "nodeName": "Djibouti", 
       "nodeTitle": "Djibouti"
     }, 
@@ -116,13 +116,13 @@ var cablegate = {
     }, 
     {
       "region": "Europe", 
-      "size": 178, 
+      "size": 183, 
       "nodeName": "France", 
       "nodeTitle": "France"
     }, 
     {
       "region": "Europe", 
-      "size": 129, 
+      "size": 131, 
       "nodeName": "Germany", 
       "nodeTitle": "Germany"
     }, 
@@ -152,7 +152,7 @@ var cablegate = {
     }, 
     {
       "region": "Asia", 
-      "size": 214, 
+      "size": 216, 
       "nodeName": "Iraq", 
       "nodeTitle": "Iraq"
     }, 
@@ -170,7 +170,7 @@ var cablegate = {
     }, 
     {
       "region": "Europe", 
-      "size": 429, 
+      "size": 442, 
       "nodeName": "Italy", 
       "nodeTitle": "Italy"
     }, 
@@ -218,7 +218,7 @@ var cablegate = {
     }, 
     {
       "region": "Africa", 
-      "size": 82, 
+      "size": 87, 
       "nodeName": "Libya", 
       "nodeTitle": "Libya"
     }, 
@@ -236,7 +236,7 @@ var cablegate = {
     }, 
     {
       "region": "North America", 
-      "size": 64, 
+      "size": 65, 
       "nodeName": "Mexico", 
       "nodeTitle": "Mexico"
     }, 
@@ -278,7 +278,7 @@ var cablegate = {
     }, 
     {
       "region": "Asia", 
-      "size": 5, 
+      "size": 6, 
       "nodeName": "Papua New Guinea", 
       "nodeTitle": "Papua New Guinea"
     }, 
@@ -290,7 +290,7 @@ var cablegate = {
     }, 
     {
       "region": "Europe", 
-      "size": 119, 
+      "size": 122, 
       "nodeName": "Poland", 
       "nodeTitle": "Poland"
     }, 
@@ -308,7 +308,7 @@ var cablegate = {
     }, 
     {
       "region": "Europe", 
-      "size": 57, 
+      "size": 58, 
       "nodeName": "Russia", 
       "nodeTitle": "Russia"
     }, 
@@ -320,7 +320,7 @@ var cablegate = {
     }, 
     {
       "region": "Asia", 
-      "size": 60, 
+      "size": 61, 
       "nodeName": "Saudi Arabia", 
       "nodeTitle": "Saudi Arabia"
     }, 
@@ -332,13 +332,13 @@ var cablegate = {
     }, 
     {
       "region": "Europe", 
-      "size": 117, 
+      "size": 122, 
       "nodeName": "Slovakia", 
       "nodeTitle": "Slovakia"
     }, 
     {
       "region": "Europe", 
-      "size": 166, 
+      "size": 182, 
       "nodeName": "Spain", 
       "nodeTitle": "Spain"
     }, 
@@ -350,7 +350,7 @@ var cablegate = {
     }, 
     {
       "region": "Asia", 
-      "size": 167, 
+      "size": 170, 
       "nodeName": "Tajikistan", 
       "nodeTitle": "Tajikistan"
     }, 
@@ -374,25 +374,25 @@ var cablegate = {
     }, 
     {
       "region": "Asia", 
-      "size": 133, 
+      "size": 134, 
       "nodeName": "United Arab Emirates", 
       "nodeTitle": "United Arab Emirates"
     }, 
     {
       "region": "North America", 
-      "size": 1002, 
+      "size": 1051, 
       "nodeName": "United States", 
       "nodeTitle": "United States"
     }, 
     {
       "region": "South America", 
-      "size": 9, 
+      "size": 10, 
       "nodeName": "Venezuela", 
       "nodeTitle": "Venezuela"
     }, 
     {
       "region": "Asia", 
-      "size": 9, 
+      "size": 10, 
       "nodeName": "Vietnam", 
       "nodeTitle": "Vietnam"
     }, 
@@ -558,6 +558,10 @@ var cablegate = {
     }, 
     {
       "source": 19, 
+      "target": 39
+    }, 
+    {
+      "source": 19, 
       "target": 36
     }, 
     {
@@ -658,11 +662,11 @@ var cablegate = {
     }, 
     {
       "source": 53, 
-      "target": 28
+      "target": 65
     }, 
     {
       "source": 53, 
-      "target": 65
+      "target": 28
     }, 
     {
       "source": 53, 
@@ -834,11 +838,11 @@ var cablegate = {
     }, 
     {
       "source": 20, 
-      "target": 55
+      "target": 53
     }, 
     {
       "source": 20, 
-      "target": 53
+      "target": 55
     }, 
     {
       "source": 20, 
@@ -1002,15 +1006,15 @@ var cablegate = {
     }, 
     {
       "source": 56, 
+      "target": 56
+    }, 
+    {
+      "source": 56, 
       "target": 63
     }, 
     {
       "source": 56, 
       "target": 35
-    }, 
-    {
-      "source": 56, 
-      "target": 56
     }, 
     {
       "source": 56, 
@@ -1359,6 +1363,10 @@ var cablegate = {
     {
       "source": 39, 
       "target": 63
+    }, 
+    {
+      "source": 39, 
+      "target": 36
     }, 
     {
       "source": 39, 
