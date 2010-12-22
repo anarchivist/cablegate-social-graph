@@ -2,19 +2,19 @@ var cablegate = {
   "nodes": [
     {
       "region": null, 
-      "size": 417, 
+      "size": 536, 
       "nodeName": null, 
       "nodeTitle": null
     }, 
     {
       "region": "Asia", 
-      "size": 46, 
+      "size": 47, 
       "nodeName": "Afghanistan", 
       "nodeTitle": "Afghanistan"
     }, 
     {
       "region": "Africa", 
-      "size": 10, 
+      "size": 13, 
       "nodeName": "Algeria", 
       "nodeTitle": "Algeria"
     }, 
@@ -32,7 +32,7 @@ var cablegate = {
     }, 
     {
       "region": "Asia", 
-      "size": 13, 
+      "size": 25, 
       "nodeName": "Azerbaijan", 
       "nodeTitle": "Azerbaijan"
     }, 
@@ -44,13 +44,13 @@ var cablegate = {
     }, 
     {
       "region": "West Indies", 
-      "size": 1, 
+      "size": 3, 
       "nodeName": "Barbados", 
       "nodeTitle": "Barbados"
     }, 
     {
       "region": "Europe", 
-      "size": 18, 
+      "size": 21, 
       "nodeName": "Belgium", 
       "nodeTitle": "Belgium"
     }, 
@@ -62,13 +62,13 @@ var cablegate = {
     }, 
     {
       "region": "South America", 
-      "size": 125, 
+      "size": 178, 
       "nodeName": "Brazil", 
       "nodeTitle": "Brazil"
     }, 
     {
       "region": "North America", 
-      "size": 67, 
+      "size": 72, 
       "nodeName": "Canada", 
       "nodeTitle": "Canada"
     }, 
@@ -80,7 +80,7 @@ var cablegate = {
     }, 
     {
       "region": "Asia", 
-      "size": 143, 
+      "size": 161, 
       "nodeName": "China", 
       "nodeTitle": "China"
     }, 
@@ -98,7 +98,7 @@ var cablegate = {
     }, 
     {
       "region": "Asia", 
-      "size": 16, 
+      "size": 20, 
       "nodeName": "East Timor", 
       "nodeTitle": "East Timor"
     }, 
@@ -110,25 +110,25 @@ var cablegate = {
     }, 
     {
       "region": "Europe", 
-      "size": 56, 
+      "size": 57, 
       "nodeName": "England", 
       "nodeTitle": "England"
     }, 
     {
       "region": "Europe", 
-      "size": 239, 
+      "size": 273, 
       "nodeName": "France", 
       "nodeTitle": "France"
     }, 
     {
       "region": "Europe", 
-      "size": 179, 
+      "size": 223, 
       "nodeName": "Germany", 
       "nodeTitle": "Germany"
     }, 
     {
       "region": "Europe", 
-      "size": 25, 
+      "size": 29, 
       "nodeName": "Greece", 
       "nodeTitle": "Greece"
     }, 
@@ -146,37 +146,37 @@ var cablegate = {
     }, 
     {
       "region": "Asia", 
-      "size": 38, 
+      "size": 117, 
       "nodeName": "India", 
       "nodeTitle": "India"
     }, 
     {
       "region": "Asia", 
-      "size": 259, 
+      "size": 288, 
       "nodeName": "Iraq", 
       "nodeTitle": "Iraq"
     }, 
     {
       "region": "Europe", 
-      "size": 5, 
+      "size": 6, 
       "nodeName": "Ireland", 
       "nodeTitle": "Ireland"
     }, 
     {
       "region": "Asia", 
-      "size": 20, 
+      "size": 26, 
       "nodeName": "Israel", 
       "nodeTitle": "Israel"
     }, 
     {
       "region": "Europe", 
-      "size": 664, 
+      "size": 788, 
       "nodeName": "Italy", 
       "nodeTitle": "Italy"
     }, 
     {
       "region": "Asia", 
-      "size": 127, 
+      "size": 135, 
       "nodeName": "Japan", 
       "nodeTitle": "Japan"
     }, 
@@ -212,13 +212,13 @@ var cablegate = {
     }, 
     {
       "region": "Africa", 
-      "size": 25, 
+      "size": 34, 
       "nodeName": "Lesotho", 
       "nodeTitle": "Lesotho"
     }, 
     {
       "region": "Africa", 
-      "size": 111, 
+      "size": 122, 
       "nodeName": "Libya", 
       "nodeTitle": "Libya"
     }, 
@@ -236,7 +236,7 @@ var cablegate = {
     }, 
     {
       "region": "North America", 
-      "size": 86, 
+      "size": 95, 
       "nodeName": "Mexico", 
       "nodeTitle": "Mexico"
     }, 
@@ -248,7 +248,7 @@ var cablegate = {
     }, 
     {
       "region": "Africa", 
-      "size": 22, 
+      "size": 24, 
       "nodeName": "Morocco", 
       "nodeTitle": "Morocco"
     }, 
@@ -260,7 +260,7 @@ var cablegate = {
     }, 
     {
       "region": "West Indies", 
-      "size": 6, 
+      "size": 7, 
       "nodeName": "Netherlands Antilles", 
       "nodeTitle": "Netherlands Antilles"
     }, 
@@ -272,13 +272,13 @@ var cablegate = {
     }, 
     {
       "region": "Asia", 
-      "size": 273, 
+      "size": 325, 
       "nodeName": "Pakistan", 
       "nodeTitle": "Pakistan"
     }, 
     {
       "region": "Asia", 
-      "size": 15, 
+      "size": 19, 
       "nodeName": "Papua New Guinea", 
       "nodeTitle": "Papua New Guinea"
     }, 
@@ -290,7 +290,7 @@ var cablegate = {
     }, 
     {
       "region": "Europe", 
-      "size": 179, 
+      "size": 202, 
       "nodeName": "Poland", 
       "nodeTitle": "Poland"
     }, 
@@ -302,13 +302,13 @@ var cablegate = {
     }, 
     {
       "region": "Europe", 
-      "size": 1, 
+      "size": 2, 
       "nodeName": "Romania", 
       "nodeTitle": "Romania"
     }, 
     {
       "region": "Europe", 
-      "size": 59, 
+      "size": 60, 
       "nodeName": "Russia", 
       "nodeTitle": "Russia"
     }, 
@@ -320,7 +320,7 @@ var cablegate = {
     }, 
     {
       "region": "Asia", 
-      "size": 67, 
+      "size": 68, 
       "nodeName": "Saudi Arabia", 
       "nodeTitle": "Saudi Arabia"
     }, 
@@ -332,31 +332,31 @@ var cablegate = {
     }, 
     {
       "region": "Europe", 
-      "size": 165, 
+      "size": 185, 
       "nodeName": "Slovakia", 
       "nodeTitle": "Slovakia"
     }, 
     {
       "region": "Europe", 
-      "size": 282, 
+      "size": 344, 
       "nodeName": "Spain", 
       "nodeTitle": "Spain"
     }, 
     {
       "region": "Asia", 
-      "size": 9, 
+      "size": 13, 
       "nodeName": "Syria", 
       "nodeTitle": "Syria"
     }, 
     {
       "region": "Asia", 
-      "size": 226, 
+      "size": 268, 
       "nodeName": "Tajikistan", 
       "nodeTitle": "Tajikistan"
     }, 
     {
       "region": "Asia", 
-      "size": 15, 
+      "size": 17, 
       "nodeName": "Thailand", 
       "nodeTitle": "Thailand"
     }, 
@@ -374,13 +374,13 @@ var cablegate = {
     }, 
     {
       "region": "Asia", 
-      "size": 161, 
+      "size": 177, 
       "nodeName": "United Arab Emirates", 
       "nodeTitle": "United Arab Emirates"
     }, 
     {
       "region": "North America", 
-      "size": 1447, 
+      "size": 1729, 
       "nodeName": "United States", 
       "nodeTitle": "United States"
     }, 
@@ -392,13 +392,13 @@ var cablegate = {
     }, 
     {
       "region": "Asia", 
-      "size": 29, 
+      "size": 32, 
       "nodeName": "Vietnam", 
       "nodeTitle": "Vietnam"
     }, 
     {
       "region": "Africa", 
-      "size": 7, 
+      "size": 8, 
       "nodeName": "Zimbabwe", 
       "nodeTitle": "Zimbabwe"
     }
@@ -541,32 +541,24 @@ var cablegate = {
       "target": 63
     }, 
     {
-      "source": 24, 
-      "target": 24
+      "source": 54, 
+      "target": 63
     }, 
     {
-      "source": 24, 
-      "target": 58
-    }, 
-    {
-      "source": 24, 
-      "target": 45
-    }, 
-    {
-      "source": 24, 
-      "target": 25
-    }, 
-    {
-      "source": 24, 
-      "target": 62
-    }, 
-    {
-      "source": 24, 
+      "source": 54, 
       "target": 28
     }, 
     {
-      "source": 24, 
-      "target": 63
+      "source": 54, 
+      "target": 21
+    }, 
+    {
+      "source": 54, 
+      "target": 58
+    }, 
+    {
+      "source": 54, 
+      "target": 20
     }, 
     {
       "source": 37, 
@@ -822,6 +814,14 @@ var cablegate = {
     }, 
     {
       "source": 46, 
+      "target": 63
+    }, 
+    {
+      "source": 46, 
+      "target": 28
+    }, 
+    {
+      "source": 46, 
       "target": 45
     }, 
     {
@@ -831,14 +831,6 @@ var cablegate = {
     {
       "source": 46, 
       "target": 39
-    }, 
-    {
-      "source": 46, 
-      "target": 63
-    }, 
-    {
-      "source": 46, 
-      "target": 28
     }, 
     {
       "source": 46, 
@@ -898,15 +890,15 @@ var cablegate = {
     }, 
     {
       "source": 20, 
+      "target": 25
+    }, 
+    {
+      "source": 20, 
       "target": 13
     }, 
     {
       "source": 20, 
       "target": 58
-    }, 
-    {
-      "source": 20, 
-      "target": 25
     }, 
     {
       "source": 20, 
@@ -961,12 +953,64 @@ var cablegate = {
       "target": 28
     }, 
     {
-      "source": 59, 
+      "source": 13, 
+      "target": 46
+    }, 
+    {
+      "source": 13, 
+      "target": 20
+    }, 
+    {
+      "source": 13, 
+      "target": 13
+    }, 
+    {
+      "source": 13, 
+      "target": 28
+    }, 
+    {
+      "source": 13, 
+      "target": 59
+    }, 
+    {
+      "source": 13, 
       "target": 16
     }, 
     {
-      "source": 59, 
-      "target": 13
+      "source": 13, 
+      "target": 65
+    }, 
+    {
+      "source": 13, 
+      "target": 11
+    }, 
+    {
+      "source": 13, 
+      "target": 45
+    }, 
+    {
+      "source": 13, 
+      "target": 63
+    }, 
+    {
+      "source": 13, 
+      "target": 25
+    }, 
+    {
+      "source": 13, 
+      "target": 62
+    }, 
+    {
+      "source": 13, 
+      "target": 58
+    }, 
+    {
+      "source": 13, 
+      "target": 0
+    }, 
+    {
+      "source": 13, 
+      "target": 35
     }, 
     {
       "source": 52, 
@@ -986,6 +1030,10 @@ var cablegate = {
     }, 
     {
       "source": 25, 
+      "target": 28
+    }, 
+    {
+      "source": 25, 
       "target": 63
     }, 
     {
@@ -1002,19 +1050,15 @@ var cablegate = {
     }, 
     {
       "source": 25, 
-      "target": 28
-    }, 
-    {
-      "source": 25, 
       "target": 45
     }, 
     {
       "source": 25, 
-      "target": 0
+      "target": 24
     }, 
     {
       "source": 25, 
-      "target": 24
+      "target": 0
     }, 
     {
       "source": 25, 
@@ -1101,6 +1145,10 @@ var cablegate = {
       "target": 21
     }, 
     {
+      "source": 56, 
+      "target": 43
+    }, 
+    {
       "source": 23, 
       "target": 0
     }, 
@@ -1122,15 +1170,15 @@ var cablegate = {
     }, 
     {
       "source": 36, 
+      "target": 25
+    }, 
+    {
+      "source": 36, 
       "target": 28
     }, 
     {
       "source": 36, 
       "target": 11
-    }, 
-    {
-      "source": 36, 
-      "target": 25
     }, 
     {
       "source": 36, 
@@ -1182,6 +1230,10 @@ var cablegate = {
     }, 
     {
       "source": 63, 
+      "target": 56
+    }, 
+    {
+      "source": 63, 
       "target": 60
     }, 
     {
@@ -1190,7 +1242,7 @@ var cablegate = {
     }, 
     {
       "source": 63, 
-      "target": 56
+      "target": 24
     }, 
     {
       "source": 63, 
@@ -1203,6 +1255,10 @@ var cablegate = {
     {
       "source": 63, 
       "target": 10
+    }, 
+    {
+      "source": 63, 
+      "target": 8
     }, 
     {
       "source": 63, 
@@ -1266,6 +1322,10 @@ var cablegate = {
     }, 
     {
       "source": 65, 
+      "target": 35
+    }, 
+    {
+      "source": 65, 
       "target": 29
     }, 
     {
@@ -1277,12 +1337,20 @@ var cablegate = {
       "target": 46
     }, 
     {
-      "source": 57, 
-      "target": 62
+      "source": 59, 
+      "target": 16
+    }, 
+    {
+      "source": 59, 
+      "target": 13
     }, 
     {
       "source": 57, 
       "target": 20
+    }, 
+    {
+      "source": 57, 
+      "target": 62
     }, 
     {
       "source": 57, 
@@ -1346,6 +1414,14 @@ var cablegate = {
     }, 
     {
       "source": 45, 
+      "target": 46
+    }, 
+    {
+      "source": 45, 
+      "target": 11
+    }, 
+    {
+      "source": 45, 
       "target": 52
     }, 
     {
@@ -1355,6 +1431,10 @@ var cablegate = {
     {
       "source": 50, 
       "target": 28
+    }, 
+    {
+      "source": 50, 
+      "target": 58
     }, 
     {
       "source": 18, 
@@ -1422,11 +1502,11 @@ var cablegate = {
     }, 
     {
       "source": 2, 
-      "target": 39
+      "target": 36
     }, 
     {
       "source": 2, 
-      "target": 36
+      "target": 39
     }, 
     {
       "source": 39, 
@@ -1442,11 +1522,11 @@ var cablegate = {
     }, 
     {
       "source": 39, 
-      "target": 36
+      "target": 0
     }, 
     {
       "source": 39, 
-      "target": 0
+      "target": 36
     }, 
     {
       "source": 39, 
@@ -1505,23 +1585,43 @@ var cablegate = {
       "target": 11
     }, 
     {
-      "source": 54, 
+      "source": 24, 
+      "target": 24
+    }, 
+    {
+      "source": 24, 
+      "target": 45
+    }, 
+    {
+      "source": 24, 
       "target": 63
     }, 
     {
-      "source": 54, 
-      "target": 28
+      "source": 24, 
+      "target": 25
     }, 
     {
-      "source": 54, 
-      "target": 21
-    }, 
-    {
-      "source": 54, 
+      "source": 24, 
       "target": 58
     }, 
     {
-      "source": 54, 
+      "source": 24, 
+      "target": 0
+    }, 
+    {
+      "source": 24, 
+      "target": 13
+    }, 
+    {
+      "source": 24, 
+      "target": 62
+    }, 
+    {
+      "source": 24, 
+      "target": 28
+    }, 
+    {
+      "source": 5, 
       "target": 20
     }, 
     {
@@ -1534,15 +1634,15 @@ var cablegate = {
     }, 
     {
       "source": 5, 
-      "target": 20
-    }, 
-    {
-      "source": 5, 
       "target": 63
     }, 
     {
       "source": 35, 
       "target": 28
+    }, 
+    {
+      "source": 35, 
+      "target": 46
     }, 
     {
       "source": 35, 
@@ -1551,54 +1651,6 @@ var cablegate = {
     {
       "source": 15, 
       "target": 62
-    }, 
-    {
-      "source": 13, 
-      "target": 20
-    }, 
-    {
-      "source": 13, 
-      "target": 13
-    }, 
-    {
-      "source": 13, 
-      "target": 28
-    }, 
-    {
-      "source": 13, 
-      "target": 59
-    }, 
-    {
-      "source": 13, 
-      "target": 16
-    }, 
-    {
-      "source": 13, 
-      "target": 65
-    }, 
-    {
-      "source": 13, 
-      "target": 11
-    }, 
-    {
-      "source": 13, 
-      "target": 63
-    }, 
-    {
-      "source": 13, 
-      "target": 25
-    }, 
-    {
-      "source": 13, 
-      "target": 62
-    }, 
-    {
-      "source": 13, 
-      "target": 0
-    }, 
-    {
-      "source": 13, 
-      "target": 35
     }, 
     {
       "source": 42, 
@@ -1690,6 +1742,10 @@ var cablegate = {
     }, 
     {
       "source": 58, 
+      "target": 1
+    }, 
+    {
+      "source": 58, 
       "target": 16
     }, 
     {
@@ -1699,6 +1755,10 @@ var cablegate = {
     {
       "source": 58, 
       "target": 0
+    }, 
+    {
+      "source": 58, 
+      "target": 13
     }, 
     {
       "source": 58, 
